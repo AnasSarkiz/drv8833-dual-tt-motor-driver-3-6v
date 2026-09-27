@@ -1,0 +1,7309 @@
+{
+  "source_sha256": "8be232f0adf80ee11f9d0f4fe0a60c86e519aa4966c43794235b0716cffa2101",
+  "trace_count": 70,
+  "segment_count": 587,
+  "traces": [
+    {
+      "trace_id": "pcb_trace_0",
+      "net": "GND",
+      "length_mm": 1.4317839222466493,
+      "width_length_mm": {
+        "0.3": 1.4317839222466493
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 1,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "pcb_trace_0",
+          "net": "GND",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -2.000002,
+            6.5
+          ],
+          "b": [
+            -0.7,
+            5.9
+          ],
+          "width": 0.3,
+          "length": 1.4317839222466493
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_0",
+      "net": "VIN",
+      "length_mm": 10.63821256811778,
+      "width_length_mm": {
+        "1": 10.63821256811778
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_1",
+      "net": "VIN_FUSED",
+      "length_mm": 0.6499860000000002,
+      "width_length_mm": {
+        "0.9899904": 0.3650050459415475,
+        "1": 0.24435481757306654,
+        "0.405003": 0.040626136485386155
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 21,
+      "sub_0_05mm_segments": 21,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_1",
+          "net": "VIN_FUSED",
+          "index": 20,
+          "layer": "top",
+          "a": [
+            -11.634380863514615,
+            12.434973
+          ],
+          "b": [
+            -11.675007,
+            12.434973
+          ],
+          "width": 0.405003,
+          "length": 0.040626136485386155
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_2",
+      "net": "VIN_FUSED",
+      "length_mm": 2.9318231031538966,
+      "width_length_mm": {
+        "0.405003": 1.4548407999999995,
+        "1": 1.476982303153897
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 10,
+      "sub_0_05mm_segments": 4,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_2",
+          "net": "VIN_FUSED",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            12.434973
+          ],
+          "b": [
+            -11.675007,
+            11.939978799999999
+          ],
+          "width": 0.405003,
+          "length": 0.4949942000000007
+        },
+        {
+          "trace": "saved_phase_null_0_2",
+          "net": "VIN_FUSED",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            11.939978799999999
+          ],
+          "b": [
+            -11.675007,
+            11.9399768
+          ],
+          "width": 0.405003,
+          "length": 1.999999998503199e-06
+        },
+        {
+          "trace": "saved_phase_null_0_2",
+          "net": "VIN_FUSED",
+          "index": 4,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            12.4198991
+          ],
+          "b": [
+            -11.675007,
+            11.9399768
+          ],
+          "width": 0.405003,
+          "length": 0.47992230000000013
+        },
+        {
+          "trace": "saved_phase_null_0_2",
+          "net": "VIN_FUSED",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            11.939978799999999
+          ],
+          "b": [
+            -11.675007,
+            12.4198991
+          ],
+          "width": 0.405003,
+          "length": 0.47992030000000163
+        },
+        {
+          "trace": "saved_phase_null_0_2",
+          "net": "VIN_FUSED",
+          "index": 7,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            12.4198991
+          ],
+          "b": [
+            -11.675007,
+            12.419897100000002
+          ],
+          "width": 0.405003,
+          "length": 1.999999998503199e-06
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_3",
+      "net": "VIN_FUSED",
+      "length_mm": 0.6499859999999984,
+      "width_length_mm": {
+        "0.405003": 0.04062526148538659,
+        "0.9899904": 0.36500154594154743,
+        "1": 0.24435919257306438
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 21,
+      "sub_0_05mm_segments": 21,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_3",
+          "net": "VIN_FUSED",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            12.434973
+          ],
+          "b": [
+            -11.715632261485387,
+            12.434973
+          ],
+          "width": 0.405003,
+          "length": 0.04062526148538659
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_4",
+      "net": "VIN_FUSED",
+      "length_mm": 0.6499860000000002,
+      "width_length_mm": {
+        "0.405003": 0.040626136485386155,
+        "0.9899904": 0.3650050459415475,
+        "1": 0.24435481757306654
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 21,
+      "sub_0_05mm_segments": 21,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_4",
+          "net": "VIN_FUSED",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -12.324993,
+            12.434973
+          ],
+          "b": [
+            -12.365619136485385,
+            12.434973
+          ],
+          "width": 0.405003,
+          "length": 0.040626136485386155
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_5",
+      "net": "VIN_FUSED",
+      "length_mm": 6.447530017386742,
+      "width_length_mm": {
+        "1": 6.1611506496858475,
+        "0.405003": 0.2863793677008946
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 4,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_5",
+          "net": "VIN_FUSED",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -13.177479792893218,
+            12.637473792893218
+          ],
+          "b": [
+            -12.974979,
+            12.434973
+          ],
+          "width": 0.405003,
+          "length": 0.2863793677008946
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_6",
+      "net": "VM",
+      "length_mm": 0.6499860000000002,
+      "width_length_mm": {
+        "0.9899904": 0.3650050459415475,
+        "1": 0.24435481757306654,
+        "0.405003": 0.040626136485386155
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 21,
+      "sub_0_05mm_segments": 21,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_6",
+          "net": "VM",
+          "index": 20,
+          "layer": "top",
+          "a": [
+            -12.365619136485385,
+            9.565027
+          ],
+          "b": [
+            -12.324993,
+            9.565027
+          ],
+          "width": 0.405003,
+          "length": 0.040626136485386155
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_7",
+      "net": "VM",
+      "length_mm": 0.6499859999999984,
+      "width_length_mm": {
+        "0.375": 0.6499859999999984
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_7",
+          "net": "VM",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -12.324993,
+            9.565027
+          ],
+          "b": [
+            -12.324972999999998,
+            9.565027
+          ],
+          "width": 0.375,
+          "length": 2.0000000001019203e-05
+        },
+        {
+          "trace": "saved_phase_null_0_7",
+          "net": "VM",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -12.324972999999998,
+            9.565027
+          ],
+          "b": [
+            -11.675007,
+            9.565027
+          ],
+          "width": 0.375,
+          "length": 0.6499659999999974
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_8",
+      "net": "VM",
+      "length_mm": 8.139686545115367,
+      "width_length_mm": {
+        "1": 3.879839950348393,
+        "0.75": 0.25,
+        "0.625": 0.3535533905932738,
+        "0.425": 0.8767416708432995,
+        "0.8250000000000001": 2.3295534333304007,
+        "0.7999984": 0.44999809999999973
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 14,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_8",
+          "net": "VM",
+          "index": 5,
+          "layer": "top",
+          "a": [
+            4.25,
+            5.75
+          ],
+          "b": [
+            4.5,
+            5.75
+          ],
+          "width": 0.425,
+          "length": 0.25
+        },
+        {
+          "trace": "saved_phase_null_0_8",
+          "net": "VM",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            4.5,
+            5.75
+          ],
+          "b": [
+            5.0950004,
+            5.946925483295816
+          ],
+          "width": 0.425,
+          "length": 0.6267416708432995
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_9",
+      "net": "VM",
+      "length_mm": 4.958917883810168,
+      "width_length_mm": {
+        "0.25": 1.3298346000816057,
+        "0.325": 0.25,
+        "0.55": 0.25,
+        "0.725": 0.25,
+        "0.9": 0.9446491118107762,
+        "1": 1.9344341719177855
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 8,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_9",
+          "net": "VM",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            0.3250000000000002,
+            2.9
+          ],
+          "b": [
+            0.375,
+            3.875
+          ],
+          "width": 0.25,
+          "length": 0.9762812094883319
+        },
+        {
+          "trace": "saved_phase_null_0_9",
+          "net": "VM",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            0.375,
+            3.875
+          ],
+          "b": [
+            0.125,
+            4.125
+          ],
+          "width": 0.25,
+          "length": 0.3535533905932738
+        },
+        {
+          "trace": "saved_phase_null_0_9",
+          "net": "VM",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            0.125,
+            4.125
+          ],
+          "b": [
+            0.125,
+            4.375
+          ],
+          "width": 0.325,
+          "length": 0.25
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_10",
+      "net": "VM",
+      "length_mm": 10.085037213179854,
+      "width_length_mm": {
+        "0.275": 1.0266138144499037,
+        "0.25": 0.5686292080223008,
+        "0.30000000000000004": 0.1025641025641022,
+        "0.375": 0.10256410256410309,
+        "0.5": 0.1025641025641022,
+        "0.625": 0.10257069980500631,
+        "0.75": 0.5623896077184639,
+        "0.925": 0.5623896077184639,
+        "1": 6.954751967773408
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 17,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            0.3250000000000002,
+            2.9
+          ],
+          "b": [
+            0.29038461538461596,
+            3.5153846153846153
+          ],
+          "width": 0.275,
+          "length": 0.6163574041934939
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            0.29038461538461596,
+            3.5153846153846153
+          ],
+          "b": [
+            0.29038461538461596,
+            3.925641025641025
+          ],
+          "width": 0.275,
+          "length": 0.4102564102564097
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            0.29038461538461596,
+            3.925641025641025
+          ],
+          "b": [
+            0.33853626689681465,
+            4.182220605661015
+          ],
+          "width": 0.25,
+          "length": 0.2610587336723032
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            0.33853626689681465,
+            4.182220605661015
+          ],
+          "b": [
+            0.3416551876767056,
+            4.284615724125684
+          ],
+          "width": 0.25,
+          "length": 0.10244260808972488
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 4,
+          "layer": "top",
+          "a": [
+            0.3416551876767056,
+            4.284615724125684
+          ],
+          "b": [
+            0.34166666666666706,
+            4.387179487179488
+          ],
+          "width": 0.25,
+          "length": 0.10256376369617048
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 5,
+          "layer": "top",
+          "a": [
+            0.34166666666666706,
+            4.387179487179488
+          ],
+          "b": [
+            0.34166666666666706,
+            4.48974358974359
+          ],
+          "width": 0.25,
+          "length": 0.1025641025641022
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            0.34166666666666706,
+            4.48974358974359
+          ],
+          "b": [
+            0.34166666666666706,
+            4.592307692307692
+          ],
+          "width": 0.30000000000000004,
+          "length": 0.1025641025641022
+        },
+        {
+          "trace": "saved_phase_null_0_10",
+          "net": "VM",
+          "index": 7,
+          "layer": "top",
+          "a": [
+            0.34166666666666706,
+            4.592307692307692
+          ],
+          "b": [
+            0.34166666666666706,
+            4.694871794871795
+          ],
+          "width": 0.375,
+          "length": 0.10256410256410309
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_11",
+      "net": "VM",
+      "length_mm": 10.371605843585117,
+      "width_length_mm": {
+        "0.375": 1.081434700624421,
+        "1": 9.290171142960697
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 14,
+      "sub_0_05mm_segments": 3,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_11",
+          "net": "VM",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -11.675007,
+            9.565027
+          ],
+          "b": [
+            -12,
+            9.5
+          ],
+          "width": 0.375,
+          "length": 0.331434700624421
+        },
+        {
+          "trace": "saved_phase_null_0_11",
+          "net": "VM",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -12,
+            9.5
+          ],
+          "b": [
+            -12,
+            8.75
+          ],
+          "width": 0.375,
+          "length": 0.75
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_12",
+      "net": "VM",
+      "length_mm": 9.677526502868744,
+      "width_length_mm": {
+        "1": 9.677526502868746
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 11,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            -9.600000000000001,
+            0
+          ],
+          "turn_degrees": 135.0,
+          "adjacent_lengths_mm": [
+            0.15498600000000096,
+            0.5656854249492386
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_13",
+      "net": "VM",
+      "length_mm": 11.462454946633372,
+      "width_length_mm": {
+        "1": 11.462454946633372
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 8,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            -17.5,
+            1.25
+          ],
+          "turn_degrees": 160.98,
+          "adjacent_lengths_mm": [
+            1.734906532725088,
+            0.07071067811865513
+          ]
+        },
+        {
+          "xy": [
+            -17.6,
+            1.2000000000000002
+          ],
+          "turn_degrees": 135.0,
+          "adjacent_lengths_mm": [
+            0.05000000000000071,
+            0.5656854249492372
+          ]
+        }
+      ],
+      "proper_self_crossings": [
+        [
+          1,
+          4
+        ]
+      ],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_14",
+      "net": "VM",
+      "length_mm": 7.229882728127194,
+      "width_length_mm": {
+        "1": 7.229882728127194
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_15",
+      "net": "VM",
+      "length_mm": 3.10215997616945,
+      "width_length_mm": {
+        "0.8064754": 0.5341621761694514,
+        "1": 2.5679977999999988
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 6,
+      "sub_0_05mm_segments": 2,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_16",
+      "net": "VM",
+      "length_mm": 13.481935078176203,
+      "width_length_mm": {
+        "1": 12.911293126490097,
+        "0.8064754": 0.5706419516861065
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_17",
+      "net": "VIO",
+      "length_mm": 8.038427357256447,
+      "width_length_mm": {
+        "0.25": 8.038427357256447
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_17",
+          "net": "VIO",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -7.753364,
+            17
+          ],
+          "b": [
+            -5.246636,
+            14.493635999999999
+          ],
+          "width": 0.25,
+          "length": 3.544791357256448
+        },
+        {
+          "trace": "saved_phase_null_0_17",
+          "net": "VIO",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -5.246636,
+            14.493635999999999
+          ],
+          "b": [
+            -5.246636,
+            10
+          ],
+          "width": 0.25,
+          "length": 4.493635999999999
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_18",
+      "net": "VIO",
+      "length_mm": 5.960932198931212,
+      "width_length_mm": {
+        "0.25": 5.960932198931212
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_18",
+          "net": "VIO",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            0.299976,
+            11
+          ],
+          "b": [
+            -4.247,
+            11
+          ],
+          "width": 0.25,
+          "length": 4.546976
+        },
+        {
+          "trace": "saved_phase_null_0_18",
+          "net": "VIO",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -4.247,
+            11
+          ],
+          "b": [
+            -5.246636,
+            10
+          ],
+          "width": 0.25,
+          "length": 1.4139561989312115
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_19",
+      "net": "VIO",
+      "length_mm": 7.303274565940057,
+      "width_length_mm": {
+        "0.25": 7.3032745659400575
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 12,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            2.3711983335563636,
+            11.765482358193601
+          ],
+          "turn_degrees": 109.98,
+          "adjacent_lengths_mm": [
+            0.6952433183348611,
+            0.22008656548121738
+          ]
+        },
+        {
+          "xy": [
+            0.5592283552324675,
+            11.3
+          ],
+          "turn_degrees": 171.3,
+          "adjacent_lengths_mm": [
+            0.7406476447675326,
+            0.42785968847059286
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            3.99250465,
+            10.02464
+          ],
+          "b": [
+            3.680244358289442,
+            9.2996404
+          ],
+          "width": 0.25,
+          "length": 0.789386413475253
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 3,
+          "layer": "inner2",
+          "a": [
+            3.680244358289442,
+            9.2996404
+          ],
+          "b": [
+            3.420525468097439,
+            9.626261789555864
+          ],
+          "width": 0.25,
+          "length": 0.4172953798425875
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 4,
+          "layer": "inner2",
+          "a": [
+            3.420525468097439,
+            9.626261789555864
+          ],
+          "b": [
+            1.9900412847809021,
+            11.184033670983759
+          ],
+          "width": 0.25,
+          "length": 2.1149322053640827
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 5,
+          "layer": "inner2",
+          "a": [
+            1.9900412847809021,
+            11.184033670983759
+          ],
+          "b": [
+            2.3711983335563636,
+            11.765482358193601
+          ],
+          "width": 0.25,
+          "length": 0.6952433183348611
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 6,
+          "layer": "inner2",
+          "a": [
+            2.3711983335563636,
+            11.765482358193601
+          ],
+          "b": [
+            2.1569880066072677,
+            11.816
+          ],
+          "width": 0.25,
+          "length": 0.22008656548121738
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 7,
+          "layer": "inner2",
+          "a": [
+            2.1569880066072677,
+            11.816
+          ],
+          "b": [
+            1.791,
+            11.816
+          ],
+          "width": 0.25,
+          "length": 0.3659880066072678
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 8,
+          "layer": "inner2",
+          "a": [
+            1.791,
+            11.816
+          ],
+          "b": [
+            1.585,
+            11.816
+          ],
+          "width": 0.25,
+          "length": 0.20599999999999996
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 9,
+          "layer": "inner2",
+          "a": [
+            1.585,
+            11.816
+          ],
+          "b": [
+            1.277,
+            11.822000000000001
+          ],
+          "width": 0.25,
+          "length": 0.30805843601498734
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 10,
+          "layer": "inner2",
+          "a": [
+            1.277,
+            11.822000000000001
+          ],
+          "b": [
+            1.082945327317435,
+            11.823716972084968
+          ],
+          "width": 0.25,
+          "length": 0.19406226831375017
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 11,
+          "layer": "inner2",
+          "a": [
+            1.082945327317435,
+            11.823716972084968
+          ],
+          "b": [
+            0.5592283552324675,
+            11.3
+          ],
+          "width": 0.25,
+          "length": 0.7406476447675326
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 12,
+          "layer": "inner2",
+          "a": [
+            0.5592283552324675,
+            11.3
+          ],
+          "b": [
+            0.8125149987601026,
+            11.644832987442701
+          ],
+          "width": 0.25,
+          "length": 0.42785968847059286
+        },
+        {
+          "trace": "saved_phase_null_0_19",
+          "net": "VIO",
+          "index": 15,
+          "layer": "top",
+          "a": [
+            0.8125149987601026,
+            11.644832987442701
+          ],
+          "b": [
+            0.299976,
+            11
+          ],
+          "width": 0.25,
+          "length": 0.8237146392679245
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_20",
+      "net": "VIO",
+      "length_mm": 21.319780272181852,
+      "width_length_mm": {
+        "0.25": 21.319780272181855
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 1,
+      "nonzero_segments": 8,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 0,
+          "layer": "bottom",
+          "a": [
+            21.4537008,
+            16
+          ],
+          "b": [
+            8.394341260304584,
+            16.02281883448684
+          ],
+          "width": 0.25,
+          "length": 13.059379475543277
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 1,
+          "layer": "bottom",
+          "a": [
+            8.394341260304584,
+            16.02281883448684
+          ],
+          "b": [
+            6.138284753435963,
+            13.74395616579487
+          ],
+          "width": 0.25,
+          "length": 3.2067126508220434
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 2,
+          "layer": "bottom",
+          "a": [
+            6.138284753435963,
+            13.74395616579487
+          ],
+          "b": [
+            6.103956165794871,
+            13.74395616579487
+          ],
+          "width": 0.25,
+          "length": 0.0343285876410917
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 3,
+          "layer": "bottom",
+          "a": [
+            6.103956165794871,
+            13.74395616579487
+          ],
+          "b": [
+            6.041,
+            13.681
+          ],
+          "width": 0.25,
+          "length": 0.08903346350211565
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            6.041,
+            13.681
+          ],
+          "b": [
+            6.180556446904009,
+            11.740176404142904
+          ],
+          "width": 0.25,
+          "length": 1.9458345849809886
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 7,
+          "layer": "top",
+          "a": [
+            6.180556446904009,
+            11.740176404142904
+          ],
+          "b": [
+            4.364879119376636,
+            9.92449907661553
+          ],
+          "width": 0.25,
+          "length": 2.5677555014825475
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 8,
+          "layer": "top",
+          "a": [
+            4.364879119376636,
+            9.92449907661553
+          ],
+          "b": [
+            4.03205552351954,
+            10.06405552351954
+          ],
+          "width": 0.25,
+          "length": 0.36089825135586195
+        },
+        {
+          "trace": "saved_phase_null_0_20",
+          "net": "VIO",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            4.03205552351954,
+            10.06405552351954
+          ],
+          "b": [
+            3.99250465,
+            10.02464
+          ],
+          "width": 0.25,
+          "length": 0.05583775685392585
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_21",
+      "net": "VIO",
+      "length_mm": 23.178655046786602,
+      "width_length_mm": {
+        "0.25": 23.17865504678661
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 1,
+      "nonzero_segments": 12,
+      "sub_0_05mm_segments": 3,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 0,
+          "layer": "bottom",
+          "a": [
+            21.4537008,
+            16
+          ],
+          "b": [
+            22.646100800000003,
+            15.030311700892305
+          ],
+          "width": 0.25,
+          "length": 1.536916769843566
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 1,
+          "layer": "bottom",
+          "a": [
+            22.646100800000003,
+            15.030311700892305
+          ],
+          "b": [
+            22.646100800000003,
+            7.151758044764906
+          ],
+          "width": 0.25,
+          "length": 7.8785536561274
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 2,
+          "layer": "bottom",
+          "a": [
+            22.646100800000003,
+            7.151758044764906
+          ],
+          "b": [
+            22.088086108515206,
+            6.938212715223264
+          ],
+          "width": 0.25,
+          "length": 0.5974797098495656
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 3,
+          "layer": "bottom",
+          "a": [
+            22.088086108515206,
+            6.938212715223264
+          ],
+          "b": [
+            22.191601430616902,
+            3.490711416442486
+          ],
+          "width": 0.25,
+          "length": 3.4490550339194312
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 4,
+          "layer": "bottom",
+          "a": [
+            22.191601430616902,
+            3.490711416442486
+          ],
+          "b": [
+            22.646100800000003,
+            3.254244428059166
+          ],
+          "width": 0.25,
+          "length": 0.5123341813354962
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 5,
+          "layer": "bottom",
+          "a": [
+            22.646100800000003,
+            3.254244428059166
+          ],
+          "b": [
+            22.646100800000003,
+            -3.660348000434205
+          ],
+          "width": 0.25,
+          "length": 6.914592428493371
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            22.646100800000003,
+            -3.660348000434205
+          ],
+          "b": [
+            22.646100800000003,
+            -3.6604556256523466
+          ],
+          "width": 0.25,
+          "length": 0.00010762521814156045
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 7,
+          "layer": "bottom",
+          "a": [
+            22.646100800000003,
+            -3.6604556256523466
+          ],
+          "b": [
+            22.09368712490656,
+            -4.013079258695161
+          ],
+          "width": 0.25,
+          "length": 0.6553657719247765
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 8,
+          "layer": "bottom",
+          "a": [
+            22.09368712490656,
+            -4.013079258695161
+          ],
+          "b": [
+            22.09368712490656,
+            -4.0353128750934415
+          ],
+          "width": 0.25,
+          "length": 0.02223361639828081
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 9,
+          "layer": "bottom",
+          "a": [
+            22.09368712490656,
+            -4.0353128750934415
+          ],
+          "b": [
+            22.064,
+            -4.065
+          ],
+          "width": 0.25,
+          "length": 0.04198393467071969
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            22.064,
+            -4.065
+          ],
+          "b": [
+            22.312,
+            -4.065
+          ],
+          "width": 0.25,
+          "length": 0.2480000000000011
+        },
+        {
+          "trace": "saved_phase_null_0_21",
+          "net": "VIO",
+          "index": 13,
+          "layer": "top",
+          "a": [
+            22.312,
+            -4.065
+          ],
+          "b": [
+            23.246636,
+            -5
+          ],
+          "width": 0.25,
+          "length": 1.3220323190058534
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_22",
+      "net": "VIO",
+      "length_mm": 5.0,
+      "width_length_mm": {
+        "0.25": 5.0
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_22",
+          "net": "VIO",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            23.246636,
+            -5
+          ],
+          "b": [
+            23.246636,
+            -5.000364000000001
+          ],
+          "width": 0.25,
+          "length": 0.0003640000000011412
+        },
+        {
+          "trace": "saved_phase_null_0_22",
+          "net": "VIO",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            23.246636,
+            -5.000364000000001
+          ],
+          "b": [
+            23.246636,
+            -10
+          ],
+          "width": 0.25,
+          "length": 4.999635999999999
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_23",
+      "net": "VIO",
+      "length_mm": 26.562120036392763,
+      "width_length_mm": {
+        "0.25": 26.562120036392763
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            23.246636,
+            -10
+          ],
+          "b": [
+            21.047008819174337,
+            -12.103440897755387
+          ],
+          "width": 0.25,
+          "length": 3.04348867994889
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            21.047008819174337,
+            -12.103440897755387
+          ],
+          "b": [
+            15.400706985856894,
+            -12.016563266516918
+          ],
+          "width": 0.25,
+          "length": 5.646970171316077
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 4,
+          "layer": "inner1",
+          "a": [
+            15.400706985856894,
+            -12.016563266516918
+          ],
+          "b": [
+            15.229730835304016,
+            -12.370269164695982
+          ],
+          "width": 0.25,
+          "length": 0.3928621978054625
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 5,
+          "layer": "inner1",
+          "a": [
+            15.229730835304016,
+            -12.370269164695982
+          ],
+          "b": [
+            11.2,
+            -16.4
+          ],
+          "width": 0.25,
+          "length": 5.698900000000002
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            11.2,
+            -16.4
+          ],
+          "b": [
+            4.4,
+            -16.4
+          ],
+          "width": 0.25,
+          "length": 6.799999999999999
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            4.4,
+            -16.4
+          ],
+          "b": [
+            4.364788365039251,
+            -16.36478836503925
+          ],
+          "width": 0.25,
+          "length": 0.049796771714822136
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 10,
+          "layer": "top",
+          "a": [
+            4.364788365039251,
+            -16.36478836503925
+          ],
+          "b": [
+            4.18458614943174,
+            -16.36478836503925
+          ],
+          "width": 0.25,
+          "length": 0.18020221560751093
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            4.18458614943174,
+            -16.36478836503925
+          ],
+          "b": [
+            1.3647883650392494,
+            -16.36478836503925
+          ],
+          "width": 0.25,
+          "length": 2.819797784392491
+        },
+        {
+          "trace": "saved_phase_null_0_23",
+          "net": "VIO",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            1.3647883650392494,
+            -16.36478836503925
+          ],
+          "b": [
+            0,
+            -15
+          ],
+          "width": 0.25,
+          "length": 1.930102215607509
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_24",
+      "net": "AOUT1",
+      "length_mm": 22.70507548312793,
+      "width_length_mm": {
+        "0.325": 1.6178435061918885,
+        "0.35000000000000003": 0.8089217530959436,
+        "0.55": 2.3231347407121676,
+        "0.525": 0.06809986963001849,
+        "1": 17.887075613497913
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 1,
+      "nonzero_segments": 17,
+      "sub_0_05mm_segments": 3,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_24",
+          "net": "AOUT1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -1.625,
+            -2.9
+          ],
+          "b": [
+            -1.625,
+            -3.708921753095944
+          ],
+          "width": 0.325,
+          "length": 0.808921753095944
+        },
+        {
+          "trace": "saved_phase_null_0_24",
+          "net": "AOUT1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -1.625,
+            -3.708921753095944
+          ],
+          "b": [
+            -1.625,
+            -4.5178435061918885
+          ],
+          "width": 0.325,
+          "length": 0.8089217530959445
+        },
+        {
+          "trace": "saved_phase_null_0_24",
+          "net": "AOUT1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -1.625,
+            -4.5178435061918885
+          ],
+          "b": [
+            -1.625,
+            -5.326765259287832
+          ],
+          "width": 0.35000000000000003,
+          "length": 0.8089217530959436
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_25",
+      "net": "AOUT2",
+      "length_mm": 21.942756518824364,
+      "width_length_mm": {
+        "0.325": 1.9642927053691088,
+        "0.25": 2.9464390580536635,
+        "0.65": 0.9821463526845533,
+        "1": 16.049878402717034
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 16,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_25",
+          "net": "AOUT2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -0.32499999999999973,
+            -2.9
+          ],
+          "b": [
+            -0.3386655043403543,
+            -3.882051277725709
+          ],
+          "width": 0.325,
+          "length": 0.9821463526845546
+        },
+        {
+          "trace": "saved_phase_null_0_25",
+          "net": "AOUT2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -0.3386655043403543,
+            -3.882051277725709
+          ],
+          "b": [
+            -0.3523310086807088,
+            -4.864102555451417
+          ],
+          "width": 0.325,
+          "length": 0.9821463526845542
+        },
+        {
+          "trace": "saved_phase_null_0_25",
+          "net": "AOUT2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -0.3523310086807088,
+            -4.864102555451417
+          ],
+          "b": [
+            -0.3659965130210634,
+            -5.846153833177126
+          ],
+          "width": 0.25,
+          "length": 0.9821463526845542
+        },
+        {
+          "trace": "saved_phase_null_0_25",
+          "net": "AOUT2",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -0.3659965130210634,
+            -5.846153833177126
+          ],
+          "b": [
+            -0.37966201736141797,
+            -6.828205110902834
+          ],
+          "width": 0.25,
+          "length": 0.9821463526845542
+        },
+        {
+          "trace": "saved_phase_null_0_25",
+          "net": "AOUT2",
+          "index": 4,
+          "layer": "top",
+          "a": [
+            -0.37966201736141797,
+            -6.828205110902834
+          ],
+          "b": [
+            -0.3933275217017725,
+            -7.810256388628543
+          ],
+          "width": 0.25,
+          "length": 0.9821463526845551
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_26",
+      "net": "BOUT1",
+      "length_mm": 24.059490283598024,
+      "width_length_mm": {
+        "0.275": 1.130881129970457,
+        "0.25": 0.5699221839266405,
+        "0.35000000000000003": 0.1025641025641022,
+        "0.42500000000000004": 0.1025641025641022,
+        "0.55": 0.10256410256410309,
+        "0.675": 0.12071691832438947,
+        "0.8": 0.5995367847250719,
+        "0.9": 0.5995367847250719,
+        "0.925": 0.9375,
+        "1": 11.904787785273511,
+        "0.875": 7.888916388960575
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 23,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            1.831614354221825,
+            -4.9
+          ],
+          "turn_degrees": 95.4,
+          "adjacent_lengths_mm": [
+            0.12071691832438947,
+            0.5995367847250719
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            1.6250000000000004,
+            -2.9
+          ],
+          "b": [
+            1.659615384615384,
+            -3.1051282051282056
+          ],
+          "width": 0.275,
+          "length": 0.20802837640858082
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            1.659615384615384,
+            -3.1051282051282056
+          ],
+          "b": [
+            1.659615384615384,
+            -3.5153846153846153
+          ],
+          "width": 0.275,
+          "length": 0.4102564102564097
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            1.659615384615384,
+            -3.5153846153846153
+          ],
+          "b": [
+            1.6607339891117285,
+            -3.92541533029676
+          ],
+          "width": 0.275,
+          "length": 0.4100322407413636
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            1.6607339891117285,
+            -3.92541533029676
+          ],
+          "b": [
+            1.7143350455884925,
+            -4.181423675782482
+          ],
+          "width": 0.25,
+          "length": 0.26155945062979885
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 4,
+          "layer": "top",
+          "a": [
+            1.7143350455884925,
+            -4.181423675782482
+          ],
+          "b": [
+            1.7114059169150189,
+            -4.284627797969868
+          ],
+          "width": 0.25,
+          "length": 0.10324568093268949
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 5,
+          "layer": "top",
+          "a": [
+            1.7114059169150189,
+            -4.284627797969868
+          ],
+          "b": [
+            1.7108974358974356,
+            -4.387179487179488
+          ],
+          "width": 0.25,
+          "length": 0.10255294980004999
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            1.7108974358974356,
+            -4.387179487179488
+          ],
+          "b": [
+            1.7108974358974356,
+            -4.48974358974359
+          ],
+          "width": 0.25,
+          "length": 0.1025641025641022
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 7,
+          "layer": "top",
+          "a": [
+            1.7108974358974356,
+            -4.48974358974359
+          ],
+          "b": [
+            1.7108974358974356,
+            -4.592307692307693
+          ],
+          "width": 0.275,
+          "length": 0.10256410256410309
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 8,
+          "layer": "top",
+          "a": [
+            1.7108974358974356,
+            -4.592307692307693
+          ],
+          "b": [
+            1.7108974358974356,
+            -4.694871794871795
+          ],
+          "width": 0.35000000000000003,
+          "length": 0.1025641025641022
+        },
+        {
+          "trace": "saved_phase_null_0_26",
+          "net": "BOUT1",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            1.7108974358974356,
+            -4.694871794871795
+          ],
+          "b": [
+            1.7108974358974356,
+            -4.797435897435897
+          ],
+          "width": 0.42500000000000004,
+          "length": 0.1025641025641022
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_27",
+      "net": "BOUT2",
+      "length_mm": 26.557261003003727,
+      "width_length_mm": {
+        "0.325": 1.9587253419856334,
+        "0.41250000000000003": 0.29117465801436654,
+        "0.525": 0.08427465801436718,
+        "0.9750000000000001": 0.08924879026399535,
+        "1": 24.13383755472536
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 1,
+      "nonzero_segments": 14,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_27",
+          "net": "BOUT2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            0.3250000000000002,
+            -2.9
+          ],
+          "b": [
+            0.3250000000000002,
+            -3.8793626709928164
+          ],
+          "width": 0.325,
+          "length": 0.9793626709928165
+        },
+        {
+          "trace": "saved_phase_null_0_27",
+          "net": "BOUT2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            0.3250000000000002,
+            -3.8793626709928164
+          ],
+          "b": [
+            0.3250000000000002,
+            -4.858725341985633
+          ],
+          "width": 0.325,
+          "length": 0.9793626709928169
+        },
+        {
+          "trace": "saved_phase_null_0_27",
+          "net": "BOUT2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            0.3250000000000002,
+            -4.858725341985633
+          ],
+          "b": [
+            0.5308915751916328,
+            -5.064616917177266
+          ],
+          "width": 0.41250000000000003,
+          "length": 0.29117465801436654
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_28",
+      "net": "ISEN_A",
+      "length_mm": 8.580542250148737,
+      "width_length_mm": {
+        "0.30000000000000004": 2.567947078651729,
+        "0.25": 4.63131730806764,
+        "1": 1.381277863429367
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 7,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_28",
+          "net": "ISEN_A",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -0.9749999999999999,
+            -2.9
+          ],
+          "b": [
+            -0.9503800098373449,
+            -3.755628222971965
+          ],
+          "width": 0.30000000000000004,
+          "length": 0.8559823595505763
+        },
+        {
+          "trace": "saved_phase_null_0_28",
+          "net": "ISEN_A",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -0.9503800098373449,
+            -3.755628222971965
+          ],
+          "b": [
+            -0.9257600196746901,
+            -4.611256445943931
+          ],
+          "width": 0.30000000000000004,
+          "length": 0.8559823595505768
+        },
+        {
+          "trace": "saved_phase_null_0_28",
+          "net": "ISEN_A",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -0.9257600196746901,
+            -4.611256445943931
+          ],
+          "b": [
+            -0.9011400295120353,
+            -5.466884668915895
+          ],
+          "width": 0.30000000000000004,
+          "length": 0.8559823595505759
+        },
+        {
+          "trace": "saved_phase_null_0_28",
+          "net": "ISEN_A",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -0.9011400295120353,
+            -5.466884668915895
+          ],
+          "b": [
+            -0.9011400295120353,
+            -6.348705892941402
+          ],
+          "width": 0.25,
+          "length": 0.881821224025507
+        },
+        {
+          "trace": "saved_phase_null_0_28",
+          "net": "ISEN_A",
+          "index": 4,
+          "layer": "top",
+          "a": [
+            -0.9011400295120353,
+            -6.348705892941402
+          ],
+          "b": [
+            -2.9576947374875813,
+            -8.405260600916948
+          ],
+          "width": 0.25,
+          "length": 2.908407559781257
+        },
+        {
+          "trace": "saved_phase_null_0_28",
+          "net": "ISEN_A",
+          "index": 5,
+          "layer": "top",
+          "a": [
+            -2.9576947374875813,
+            -8.405260600916948
+          ],
+          "b": [
+            -3.552434136570633,
+            -9
+          ],
+          "width": 0.25,
+          "length": 0.8410885242608763
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_29",
+      "net": "ISEN_A",
+      "length_mm": 13.55156937423857,
+      "width_length_mm": {
+        "1": 13.55156937423857
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_30",
+      "net": "ISEN_B",
+      "length_mm": 7.955456346196357,
+      "width_length_mm": {
+        "0.3": 1.3238908519832486,
+        "0.625": 2.4526285222587587,
+        "0.75": 2.4347876830800828,
+        "0.5750000000000001": 0.9749189275805902,
+        "0.925": 0.7692303612936767
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 13,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_30",
+          "net": "ISEN_B",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            0.9750000000000001,
+            -2.9
+          ],
+          "b": [
+            0.9875,
+            -3.45
+          ],
+          "width": 0.3,
+          "length": 0.550142027116635
+        },
+        {
+          "trace": "saved_phase_null_0_30",
+          "net": "ISEN_B",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            0.9875,
+            -3.45
+          ],
+          "b": [
+            1,
+            -4
+          ],
+          "width": 0.3,
+          "length": 0.5501420271166345
+        },
+        {
+          "trace": "saved_phase_null_0_30",
+          "net": "ISEN_B",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            1,
+            -4
+          ],
+          "b": [
+            1.1,
+            -4.2
+          ],
+          "width": 0.3,
+          "length": 0.22360679774997916
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_31",
+      "net": "ISEN_B",
+      "length_mm": 10.72314224949238,
+      "width_length_mm": {
+        "1": 10.72314224949238
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": []
+    },
+    {
+      "trace_id": "saved_phase_null_0_32",
+      "net": "ENABLE",
+      "length_mm": 5.777351410833429,
+      "width_length_mm": {
+        "0.25": 5.777351410833429
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_32",
+          "net": "ENABLE",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            16.246636,
+            1
+          ],
+          "b": [
+            15.539741350847807,
+            0.1629968
+          ],
+          "width": 0.25,
+          "length": 1.0955703545689068
+        },
+        {
+          "trace": "saved_phase_null_0_32",
+          "net": "ENABLE",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            15.539741350847807,
+            0.1629968
+          ],
+          "b": [
+            11.953530649152192,
+            0.16299679999999994
+          ],
+          "width": 0.25,
+          "length": 3.586210701695615
+        },
+        {
+          "trace": "saved_phase_null_0_32",
+          "net": "ENABLE",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            11.953530649152192,
+            0.16299679999999994
+          ],
+          "b": [
+            11.246636,
+            1
+          ],
+          "width": 0.25,
+          "length": 1.0955703545689068
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_33",
+      "net": "ENABLE",
+      "length_mm": 16.703927144173974,
+      "width_length_mm": {
+        "0.25": 16.703927144173974
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -2.275,
+            -2.9
+          ],
+          "b": [
+            -2.341788110897316,
+            -2.9
+          ],
+          "width": 0.25,
+          "length": 0.06678811089731607
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -2.341788110897316,
+            -2.9
+          ],
+          "b": [
+            -2.8248211599909765,
+            -2.4169669509063394
+          ],
+          "width": 0.25,
+          "length": 0.6831118891026837
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -2.8248211599909765,
+            -2.4169669509063394
+          ],
+          "b": [
+            -2.8248211599909765,
+            -2.299843974791129
+          ],
+          "width": 0.25,
+          "length": 0.11712297611521061
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -2.8248211599909765,
+            -2.299843974791129
+          ],
+          "b": [
+            -3.025,
+            -2.295231472925941
+          ],
+          "width": 0.25,
+          "length": 0.20023197337292203
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 6,
+          "layer": "inner2",
+          "a": [
+            -3.025,
+            -2.295231472925941
+          ],
+          "b": [
+            5.1487685270740595,
+            -2.295231472925941
+          ],
+          "width": 0.25,
+          "length": 8.17376852707406
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 7,
+          "layer": "inner2",
+          "a": [
+            5.1487685270740595,
+            -2.295231472925941
+          ],
+          "b": [
+            6.753899372560119,
+            -0.6901006274398814
+          ],
+          "width": 0.25,
+          "length": 2.2699978110697785
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 8,
+          "layer": "inner2",
+          "a": [
+            6.753899372560119,
+            -0.6901006274398814
+          ],
+          "b": [
+            6.807,
+            -0.637
+          ],
+          "width": 0.25,
+          "length": 0.07509562749600099
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            6.807,
+            -0.637
+          ],
+          "b": [
+            9.61,
+            -0.637
+          ],
+          "width": 0.25,
+          "length": 2.802999999999999
+        },
+        {
+          "trace": "saved_phase_null_0_33",
+          "net": "ENABLE",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            9.61,
+            -0.637
+          ],
+          "b": [
+            11.246636,
+            1
+          ],
+          "width": 0.25,
+          "length": 2.3148102290460018
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_34",
+      "net": "FAULT_N",
+      "length_mm": 10.556539756358553,
+      "width_length_mm": {
+        "0.25": 10.556539756358553
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 5,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_34",
+          "net": "FAULT_N",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            28.249938,
+            -10
+          ],
+          "b": [
+            28.839314117352657,
+            -10.521497484658692
+          ],
+          "width": 0.25,
+          "length": 0.7869713045664598
+        },
+        {
+          "trace": "saved_phase_null_0_34",
+          "net": "FAULT_N",
+          "index": 3,
+          "layer": "inner1",
+          "a": [
+            28.839314117352657,
+            -10.521497484658692
+          ],
+          "b": [
+            28.971485518366972,
+            -10.60990581561497
+          ],
+          "width": 0.25,
+          "length": 0.1590135598889657
+        },
+        {
+          "trace": "saved_phase_null_0_34",
+          "net": "FAULT_N",
+          "index": 4,
+          "layer": "inner1",
+          "a": [
+            28.971485518366972,
+            -10.60990581561497
+          ],
+          "b": [
+            28.86836260019515,
+            -15.995730262584429
+          ],
+          "width": 0.25,
+          "length": 5.386811608904301
+        },
+        {
+          "trace": "saved_phase_null_0_34",
+          "net": "FAULT_N",
+          "index": 5,
+          "layer": "inner1",
+          "a": [
+            28.86836260019515,
+            -15.995730262584429
+          ],
+          "b": [
+            28.33367839863478,
+            -16.560664155381428
+          ],
+          "width": 0.25,
+          "length": 0.7778415639633961
+        },
+        {
+          "trace": "saved_phase_null_0_34",
+          "net": "FAULT_N",
+          "index": 8,
+          "layer": "top",
+          "a": [
+            28.33367839863478,
+            -16.560664155381428
+          ],
+          "b": [
+            28.5462992,
+            -20
+          ],
+          "width": 0.25,
+          "length": 3.4459017190354304
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_35",
+      "net": "FAULT_N",
+      "length_mm": 6.770048717675394,
+      "width_length_mm": {
+        "0.25": 6.770048717675394
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            26.948806898506568,
+            -8.845730303438097
+          ],
+          "turn_degrees": 135.0,
+          "adjacent_lengths_mm": [
+            0.13738830512944947,
+            0.07084573541610872
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            24.753364,
+            -5
+          ],
+          "b": [
+            26.328,
+            -6.574999999999999
+          ],
+          "width": 0.25,
+          "length": 2.2271289887422308
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            26.328,
+            -6.574999999999999
+          ],
+          "b": [
+            26.328,
+            -6.947
+          ],
+          "width": 0.25,
+          "length": 0.3720000000000008
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 4,
+          "layer": "bottom",
+          "a": [
+            26.328,
+            -6.947
+          ],
+          "b": [
+            26.34234669027654,
+            -6.9613466902765415
+          ],
+          "width": 0.25,
+          "length": 0.020289283964249876
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 5,
+          "layer": "bottom",
+          "a": [
+            26.34234669027654,
+            -6.9613466902765415
+          ],
+          "b": [
+            26.851659154979412,
+            -7.470659154979415
+          ],
+          "width": 0.25,
+          "length": 0.7202765950684713
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            26.851659154979412,
+            -7.470659154979415
+          ],
+          "b": [
+            26.851659154979412,
+            -8.942878964334296
+          ],
+          "width": 0.25,
+          "length": 1.4722198093548817
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            26.851659154979412,
+            -8.942878964334296
+          ],
+          "b": [
+            26.948806898506568,
+            -8.845730303438097
+          ],
+          "width": 0.25,
+          "length": 0.13738830512944947
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 10,
+          "layer": "top",
+          "a": [
+            26.948806898506568,
+            -8.845730303438097
+          ],
+          "b": [
+            26.948806898506568,
+            -8.916576038854206
+          ],
+          "width": 0.25,
+          "length": 0.07084573541610872
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            26.948806898506568,
+            -8.916576038854206
+          ],
+          "b": [
+            28.032230859652362,
+            -10
+          ],
+          "width": 0.25,
+          "length": 1.5321928596523628
+        },
+        {
+          "trace": "saved_phase_null_0_35",
+          "net": "FAULT_N",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            28.032230859652362,
+            -10
+          ],
+          "b": [
+            28.249938,
+            -10
+          ],
+          "width": 0.25,
+          "length": 0.21770714034763827
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_36",
+      "net": "FAULT_N",
+      "length_mm": 12.567966287604758,
+      "width_length_mm": {
+        "0.25": 12.567966287604758
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 10,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            2.275,
+            -2.9
+          ],
+          "b": [
+            2.4406131082992895,
+            -3.264666135810645
+          ],
+          "width": 0.25,
+          "length": 0.4005110388586313
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            2.4406131082992895,
+            -3.264666135810645
+          ],
+          "b": [
+            3.0427286820486596,
+            -7.081896367672623
+          ],
+          "width": 0.25,
+          "length": 3.864426193782537
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            3.0427286820486596,
+            -7.081896367672623
+          ],
+          "b": [
+            3.0427286820486596,
+            -7.12172868204866
+          ],
+          "width": 0.25,
+          "length": 0.03983231437603685
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            3.0427286820486596,
+            -7.12172868204866
+          ],
+          "b": [
+            3.1663908152298217,
+            -7.25901297043965
+          ],
+          "width": 0.25,
+          "length": 0.18476823055367453
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 6,
+          "layer": "inner2",
+          "a": [
+            3.1663908152298217,
+            -7.25901297043965
+          ],
+          "b": [
+            3.1787199630088647,
+            -12.930258541801894
+          ],
+          "width": 0.25,
+          "length": 5.671258972977767
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 7,
+          "layer": "inner2",
+          "a": [
+            3.1787199630088647,
+            -12.930258541801894
+          ],
+          "b": [
+            3.765231750673504,
+            -13.515489071739687
+          ],
+          "width": 0.25,
+          "length": 0.8285474339112034
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 8,
+          "layer": "inner2",
+          "a": [
+            3.765231750673504,
+            -13.515489071739687
+          ],
+          "b": [
+            3.765231750673504,
+            -13.630231750673504
+          ],
+          "width": 0.25,
+          "length": 0.11474267893381729
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 9,
+          "layer": "inner2",
+          "a": [
+            3.765231750673504,
+            -13.630231750673504
+          ],
+          "b": [
+            3.728777564164961,
+            -13.72460402675866
+          ],
+          "width": 0.25,
+          "length": 0.1011683458770213
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            3.728777564164961,
+            -13.72460402675866
+          ],
+          "b": [
+            3.794,
+            -14.794
+          ],
+          "width": 0.25,
+          "length": 1.0713830844852128
+        },
+        {
+          "trace": "saved_phase_null_0_36",
+          "net": "FAULT_N",
+          "index": 13,
+          "layer": "top",
+          "a": [
+            3.794,
+            -14.794
+          ],
+          "b": [
+            4,
+            -15
+          ],
+          "width": 0.25,
+          "length": 0.2913279938488572
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_37",
+      "net": "FAULT_N",
+      "length_mm": 23.367000534113618,
+      "width_length_mm": {
+        "0.25": 23.367000534113618
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_37",
+          "net": "FAULT_N",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            2.275,
+            -2.9
+          ],
+          "b": [
+            2.3963323604599056,
+            -2.830154038733599
+          ],
+          "width": 0.25,
+          "length": 0.14000000000000032
+        },
+        {
+          "trace": "saved_phase_null_0_37",
+          "net": "FAULT_N",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            2.3963323604599056,
+            -2.830154038733599
+          ],
+          "b": [
+            22.653364,
+            -2.9
+          ],
+          "width": 0.25,
+          "length": 20.257152053130117
+        },
+        {
+          "trace": "saved_phase_null_0_37",
+          "net": "FAULT_N",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            22.653364,
+            -2.9
+          ],
+          "b": [
+            24.753364,
+            -5
+          ],
+          "width": 0.25,
+          "length": 2.969848480983501
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_38",
+      "net": "LED_VM_A",
+      "length_mm": 5.820683202449262,
+      "width_length_mm": {
+        "0.25": 5.820683202449262
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 4,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_38",
+          "net": "LED_VM_A",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -18.246636,
+            -10
+          ],
+          "b": [
+            -17.667773417395193,
+            -9.195127800000002
+          ],
+          "width": 0.25,
+          "length": 0.9914137117635319
+        },
+        {
+          "trace": "saved_phase_null_0_38",
+          "net": "LED_VM_A",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -17.667773417395193,
+            -9.195127800000002
+          ],
+          "b": [
+            -14.010784672657195,
+            -9.195127800000002
+          ],
+          "width": 0.25,
+          "length": 3.6569887447379976
+        },
+        {
+          "trace": "saved_phase_null_0_38",
+          "net": "LED_VM_A",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -14.010784672657195,
+            -9.195127800000002
+          ],
+          "b": [
+            -13.829740382604806,
+            -9.195127800000002
+          ],
+          "width": 0.25,
+          "length": 0.1810442900523892
+        },
+        {
+          "trace": "saved_phase_null_0_38",
+          "net": "LED_VM_A",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -13.829740382604806,
+            -9.195127800000002
+          ],
+          "b": [
+            -13.2510048,
+            -9.999873
+          ],
+          "width": 0.25,
+          "length": 0.9912364558953426
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_39",
+      "net": "AIN1",
+      "length_mm": 5.7773514108334325,
+      "width_length_mm": {
+        "0.25": 5.7773514108334325
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_39",
+          "net": "AIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            16.246636,
+            17
+          ],
+          "b": [
+            15.539741350847809,
+            17.8370032
+          ],
+          "width": 0.25,
+          "length": 1.0955703545689068
+        },
+        {
+          "trace": "saved_phase_null_0_39",
+          "net": "AIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            15.539741350847809,
+            17.8370032
+          ],
+          "b": [
+            11.95353064915219,
+            17.8370032
+          ],
+          "width": 0.25,
+          "length": 3.5862107016956184
+        },
+        {
+          "trace": "saved_phase_null_0_39",
+          "net": "AIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            11.95353064915219,
+            17.8370032
+          ],
+          "b": [
+            11.246636,
+            17
+          ],
+          "width": 0.25,
+          "length": 1.0955703545689068
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_40",
+      "net": "AIN1",
+      "length_mm": 8.8439172252928,
+      "width_length_mm": {
+        "0.25": 8.8439172252928
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            11.246636,
+            17
+          ],
+          "b": [
+            11.246636,
+            16.446635999999998
+          ],
+          "width": 0.25,
+          "length": 0.553364000000002
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            11.246636,
+            16.446635999999998
+          ],
+          "b": [
+            10.047145311229137,
+            15.247145311229136
+          ],
+          "width": 0.25,
+          "length": 1.696335999999999
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            10.047145311229137,
+            15.247145311229136
+          ],
+          "b": [
+            10,
+            15.2
+          ],
+          "width": 0.25,
+          "length": 0.06667353854254629
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 5,
+          "layer": "inner2",
+          "a": [
+            10,
+            15.2
+          ],
+          "b": [
+            10,
+            11.15396120380107
+          ],
+          "width": 0.25,
+          "length": 4.04603879619893
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 6,
+          "layer": "inner2",
+          "a": [
+            10,
+            11.15396120380107
+          ],
+          "b": [
+            9.660496084338364,
+            10.814457288139433
+          ],
+          "width": 0.25,
+          "length": 0.480131042007457
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 7,
+          "layer": "inner2",
+          "a": [
+            9.660496084338364,
+            10.814457288139433
+          ],
+          "b": [
+            9.649457288139432,
+            10.814457288139433
+          ],
+          "width": 0.25,
+          "length": 0.011038796198931777
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 8,
+          "layer": "inner2",
+          "a": [
+            9.649457288139432,
+            10.814457288139433
+          ],
+          "b": [
+            9.516622653251744,
+            10.612377346748255
+          ],
+          "width": 0.25,
+          "length": 0.24182916064529367
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            9.516622653251744,
+            10.612377346748255
+          ],
+          "b": [
+            8.86,
+            10.025
+          ],
+          "width": 0.25,
+          "length": 0.8810025290749062
+        },
+        {
+          "trace": "saved_phase_null_0_40",
+          "net": "AIN1",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            8.86,
+            10.025
+          ],
+          "b": [
+            7.99249665,
+            10.025148
+          ],
+          "width": 0.25,
+          "length": 0.8675033626247348
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_41",
+      "net": "AIN1",
+      "length_mm": 16.448030621047554,
+      "width_length_mm": {
+        "0.25": 16.448030621047554
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 12,
+      "sub_0_05mm_segments": 2,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -2.275,
+            2.9
+          ],
+          "b": [
+            -2.6441740937234157,
+            2.9
+          ],
+          "width": 0.25,
+          "length": 0.3691740937234158
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -2.6441740937234157,
+            2.9
+          ],
+          "b": [
+            -2.9131899439361773,
+            3.1690158502127614
+          ],
+          "width": 0.25,
+          "length": 0.3804458638642164
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -2.9131899439361773,
+            3.1690158502127614
+          ],
+          "b": [
+            -2.9131899439361773,
+            3.195596935892063
+          ],
+          "width": 0.25,
+          "length": 0.02658108567930162
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -2.9131899439361773,
+            3.195596935892063
+          ],
+          "b": [
+            -3.025,
+            3.2157260671518126
+          ],
+          "width": 0.25,
+          "length": 0.1136075286337459
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            -3.025,
+            3.2157260671518126
+          ],
+          "b": [
+            3.9620976328582764,
+            3.198535279862234
+          ],
+          "width": 0.25,
+          "length": 6.987118780603445
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 7,
+          "layer": "bottom",
+          "a": [
+            3.9620976328582764,
+            3.198535279862234
+          ],
+          "b": [
+            6.056575411997405,
+            5.163786309427444
+          ],
+          "width": 0.25,
+          "length": 2.872115731741096
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 8,
+          "layer": "bottom",
+          "a": [
+            6.056575411997405,
+            5.163786309427444
+          ],
+          "b": [
+            5.974771249920867,
+            7.0699919826317545
+          ],
+          "width": 0.25,
+          "length": 1.9079601645446753
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 9,
+          "layer": "bottom",
+          "a": [
+            5.974771249920867,
+            7.0699919826317545
+          ],
+          "b": [
+            6.097877019641936,
+            7.1930977523528234
+          ],
+          "width": 0.25,
+          "length": 0.17409784914591475
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 10,
+          "layer": "bottom",
+          "a": [
+            6.097877019641936,
+            7.1930977523528234
+          ],
+          "b": [
+            6.097877019641936,
+            7.222877019641936
+          ],
+          "width": 0.25,
+          "length": 0.029779267289112177
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 11,
+          "layer": "bottom",
+          "a": [
+            6.097877019641936,
+            7.222877019641936
+          ],
+          "b": [
+            6.173,
+            7.298
+          ],
+          "width": 0.25,
+          "length": 0.10623993766826233
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 14,
+          "layer": "top",
+          "a": [
+            6.173,
+            7.298
+          ],
+          "b": [
+            6.173,
+            8.206
+          ],
+          "width": 0.25,
+          "length": 0.9079999999999995
+        },
+        {
+          "trace": "saved_phase_null_0_41",
+          "net": "AIN1",
+          "index": 15,
+          "layer": "top",
+          "a": [
+            6.173,
+            8.206
+          ],
+          "b": [
+            7.99249665,
+            10.025148
+          ],
+          "width": 0.25,
+          "length": 2.57291031815437
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_42",
+      "net": "AIN2",
+      "length_mm": 5.785821029114862,
+      "width_length_mm": {
+        "0.25": 5.785821029114862
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 4,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_42",
+          "net": "AIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            16.246636,
+            13
+          ],
+          "b": [
+            15.551572284314405,
+            13.8370032
+          ],
+          "width": 0.25,
+          "length": 1.0879742302430253
+        },
+        {
+          "trace": "saved_phase_null_0_42",
+          "net": "AIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            15.551572284314405,
+            13.8370032
+          ],
+          "b": [
+            11.958231182249591,
+            13.8370032
+          ],
+          "width": 0.25,
+          "length": 3.593341102064814
+        },
+        {
+          "trace": "saved_phase_null_0_42",
+          "net": "AIN2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            11.958231182249591,
+            13.8370032
+          ],
+          "b": [
+            11.941699715685594,
+            13.8370032
+          ],
+          "width": 0.25,
+          "length": 0.016531466563996844
+        },
+        {
+          "trace": "saved_phase_null_0_42",
+          "net": "AIN2",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            11.941699715685594,
+            13.8370032
+          ],
+          "b": [
+            11.246636,
+            13
+          ],
+          "width": 0.25,
+          "length": 1.0879742302430253
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_43",
+      "net": "AIN2",
+      "length_mm": 4.102800207689009,
+      "width_length_mm": {
+        "0.25": 4.102800207689009
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_43",
+          "net": "AIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            11.246636,
+            13
+          ],
+          "b": [
+            8.793394593313693,
+            10.805849359289677
+          ],
+          "width": 0.25,
+          "length": 3.2913052780940473
+        },
+        {
+          "trace": "saved_phase_null_0_43",
+          "net": "AIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            8.793394593313693,
+            10.805849359289677
+          ],
+          "b": [
+            7.99249665,
+            10.675134
+          ],
+          "width": 0.25,
+          "length": 0.8114949295949623
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_44",
+      "net": "AIN2",
+      "length_mm": 14.575474434530092,
+      "width_length_mm": {
+        "0.25": 14.575474434530092
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -1.625,
+            2.9
+          ],
+          "b": [
+            -1.625,
+            4.518037503994686
+          ],
+          "width": 0.25,
+          "length": 1.6180375039946857
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -1.625,
+            4.518037503994686
+          ],
+          "b": [
+            -1.7182408651095418,
+            4.611278369104228
+          ],
+          "width": 0.25,
+          "length": 0.13186249600531444
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -1.7182408651095418,
+            4.611278369104228
+          ],
+          "b": [
+            -1.7182408651095418,
+            4.694240865109542
+          ],
+          "width": 0.25,
+          "length": 0.08296249600531436
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -1.7182408651095418,
+            4.694240865109542
+          ],
+          "b": [
+            -1.9035265197987248,
+            4.722073588280167
+          ],
+          "width": 0.25,
+          "length": 0.1873644424982814
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 6,
+          "layer": "inner2",
+          "a": [
+            -1.9035265197987248,
+            4.722073588280167
+          ],
+          "b": [
+            0.12503429995072876,
+            4.838273854358184
+          ],
+          "width": 0.25,
+          "length": 2.031886192988962
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 7,
+          "layer": "inner2",
+          "a": [
+            0.12503429995072876,
+            4.838273854358184
+          ],
+          "b": [
+            6.393680458851393,
+            11
+          ],
+          "width": 0.25,
+          "length": 8.789925697034418
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 8,
+          "layer": "inner2",
+          "a": [
+            6.393680458851393,
+            11
+          ],
+          "b": [
+            6.4,
+            11
+          ],
+          "width": 0.25,
+          "length": 0.006319541148607222
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            6.4,
+            11
+          ],
+          "b": [
+            6.725,
+            10.675
+          ],
+          "width": 0.25,
+          "length": 0.4596194077712549
+        },
+        {
+          "trace": "saved_phase_null_0_44",
+          "net": "AIN2",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            6.725,
+            10.675
+          ],
+          "b": [
+            7.99249665,
+            10.675134
+          ],
+          "width": 0.25,
+          "length": 1.2674966570832533
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_45",
+      "net": "BIN1",
+      "length_mm": 5.777351410833428,
+      "width_length_mm": {
+        "0.25": 5.777351410833427
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_45",
+          "net": "BIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            16.246636,
+            9
+          ],
+          "b": [
+            15.539741350847807,
+            8.1629968
+          ],
+          "width": 0.25,
+          "length": 1.0955703545689066
+        },
+        {
+          "trace": "saved_phase_null_0_45",
+          "net": "BIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            15.539741350847807,
+            8.1629968
+          ],
+          "b": [
+            11.953530649152192,
+            8.1629968
+          ],
+          "width": 0.25,
+          "length": 3.586210701695615
+        },
+        {
+          "trace": "saved_phase_null_0_45",
+          "net": "BIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            11.953530649152192,
+            8.1629968
+          ],
+          "b": [
+            11.246636,
+            9
+          ],
+          "width": 0.25,
+          "length": 1.0955703545689066
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_46",
+      "net": "BIN1",
+      "length_mm": 10.416203298852617,
+      "width_length_mm": {
+        "0.25": 10.416203298852615
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 2,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            11.246636,
+            9
+          ],
+          "b": [
+            9.264824893780442,
+            9
+          ],
+          "width": 0.25,
+          "length": 1.981811106219558
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            9.264824893780442,
+            9
+          ],
+          "b": [
+            9.252034114324129,
+            8.987209220543686
+          ],
+          "width": 0.25,
+          "length": 0.018088893780441817
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            9.252034114324129,
+            8.987209220543686
+          ],
+          "b": [
+            9.048209220543686,
+            8.987209220543686
+          ],
+          "width": 0.25,
+          "length": 0.20382489378044255
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            9.048209220543686,
+            8.987209220543686
+          ],
+          "b": [
+            9.046,
+            8.985
+          ],
+          "width": 0.25,
+          "length": 0.0031243096551554126
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            9.046,
+            8.985
+          ],
+          "b": [
+            6.779304288445741,
+            8.985
+          ],
+          "width": 0.25,
+          "length": 2.2666957115542585
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 7,
+          "layer": "inner1",
+          "a": [
+            6.779304288445741,
+            8.985
+          ],
+          "b": [
+            3.4954057103657243,
+            12.268898578080016
+          ],
+          "width": 0.25,
+          "length": 4.644133906578482
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 8,
+          "layer": "inner1",
+          "a": [
+            3.4954057103657243,
+            12.268898578080016
+          ],
+          "b": [
+            3.216730046701051,
+            12.482508409375338
+          ],
+          "width": 0.25,
+          "length": 0.35112574036228406
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            3.216730046701051,
+            12.482508409375338
+          ],
+          "b": [
+            3.654246480368609,
+            12.31375351963139
+          ],
+          "width": 0.25,
+          "length": 0.4689337293708681
+        },
+        {
+          "trace": "saved_phase_null_0_46",
+          "net": "BIN1",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            3.654246480368609,
+            12.31375351963139
+          ],
+          "b": [
+            3.99250465,
+            11.97536
+          ],
+          "width": 0.25,
+          "length": 0.47846500755112586
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_47",
+      "net": "BIN1",
+      "length_mm": 11.25707887083605,
+      "width_length_mm": {
+        "0.25": 11.257078870836052
+      },
+      "layers": [
+        "bottom",
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 3,
+      "nonzero_segments": 27,
+      "sub_0_05mm_segments": 2,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            4.09509607125996,
+            12.075231004161546
+          ],
+          "turn_degrees": 134.23,
+          "adjacent_lengths_mm": [
+            0.4050632911392391,
+            0.14317547690988863
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            2.275,
+            2.9
+          ],
+          "b": [
+            2.275,
+            3.8817579433712592
+          ],
+          "width": 0.25,
+          "length": 0.9817579433712593
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            2.275,
+            3.8817579433712592
+          ],
+          "b": [
+            2.287828371266853,
+            3.8945863146381123
+          ],
+          "width": 0.25,
+          "length": 0.018142056628740976
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            2.287828371266853,
+            3.8945863146381123
+          ],
+          "b": [
+            2.287828371266853,
+            3.903828371266853
+          ],
+          "width": 0.25,
+          "length": 0.00924205662874078
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            2.287828371266853,
+            3.903828371266853
+          ],
+          "b": [
+            2.5756440653076353,
+            4.169521871901207
+          ],
+          "width": 0.25,
+          "length": 0.3917025785152742
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            2.5756440653076353,
+            4.169521871901207
+          ],
+          "b": [
+            2.4968374644806173,
+            7.467636067452686
+          ],
+          "width": 0.25,
+          "length": 3.2990555811068245
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 7,
+          "layer": "inner1",
+          "a": [
+            2.4968374644806173,
+            7.467636067452686
+          ],
+          "b": [
+            2.525475818095403,
+            7.5689018902374965
+          ],
+          "width": 0.25,
+          "length": 0.10523745607933611
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 8,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            7.5689018902374965
+          ],
+          "b": [
+            2.525475818095403,
+            7.670167713022306
+          ],
+          "width": 0.25,
+          "length": 0.10126582278480978
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 9,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            7.670167713022306
+          ],
+          "b": [
+            2.525475818095403,
+            7.771433535807116
+          ],
+          "width": 0.25,
+          "length": 0.10126582278480978
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 10,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            7.771433535807116
+          ],
+          "b": [
+            2.525475818095403,
+            7.872699358591927
+          ],
+          "width": 0.25,
+          "length": 0.10126582278481067
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 11,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            7.872699358591927
+          ],
+          "b": [
+            2.525475818095403,
+            7.973965181376736
+          ],
+          "width": 0.25,
+          "length": 0.10126582278480889
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 12,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            7.973965181376736
+          ],
+          "b": [
+            2.525475818095403,
+            8.075231004161548
+          ],
+          "width": 0.25,
+          "length": 0.10126582278481244
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 13,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            8.075231004161548
+          ],
+          "b": [
+            2.525475818095403,
+            8.176496826946357
+          ],
+          "width": 0.25,
+          "length": 0.10126582278480889
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 14,
+          "layer": "inner1",
+          "a": [
+            2.525475818095403,
+            8.176496826946357
+          ],
+          "b": [
+            2.4748429067029973,
+            8.429661383908384
+          ],
+          "width": 0.25,
+          "length": 0.2581782032198893
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 15,
+          "layer": "inner1",
+          "a": [
+            2.4748429067029973,
+            8.429661383908384
+          ],
+          "b": [
+            2.4748429067029973,
+            8.834724675047623
+          ],
+          "width": 0.25,
+          "length": 0.4050632911392391
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 16,
+          "layer": "inner1",
+          "a": [
+            2.4748429067029973,
+            8.834724675047623
+          ],
+          "b": [
+            2.8799061978422382,
+            8.834724675047623
+          ],
+          "width": 0.25,
+          "length": 0.4050632911392409
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 17,
+          "layer": "inner1",
+          "a": [
+            2.8799061978422382,
+            8.834724675047623
+          ],
+          "b": [
+            3.2833591626588166,
+            8.833530039993713
+          ],
+          "width": 0.25,
+          "length": 0.40345473348592553
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 20,
+          "layer": "bottom",
+          "a": [
+            3.2833591626588166,
+            8.833530039993713
+          ],
+          "b": [
+            3.1423956675091835,
+            9.007836568910127
+          ],
+          "width": 0.25,
+          "length": 0.2241728640752252
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 21,
+          "layer": "bottom",
+          "a": [
+            3.1423956675091835,
+            9.007836568910127
+          ],
+          "b": [
+            3.0250873483207896,
+            9.387739900347729
+          ],
+          "width": 0.25,
+          "length": 0.39760254399109946
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 22,
+          "layer": "bottom",
+          "a": [
+            3.0250873483207896,
+            9.387739900347729
+          ],
+          "b": [
+            3.0347477010864328,
+            10.12191295596195
+          ],
+          "width": 0.25,
+          "length": 0.7342366090065782
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 23,
+          "layer": "bottom",
+          "a": [
+            3.0347477010864328,
+            10.12191295596195
+          ],
+          "b": [
+            3.0349694889814787,
+            10.204977839604586
+          ],
+          "width": 0.25,
+          "length": 0.08306517973516432
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 24,
+          "layer": "bottom",
+          "a": [
+            3.0349694889814787,
+            10.204977839604586
+          ],
+          "b": [
+            3.034969488981479,
+            11.110041130743825
+          ],
+          "width": 0.25,
+          "length": 0.9050632911392391
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 25,
+          "layer": "bottom",
+          "a": [
+            3.034969488981479,
+            11.110041130743825
+          ],
+          "b": [
+            3.282912300584429,
+            11.33463395860196
+          ],
+          "width": 0.25,
+          "length": 0.3345408437708165
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 26,
+          "layer": "bottom",
+          "a": [
+            3.282912300584429,
+            11.33463395860196
+          ],
+          "b": [
+            3.2849694889814787,
+            11.670167713022307
+          ],
+          "width": 0.25,
+          "length": 0.3355400607669885
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 27,
+          "layer": "bottom",
+          "a": [
+            3.2849694889814787,
+            11.670167713022307
+          ],
+          "b": [
+            3.690032780120719,
+            11.670167713022307
+          ],
+          "width": 0.25,
+          "length": 0.40506329113924044
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 28,
+          "layer": "bottom",
+          "a": [
+            3.690032780120719,
+            11.670167713022307
+          ],
+          "b": [
+            4.09509607125996,
+            11.670167713022307
+          ],
+          "width": 0.25,
+          "length": 0.40506329113924044
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 29,
+          "layer": "bottom",
+          "a": [
+            4.09509607125996,
+            11.670167713022307
+          ],
+          "b": [
+            4.09509607125996,
+            12.075231004161546
+          ],
+          "width": 0.25,
+          "length": 0.4050632911392391
+        },
+        {
+          "trace": "saved_phase_null_0_47",
+          "net": "BIN1",
+          "index": 30,
+          "layer": "bottom",
+          "a": [
+            4.09509607125996,
+            12.075231004161546
+          ],
+          "b": [
+            3.99250465,
+            11.97536
+          ],
+          "width": 0.25,
+          "length": 0.14317547690988863
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_48",
+      "net": "BIN2",
+      "length_mm": 5.800551252911609,
+      "width_length_mm": {
+        "0.25": 5.800551252911609
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 4,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_48",
+          "net": "BIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            16.246636,
+            5
+          ],
+          "b": [
+            15.571658879284264,
+            5.8370032
+          ],
+          "width": 0.25,
+          "length": 1.0752527471715396
+        },
+        {
+          "trace": "saved_phase_null_0_48",
+          "net": "BIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            15.571658879284264,
+            5.8370032
+          ],
+          "b": [
+            11.966551322308002,
+            5.8370032
+          ],
+          "width": 0.25,
+          "length": 3.6051075569762627
+        },
+        {
+          "trace": "saved_phase_null_0_48",
+          "net": "BIN2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            11.966551322308002,
+            5.8370032
+          ],
+          "b": [
+            11.921613120715735,
+            5.8370032
+          ],
+          "width": 0.25,
+          "length": 0.04493820159226658
+        },
+        {
+          "trace": "saved_phase_null_0_48",
+          "net": "BIN2",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            11.921613120715735,
+            5.8370032
+          ],
+          "b": [
+            11.246636,
+            5
+          ],
+          "width": 0.25,
+          "length": 1.0752527471715396
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_49",
+      "net": "BIN2",
+      "length_mm": 12.790397328859363,
+      "width_length_mm": {
+        "0.25": 12.790397328859362
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 12,
+      "sub_0_05mm_segments": 3,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            1.6250000000000004,
+            2.9
+          ],
+          "b": [
+            1.6250000000000004,
+            4.104242397122784
+          ],
+          "width": 0.25,
+          "length": 1.2042423971227838
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            1.6250000000000004,
+            4.104242397122784
+          ],
+          "b": [
+            1.8340614959038393,
+            4.313303893026623
+          ],
+          "width": 0.25,
+          "length": 0.29565760287721626
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            1.8340614959038393,
+            4.313303893026623
+          ],
+          "b": [
+            1.8340614959038393,
+            4.356061495903839
+          ],
+          "width": 0.25,
+          "length": 0.04275760287721653
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            1.8340614959038393,
+            4.356061495903839
+          ],
+          "b": [
+            1.888,
+            4.41
+          ],
+          "width": 0.25,
+          "length": 0.07628056402690726
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            1.888,
+            4.41
+          ],
+          "b": [
+            1.888,
+            12.138236777074678
+          ],
+          "width": 0.25,
+          "length": 7.728236777074677
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 7,
+          "layer": "bottom",
+          "a": [
+            1.888,
+            12.138236777074678
+          ],
+          "b": [
+            2.551654015917433,
+            12.80189079299211
+          ],
+          "width": 0.25,
+          "length": 0.9385485100338029
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 8,
+          "layer": "bottom",
+          "a": [
+            2.551654015917433,
+            12.80189079299211
+          ],
+          "b": [
+            2.551654015917433,
+            12.819640977491105
+          ],
+          "width": 0.25,
+          "length": 0.017750184498995125
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 9,
+          "layer": "bottom",
+          "a": [
+            2.551654015917433,
+            12.819640977491105
+          ],
+          "b": [
+            2.57293750118332,
+            12.840924462756991
+          ],
+          "width": 0.25,
+          "length": 0.030099393517585293
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            2.57293750118332,
+            12.840924462756991
+          ],
+          "b": [
+            2.4177395428423933,
+            12.43515577569685
+          ],
+          "width": 0.25,
+          "length": 0.4344359949079982
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 13,
+          "layer": "top",
+          "a": [
+            2.4177395428423933,
+            12.43515577569685
+          ],
+          "b": [
+            3.4729401683705543,
+            11.373792201009664
+          ],
+          "width": 0.25,
+          "length": 1.496643243324135
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 14,
+          "layer": "top",
+          "a": [
+            3.4729401683705543,
+            11.373792201009664
+          ],
+          "b": [
+            3.6424776833138695,
+            11.387935203373715
+          ],
+          "width": 0.25,
+          "length": 0.17012640444394386
+        },
+        {
+          "trace": "saved_phase_null_0_49",
+          "net": "BIN2",
+          "index": 15,
+          "layer": "top",
+          "a": [
+            3.6424776833138695,
+            11.387935203373715
+          ],
+          "b": [
+            3.99250465,
+            11.32512
+          ],
+          "width": 0.25,
+          "length": 0.3556186541541017
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_50",
+      "net": "BIN2",
+      "length_mm": 17.63380175610439,
+      "width_length_mm": {
+        "0.25": 17.63380175610439
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 12,
+      "sub_0_05mm_segments": 2,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            11.246636,
+            5
+          ],
+          "b": [
+            5.74798634204657,
+            5
+          ],
+          "width": 0.25,
+          "length": 5.498649657953431
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            5.74798634204657,
+            5
+          ],
+          "b": [
+            5.570325521410001,
+            5.261081642905339
+          ],
+          "width": 0.25,
+          "length": 0.31579580657667045
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            5.570325521410001,
+            5.261081642905339
+          ],
+          "b": [
+            5.337716102566867,
+            5.234239998367799
+          ],
+          "width": 0.25,
+          "length": 0.2341529748177887
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            5.337716102566867,
+            5.234239998367799
+          ],
+          "b": [
+            4.753896667885862,
+            5.104973056160554
+          ],
+          "width": 0.25,
+          "length": 0.5979590911248525
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            4.753896667885862,
+            5.104973056160554
+          ],
+          "b": [
+            2.5208324383427527,
+            7.9339948711940345
+          ],
+          "width": 0.25,
+          "length": 3.6041559737614426
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 7,
+          "layer": "bottom",
+          "a": [
+            2.5208324383427527,
+            7.9339948711940345
+          ],
+          "b": [
+            2.5351138581334176,
+            12.815881396135572
+          ],
+          "width": 0.25,
+          "length": 4.881907414254903
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 8,
+          "layer": "bottom",
+          "a": [
+            2.5351138581334176,
+            12.815881396135572
+          ],
+          "b": [
+            2.5814897351815365,
+            12.832372228758775
+          ],
+          "width": 0.25,
+          "length": 0.049220621009783555
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 9,
+          "layer": "bottom",
+          "a": [
+            2.5814897351815365,
+            12.832372228758775
+          ],
+          "b": [
+            2.57293750118332,
+            12.840924462756991
+          ],
+          "width": 0.25,
+          "length": 0.012094685308865703
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            2.57293750118332,
+            12.840924462756991
+          ],
+          "b": [
+            2.433867240991786,
+            12.418112021901178
+          ],
+          "width": 0.25,
+          "length": 0.4450965034823248
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 13,
+          "layer": "top",
+          "a": [
+            2.433867240991786,
+            12.418112021901178
+          ],
+          "b": [
+            3.4671825857410883,
+            11.381136339705407
+          ],
+          "width": 0.25,
+          "length": 1.4639191122325563
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 14,
+          "layer": "top",
+          "a": [
+            3.4671825857410883,
+            11.381136339705407
+          ],
+          "b": [
+            3.659855300089457,
+            11.385712723387538
+          ],
+          "width": 0.25,
+          "length": 0.1927270560714666
+        },
+        {
+          "trace": "saved_phase_null_0_50",
+          "net": "BIN2",
+          "index": 15,
+          "layer": "top",
+          "a": [
+            3.659855300089457,
+            11.385712723387538
+          ],
+          "b": [
+            3.99250465,
+            11.32512
+          ],
+          "width": 0.25,
+          "length": 0.3381228595103049
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_51",
+      "net": "VCP",
+      "length_mm": 7.021202502467579,
+      "width_length_mm": {
+        "0.25": 7.021202502467579
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 8,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            0.9750000000000001,
+            2.9
+          ],
+          "b": [
+            0.9750000000000001,
+            3.833794127592515
+          ],
+          "width": 0.25,
+          "length": 0.933794127592515
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            0.9750000000000001,
+            3.833794127592515
+          ],
+          "b": [
+            0.9283118513573512,
+            3.880482276235164
+          ],
+          "width": 0.25,
+          "length": 0.06602701301252512
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            0.9283118513573512,
+            3.880482276235164
+          ],
+          "b": [
+            0.9385946024706503,
+            4.175
+          ],
+          "width": 0.25,
+          "length": 0.29469717437070597
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 5,
+          "layer": "inner1",
+          "a": [
+            0.9385946024706503,
+            4.175
+          ],
+          "b": [
+            1.3760959714632548,
+            3.961846273639419
+          ],
+          "width": 0.25,
+          "length": 0.4866641130510903
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            1.3760959714632548,
+            3.961846273639419
+          ],
+          "b": [
+            3.8984955813675684,
+            1.5954810458728217
+          ],
+          "width": 0.25,
+          "length": 3.458639065185654
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 7,
+          "layer": "inner1",
+          "a": [
+            3.8984955813675684,
+            1.5954810458728217
+          ],
+          "b": [
+            3.936,
+            1.623
+          ],
+          "width": 0.25,
+          "length": 0.046517461809630435
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 10,
+          "layer": "top",
+          "a": [
+            3.936,
+            1.623
+          ],
+          "b": [
+            3.936,
+            2.136
+          ],
+          "width": 0.25,
+          "length": 0.5130000000000001
+        },
+        {
+          "trace": "saved_phase_null_0_51",
+          "net": "VCP",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            3.936,
+            2.136
+          ],
+          "b": [
+            4.799976,
+            3
+          ],
+          "width": 0.25,
+          "length": 1.2218635474454584
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_52",
+      "net": "VINT",
+      "length_mm": 8.799962261896015,
+      "width_length_mm": {
+        "0.25": 8.799962261896017
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 6,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            -1.8729424255000366,
+            5.661048298861121
+          ],
+          "turn_degrees": 95.9,
+          "adjacent_lengths_mm": [
+            1.472476196033911,
+            4.491345817071226
+          ]
+        },
+        {
+          "xy": [
+            -4.852357971832348,
+            2.3002046174625757
+          ],
+          "turn_degrees": 142.08,
+          "adjacent_lengths_mm": [
+            4.491345817071226,
+            0.17514757609218526
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_52",
+          "net": "VINT",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -0.9749999999999999,
+            2.9
+          ],
+          "b": [
+            -0.9623955501410536,
+            4.175
+          ],
+          "width": 0.25,
+          "length": 1.275062301284234
+        },
+        {
+          "trace": "saved_phase_null_0_52",
+          "net": "VINT",
+          "index": 3,
+          "layer": "bottom",
+          "a": [
+            -0.9623955501410536,
+            4.175
+          ],
+          "b": [
+            -0.877365988733727,
+            4.5761456735337624
+          ],
+          "width": 0.25,
+          "length": 0.4100583832919142
+        },
+        {
+          "trace": "saved_phase_null_0_52",
+          "net": "VINT",
+          "index": 4,
+          "layer": "bottom",
+          "a": [
+            -0.877365988733727,
+            4.5761456735337624
+          ],
+          "b": [
+            -1.8729424255000366,
+            5.661048298861121
+          ],
+          "width": 0.25,
+          "length": 1.472476196033911
+        },
+        {
+          "trace": "saved_phase_null_0_52",
+          "net": "VINT",
+          "index": 5,
+          "layer": "bottom",
+          "a": [
+            -1.8729424255000366,
+            5.661048298861121
+          ],
+          "b": [
+            -4.852357971832348,
+            2.3002046174625757
+          ],
+          "width": 0.25,
+          "length": 4.491345817071226
+        },
+        {
+          "trace": "saved_phase_null_0_52",
+          "net": "VINT",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            -4.852357971832348,
+            2.3002046174625757
+          ],
+          "b": [
+            -4.841242114445626,
+            2.4749991
+          ],
+          "width": 0.25,
+          "length": 0.17514757609218526
+        },
+        {
+          "trace": "saved_phase_null_0_52",
+          "net": "VINT",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            -4.841242114445626,
+            2.4749991
+          ],
+          "b": [
+            -4.799976,
+            1.5
+          ],
+          "width": 0.25,
+          "length": 0.9758719881225453
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_53",
+      "net": "HOST_ENABLE",
+      "length_mm": 18.985385794021,
+      "width_length_mm": {
+        "0.25": 18.985385794021003
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 4,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_53",
+          "net": "HOST_ENABLE",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            26.5337008,
+            16
+          ],
+          "b": [
+            25.148180369476364,
+            14.451872331184957
+          ],
+          "width": 0.25,
+          "length": 2.077586614884948
+        },
+        {
+          "trace": "saved_phase_null_0_53",
+          "net": "HOST_ENABLE",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            25.148180369476364,
+            14.451872331184957
+          ],
+          "b": [
+            25.22021578243163,
+            7.821846044953035
+          ],
+          "width": 0.25,
+          "length": 6.63041760802786
+        },
+        {
+          "trace": "saved_phase_null_0_53",
+          "net": "HOST_ENABLE",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            25.22021578243163,
+            7.821846044953035
+          ],
+          "b": [
+            18.283044586414633,
+            0.974826602024865
+          ],
+          "width": 0.25,
+          "length": 9.747103131427526
+        },
+        {
+          "trace": "saved_phase_null_0_53",
+          "net": "HOST_ENABLE",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            18.283044586414633,
+            0.974826602024865
+          ],
+          "b": [
+            17.753364,
+            0.9999999999999999
+          ],
+          "width": 0.25,
+          "length": 0.5302784396806666
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_54",
+      "net": "HOST_AIN1",
+      "length_mm": 9.59336090359268,
+      "width_length_mm": {
+        "0.25": 9.593360903592679
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 1,
+      "nonzero_segments": 6,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_54",
+          "net": "HOST_AIN1",
+          "index": 0,
+          "layer": "inner1",
+          "a": [
+            21.4537008,
+            9
+          ],
+          "b": [
+            21.4537008,
+            12.72504356596144
+          ],
+          "width": 0.25,
+          "length": 3.7250435659614407
+        },
+        {
+          "trace": "saved_phase_null_0_54",
+          "net": "HOST_AIN1",
+          "index": 1,
+          "layer": "inner1",
+          "a": [
+            21.4537008,
+            12.72504356596144
+          ],
+          "b": [
+            18.784474217485666,
+            15.394270148475774
+          ],
+          "width": 0.25,
+          "length": 3.774856434038558
+        },
+        {
+          "trace": "saved_phase_null_0_54",
+          "net": "HOST_AIN1",
+          "index": 2,
+          "layer": "inner1",
+          "a": [
+            18.784474217485666,
+            15.394270148475774
+          ],
+          "b": [
+            18.784474217485666,
+            15.399525782514335
+          ],
+          "width": 0.25,
+          "length": 0.005255634038560331
+        },
+        {
+          "trace": "saved_phase_null_0_54",
+          "net": "HOST_AIN1",
+          "index": 3,
+          "layer": "inner1",
+          "a": [
+            18.784474217485666,
+            15.399525782514335
+          ],
+          "b": [
+            18.67194049184775,
+            15.404859699769517
+          ],
+          "width": 0.25,
+          "length": 0.11266006426074449
+        },
+        {
+          "trace": "saved_phase_null_0_54",
+          "net": "HOST_AIN1",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            18.67194049184775,
+            15.404859699769517
+          ],
+          "b": [
+            18.672,
+            16.081
+          ],
+          "width": 0.25,
+          "length": 0.6761403028491846
+        },
+        {
+          "trace": "saved_phase_null_0_54",
+          "net": "HOST_AIN1",
+          "index": 7,
+          "layer": "top",
+          "a": [
+            18.672,
+            16.081
+          ],
+          "b": [
+            17.753364,
+            17
+          ],
+          "width": 0.25,
+          "length": 1.2994049024441918
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_55",
+      "net": "HOST_AIN2",
+      "length_mm": 7.8971910494923785,
+      "width_length_mm": {
+        "0.25": 7.8971910494923785
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_55",
+          "net": "HOST_AIN2",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            23.9937008,
+            9
+          ],
+          "b": [
+            19.9937008,
+            13
+          ],
+          "width": 0.25,
+          "length": 5.656854249492381
+        },
+        {
+          "trace": "saved_phase_null_0_55",
+          "net": "HOST_AIN2",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            19.9937008,
+            13
+          ],
+          "b": [
+            17.753364,
+            13
+          ],
+          "width": 0.25,
+          "length": 2.240336799999998
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_56",
+      "net": "HOST_BIN1",
+      "length_mm": 11.274063737758993,
+      "width_length_mm": {
+        "0.25": 11.274063737758993
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 9,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            21.4537008,
+            2
+          ],
+          "b": [
+            21.4537008,
+            3.1758307329476736
+          ],
+          "width": 0.25,
+          "length": 1.1758307329476736
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            21.4537008,
+            3.1758307329476736
+          ],
+          "b": [
+            22.56673585279004,
+            4.288865785737713
+          ],
+          "width": 0.25,
+          "length": 1.5740692670523269
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            22.56673585279004,
+            4.288865785737713
+          ],
+          "b": [
+            22.674110686865802,
+            4.2658990841081526
+          ],
+          "width": 0.25,
+          "length": 0.10980357178406773
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            22.674110686865802,
+            4.2658990841081526
+          ],
+          "b": [
+            22.812,
+            4.461
+          ],
+          "width": 0.25,
+          "length": 0.23890966924437992
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            22.812,
+            4.461
+          ],
+          "b": [
+            22.672,
+            6.2105
+          ],
+          "width": 0.25,
+          "length": 1.7550926613714724
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 7,
+          "layer": "bottom",
+          "a": [
+            22.672,
+            6.2105
+          ],
+          "b": [
+            22.672,
+            6.330000000000001
+          ],
+          "width": 0.25,
+          "length": 0.11950000000000127
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 8,
+          "layer": "bottom",
+          "a": [
+            22.672,
+            6.330000000000001
+          ],
+          "b": [
+            22.773005050633884,
+            6.488994949366116
+          ],
+          "width": 0.25,
+          "length": 0.1883651087051075
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            22.773005050633884,
+            6.488994949366116
+          ],
+          "b": [
+            20.363567447382774,
+            6.376988139969598
+          ],
+          "width": 0.25,
+          "length": 2.412039611886928
+        },
+        {
+          "trace": "saved_phase_null_0_56",
+          "net": "HOST_BIN1",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            20.363567447382774,
+            6.376988139969598
+          ],
+          "b": [
+            17.753364,
+            9
+          ],
+          "width": 0.25,
+          "length": 3.7004531147670368
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_57",
+      "net": "HOST_BIN2",
+      "length_mm": 7.8867742033965005,
+      "width_length_mm": {
+        "0.25": 7.8867742033965005
+      },
+      "layers": [
+        "inner2",
+        "top"
+      ],
+      "via_transitions": 1,
+      "nonzero_segments": 6,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_57",
+          "net": "HOST_BIN2",
+          "index": 0,
+          "layer": "inner2",
+          "a": [
+            23.9937008,
+            2
+          ],
+          "b": [
+            23.9937008,
+            2.402383388282317
+          ],
+          "width": 0.25,
+          "length": 0.4023833882823169
+        },
+        {
+          "trace": "saved_phase_null_0_57",
+          "net": "HOST_BIN2",
+          "index": 1,
+          "layer": "inner2",
+          "a": [
+            23.9937008,
+            2.402383388282317
+          ],
+          "b": [
+            21.351491600355036,
+            5.04459258792728
+          ],
+          "width": 0.25,
+          "length": 3.7366480847648673
+        },
+        {
+          "trace": "saved_phase_null_0_57",
+          "net": "HOST_BIN2",
+          "index": 2,
+          "layer": "inner2",
+          "a": [
+            21.351491600355036,
+            5.04459258792728
+          ],
+          "b": [
+            21.351491600355036,
+            5.048508399644963
+          ],
+          "width": 0.25,
+          "length": 0.003915811717683404
+        },
+        {
+          "trace": "saved_phase_null_0_57",
+          "net": "HOST_BIN2",
+          "index": 3,
+          "layer": "inner2",
+          "a": [
+            21.351491600355036,
+            5.048508399644963
+          ],
+          "b": [
+            21.2,
+            5.2
+          ],
+          "width": 0.25,
+          "length": 0.21424147580769787
+        },
+        {
+          "trace": "saved_phase_null_0_57",
+          "net": "HOST_BIN2",
+          "index": 6,
+          "layer": "top",
+          "a": [
+            21.2,
+            5.2
+          ],
+          "b": [
+            17.953,
+            5.2
+          ],
+          "width": 0.25,
+          "length": 3.247
+        },
+        {
+          "trace": "saved_phase_null_0_57",
+          "net": "HOST_BIN2",
+          "index": 7,
+          "layer": "top",
+          "a": [
+            17.953,
+            5.2
+          ],
+          "b": [
+            17.753364,
+            5
+          ],
+          "width": 0.25,
+          "length": 0.28258544282393483
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_58",
+      "net": "A_CMD",
+      "length_mm": 11.111795503090216,
+      "width_length_mm": {
+        "0.25": 11.111795503090216
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 6,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            -2.684337470560476,
+            16.860320083638392
+          ],
+          "turn_degrees": 152.53,
+          "adjacent_lengths_mm": [
+            3.507949810788025,
+            0.8563726030026994
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_58",
+          "net": "A_CMD",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            3.99250465,
+            10.67488
+          ],
+          "b": [
+            3.4395916167685017,
+            10.692511582570832
+          ],
+          "width": 0.25,
+          "length": 0.5531940844054715
+        },
+        {
+          "trace": "saved_phase_null_0_58",
+          "net": "A_CMD",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            3.4395916167685017,
+            10.692511582570832
+          ],
+          "b": [
+            -0.04402380094006459,
+            14.208832792070366
+          ],
+          "width": 0.25,
+          "length": 4.949756683603053
+        },
+        {
+          "trace": "saved_phase_null_0_58",
+          "net": "A_CMD",
+          "index": 4,
+          "layer": "inner1",
+          "a": [
+            -0.04402380094006459,
+            14.208832792070366
+          ],
+          "b": [
+            -0.21099630025492733,
+            14.372691628607512
+          ],
+          "width": 0.25,
+          "length": 0.2339434415382469
+        },
+        {
+          "trace": "saved_phase_null_0_58",
+          "net": "A_CMD",
+          "index": 5,
+          "layer": "inner1",
+          "a": [
+            -0.21099630025492733,
+            14.372691628607512
+          ],
+          "b": [
+            -2.684337470560476,
+            16.860320083638392
+          ],
+          "width": 0.25,
+          "length": 3.507949810788025
+        },
+        {
+          "trace": "saved_phase_null_0_58",
+          "net": "A_CMD",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            -2.684337470560476,
+            16.860320083638392
+          ],
+          "b": [
+            -2.4286879346794636,
+            16.0429968
+          ],
+          "width": 0.25,
+          "length": 0.8563726030026994
+        },
+        {
+          "trace": "saved_phase_null_0_58",
+          "net": "A_CMD",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            -2.4286879346794636,
+            16.0429968
+          ],
+          "b": [
+            -2.753364,
+            17
+          ],
+          "width": 0.25,
+          "length": 1.0105788797527204
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_59",
+      "net": "B_CMD",
+      "length_mm": 12.292653532165689,
+      "width_length_mm": {
+        "0.25": 12.292653532165687
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 8,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            7.611018871460623,
+            11.177409172819905
+          ],
+          "turn_degrees": 151.2,
+          "adjacent_lengths_mm": [
+            0.5295387654370443,
+            0.5584325119866629
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            7.99249665,
+            11.32512
+          ],
+          "b": [
+            7.10249865,
+            11.32512
+          ],
+          "width": 0.25,
+          "length": 0.8899979999999994
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 3,
+          "layer": "inner1",
+          "a": [
+            7.10249865,
+            11.32512
+          ],
+          "b": [
+            7.611018871460623,
+            11.177409172819905
+          ],
+          "width": 0.25,
+          "length": 0.5295387654370443
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 4,
+          "layer": "inner1",
+          "a": [
+            7.611018871460623,
+            11.177409172819905
+          ],
+          "b": [
+            7.216147455399816,
+            11.572280588880712
+          ],
+          "width": 0.25,
+          "length": 0.5584325119866629
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 5,
+          "layer": "inner1",
+          "a": [
+            7.216147455399816,
+            11.572280588880712
+          ],
+          "b": [
+            7.252250750658687,
+            15.011117486052333
+          ],
+          "width": 0.25,
+          "length": 3.439026410668794
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            7.252250750658687,
+            15.011117486052333
+          ],
+          "b": [
+            4.6158542274201135,
+            18.12489836191446
+          ],
+          "width": 0.25,
+          "length": 4.07997769241808
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 7,
+          "layer": "inner1",
+          "a": [
+            4.6158542274201135,
+            18.12489836191446
+          ],
+          "b": [
+            3.2663192862220263,
+            18.019683286222026
+          ],
+          "width": 0.25,
+          "length": 1.353630218954752
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 8,
+          "layer": "inner1",
+          "a": [
+            3.2663192862220263,
+            18.019683286222026
+          ],
+          "b": [
+            2.8227050821109585,
+            17.57606908211096
+          ],
+          "width": 0.25,
+          "length": 0.6273652239152184
+        },
+        {
+          "trace": "saved_phase_null_0_59",
+          "net": "B_CMD",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            2.8227050821109585,
+            17.57606908211096
+          ],
+          "b": [
+            2.246636,
+            17
+          ],
+          "width": 0.25,
+          "length": 0.8146847087851375
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_60",
+      "net": "LED_VIO_A",
+      "length_mm": 4.001936616211295,
+      "width_length_mm": {
+        "0.25": 4.001936616211295
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_60",
+          "net": "LED_VIO_A",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -6.246636,
+            17
+          ],
+          "b": [
+            -6.246636,
+            20.995758199999997
+          ],
+          "width": 0.25,
+          "length": 3.9957581999999974
+        },
+        {
+          "trace": "saved_phase_null_0_60",
+          "net": "LED_VIO_A",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -6.246636,
+            20.995758199999997
+          ],
+          "b": [
+            -6.2510048000000005,
+            21.000127
+          ],
+          "width": 0.25,
+          "length": 0.006178416211297392
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_61",
+      "net": "LED_A_CMD_A",
+      "length_mm": 4.001936616211294,
+      "width_length_mm": {
+        "0.25": 4.001936616211294
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_61",
+          "net": "LED_A_CMD_A",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -1.246636,
+            17
+          ],
+          "b": [
+            -1.246636,
+            20.995758199999997
+          ],
+          "width": 0.25,
+          "length": 3.9957581999999974
+        },
+        {
+          "trace": "saved_phase_null_0_61",
+          "net": "LED_A_CMD_A",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -1.246636,
+            20.995758199999997
+          ],
+          "b": [
+            -1.2510048,
+            21.000127
+          ],
+          "width": 0.25,
+          "length": 0.006178416211296764
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_62",
+      "net": "LED_B_CMD_A",
+      "length_mm": 5.800956446297583,
+      "width_length_mm": {
+        "0.25": 5.800956446297583
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 6,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_62",
+          "net": "LED_B_CMD_A",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            3.753364,
+            17
+          ],
+          "b": [
+            4.753289463817023,
+            17
+          ],
+          "width": 0.25,
+          "length": 0.9999254638170227
+        },
+        {
+          "trace": "saved_phase_null_0_62",
+          "net": "LED_B_CMD_A",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            4.753289463817023,
+            17
+          ],
+          "b": [
+            4.815324383804935,
+            16.858324383804938
+          ],
+          "width": 0.25,
+          "length": 0.15466192654353325
+        },
+        {
+          "trace": "saved_phase_null_0_62",
+          "net": "LED_B_CMD_A",
+          "index": 4,
+          "layer": "bottom",
+          "a": [
+            4.815324383804935,
+            16.858324383804938
+          ],
+          "b": [
+            4.957,
+            19.2489
+          ],
+          "width": 0.25,
+          "length": 2.3947700843652293
+        },
+        {
+          "trace": "saved_phase_null_0_62",
+          "net": "LED_B_CMD_A",
+          "index": 5,
+          "layer": "bottom",
+          "a": [
+            4.957,
+            19.2489
+          ],
+          "b": [
+            4.957,
+            19.4
+          ],
+          "width": 0.25,
+          "length": 0.15109999999999957
+        },
+        {
+          "trace": "saved_phase_null_0_62",
+          "net": "LED_B_CMD_A",
+          "index": 8,
+          "layer": "top",
+          "a": [
+            4.957,
+            19.4
+          ],
+          "b": [
+            4.957,
+            19.792122199999998
+          ],
+          "width": 0.25,
+          "length": 0.3921221999999993
+        },
+        {
+          "trace": "saved_phase_null_0_62",
+          "net": "LED_B_CMD_A",
+          "index": 9,
+          "layer": "top",
+          "a": [
+            4.957,
+            19.792122199999998
+          ],
+          "b": [
+            3.7489952,
+            21.000127
+          ],
+          "width": 0.25,
+          "length": 1.708376771571799
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_63",
+      "net": "LED_FAULT_A",
+      "length_mm": 6.672151583094534,
+      "width_length_mm": {
+        "0.25": 6.672151583094534
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 4,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_63",
+          "net": "LED_FAULT_A",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            24.753364,
+            -10
+          ],
+          "b": [
+            26.417149796995567,
+            -8.188085854306145
+          ],
+          "width": 0.25,
+          "length": 2.459921960073055
+        },
+        {
+          "trace": "saved_phase_null_0_63",
+          "net": "LED_FAULT_A",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            26.417149796995567,
+            -8.188085854306145
+          ],
+          "b": [
+            28.332499667699093,
+            -8.293392344451734
+          ],
+          "width": 0.25,
+          "length": 1.9182425769622562
+        },
+        {
+          "trace": "saved_phase_null_0_63",
+          "net": "LED_FAULT_A",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            28.332499667699093,
+            -8.293392344451734
+          ],
+          "b": [
+            28.33200373805148,
+            -8.58194173805148
+          ],
+          "width": 0.25,
+          "length": 0.28854981977640654
+        },
+        {
+          "trace": "saved_phase_null_0_63",
+          "net": "LED_FAULT_A",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            28.33200373805148,
+            -8.58194173805148
+          ],
+          "b": [
+            29.750062,
+            -10
+          ],
+          "width": 0.25,
+          "length": 2.005437226282816
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_64",
+      "net": "TEMP_RAW",
+      "length_mm": 3.420240735742554,
+      "width_length_mm": {
+        "0.25": 3.420240735742554
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 5,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_64",
+          "net": "TEMP_RAW",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -6.753364,
+            10
+          ],
+          "b": [
+            -7.686974910681449,
+            7.837902428746229
+          ],
+          "width": 0.25,
+          "length": 2.35505737513227
+        },
+        {
+          "trace": "saved_phase_null_0_64",
+          "net": "TEMP_RAW",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -7.686974910681449,
+            7.837902428746229
+          ],
+          "b": [
+            -7.965475962786826,
+            7.503455320206533
+          ],
+          "width": 0.25,
+          "length": 0.4352214429854823
+        },
+        {
+          "trace": "saved_phase_null_0_64",
+          "net": "TEMP_RAW",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -7.965475962786826,
+            7.503455320206533
+          ],
+          "b": [
+            -8.2478871950008,
+            7.2503871950008
+          ],
+          "width": 0.25,
+          "length": 0.3792091508333621
+        },
+        {
+          "trace": "saved_phase_null_0_64",
+          "net": "TEMP_RAW",
+          "index": 3,
+          "layer": "top",
+          "a": [
+            -8.2478871950008,
+            7.2503871950008
+          ],
+          "b": [
+            -8.247,
+            7
+          ],
+          "width": 0.25,
+          "length": 0.25038876679144023
+        },
+        {
+          "trace": "saved_phase_null_0_64",
+          "net": "TEMP_RAW",
+          "index": 4,
+          "layer": "top",
+          "a": [
+            -8.247,
+            7
+          ],
+          "b": [
+            -8.246636,
+            7
+          ],
+          "width": 0.25,
+          "length": 0.00036399999999936483
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_65",
+      "net": "TEMP_RAW",
+      "length_mm": 45.751496011753765,
+      "width_length_mm": {
+        "0.25": 45.75149601175377
+      },
+      "layers": [
+        "inner1",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 13,
+      "sub_0_05mm_segments": 2,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            -8.246636,
+            7
+          ],
+          "b": [
+            -7.717233686121822,
+            7
+          ],
+          "width": 0.25,
+          "length": 0.5294023138781787
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            -7.717233686121822,
+            7
+          ],
+          "b": [
+            -5.4401393548257335,
+            4.722905668703912
+          ],
+          "width": 0.25,
+          "length": 3.2202976861218215
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            -5.4401393548257335,
+            4.722905668703912
+          ],
+          "b": [
+            -5.46281298759683,
+            4.745579301475008
+          ],
+          "width": 0.25,
+          "length": 0.03206535897315121
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 5,
+          "layer": "inner1",
+          "a": [
+            -5.46281298759683,
+            4.745579301475008
+          ],
+          "b": [
+            -2.5326378521592354,
+            4.362374738421118
+          ],
+          "width": 0.25,
+          "length": 2.955126403638607
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 6,
+          "layer": "inner1",
+          "a": [
+            -2.5326378521592354,
+            4.362374738421118
+          ],
+          "b": [
+            3.847744619749111,
+            -1.4677513830449427
+          ],
+          "width": 0.25,
+          "length": 8.642895989194603
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 7,
+          "layer": "inner1",
+          "a": [
+            3.847744619749111,
+            -1.4677513830449427
+          ],
+          "b": [
+            6.473016917117419,
+            -1.4059696236399823
+          ],
+          "width": 0.25,
+          "length": 2.625999166245992
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 8,
+          "layer": "inner1",
+          "a": [
+            6.473016917117419,
+            -1.4059696236399823
+          ],
+          "b": [
+            16.374507871884703,
+            -11.210935257565254
+          ],
+          "width": 0.25,
+          "length": 13.934736244715717
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 9,
+          "layer": "inner1",
+          "a": [
+            16.374507871884703,
+            -11.210935257565254
+          ],
+          "b": [
+            16.273006187267185,
+            -11.648172292279611
+          ],
+          "width": 0.25,
+          "length": 0.44886391758081645
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 10,
+          "layer": "inner1",
+          "a": [
+            16.273006187267185,
+            -11.648172292279611
+          ],
+          "b": [
+            17.271925362627783,
+            -12.647091467640209
+          ],
+          "width": 0.25,
+          "length": 1.4126850455095057
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 11,
+          "layer": "inner1",
+          "a": [
+            17.271925362627783,
+            -12.647091467640209
+          ],
+          "b": [
+            17.274091467640208,
+            -12.647091467640209
+          ],
+          "width": 0.25,
+          "length": 0.002166105012424424
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 12,
+          "layer": "inner1",
+          "a": [
+            17.274091467640208,
+            -12.647091467640209
+          ],
+          "b": [
+            17.345,
+            -12.718
+          ],
+          "width": 0.25,
+          "length": 0.10027980815118807
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 15,
+          "layer": "top",
+          "a": [
+            17.345,
+            -12.718
+          ],
+          "b": [
+            25.965,
+            -12.718
+          ],
+          "width": 0.25,
+          "length": 8.620000000000001
+        },
+        {
+          "trace": "saved_phase_null_0_65",
+          "net": "TEMP_RAW",
+          "index": 16,
+          "layer": "top",
+          "a": [
+            25.965,
+            -12.718
+          ],
+          "b": [
+            28.246636,
+            -15
+          ],
+          "width": 0.25,
+          "length": 3.2269779727317625
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_66",
+      "net": "TEMP",
+      "length_mm": 7.612435861313562,
+      "width_length_mm": {
+        "0.25": 7.612435861313562
+      },
+      "layers": [
+        "bottom",
+        "top"
+      ],
+      "via_transitions": 2,
+      "nonzero_segments": 10,
+      "sub_0_05mm_segments": 1,
+      "turns_over_90_degrees": [
+        {
+          "xy": [
+            29.090179336895616,
+            -16.782886214219868
+          ],
+          "turn_degrees": 172.66,
+          "adjacent_lengths_mm": [
+            0.1148832981269155,
+            0.13174411477982514
+          ]
+        }
+      ],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            29.753364,
+            -15
+          ],
+          "b": [
+            29.237721091282882,
+            -15.597692716678825
+          ],
+          "width": 0.25,
+          "length": 0.7893821589579824
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            29.237721091282882,
+            -15.597692716678825
+          ],
+          "b": [
+            29.18433516914784,
+            -16.717061815693114
+          ],
+          "width": 0.25,
+          "length": 1.1206414397612958
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 4,
+          "layer": "bottom",
+          "a": [
+            29.18433516914784,
+            -16.717061815693114
+          ],
+          "b": [
+            29.090179336895616,
+            -16.782886214219868
+          ],
+          "width": 0.25,
+          "length": 0.1148832981269155
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 5,
+          "layer": "bottom",
+          "a": [
+            29.090179336895616,
+            -16.782886214219868
+          ],
+          "b": [
+            29.18763219380025,
+            -16.694232661215803
+          ],
+          "width": 0.25,
+          "length": 0.13174411477982514
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 6,
+          "layer": "bottom",
+          "a": [
+            29.18763219380025,
+            -16.694232661215803
+          ],
+          "b": [
+            28.630594070532734,
+            -15.958999987581121
+          ],
+          "width": 0.25,
+          "length": 0.9224199451190336
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 7,
+          "layer": "bottom",
+          "a": [
+            28.630594070532734,
+            -15.958999987581121
+          ],
+          "b": [
+            27.772586216434735,
+            -15.963782063507741
+          ],
+          "width": 0.25,
+          "length": 0.8580211803586318
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 10,
+          "layer": "top",
+          "a": [
+            27.772586216434735,
+            -15.963782063507741
+          ],
+          "b": [
+            27.732491136531074,
+            -16.131491136531075
+          ],
+          "width": 0.25,
+          "length": 0.172435346164372
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 11,
+          "layer": "top",
+          "a": [
+            27.732491136531074,
+            -16.131491136531075
+          ],
+          "b": [
+            27.732491136531074,
+            -16.128482758485568
+          ],
+          "width": 0.25,
+          "length": 0.003008378045507243
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 12,
+          "layer": "top",
+          "a": [
+            27.732491136531074,
+            -16.128482758485568
+          ],
+          "b": [
+            26.604008378045506,
+            -15
+          ],
+          "width": 0.25,
+          "length": 1.5959156219544917
+        },
+        {
+          "trace": "saved_phase_null_0_66",
+          "net": "TEMP",
+          "index": 13,
+          "layer": "top",
+          "a": [
+            26.604008378045506,
+            -15
+          ],
+          "b": [
+            24.700024,
+            -15
+          ],
+          "width": 0.25,
+          "length": 1.9039843780455072
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_67",
+      "net": "TEMP",
+      "length_mm": 5.5411645497988085,
+      "width_length_mm": {
+        "0.25": 5.5411645497988085
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 2,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_67",
+          "net": "TEMP",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            24.700024,
+            -15
+          ],
+          "b": [
+            24.700024,
+            -18.694024
+          ],
+          "width": 0.25,
+          "length": 3.694023999999999
+        },
+        {
+          "trace": "saved_phase_null_0_67",
+          "net": "TEMP",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            24.700024,
+            -18.694024
+          ],
+          "b": [
+            26.0062992,
+            -20
+          ],
+          "width": 0.25,
+          "length": 1.8471405497988094
+        }
+      ]
+    },
+    {
+      "trace_id": "saved_phase_null_0_68",
+      "net": "TEMP",
+      "length_mm": 17.504994270464444,
+      "width_length_mm": {
+        "0.25": 17.504994270464444
+      },
+      "layers": [
+        "top"
+      ],
+      "via_transitions": 0,
+      "nonzero_segments": 3,
+      "sub_0_05mm_segments": 0,
+      "turns_over_90_degrees": [],
+      "proper_self_crossings": [],
+      "narrow_segments": [
+        {
+          "trace": "saved_phase_null_0_68",
+          "net": "TEMP",
+          "index": 0,
+          "layer": "top",
+          "a": [
+            24.700024,
+            -15
+          ],
+          "b": [
+            23.99312935084781,
+            -15.854999099999999
+          ],
+          "width": 0.25,
+          "length": 1.1093797843844124
+        },
+        {
+          "trace": "saved_phase_null_0_68",
+          "net": "TEMP",
+          "index": 1,
+          "layer": "top",
+          "a": [
+            23.99312935084781,
+            -15.854999099999999
+          ],
+          "b": [
+            8.70689464915219,
+            -15.854999099999999
+          ],
+          "width": 0.25,
+          "length": 15.28623470169562
+        },
+        {
+          "trace": "saved_phase_null_0_68",
+          "net": "TEMP",
+          "index": 2,
+          "layer": "top",
+          "a": [
+            8.70689464915219,
+            -15.854999099999999
+          ],
+          "b": [
+            8,
+            -15
+          ],
+          "width": 0.25,
+          "length": 1.1093797843844124
+        }
+      ]
+    }
+  ],
+  "hole_to_trace_minima": {
+    "pcb_via_outer": {
+      "hole": "pcb_via_39",
+      "hole_net": "BIN1",
+      "trace": "saved_phase_null_0_50",
+      "trace_net": "BIN2",
+      "segment": 13,
+      "layer": "top",
+      "gap_mm": 0.3249999999999994,
+      "minimum_mm": 0.2
+    },
+    "pcb_via_inner": {
+      "hole": "pcb_via_48",
+      "hole_net": "VINT",
+      "trace": "saved_phase_null_0_44",
+      "trace_net": "AIN2",
+      "segment": 6,
+      "layer": "inner2",
+      "gap_mm": 0.32499999999999907,
+      "minimum_mm": 0.2
+    },
+    "pcb_plated_hole_outer": {
+      "hole": "pcb_plated_hole_11",
+      "hole_net": "HOST_AIN1",
+      "trace": "saved_phase_null_0_21",
+      "trace_net": "VIO",
+      "segment": 1,
+      "layer": "bottom",
+      "gap_mm": 0.5173884000000027,
+      "minimum_mm": 0.28
+    },
+    "pcb_plated_hole_inner": {
+      "hole": "pcb_plated_hole_14",
+      "hole_net": "HOST_BIN1",
+      "trace": "saved_phase_null_0_57",
+      "trace_net": "HOST_BIN2",
+      "segment": 1,
+      "layer": "inner2",
+      "gap_mm": 1.4055676467050762,
+      "minimum_mm": 0.3
+    },
+    "pcb_hole_outer": {
+      "hole": "pcb_hole_3",
+      "hole_net": null,
+      "trace": "saved_phase_null_0_34",
+      "trace_net": "FAULT_N",
+      "segment": 8,
+      "layer": "top",
+      "gap_mm": 4.6493038848113155,
+      "minimum_mm": 0.2
+    },
+    "pcb_hole_inner": {
+      "hole": "pcb_hole_3",
+      "hole_net": null,
+      "trace": "saved_phase_null_0_34",
+      "trace_net": "FAULT_N",
+      "segment": 5,
+      "layer": "inner1",
+      "gap_mm": 7.6867280657840045,
+      "minimum_mm": 0.2
+    }
+  },
+  "hole_to_trace_violations": [],
+  "hole_spacing_violations": [],
+  "scope": "Exact centerline/capsule trace geometry, round drills, axis-aligned pads and generated pour polygon edges. Supplemental review; does not replace native DRC, solder-mask validation or manufacturer CAM review.",
+  "hole_to_pad_pour_violations": [],
+  "hole_to_pad_pour_minima": {
+    "pcb_via_to_pad": {
+      "hole": "pcb_via_42",
+      "feature": "pcb_smtpad_76",
+      "gap_mm": 0.3002404000000002,
+      "minimum_mm": 0.2
+    },
+    "pcb_via_to_pour": {
+      "hole": "pcb_via_37",
+      "feature": "pcb_copper_pour_12",
+      "layer": "bottom",
+      "gap_mm": 0.27295287558305326,
+      "minimum_mm": 0.2
+    },
+    "pcb_plated_hole_to_pad": {
+      "hole": "pcb_plated_hole_6",
+      "feature": "pcb_plated_hole_7",
+      "gap_mm": 1.189989999999999,
+      "minimum_mm": 0.28
+    },
+    "pcb_plated_hole_to_pour": {
+      "hole": "pcb_plated_hole_8",
+      "feature": "pcb_copper_pour_0",
+      "layer": "top",
+      "gap_mm": 0.43738819999999856,
+      "minimum_mm": 0.2
+    },
+    "pcb_hole_to_pad": {
+      "hole": "pcb_hole_3",
+      "feature": "pcb_plated_hole_17",
+      "gap_mm": 3.659797923502689,
+      "minimum_mm": 0.2
+    },
+    "pcb_hole_to_pour": {
+      "hole": "pcb_hole_0",
+      "feature": "pcb_copper_pour_0",
+      "layer": "top",
+      "gap_mm": 1.8831461185807807,
+      "minimum_mm": 0.2
+    }
+  }
+}

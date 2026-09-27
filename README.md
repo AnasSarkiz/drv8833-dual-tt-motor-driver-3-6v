@@ -2,6 +2,8 @@
 
 Revision A; package 0.1.0-alpha.4. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
 
+**Order audit:** [Not ready to order yet](ORDER_READINESS.md). Fresh checks and Gerber shorts pass, but current-path routing and assembly exports need revision. [Current JLCPCB stock for five boards](artifacts/order-review/STOCK.md).
+
 A four-layer driver module for two brushed TT motors, controlled by an external host. The [reference TT motor](https://www.adafruit.com/product/3777) mounts to the chassis separately. This PCB is **75 × 60 × 1.6 mm**, with four **3.2 mm non-plated M3 holes on 65 × 50 mm centers** and 7 mm hardware keepouts. It is a generic module with a custom mounting pattern; compatibility with a particular chassis is not claimed. [Dimensioned mounting template](artifacts/routed/mounting-template.svg).
 
 Minimum via drill **0.30 mm**, minimum via pad **0.45 mm**. The final board has 70 trace records, 64 through vias and ground pours on top, inner1 and bottom. Inner1 also carries signal routes. The four vias under U1 are thermal vias connected to ground, not mounting posts. [Routing details and layer previews](ROUTING_REVIEW.md).

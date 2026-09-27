@@ -1,0 +1,19 @@
+{
+  "reviewed_commit": "f57b21ceb031dd6db92e8b2f376eececd283fcc6",
+  "circuit_json_sha256": "8be232f0adf80ee11f9d0f4fe0a60c86e519aa4966c43794235b0716cffa2101",
+  "reviewed_board_matches_previous_routed_artifact": false,
+  "batch_quantity": 5,
+  "design_changed_in_audit": false,
+  "order_readiness": "HOLD: layout and assembly/export review items remain",
+  "stock_checked_parts": 21,
+  "circuit_json_differences_from_routed_artifact": [
+    {
+      "type": "source_project_metadata",
+      "previous_count": 1,
+      "current_count": 1
+    }
+  ],
+  "copper_and_component_geometry_unchanged": true,
+  "final_build_parts_lookup_network_enabled": true,
+  "classified_existing_warning_count": 7
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "check": "netlist",
+    "exit_code": 0,
+    "seconds": 2.81
+  },
+  {
+    "check": "placement",
+    "exit_code": 0,
+    "seconds": 3.23
+  },
+  {
+    "check": "build",
+    "exit_code": 0,
+    "seconds": 6.44,
+    "rechecked_after_network_enabled_build": true
+  },
+  {
+    "check": "tests",
+    "exit_code": 0,
+    "seconds": 8.65
+  },
+  {
+    "check": "shorts-gerber",
+    "exit_code": 0,
+    "seconds": 7.24,
+    "rechecked_after_network_enabled_build": true
+  },
+  {
+    "check": "format",
+    "exit_code": 0
+  },
+  {
+    "check": "typecheck",
+    "exit_code": 0
+  },
+  {
+    "check": "supplemental_drill_clearances",
+    "findings": 0,
+    "trace_records_measured": 70,
+    "planar_segments_measured": 587
+  },
+  {
+    "check": "order_readiness",
+    "status": "HOLD",
+    "reason": "See ORDER_READINESS.md; design-review findings are not waived by passing DRC."
+  }
+]
