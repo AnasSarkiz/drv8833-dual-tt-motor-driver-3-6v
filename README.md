@@ -34,6 +34,7 @@ LED1 indicates protected VM; LED2 VIO; LED3/4 unequal A/B commands (they can lig
 - [VALIDATION.md](VALIDATION.md), [ROUTING_GATE.md](ROUTING_GATE.md), [ISSUES.md](ISSUES.md)
 - [ASSEMBLY_PLAN.md](ASSEMBLY_PLAN.md), [PLACEMENT_REVIEW.md](PLACEMENT_REVIEW.md), [TEST_PLAN.md](TEST_PLAN.md)
 - [TOOLCHAIN.md](TOOLCHAIN.md)
+- [Working reference board comparison](REFERENCE_BOARD_REVIEW.md)
 
 Use `bun install --frozen-lockfile`, `bun run typecheck`, `bun run build`, then `bun test`. The strict build/test gate currently fails on the documented generated-schema defect. Do not bypass it. `bun run render` produces review-only images from unmodified output and is not validation.
 

@@ -18,3 +18,5 @@ Both repositories exist and are public. They are published separately. Automatic
 The registry snapshot contains the prior publication receipt. This subsequent GitHub-only receipt records the alpha.2 upload and remote outcomes; hardware source matches the design commit above. See `artifacts/pre-route/publication.json`, `logs/github-ci.log` and `logs/registry-push.log` under `artifacts/pre-route/`. Source/evidence hashes are recorded separately and exclude these publication receipts.
 
 The strict project build still fails on the generated data/schema incompatibilities in ISSUES.md. No validation was disabled for publication. Hardware revision A-study; no routing approval received; no manufacturing package generated.
+
+The subsequent working-reference comparison and two additional ground tests are GitHub-only review updates. The tscircuit alpha.2 hardware snapshot remains unchanged; it does not include these later documentation/test additions.

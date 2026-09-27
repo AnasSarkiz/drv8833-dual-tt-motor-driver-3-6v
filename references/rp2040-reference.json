@@ -1,0 +1,134 @@
+{
+  "checked_at_utc": "2026-09-27T18:37:25.428997+00:00",
+  "package": "imrishabh18/rp2040-motor-controller",
+  "url": "https://tscircuit.com/imrishabh18/rp2040-motor-controller",
+  "method": "Unauthenticated public registry API; files retrieved by release ID; reference source was not executed",
+  "user_report": "Ordered hardware works; exact ordered version uncertain",
+  "version_evidence": "v1.0.28 README identifies v1.0.21 as delivered iteration; not independently confirmed as the user unit",
+  "releases": [
+    {
+      "version": "1.0.21",
+      "release_id": "d147f457-53fb-444e-9fa7-85ee390784e8",
+      "created_at": "2026-09-22T14:58:59.484Z",
+      "files": [
+        {
+          "file": "README.md",
+          "bytes": 13809,
+          "sha256": "49d281352ed0d0d478efdbfe190aa18b6c8c61a9d9e74da062669464d0a0cce3"
+        },
+        {
+          "file": "index.circuit.tsx",
+          "bytes": 5126,
+          "sha256": "50fc6f2278d7878a5f39ad01b2e821736028072f51dc9c8747aefcfba3116794"
+        },
+        {
+          "file": "package.json",
+          "bytes": 2067,
+          "sha256": "dead5dd36090464c9d3647d5da5ad3dc25a5454513e4586fef4b83b973244144"
+        },
+        {
+          "file": "schematic/MotorDriverCoreSection.tsx",
+          "bytes": 9611,
+          "sha256": "9e1086ddde595d76dcc27a7787ea548016d44a48b9fce0a07dafa1daf7e52124"
+        },
+        {
+          "file": "schematic/MotorPowerFilteringSection.tsx",
+          "bytes": 2884,
+          "sha256": "8148a99db5d8d989b49e86b0cc3b96a423fd4ce54b1a279abe1af17b9b6d86bc"
+        },
+        {
+          "file": "schematic/MotorPowerPdNegotiationSection.tsx",
+          "bytes": 6717,
+          "sha256": "20f32f2203bcd0de5ebfee6e27a93e1f37d0cff7d9166dc671f3f1ccd5332164"
+        },
+        {
+          "file": "schematic/ThermalProtectionSection.tsx",
+          "bytes": 7258,
+          "sha256": "340a17205d6d2e7b9ab90e4ac1ba31a38cde28c292c17f1b5492f8bbec54cc69"
+        }
+      ]
+    },
+    {
+      "version": "1.0.28",
+      "release_id": "cbf86c3a-c1ea-4f02-97d9-8c247c50d863",
+      "created_at": "2026-09-26T18:06:06.002Z",
+      "files": [
+        {
+          "file": "README.md",
+          "bytes": 19702,
+          "sha256": "b03da6b5765cd191b6f75caea0ec3247247becf763041a80e6d318f6f8a3d0ef"
+        },
+        {
+          "file": "index.circuit.tsx",
+          "bytes": 6524,
+          "sha256": "cec7efbdca7903c95892da743c40698662fb7d80577167307182ce284079f4b8"
+        },
+        {
+          "file": "package.json",
+          "bytes": 2285,
+          "sha256": "4beda2a3a2f3ac42f2560412f94a3441bf49c4da58688936920cad9a4b2a11d0"
+        },
+        {
+          "file": "tscircuit.config.json",
+          "bytes": 97,
+          "sha256": "96817bade27262c7626a6b394bc1745a26045d40ae7bd30fa19c93ac56e5d9d1"
+        },
+        {
+          "file": "verification.md",
+          "bytes": 7099,
+          "sha256": "ef029a4aeebf6f42e4f4c652cc521d87c0301a02e7493b75864c54e2f7f760d7"
+        },
+        {
+          "file": "schematic/MotorDriverCoreSection.tsx",
+          "bytes": 9104,
+          "sha256": "6758642e71060f9eae3818b69f4c984ce572781eafc1e966e83a5bca4b5cf951"
+        },
+        {
+          "file": "schematic/MotorPowerFilteringSection.tsx",
+          "bytes": 3600,
+          "sha256": "7ca5c389721d8df27df29be0f04eeb95ae68530d44c2cc20aafdd9af391143a0"
+        },
+        {
+          "file": "schematic/MotorPowerPdNegotiationSection.tsx",
+          "bytes": 6708,
+          "sha256": "b0317bd1d36f249937dd77a1b2e12d3b9ef91dbe9b16d40e61fc83da7295c6d9"
+        },
+        {
+          "file": "schematic/ThermalProtectionSection.tsx",
+          "bytes": 6439,
+          "sha256": "6b6c9bfce2c65dbf499c2a95c755a45439995c2ef0b537f0c673ca7326a1fbcd"
+        },
+        {
+          "file": "schematic/config.ts",
+          "bytes": 664,
+          "sha256": "0755eb19a3878bdd34ffe9844562cc79fc9397bca5dbbd62f68f4f683e567587"
+        },
+        {
+          "file": "schematic/Drv8825Support.tsx",
+          "bytes": 5298,
+          "sha256": "63029ab87d8e1463d5f3a33610b7d71f8a5b2426878a84d868b7c86042e53d06"
+        },
+        {
+          "file": "engineering/20v-drv8825.md",
+          "bytes": 7072,
+          "sha256": "fdf958b11b29a2d9812d29c158361fababf6cbb04c498e32d3ad177fcbfc6f49"
+        },
+        {
+          "file": "mechanical/nema17-outline.json",
+          "bytes": 5221,
+          "sha256": "fef0a497babe3198c28fe6037695fdddbc9231a5391a0d761f212f9e3db590fa"
+        },
+        {
+          "file": "tests/common-ground.test.tsx",
+          "bytes": 1003,
+          "sha256": "ae1d5645305e479ea5bfa7a5df0f733a59cabb77f0f4077891879f27eab38906"
+        },
+        {
+          "file": "tests/helpers/assertCommonGround.ts",
+          "bytes": 4428,
+          "sha256": "a1871ca3300c1edd6ad5aaad74decfed25b02900ff127296c167a2f790d89c4e"
+        }
+      ]
+    }
+  ]
+}

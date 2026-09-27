@@ -14,3 +14,7 @@
 ## 0.1.0-alpha.2 — unrouted electrical and placement revision
 
 Lower-loss Q1 and non-resettable F1; documented Littelfuse TVS; corrected NTC excitation and host input resistors; TI-derived U1 footprint/paste; manufacturer F1 footprint; native connector directions and electrical wrappers; pin/geometry/current-margin regression checks. Mounting remains 75 × 60 mm with four M3-clearance holes. Strict schema gate remains failing on documented upstream defects. Not approved for routing, fabrication or sale.
+
+## Working-reference review — 2026-09-27
+
+Compared the user's working RP2040 board's delivered-iteration and latest sources. Added logical ground-network and deliberately disconnected-ground regressions. Hardware, parts, dimensions and routing lock are unchanged; full schema validation still fails.

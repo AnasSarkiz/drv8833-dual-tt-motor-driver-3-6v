@@ -7,13 +7,14 @@ All results below are automated checks or limited visual/analytical review, run 
 | Pinned toolchain and TypeScript | PASS | TOOLCHAIN.md and logs/typecheck.log; dependencies unchanged |
 | Logical netlist | PASS within native coverage | logs/netlist.log, 0 errors / warnings |
 | Driver/protection physical pin mapping, NTC excitation, host margin, U1 pads/paste | PASS | logs/design-connectivity.log; emitted-output regression tests |
+| Common ground across all 30 required returns | PASS for logical connectivity | Source-edge traversal plus a deliberately disconnected same-name ground fixture; physical copper continuity remains unrouted |
 | Native pin specifications | PASS with classified warnings | logs/pin-specification.log: 0 errors, 2 Q1 category warnings; ISSUES.md TOOL-002 |
 | Native placement | PASS | logs/placement.log: 0 errors, 0 warnings |
 | Existing unrouted copper shorts | PASS within check coverage | logs/shorts.log; prebuilt JSON input, no router or Gerber export invoked |
 | Source routing lock | PASS | logs/source-lock.log; only four declared thermal vias allowed |
 | Routed-geometry inventory | PASS | 0 pcb_trace, 0 pcb_copper_pour; 4 declared U1 thermal vias |
 | Full generated-schema guard / project build | FAIL | logs/schema.log and project-build.log; 67 rejected records, TOOL-001/004 |
-| Complete test suite | FAIL overall | logs/tests.log; 13 pass / 1 actual-output schema test fails |
+| Complete test suite | FAIL overall | logs/tests.log; 15 pass / 1 actual-output schema test fails |
 | Four schematic previews | PASS for generation | Four PNG/SVG sheets; functional groups and labels improved |
 | Schematic final approval | BLOCKED | logs/schematic-placement.log; remaining style findings and final review |
 | Sourced imports | PASS for import only | 46 purchased parts, 21 selected C-numbers; BOM.md and import hashes |

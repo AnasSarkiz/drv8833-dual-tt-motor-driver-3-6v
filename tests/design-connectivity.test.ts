@@ -4,6 +4,7 @@ import {
   source_port,
   source_net,
   source_trace,
+  source_component_internal_connection,
   pcb_smtpad,
   pcb_port,
   pcb_solder_paste,
@@ -34,6 +35,34 @@ const nets = records("source_net").map((element) => source_net.parse(element))
 const traces = records("source_trace").map((element) =>
   source_trace.parse(element),
 )
+type ElectricalNodeId = string
+const electricalEdges: ElectricalNodeId[][] = [
+  ...traces.map((trace) => [
+    ...trace.connected_source_port_ids,
+    ...(trace.connected_source_net_ids ?? []),
+  ]),
+  ...records("source_component_internal_connection").map(
+    (element) =>
+      source_component_internal_connection.parse(element).source_port_ids,
+  ),
+]
+
+function connectedNodes(
+  startId: ElectricalNodeId,
+  edges: ElectricalNodeId[][],
+) {
+  const connected = new Set<ElectricalNodeId>([startId])
+  let previousSize = 0
+  while (previousSize !== connected.size) {
+    previousSize = connected.size
+    for (const edge of edges) {
+      if (edge.some((nodeId) => connected.has(nodeId))) {
+        for (const nodeId of edge) connected.add(nodeId)
+      }
+    }
+  }
+  return connected
+}
 const pads = records("pcb_smtpad").map((element) => pcb_smtpad.parse(element))
 const pcbPorts = records("pcb_port").map((element) => pcb_port.parse(element))
 
@@ -93,6 +122,91 @@ test("protection parts keep their physical manufacturer pin connections", () => 
   expect(getNetNames("D1", 2)).toEqual(["GND"])
   expect(getNetNames("F1", 1)).toEqual(["VIN"])
   expect(getNetNames("F1", 2)).toEqual(["VIN_FUSED"])
+})
+
+test("all thirty ground returns share one electrical network without bypassing the shunts", () => {
+  const groundNets = nets.filter((net) => net.name === "GND")
+  expect(groundNets).toHaveLength(1)
+  const ground = connectedNodes(groundNets[0]!.source_net_id, electricalEdges)
+  const requiredGroundPins: [string, number][] = [
+    ["J1", 2],
+    ["Q1", 4],
+    ["C1", 2],
+    ["C2", 2],
+    ["D1", 2],
+    ["LED1", 1],
+    ["U1", 13],
+    ["U1", 17],
+    ["R2", 2],
+    ["R3", 2],
+    ["C3", 2],
+    ["C4", 2],
+    ["C5", 2],
+    ["J4", 2],
+    ["J5", 3],
+    ["J6", 3],
+    ["R9", 2],
+    ["R10", 2],
+    ["R11", 2],
+    ["R12", 2],
+    ["R13", 2],
+    ["U2", 4],
+    ["C7", 2],
+    ["LED2", 1],
+    ["LED3", 1],
+    ["LED4", 1],
+    ["TH1", 2],
+    ["C8", 2],
+    ["J7", 3],
+    ["TP3", 1],
+  ]
+  for (const [referenceDesignator, pinNumber] of requiredGroundPins)
+    expect(
+      ground.has(getPort(referenceDesignator, pinNumber).source_port_id),
+    ).toBe(true)
+  for (const netName of [
+    "VIN",
+    "VIN_FUSED",
+    "VM",
+    "VIO",
+    "ISEN_A",
+    "ISEN_B",
+    "AOUT1",
+    "AOUT2",
+    "BOUT1",
+    "BOUT2",
+  ]) {
+    const matchingNets = nets.filter((net) => net.name === netName)
+    expect(matchingNets).toHaveLength(1)
+    expect(ground.has(matchingNets[0]!.source_net_id)).toBe(false)
+  }
+})
+
+test("ground connectivity detects an isolated exposed pad even when its net is also named GND", () => {
+  const groundNet = nets.find((net) => net.name === "GND")!
+  const exposedPadId = getPort("U1", 17).source_port_id
+  const isolatedGroundNet = {
+    ...groundNet,
+    source_net_id: "isolated_ground_fixture",
+  }
+  const disconnectedEdges = electricalEdges.map((edge) =>
+    edge.includes(exposedPadId)
+      ? edge.map((nodeId) =>
+          nodeId === groundNet.source_net_id
+            ? isolatedGroundNet.source_net_id
+            : nodeId,
+        )
+      : edge,
+  )
+  expect(isolatedGroundNet.name).toBe(groundNet.name)
+  expect(
+    connectedNodes(groundNet.source_net_id, electricalEdges).has(exposedPadId),
+  ).toBe(true)
+  expect(
+    connectedNodes(groundNet.source_net_id, disconnectedEdges).has(
+      exposedPadId,
+    ),
+  ).toBe(false)
 })
 
 function getResistance(referenceDesignator: string) {
