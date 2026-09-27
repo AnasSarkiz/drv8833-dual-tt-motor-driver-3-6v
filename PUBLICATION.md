@@ -10,7 +10,7 @@ The user explicitly authorized PUBLIC visibility for GitHub and tscircuit on 202
 | Published design commit | `a09fc1996be8a4456a200435790e3c60668a920d` |
 | Registry public access | Verified without authentication through packages/get and package_releases/get; is_public=true, is_private=false |
 | [GitHub CI](https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36322761236) | FAIL on the full Circuit JSON schema guard, after install, formatting, TypeScript, unrouted generation and mechanical check pass |
-| Registry preview build | Pending at verification time; upload success is not a preview/build PASS |
+| Registry preview build | FAIL: user-code job completed with exit code 1 at 13:35:04 UTC; registry overall display_status still says pending and returned no completed build log. No preview success claimed |
 | Automatic GitHub linking | BLOCKED: registry returned HTTP 403 repository_not_accessible; its GitHub app installation lacks access to this newly created repository |
 
 Both repositories exist and are public. They were published separately. To enable automatic GitHub synchronization later, grant the tscircuit GitHub app access to this specific repository and rerun the documented registry package-link command. No broader app access was granted.

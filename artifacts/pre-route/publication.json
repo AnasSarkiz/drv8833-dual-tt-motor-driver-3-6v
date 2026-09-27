@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-09-27T13:35:54.231630+00:00",
+  "checked_at_utc": "2026-09-27T13:37:12.441187+00:00",
   "source_commit": "a09fc1996be8a4456a200435790e3c60668a920d",
   "github": {
     "url": "https://github.com/AnasSarkiz/dual-tt-motor-driver",
@@ -20,6 +20,12 @@
     "files_uploaded": 125,
     "display_status_at_check": "pending",
     "github_link_status": "blocked",
-    "github_link_error": "403 repository_not_accessible: tscircuit GitHub app installation does not have access to newly created repository"
+    "github_link_error": "403 repository_not_accessible: tscircuit GitHub app installation does not have access to newly created repository",
+    "user_code_job_error": {
+      "message": "Your code failed to build (exit code 1), see build logs for the error details",
+      "error_code": "user_code_build_error"
+    },
+    "user_code_job_completed_at": "2026-09-27T13:35:04.026Z",
+    "build_status": "failed"
   }
 }

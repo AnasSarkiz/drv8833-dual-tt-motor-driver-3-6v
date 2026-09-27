@@ -25,7 +25,7 @@ MANUFACTURING STATUS: NOT ORDERABLE — UNROUTED
 - [ ] Assembly/paste/thermal process reviewed.
 - [ ] All relevant pre-route checks pass with warnings classified and resolved.
 - [x] PUBLIC visibility selected and both publications authorized by the user.
-- [x] Both public source uploads and registry visibility verified (see PUBLICATION.md); CI fails and registry preview is not verified.
+- [x] Both public source uploads and registry visibility verified (see PUBLICATION.md); CI and registry build both fail.
 - [ ] User approves exactly this reviewed revision.
 
 No approval is requested for this incomplete draft. Resolve the open design/tool/mechanical items, regenerate hashes and present the complete review package first. The future phrase “APPROVE BOM AND PLACEMENT — ENABLE ROUTING” would apply only to that reviewed revision. Any material design change requires renewed review.
