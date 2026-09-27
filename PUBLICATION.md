@@ -1,20 +1,20 @@
 # Public repository publication
 
-The user explicitly authorized PUBLIC visibility for GitHub and tscircuit on 2026-09-27. Publication is of an **incomplete, unrouted study**, not an approved assembly or fabrication release. Source and cloud configuration retain the routing lock.
+The user explicitly authorized PUBLIC GitHub and tscircuit repositories. The current publication is an **incomplete, unrouted alpha.2 study**, not an approved assembly or fabrication release. Source and cloud configuration retain the routing lock.
 
 | Destination | Actual result |
 |---|---|
-| [GitHub](https://github.com/AnasSarkiz/dual-tt-motor-driver) | Created PUBLIC under AnasSarkiz; main pushed successfully |
-| [tscircuit](https://tscircuit.com/AnasSarkiz/dual-tt-motor-driver) | Created PUBLIC; 125 source/evidence files uploaded successfully |
-| Registry release | `0.1.0-alpha.1-unrouted`; release ID `b2a4d12c-5d8a-4858-890b-ebb9837f21b5` |
-| Published design commit | `a09fc1996be8a4456a200435790e3c60668a920d` |
-| Registry public access | Verified without authentication through packages/get and package_releases/get; is_public=true, is_private=false |
-| [GitHub CI](https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36322761236) | FAIL on the full Circuit JSON schema guard, after install, formatting, TypeScript, unrouted generation and mechanical check pass |
-| Registry preview build | FAIL: user-code job completed with exit code 1 at 13:35:04 UTC; registry overall display_status still says pending and returned no completed build log. No preview success claimed |
-| Automatic GitHub linking | BLOCKED: registry returned HTTP 403 repository_not_accessible; its GitHub app installation lacks access to this newly created repository |
+| [GitHub](https://github.com/AnasSarkiz/dual-tt-motor-driver) | PUBLIC under AnasSarkiz; revised main pushed successfully |
+| [tscircuit](https://tscircuit.com/AnasSarkiz/dual-tt-motor-driver) | PUBLIC; all 162 source/evidence files uploaded successfully |
+| Registry release | `0.1.0-alpha.2-unrouted`; release ID `81357bf6-781d-46b8-95fb-b6be932f64d9` |
+| Published design commit | `eb354297731df83cb217fcc6b33b8c9d25ebf1ce` |
+| Registry public access | Verified without authentication: is_public=true, is_private=false; new release is accessible |
+| [GitHub CI](https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36340639286) | FAIL on the full Circuit JSON schema guard, after installation, formatting, TypeScript, unrouted generation and mechanical checks pass |
+| Registry preview build | FAIL: user-code build returned exit code 1; overall registry display still reports pending. Source upload succeeded; no cloud preview success is claimed |
+| Automatic GitHub linking | BLOCKED: previously returned HTTP 403 repository_not_accessible; the registry's GitHub app lacks access to this repository |
 
-Both repositories exist and are public. They were published separately. To enable automatic GitHub synchronization later, grant the tscircuit GitHub app access to this specific repository and rerun the documented registry package-link command. No broader app access was granted.
+Both repositories exist and are public. They are published separately. Automatic synchronization requires the tscircuit GitHub app to have access to this specific repository. No broader app access was granted and the failed link was not retried.
 
-The registry snapshot precedes this publication receipt; subsequent documentation-only GitHub commits record the observed remote outcomes. Hardware source and source hashes match the published design commit. See `artifacts/pre-route/publication.json` and `artifacts/pre-route/logs/github-ci.log`.
+The registry snapshot contains the prior publication receipt. This subsequent GitHub-only receipt records the alpha.2 upload and remote outcomes; hardware source matches the design commit above. See `artifacts/pre-route/publication.json`, `logs/github-ci.log` and `logs/registry-push.log` under `artifacts/pre-route/`. Source/evidence hashes are recorded separately and exclude these publication receipts.
 
-The strict project build fails on the generated Circuit JSON/schema incompatibilities in ISSUES.md. No checks are disabled for publication. Hardware revision A-study; no routing approval received; no manufacturing package generated.
+The strict project build still fails on the generated data/schema incompatibilities in ISSUES.md. No validation was disabled for publication. Hardware revision A-study; no routing approval received; no manufacturing package generated.

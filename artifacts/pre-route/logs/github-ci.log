@@ -1,93 +1,204 @@
-review	Run bun run build	﻿2026-09-27T13:32:57.6788250Z ##[group]Run bun run build
-review	Run bun run build	2026-09-27T13:32:57.6788675Z [36;1mbun run build[0m
-review	Run bun run build	2026-09-27T13:32:57.6822739Z shell: /usr/bin/bash -e {0}
-review	Run bun run build	2026-09-27T13:32:57.6823046Z ##[endgroup]
-review	Run bun run build	2026-09-27T13:32:57.6888994Z $ bun run guard:source && tsci build index.circuit.tsx --routing-disabled && python3 scripts/check-mechanical.py && bun run guard
-review	Run bun run build	2026-09-27T13:32:57.6910991Z $ bun scripts/check-routing-lock.ts --source-only
-review	Run bun run build	2026-09-27T13:32:58.2400138Z PASS: routing lock; 0.30 mm drill / 0.45 mm pad minimums
-review	Run bun run build	2026-09-27T13:33:00.9776608Z Building 1 file(s)...
-review	Run bun run build	2026-09-27T13:33:00.9778876Z Building index.circuit.tsx...
-review	Run bun run build	2026-09-27T13:33:00.9783129Z Generating circuit JSON...
-review	Run bun run build	2026-09-27T13:33:10.0772430Z Circuit JSON written to dist/index/circuit.json
-review	Run bun run build	2026-09-27T13:33:10.0781357Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0781928Z The "F" prefix is being used with a <chip />, try using it with a <fuse />
-review	Run bun run build	2026-09-27T13:33:10.0782545Z The "Q" prefix is being used with a <chip />, try using it with a <transistor />
-review	Run bun run build	2026-09-27T13:33:10.0783287Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0783834Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0784438Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0784856Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0785265Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0785728Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-review	Run bun run build	2026-09-27T13:33:10.0787250Z component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-review	Run bun run build	2026-09-27T13:33:10.0789704Z component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face y- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-review	Run bun run build	2026-09-27T13:33:10.0792136Z component is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-review	Run bun run build	2026-09-27T13:33:10.0793784Z All pins on J1 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0794127Z All pins on F1 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0794447Z All pins on Q1 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0794774Z All pins on D1 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0795111Z All pins on J2 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0795454Z All pins on J3 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0795793Z All pins on J4 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0796115Z All pins on J5 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0796429Z All pins on J6 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0796744Z All pins on TH1 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0797086Z All pins on J7 are underspecified (no pinAttributes set)
-review	Run bun run build	2026-09-27T13:33:10.0797529Z J1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0797780Z F1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0798259Z Q1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0798593Z D1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0798914Z U1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0799171Z J2 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0799458Z J3 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0799729Z J4 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0799990Z J5 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0800357Z J6 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0800665Z TH1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0800931Z J7 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T13:33:10.0801692Z J1 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0801963Z F1 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0802240Z Q1 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0802519Z D1 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0802773Z J2 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0803041Z J3 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0803292Z J4 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0803558Z J5 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0803868Z J6 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0804131Z TH1 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0804408Z J7 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T13:33:10.0804794Z F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T13:33:10.0805321Z Q1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T13:33:10.0805843Z D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T13:33:10.0806341Z TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T13:33:10.0806743Z 
-review	Run bun run build	2026-09-27T13:33:10.0806899Z Build complete
-review	Run bun run build	2026-09-27T13:33:10.0807145Z   Circuits  1 passed
-review	Run bun run build	2026-09-27T13:33:10.0807363Z   Output    dist
-review	Run bun run build	2026-09-27T13:33:10.0807573Z 
-review	Run bun run build	2026-09-27T13:33:10.0818343Z ✓ Done
-review	Run bun run build	2026-09-27T13:33:10.0819212Z Build exiting with code 0: build finished successfully
-review	Run bun run build	2026-09-27T13:33:10.1409578Z Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
-review	Run bun run build	2026-09-27T13:33:10.1410374Z H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 7.262 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T13:33:10.1411133Z H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T13:33:10.1411762Z H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.285 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T13:33:10.1412375Z H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T13:33:10.1413367Z PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
-review	Run bun run build	2026-09-27T13:33:10.1413982Z NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
-review	Run bun run build	2026-09-27T13:33:10.1463392Z $ bun scripts/check-routing-lock.ts
-review	Run bun run build	2026-09-27T13:33:11.1668617Z 73 | export function checkCircuitLock(input: unknown) {
-review	Run bun run build	2026-09-27T13:33:11.1669708Z 74 |   if (!Array.isArray(input)) throw new Error("Circuit JSON must be an array")
-review	Run bun run build	2026-09-27T13:33:11.1670666Z 75 |   const circuit = input.map((element, index) => {
-review	Run bun run build	2026-09-27T13:33:11.1671299Z 76 |     const parsed = any_circuit_element.safeParse(element)
-review	Run bun run build	2026-09-27T13:33:11.1671925Z 77 |     if (!parsed.success)
-review	Run bun run build	2026-09-27T13:33:11.1672464Z 78 |       throw new Error(
-review	Run bun run build	2026-09-27T13:33:11.1673076Z                      ^
-review	Run bun run build	2026-09-27T13:33:11.1674279Z error: Circuit JSON schema rejects element 807 (pcb_component); inspect scripts/check-schema.ts
-review	Run bun run build	2026-09-27T13:33:11.1675186Z       at <anonymous> (/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/routing-lock.ts:78:17)
-review	Run bun run build	2026-09-27T13:33:11.1676149Z       at map (1:11)
-review	Run bun run build	2026-09-27T13:33:11.1676872Z       at checkCircuitLock (/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/routing-lock.ts:75:25)
-review	Run bun run build	2026-09-27T13:33:11.1677801Z       at /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/check-routing-lock.ts:6:3
-review	Run bun run build	2026-09-27T13:33:11.1678392Z 
-review	Run bun run build	2026-09-27T13:33:11.1678577Z Bun v1.3.9 (Linux x64)
-review	Run bun run build	2026-09-27T13:33:11.1751406Z error: script "guard" exited with code 1
-review	Run bun run build	2026-09-27T13:33:11.1753079Z error: script "build" exited with code 1
-review	Run bun run build	2026-09-27T13:33:11.1767853Z ##[error]Process completed with exit code 1.
+﻿2026-09-27T18:26:20.7085824Z Current runner version: '2.337.0'
+2026-09-27T18:26:20.7104442Z ##[group]Runner Image Provisioner
+2026-09-27T18:26:20.7104978Z Hosted Compute Agent
+2026-09-27T18:26:20.7105389Z Version: 20260828.587
+2026-09-27T18:26:20.7105757Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+2026-09-27T18:26:20.7106204Z Build Date: 2026-08-28T16:44:25Z
+2026-09-27T18:26:20.7106641Z Worker ID: {456bd34d-80fb-4e1b-a461-47d32062e214}
+2026-09-27T18:26:20.7107047Z Azure Region: centralus
+2026-09-27T18:26:20.7107421Z ##[endgroup]
+2026-09-27T18:26:20.7108257Z ##[group]Operating System
+2026-09-27T18:26:20.7108662Z Ubuntu
+2026-09-27T18:26:20.7108976Z 24.04.5
+2026-09-27T18:26:20.7109278Z LTS
+2026-09-27T18:26:20.7109617Z ##[endgroup]
+2026-09-27T18:26:20.7109935Z ##[group]Runner Image
+2026-09-27T18:26:20.7110270Z Image: ubuntu-24.04
+2026-09-27T18:26:20.7110744Z Version: 20260920.314.1
+2026-09-27T18:26:20.7111713Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+2026-09-27T18:26:20.7112725Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+2026-09-27T18:26:20.7113282Z ##[endgroup]
+2026-09-27T18:26:20.7114016Z ##[group]GITHUB_TOKEN Permissions
+2026-09-27T18:26:20.7115402Z Contents: read
+2026-09-27T18:26:20.7115798Z Metadata: read
+2026-09-27T18:26:20.7116129Z Packages: read
+2026-09-27T18:26:20.7116755Z ##[endgroup]
+2026-09-27T18:26:20.7118039Z Secret source: Actions
+2026-09-27T18:26:20.7118625Z Cache mode: write
+2026-09-27T18:26:20.7119022Z Prepare workflow directory
+2026-09-27T18:26:20.7328789Z Prepare all required actions
+2026-09-27T18:26:20.7360692Z Getting action download info
+2026-09-27T18:26:20.9507729Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-09-27T18:26:21.0575894Z Download action repository 'oven-sh/setup-bun@v2' (SHA:0c5077e51419868618aeaa5fe8019c62421857d6)
+2026-09-27T18:26:21.4764879Z Complete job name: review
+2026-09-27T18:26:21.5229686Z ##[group]Run actions/checkout@v4
+2026-09-27T18:26:21.5230113Z with:
+2026-09-27T18:26:21.5230375Z   repository: AnasSarkiz/dual-tt-motor-driver
+2026-09-27T18:26:21.5232577Z   token: ***
+2026-09-27T18:26:21.5232816Z   ssh-strict: true
+2026-09-27T18:26:21.5233055Z   ssh-user: git
+2026-09-27T18:26:21.5233304Z   persist-credentials: true
+2026-09-27T18:26:21.5233571Z   clean: true
+2026-09-27T18:26:21.5233820Z   sparse-checkout-cone-mode: true
+2026-09-27T18:26:21.5234106Z   fetch-depth: 1
+2026-09-27T18:26:21.5234345Z   fetch-tags: false
+2026-09-27T18:26:21.5234590Z   show-progress: true
+2026-09-27T18:26:21.5234837Z   lfs: false
+2026-09-27T18:26:21.5235065Z   submodules: false
+2026-09-27T18:26:21.5235313Z   set-safe-directory: true
+2026-09-27T18:26:21.5235591Z   allow-unsafe-pr-checkout: false
+2026-09-27T18:26:21.5235948Z ##[endgroup]
+2026-09-27T18:26:21.5870618Z Syncing repository: AnasSarkiz/dual-tt-motor-driver
+2026-09-27T18:26:21.5872311Z ##[group]Getting Git version info
+2026-09-27T18:26:21.5873084Z Working directory is '/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver'
+2026-09-27T18:26:21.5874088Z [command]/usr/bin/git version
+2026-09-27T18:26:21.5958442Z git version 2.55.0
+2026-09-27T18:26:21.5972314Z ##[endgroup]
+2026-09-27T18:26:21.5981722Z Temporarily overriding HOME='/home/runner/work/_temp/27402efe-ec2a-4cd3-b9f8-4c7a8f2f17ab' before making global git config changes
+2026-09-27T18:26:21.5982958Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-27T18:26:21.5985187Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver
+2026-09-27T18:26:21.6028395Z Deleting the contents of '/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver'
+2026-09-27T18:26:21.6031075Z ##[group]Initializing the repository
+2026-09-27T18:26:21.6033891Z [command]/usr/bin/git init /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver
+2026-09-27T18:26:21.6135091Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-09-27T18:26:21.6136220Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-09-27T18:26:21.6140120Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-09-27T18:26:21.6141253Z hint: call:
+2026-09-27T18:26:21.6141727Z hint:
+2026-09-27T18:26:21.6142203Z hint: 	git config --global init.defaultBranch <name>
+2026-09-27T18:26:21.6142794Z hint:
+2026-09-27T18:26:21.6143327Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-09-27T18:26:21.6144161Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-09-27T18:26:21.6144807Z hint:
+2026-09-27T18:26:21.6145189Z hint: 	git branch -m <name>
+2026-09-27T18:26:21.6145619Z hint:
+2026-09-27T18:26:21.6146163Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-09-27T18:26:21.6147170Z Initialized empty Git repository in /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/.git/
+2026-09-27T18:26:21.6148954Z [command]/usr/bin/git remote add origin https://github.com/AnasSarkiz/dual-tt-motor-driver
+2026-09-27T18:26:21.6197829Z ##[endgroup]
+2026-09-27T18:26:21.6198518Z ##[group]Disabling automatic garbage collection
+2026-09-27T18:26:21.6200713Z [command]/usr/bin/git config --local gc.auto 0
+2026-09-27T18:26:21.6229386Z ##[endgroup]
+2026-09-27T18:26:21.6229979Z ##[group]Setting up auth
+2026-09-27T18:26:21.6234624Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-27T18:26:21.6261971Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-27T18:26:21.6553771Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-27T18:26:21.6582073Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-27T18:26:21.6749788Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-27T18:26:21.6776053Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-27T18:26:21.6951310Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-09-27T18:26:21.6983859Z ##[endgroup]
+2026-09-27T18:26:21.6984405Z ##[group]Fetching the repository
+2026-09-27T18:26:21.6989867Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +eb354297731df83cb217fcc6b33b8c9d25ebf1ce:refs/remotes/origin/main
+2026-09-27T18:26:22.2802392Z From https://github.com/AnasSarkiz/dual-tt-motor-driver
+2026-09-27T18:26:22.2803454Z  * [new ref]         eb354297731df83cb217fcc6b33b8c9d25ebf1ce -> origin/main
+2026-09-27T18:26:22.2805559Z ##[endgroup]
+2026-09-27T18:26:22.2806386Z ##[group]Determining the checkout info
+2026-09-27T18:26:22.2807285Z ##[endgroup]
+2026-09-27T18:26:22.2811134Z [command]/usr/bin/git sparse-checkout disable
+2026-09-27T18:26:22.2857635Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-09-27T18:26:22.2885662Z ##[group]Checking out the ref
+2026-09-27T18:26:22.2888456Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-09-27T18:26:22.3067468Z Switched to a new branch 'main'
+2026-09-27T18:26:22.3070813Z branch 'main' set up to track 'origin/main'.
+2026-09-27T18:26:22.3076383Z ##[endgroup]
+2026-09-27T18:26:22.3110303Z [command]/usr/bin/git log -1 --format=%H
+2026-09-27T18:26:22.3131029Z eb354297731df83cb217fcc6b33b8c9d25ebf1ce
+2026-09-27T18:26:22.3360065Z ##[group]Run oven-sh/setup-bun@v2
+2026-09-27T18:26:22.3360702Z with:
+2026-09-27T18:26:22.3361170Z   bun-version: 1.3.9
+2026-09-27T18:26:22.3361780Z   no-cache: false
+2026-09-27T18:26:22.3366709Z   token: ***
+2026-09-27T18:26:22.3367187Z ##[endgroup]
+2026-09-27T18:26:22.5902959Z Downloading a new version of Bun: https://github.com/oven-sh/bun/releases/download/bun-v1.3.9/bun-linux-x64.zip
+2026-09-27T18:26:23.0494228Z [command]/usr/bin/unzip -o -q /home/runner/work/_temp/afd62753-86a5-423c-a684-0bc84263cbb1.zip
+2026-09-27T18:26:23.5942329Z [command]/home/runner/.bun/bin/bun --revision
+2026-09-27T18:26:23.5975950Z 1.3.9+cf6cdbbba
+2026-09-27T18:26:23.6091346Z ##[group]Run bun install --frozen-lockfile
+2026-09-27T18:26:23.6091849Z [36;1mbun install --frozen-lockfile[0m
+2026-09-27T18:26:23.6377472Z shell: /usr/bin/bash -e {0}
+2026-09-27T18:26:23.6377717Z ##[endgroup]
+2026-09-27T18:26:23.6483121Z bun install v1.3.9 (cf6cdbbb)
+2026-09-27T18:26:25.5229396Z
+2026-09-27T18:26:25.5231217Z + @biomejs/biome@2.5.14
+2026-09-27T18:26:25.5231669Z + @tscircuit/props@0.0.666
+2026-09-27T18:26:25.5231918Z + @types/bun@1.4.2
+2026-09-27T18:26:25.5232104Z + circuit-json@0.0.499
+2026-09-27T18:26:25.5232285Z + tscircuit@0.0.2646
+2026-09-27T18:26:25.5232470Z + typescript@5.9.3
+2026-09-27T18:26:25.5232635Z
+2026-09-27T18:26:25.5232724Z 289 packages installed [1.88s]
+2026-09-27T18:26:25.5485800Z ##[group]Run bun run format:check
+2026-09-27T18:26:25.5486106Z [36;1mbun run format:check[0m
+2026-09-27T18:26:25.5541198Z shell: /usr/bin/bash -e {0}
+2026-09-27T18:26:25.5541346Z ##[endgroup]
+2026-09-27T18:26:25.5618172Z $ biome format .
+2026-09-27T18:26:25.5926577Z Checked 24 files in 4ms. No fixes applied.
+2026-09-27T18:26:25.5989862Z ##[group]Run bun run typecheck
+2026-09-27T18:26:25.5990042Z [36;1mbun run typecheck[0m
+2026-09-27T18:26:25.6041344Z shell: /usr/bin/bash -e {0}
+2026-09-27T18:26:25.6041623Z ##[endgroup]
+2026-09-27T18:26:25.6116370Z $ tsc --noEmit
+2026-09-27T18:26:29.7492917Z ##[group]Run bun run build
+2026-09-27T18:26:29.7493100Z [36;1mbun run build[0m
+2026-09-27T18:26:29.7543621Z shell: /usr/bin/bash -e {0}
+2026-09-27T18:26:29.7543770Z ##[endgroup]
+2026-09-27T18:26:29.7619264Z $ bun run guard:source && tsci build index.circuit.tsx --routing-disabled && python3 scripts/check-mechanical.py && bun run guard
+2026-09-27T18:26:29.7639808Z $ bun scripts/check-routing-lock.ts --source-only
+2026-09-27T18:26:30.2572300Z PASS: routing lock; 0.30 mm drill / 0.45 mm pad minimums
+2026-09-27T18:26:32.6075188Z Building 1 file(s)...
+2026-09-27T18:26:32.6077258Z Building index.circuit.tsx...
+2026-09-27T18:26:32.6081121Z Generating circuit JSON...
+2026-09-27T18:26:38.8415175Z Circuit JSON written to dist/index/circuit.json
+2026-09-27T18:26:38.8420585Z The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+2026-09-27T18:26:38.8421173Z Component TH1 has ftype="simple_resistor" but reference designator should start with R
+2026-09-27T18:26:38.8422120Z Q1 has no pin with requires_power=true
+2026-09-27T18:26:38.8422640Z Q1 has no pin with requires_ground=true
+2026-09-27T18:26:38.8424842Z
+2026-09-27T18:26:38.8425167Z Build complete
+2026-09-27T18:26:38.8425487Z   Circuits  1 passed
+2026-09-27T18:26:38.8425938Z   Output    dist
+2026-09-27T18:26:38.8426220Z
+2026-09-27T18:26:38.8427601Z ✓ Done
+2026-09-27T18:26:38.8427802Z Build exiting with code 0: build finished successfully
+2026-09-27T18:26:38.9347627Z Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
+2026-09-27T18:26:38.9348465Z H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
+2026-09-27T18:26:38.9349208Z H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
+2026-09-27T18:26:38.9349861Z H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
+2026-09-27T18:26:38.9350545Z H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
+2026-09-27T18:26:38.9351137Z PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
+2026-09-27T18:26:38.9351874Z NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
+2026-09-27T18:26:38.9412412Z $ bun scripts/check-routing-lock.ts
+2026-09-27T18:26:39.8562711Z 77 | export function checkCircuitLock(input: unknown) {
+2026-09-27T18:26:39.8563697Z 78 |   if (!Array.isArray(input)) throw new Error("Circuit JSON must be an array")
+2026-09-27T18:26:39.8563952Z 79 |   const circuit = input.map((element, index) => {
+2026-09-27T18:26:39.8564146Z 80 |     const parsed = any_circuit_element.safeParse(element)
+2026-09-27T18:26:39.8564337Z 81 |     if (!parsed.success)
+2026-09-27T18:26:39.8564467Z 82 |       throw new Error(
+2026-09-27T18:26:39.8564588Z                      ^
+2026-09-27T18:26:39.8564809Z error: Circuit JSON schema rejects element 797 (pcb_component); inspect scripts/check-schema.ts
+2026-09-27T18:26:39.8565191Z       at <anonymous> (/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/routing-lock.ts:82:17)
+2026-09-27T18:26:39.8565455Z       at map (1:11)
+2026-09-27T18:26:39.8565702Z       at checkCircuitLock (/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/routing-lock.ts:79:25)
+2026-09-27T18:26:39.8566072Z       at /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/check-routing-lock.ts:6:3
+2026-09-27T18:26:39.8566276Z
+2026-09-27T18:26:39.8566325Z Bun v1.3.9 (Linux x64)
+2026-09-27T18:26:39.8723962Z error: script "guard" exited with code 1
+2026-09-27T18:26:39.8725806Z error: script "build" exited with code 1
+2026-09-27T18:26:39.8740164Z ##[error]Process completed with exit code 1.
+2026-09-27T18:26:39.8831235Z Post job cleanup.
+2026-09-27T18:26:39.9373499Z [command]/usr/bin/git version
+2026-09-27T18:26:39.9428685Z git version 2.55.0
+2026-09-27T18:26:39.9450318Z Temporarily overriding HOME='/home/runner/work/_temp/15c06121-d112-4832-97fc-f63451b6afde' before making global git config changes
+2026-09-27T18:26:39.9451105Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-27T18:26:39.9456317Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver
+2026-09-27T18:26:39.9507729Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-27T18:26:39.9558686Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-27T18:26:39.9792570Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-27T18:26:39.9822455Z http.https://github.com/.extraheader
+2026-09-27T18:26:39.9833478Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-09-27T18:26:39.9862384Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-27T18:26:40.0044109Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-27T18:26:40.0087177Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-27T18:26:40.0407426Z Cleaning up orphan processes
+2026-09-27T18:26:40.0638889Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

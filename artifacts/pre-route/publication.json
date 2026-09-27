@@ -1,11 +1,11 @@
 {
-  "checked_at_utc": "2026-09-27T13:37:12.441187+00:00",
-  "source_commit": "a09fc1996be8a4456a200435790e3c60668a920d",
+  "checked_at_utc": "2026-09-27T18:29:55.311516+00:00",
+  "source_commit": "eb354297731df83cb217fcc6b33b8c9d25ebf1ce",
   "github": {
     "url": "https://github.com/AnasSarkiz/dual-tt-motor-driver",
     "visibility": "public",
     "source_push": "success",
-    "ci_run": "https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36322761236",
+    "ci_run": "https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36340639286",
     "ci_conclusion": "failure",
     "ci_failure": "Full Circuit JSON schema guard; same observed local generator defect"
   },
@@ -14,18 +14,22 @@
     "package_id": "ff313008-51e9-4880-a4f8-e4c96b84c19a",
     "is_public": true,
     "is_private": false,
-    "release_id": "b2a4d12c-5d8a-4858-890b-ebb9837f21b5",
-    "version": "0.1.0-alpha.1-unrouted",
+    "release_id": "81357bf6-781d-46b8-95fb-b6be932f64d9",
+    "version": "0.1.0-alpha.2-unrouted",
     "upload_status": "success",
-    "files_uploaded": 125,
+    "files_uploaded": 162,
     "display_status_at_check": "pending",
+    "ready_to_build": true,
+    "latest_package_build_id": "ae4cbad5-1be2-41b2-9feb-854c402b3ad8",
+    "user_code_job_started_at": "2026-09-27T18:27:58.088Z",
+    "user_code_job_completed_at": "2026-09-27T18:29:52.529Z",
+    "build_status": "failed",
     "github_link_status": "blocked",
-    "github_link_error": "403 repository_not_accessible: tscircuit GitHub app installation does not have access to newly created repository",
+    "github_link_error": "Previously observed 403 repository_not_accessible: tscircuit GitHub app installation lacks access to this repository; link not retried",
     "user_code_job_error": {
       "message": "Your code failed to build (exit code 1), see build logs for the error details",
       "error_code": "user_code_build_error"
-    },
-    "user_code_job_completed_at": "2026-09-27T13:35:04.026Z",
-    "build_status": "failed"
-  }
+    }
+  },
+  "receipt_note": "Registry source snapshot includes the prior publication receipt. This subsequent GitHub-only receipt records the alpha.2 upload and observed remote outcomes."
 }
