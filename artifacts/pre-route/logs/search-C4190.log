@@ -1,0 +1,16 @@
+{
+  "query": "C4190",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 4190,
+      "mfr": "0603WAF2201T5E",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 2.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2001135,
+      "price": 0.0014
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "query": "C2289",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2289,
+      "mfr": "KT-0603YG",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 120° 20mA 2V~2.2V 30mcd~42mcd 40mW 567nm~573nm 576nm Discrete Diode Top-mount Water Clear Yellow Green 0603 LED Indication - Discrete ROHS",
+      "stock": 100480,
+      "price": 0.0112
+    }
+  ]
+}

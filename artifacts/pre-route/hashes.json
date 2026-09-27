@@ -1,0 +1,12 @@
+{
+  "index.circuit.tsx": "128bfef39325f46b7899aa141d8a13a9e33bb766cf02375532e8f91bec899a52",
+  "package.json": "3536e8ed047032587a0a267362d8e782674ae924aedfe137185dccc59fd6d248",
+  "bun.lock": "b32a67c81bcc55aa7d59e2f38ab80ff3c8c63e177a9055044881b5c6a365e7e9",
+  "bom.json": "8e5b42415072b67fec356f0498afae8859a34419fc262138677f7f2e1bb9e684",
+  "tscircuit.config.json": "5dce073c915b536a647728500e78acd23be14a29626f5fcff74e16086be6abb3",
+  "lib/motor-driver.tsx": "d788f82d65e2b3012cff1c6c4a5ace3d5ead1105bc3f32c1be7c296edf2fa0bc",
+  "lib/temperature-test.tsx": "330af6f5af2f2fe18c01f6ca6118e464130ac91cfd395b3e334a9464bf994ce5",
+  "lib/power-protection.tsx": "2036f37f8b223d46ccaf43494786c75b55bc485002efd630991f8f25a9c3bb61",
+  "lib/control-debug.tsx": "ab9f430a7674ddfea5afc47245515a40bd672058d59f601b9c177d8621427d6f",
+  "artifacts/pre-route/circuit.json": "78f0da502d1c150421e621971835a272f10986c62ecf98cb679d17741c20803e"
+}

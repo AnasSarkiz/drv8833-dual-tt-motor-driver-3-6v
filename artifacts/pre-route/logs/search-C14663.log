@@ -1,0 +1,16 @@
+{
+  "query": "C14663",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 14663,
+      "mfr": "CC0603KRX7R9BB104",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 12618106,
+      "price": 0.0106
+    }
+  ]
+}

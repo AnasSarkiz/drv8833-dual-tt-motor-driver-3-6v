@@ -1,0 +1,88 @@
+<SchematicSheet name="Dual_Motor_Driver" id="schematic_sheet_1">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U1" positionAnchor="center" schX="0" schY="0" width="5" height="7" />
+<SchematicBoxPlacement componentName="R2" positionAnchor="center" schX="-5" schY="-7" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R3" positionAnchor="center" schX="5" schY="-7" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C3" positionAnchor="center" schX="-10" schY="8" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C4" positionAnchor="center" schX="-5" schY="8" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C5" positionAnchor="center" schX="0" schY="8" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="C6" positionAnchor="center" schX="6" schY="8" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<GenericSchematicBoxTooWide message="Shrink schematic box width" componentName="U1" currentSchWidth="5" measuredInnerLabelHorizontalEmptySpace="3.85" maxAllowedInnerLabelHorizontalEmptySpace="1" suggestedSchWidth="2.15" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="U1" pinSides="left,right" edgeSides="top,bottom" suggestedSchHeight="2" />
+<TwoPinComponentShouldBeVertical componentName="R2" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R2 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R3" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R3 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C3" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C3 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C4" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C4 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C5" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C5 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C6" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C6 by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="VM" ground="GND" capacitorNames="C3, C4" maxBodyGap="4.4" maxRecommendedBodyGap="4" message="Group the decoupling capacitors between VM and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Control_Debug" id="schematic_sheet_2">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R9" positionAnchor="center" schX="-4" schY="10" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R10" positionAnchor="center" schX="-4" schY="6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R11" positionAnchor="center" schX="-4" schY="2" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R12" positionAnchor="center" schX="-4" schY="-2" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R13" positionAnchor="center" schX="-4" schY="-6" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="U2" positionAnchor="center" schX="3" schY="1" width="4" height="6" />
+<SchematicBoxPlacement componentName="C7" positionAnchor="center" schX="3" schY="9" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R14" positionAnchor="center" schX="10" schY="-7" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R15" positionAnchor="center" schX="10" schY="10" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="LED2" positionAnchor="center" schX="16" schY="10" width="1.13" height="0.65" />
+<SchematicBoxPlacement componentName="LED3" positionAnchor="center" schX="16" schY="6" width="1.13" height="0.65" />
+<SchematicBoxPlacement componentName="LED4" positionAnchor="center" schX="16" schY="2" width="1.13" height="0.65" />
+<SchematicBoxPlacement componentName="R18" positionAnchor="center" schX="10" schY="-3" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<GenericSchematicBoxTooWide message="Shrink schematic box width" componentName="U2" currentSchWidth="4" measuredInnerLabelHorizontalEmptySpace="3.23" maxAllowedInnerLabelHorizontalEmptySpace="1" suggestedSchWidth="1.77" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="U2" pinSides="left,right" edgeSides="top,bottom" suggestedSchHeight="1" />
+<TwoPinComponentShouldBeVertical componentName="R9" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R9 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R10" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R10 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R11" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R11 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R12" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R12 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R13" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate R13 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C7" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C7 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R14" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R14 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R15" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R15 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED2" railPin="anode" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate LED2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED3" railPin="cathode" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate LED3 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED4" railPin="cathode" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate LED4 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R18" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R18 by -90° so its power-connected pin faces up and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Power_Protection" id="schematic_sheet_0">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-12" schY="4" width="1.2" height="0.4" />
+<SchematicBoxPlacement componentName="F1" positionAnchor="center" schX="-6" schY="4" width="0.4" height="0.16" />
+<SchematicBoxPlacement componentName="C1" positionAnchor="center" schX="-8" schY="-4" width="0.6" height="1.1" />
+<SchematicBoxPlacement componentName="C2" positionAnchor="center" schX="-3" schY="-4" width="0.6" height="1.1" />
+<SchematicBoxPlacement componentName="D1" positionAnchor="center" schX="2" schY="-4" width="0.4" height="0.36" />
+<SchematicBoxPlacement componentName="R1" positionAnchor="center" schX="8" schY="-2" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="LED1" positionAnchor="center" schX="8" schY="-6" width="1.13" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="J1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate J1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="F1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate F1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C2" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate C2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="D1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate D1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED1" railPin="anode" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate LED1 by -90° so its power-connected pin faces up and the component is vertical" />
+<DecouplingCapacitorsNotCloseTogether rail="VM" ground="GND" capacitorNames="C1, C2" maxBodyGap="4.4" maxRecommendedBodyGap="4" message="Group the decoupling capacitors between VM and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Temperature_Test" id="schematic_sheet_3">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R19" positionAnchor="center" schX="-8" schY="4" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="TH1" positionAnchor="center" schX="-8" schY="-1.98" width="0.4" height="0.28" />
+<SchematicBoxPlacement componentName="C8" positionAnchor="center" schX="3" schY="-2" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="R19" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R19 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="TH1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate TH1 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="C8" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate C8 by -90° so its ground-connected pin faces down and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>

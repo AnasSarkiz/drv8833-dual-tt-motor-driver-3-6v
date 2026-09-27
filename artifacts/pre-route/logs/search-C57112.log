@@ -1,0 +1,16 @@
+{
+  "query": "C57112",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 57112,
+      "mfr": "0603B103K500NT",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "10nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 2155057,
+      "price": 0.0202
+    }
+  ]
+}

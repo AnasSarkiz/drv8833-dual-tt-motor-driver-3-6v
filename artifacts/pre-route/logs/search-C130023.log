@@ -1,0 +1,16 @@
+{
+  "query": "C130023",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 130023,
+      "mfr": "SN74LVC2G86DCTR",
+      "package": "MSOP-8-2.8mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1.65V~5.5V 1.7V~2V 10uA 2 2 2.3V、2.4V、3.8V 3.6ns@5V,50pF 300mV、400mV、450mV、550mV 32mA 32mA 700mV~800mV 74LVC Series Rear drive protection、Local shutdown mode、Live insertion protection XOR Gate MSOP-8-2.8mm Logic Gates ROHS",
+      "stock": 155,
+      "price": 0.6052
+    }
+  ]
+}

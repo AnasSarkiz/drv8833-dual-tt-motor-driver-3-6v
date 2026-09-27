@@ -1,0 +1,34 @@
+{
+  "purpose": "Four supplier footprint thermal vias under U1 exposed GND pad; allowed only for pre-route review. No plane connections exist. Paste/fill and thermal validation remain open. These are NOT signal routing vias.",
+  "import_sha256": "40216f4188fcd9752f37c1cfa97c3029bb32a0b409e76a881d6eaf18e689baaf",
+  "vias": [
+    {
+      "id": "pcb_via_0",
+      "x_mm": 0.500126,
+      "y_mm": 0.499872,
+      "drill_mm": 0.3048,
+      "pad_mm": 0.6096
+    },
+    {
+      "id": "pcb_via_1",
+      "x_mm": -0.499872,
+      "y_mm": 0.499872,
+      "drill_mm": 0.3048,
+      "pad_mm": 0.6096
+    },
+    {
+      "id": "pcb_via_2",
+      "x_mm": -0.499872,
+      "y_mm": -0.500126,
+      "drill_mm": 0.3048,
+      "pad_mm": 0.6096
+    },
+    {
+      "id": "pcb_via_3",
+      "x_mm": 0.500126,
+      "y_mm": -0.500126,
+      "drill_mm": 0.3048,
+      "pad_mm": 0.6096
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "query": "C13564",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 13564,
+      "mfr": "NCP18XH103F03RB",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.8mm 1.6mm 100mW 10kΩ 1mW/℃ 310uA 3380K 3434K 3455K ±1% ±1% 0603 NTC Thermistors ROHS",
+      "stock": 398625,
+      "price": 0.0664
+    }
+  ]
+}

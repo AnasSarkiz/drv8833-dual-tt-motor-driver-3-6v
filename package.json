@@ -1,0 +1,35 @@
+{
+  "name": "@tsci/AnasSarkiz.dual-tt-motor-driver",
+  "version": "0.1.0-alpha.1",
+  "description": "Unrouted dual TT motor driver \u2014 NOT FOR FABRICATION",
+  "main": "index.circuit.tsx",
+  "keywords": [
+    "tscircuit",
+    "circuit",
+    "pcb",
+    "electronics"
+  ],
+  "scripts": {
+    "dev": "bun run guard:source && tsci dev index.circuit.tsx",
+    "build": "bun run guard:source && tsci build index.circuit.tsx --routing-disabled && bun run guard",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "guard:source": "bun scripts/check-routing-lock.ts --source-only",
+    "guard": "bun scripts/check-routing-lock.ts",
+    "render": "bun scripts/render-pre-route.ts",
+    "validate": "bun run typecheck && bun run build && bun test",
+    "start": "bun run dev"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "@tscircuit/props": "0.0.666",
+    "@types/bun": "1.4.2",
+    "circuit-json": "0.0.499",
+    "tscircuit": "0.0.2646",
+    "typescript": "5.9.3"
+  },
+  "author": "AnasSarkiz",
+  "packageManager": "bun@1.3.9"
+}

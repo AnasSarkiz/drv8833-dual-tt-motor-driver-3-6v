@@ -1,0 +1,16 @@
+{
+  "query": "C20627123",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 20627123,
+      "mfr": "1812L300/24GR",
+      "package": "1812",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.4W 1.5mm 10mΩ 24V 3.41mm 3A 4.73mm 40A 4s 5A 60mΩ 1812 Resettable Fuses ROHS",
+      "stock": 166568,
+      "price": 0.1376
+    }
+  ]
+}

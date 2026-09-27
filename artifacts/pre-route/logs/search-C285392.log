@@ -1,0 +1,16 @@
+{
+  "query": "C285392",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 285392,
+      "mfr": "VZH221M1CTR-0607",
+      "package": "SMD,D6.3xL7.7mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-45℃~+105℃ 16V 2000hrs@105℃ 220uF 6.3mm 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS",
+      "stock": 1577,
+      "price": 0.0663
+    }
+  ]
+}

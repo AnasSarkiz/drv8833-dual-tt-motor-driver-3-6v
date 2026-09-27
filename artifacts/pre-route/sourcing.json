@@ -1,0 +1,370 @@
+[
+  {
+    "c_number": "C50506",
+    "checked_at": "2026-09-27T08:58:45.826030+00:00",
+    "supplier_response": {
+      "query": "C50506",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 50506,
+          "mfr": "DRV8833PWPR",
+          "package": "TSSOP-16-EP",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-40\u2103~+85\u2103 1.5A 2 2.7V~10.8V 360m\u03a9 Bipolar Driver Yes TSSOP-16-EP Stepper Motor Driver ROHS",
+          "stock": 3299,
+          "price": 0.9697
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C130023",
+    "checked_at": "2026-09-27T08:58:46.985557+00:00",
+    "supplier_response": {
+      "query": "C130023",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 130023,
+          "mfr": "SN74LVC2G86DCTR",
+          "package": "MSOP-8-2.8mm",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-40\u2103~+125\u2103 1.65V~5.5V 1.7V~2V 10uA 2 2 2.3V\u30012.4V\u30013.8V 3.6ns@5V,50pF 300mV\u3001400mV\u3001450mV\u3001550mV 32mA 32mA 700mV~800mV 74LVC Series Rear drive protection\u3001Local shutdown mode\u3001Live insertion protection XOR Gate MSOP-8-2.8mm Logic Gates ROHS",
+          "stock": 155,
+          "price": 0.6052
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C15127",
+    "checked_at": "2026-09-27T08:58:48.140166+00:00",
+    "supplier_response": {
+      "query": "C15127",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 15127,
+          "mfr": "AO3401A",
+          "package": "SOT-23",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "1 P-Channel 14nC@10V 30V 47m\u03a9@10V\u300160m\u03a9@4.5V\u300185m\u03a9@2.5V 4A 55pF 645pF 80pF 900mV SOT-23 MOSFETs ROHS",
+          "stock": 715902,
+          "price": 0.0716
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C876469",
+    "checked_at": "2026-09-27T08:58:49.400254+00:00",
+    "supplier_response": {
+      "query": "C876469",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 876469,
+          "mfr": "RL2512FK-070R15L",
+          "package": "2512",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "150m\u03a9 1W Thick Film Resistor \u00b11% \u00b1600ppm/\u2103 2512 Chip Resistor - Surface Mount ROHS",
+          "stock": 722,
+          "price": 0.1243
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C13564",
+    "checked_at": "2026-09-27T08:58:50.551549+00:00",
+    "supplier_response": {
+      "query": "C13564",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 13564,
+          "mfr": "NCP18XH103F03RB",
+          "package": "0603",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-40\u2103~+125\u2103 0.8mm 1.6mm 100mW 10k\u03a9 1mW/\u2103 310uA 3380K 3434K 3455K \u00b11% \u00b11% 0603 NTC Thermistors ROHS",
+          "stock": 398625,
+          "price": 0.0664
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C15850",
+    "checked_at": "2026-09-27T08:58:51.743620+00:00",
+    "supplier_response": {
+      "query": "C15850",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 15850,
+          "mfr": "CL21A106KAYNNNE",
+          "package": "0805",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "10uF 25V X5R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+          "stock": 3505306,
+          "price": 0.0773
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C23630",
+    "checked_at": "2026-09-27T08:58:52.971686+00:00",
+    "supplier_response": {
+      "query": "C23630",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 23630,
+          "mfr": "CL10A225KO8NNNC",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "16V 2.2uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+          "stock": 1181628,
+          "price": 0.0093
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C57112",
+    "checked_at": "2026-09-27T08:58:54.202274+00:00",
+    "supplier_response": {
+      "query": "C57112",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 57112,
+          "mfr": "0603B103K500NT",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "10nF 50V X7R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+          "stock": 2155057,
+          "price": 0.0202
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C14663",
+    "checked_at": "2026-09-27T08:58:55.392679+00:00",
+    "supplier_response": {
+      "query": "C14663",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 14663,
+          "mfr": "CC0603KRX7R9BB104",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "100nF 50V X7R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+          "stock": 12618106,
+          "price": 0.0106
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C285392",
+    "checked_at": "2026-09-27T08:58:56.659185+00:00",
+    "supplier_response": {
+      "query": "C285392",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 285392,
+          "mfr": "VZH221M1CTR-0607",
+          "package": "SMD,D6.3xL7.7mm",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-45\u2103~+105\u2103 16V 2000hrs@105\u2103 220uF 6.3mm 7.7mm \u00b120% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS",
+          "stock": 1577,
+          "price": 0.0663
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C5331096",
+    "checked_at": "2026-09-27T08:58:57.854675+00:00",
+    "supplier_response": {
+      "query": "C5331096",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 5331096,
+          "mfr": "SMBJ6.0A",
+          "package": "DO-214AA(SMB)",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "",
+          "stock": 1829,
+          "price": 0.0351
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C20627123",
+    "checked_at": "2026-09-27T08:58:59.028129+00:00",
+    "supplier_response": {
+      "query": "C20627123",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 20627123,
+          "mfr": "1812L300/24GR",
+          "package": "1812",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-40\u2103~+85\u2103 1.4W 1.5mm 10m\u03a9 24V 3.41mm 3A 4.73mm 40A 4s 5A 60m\u03a9 1812 Resettable Fuses ROHS",
+          "stock": 166568,
+          "price": 0.1376
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C474881",
+    "checked_at": "2026-09-27T08:59:00.205154+00:00",
+    "supplier_response": {
+      "query": "C474881",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 474881,
+          "mfr": "KF301-5.0-2P",
+          "package": "\u63d2\u4ef6,P=5mm",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-30\u2103~+120\u2103 1 1.5 14~22 17A 1x2P 2 250V 2P 5mm Blue Through Hole \u63d2\u4ef6,P=5mm Screw Terminal Blocks ROHS",
+          "stock": 173497,
+          "price": 0.1008
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C49257",
+    "checked_at": "2026-09-27T08:59:01.459633+00:00",
+    "supplier_response": {
+      "query": "C49257",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 49257,
+          "mfr": "2.54-1*3P\u9488",
+          "package": "\u63d2\u4ef6,P=2.54mm",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-40\u2103~+105\u2103 1 1x3P 2.54mm 2.5mm 3A 3P 3mm 6mm Black Brass Gold Pin Header Through Hole \u63d2\u4ef6,P=2.54mm Pin Headers ROHS",
+          "stock": 301039,
+          "price": 0.0241
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C25804",
+    "checked_at": "2026-09-27T08:59:02.637500+00:00",
+    "supplier_response": {
+      "query": "C25804",
+      "results": []
+    }
+  },
+  {
+    "c_number": "C21190",
+    "checked_at": "2026-09-27T08:59:03.805155+00:00",
+    "supplier_response": {
+      "query": "C21190",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 21190,
+          "mfr": "0603WAF1001T5E",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-55\u2103~+155\u2103 100mW 1k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+          "stock": 8013731,
+          "price": 0.0039
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C4190",
+    "checked_at": "2026-09-27T08:59:05.029901+00:00",
+    "supplier_response": {
+      "query": "C4190",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 4190,
+          "mfr": "0603WAF2201T5E",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-55\u2103~+155\u2103 100mW 2.2k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+          "stock": 2001135,
+          "price": 0.0014
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C2286",
+    "checked_at": "2026-09-27T08:59:06.243391+00:00",
+    "supplier_response": {
+      "query": "C2286",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 2286,
+          "mfr": "KT-0603R",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-40\u2103~+85\u2103 1.8V~2.4V 120\u00b0 20mA 300mcd 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS",
+          "stock": 8154450,
+          "price": 0.0073
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C2289",
+    "checked_at": "2026-09-27T08:59:07.421772+00:00",
+    "supplier_response": {
+      "query": "C2289",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 2289,
+          "mfr": "KT-0603YG",
+          "package": "0603",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-40\u2103~+85\u2103 120\u00b0 20mA 2V~2.2V 30mcd~42mcd 40mW 567nm~573nm 576nm Discrete Diode Top-mount Water Clear Yellow Green 0603 LED Indication - Discrete ROHS",
+          "stock": 100480,
+          "price": 0.0112
+        }
+      ]
+    }
+  }
+]

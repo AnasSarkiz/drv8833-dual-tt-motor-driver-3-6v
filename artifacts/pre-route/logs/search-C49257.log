@@ -1,0 +1,16 @@
+{
+  "query": "C49257",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 49257,
+      "mfr": "2.54-1*3P针",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x3P 2.54mm 2.5mm 3A 3P 3mm 6mm Black Brass Gold Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 301039,
+      "price": 0.0241
+    }
+  ]
+}

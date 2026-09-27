@@ -1,0 +1,16 @@
+{
+  "query": "C5331096",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 5331096,
+      "mfr": "SMBJ6.0A",
+      "package": "DO-214AA(SMB)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 1829,
+      "price": 0.0351
+    }
+  ]
+}

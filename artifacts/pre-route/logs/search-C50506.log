@@ -1,0 +1,16 @@
+{
+  "query": "C50506",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 50506,
+      "mfr": "DRV8833PWPR",
+      "package": "TSSOP-16-EP",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.5A 2 2.7V~10.8V 360mΩ Bipolar Driver Yes TSSOP-16-EP Stepper Motor Driver ROHS",
+      "stock": 3299,
+      "price": 0.9697
+    }
+  ]
+}

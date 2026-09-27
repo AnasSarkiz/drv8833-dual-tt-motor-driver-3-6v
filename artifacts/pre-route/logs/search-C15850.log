@@ -1,0 +1,16 @@
+{
+  "query": "C15850",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 15850,
+      "mfr": "CL21A106KAYNNNE",
+      "package": "0805",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 3505306,
+      "price": 0.0773
+    }
+  ]
+}

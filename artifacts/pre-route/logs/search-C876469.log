@@ -1,0 +1,16 @@
+{
+  "query": "C876469",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 876469,
+      "mfr": "RL2512FK-070R15L",
+      "package": "2512",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "150mΩ 1W Thick Film Resistor ±1% ±600ppm/℃ 2512 Chip Resistor - Surface Mount ROHS",
+      "stock": 722,
+      "price": 0.1243
+    }
+  ]
+}

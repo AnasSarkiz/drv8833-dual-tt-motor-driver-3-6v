@@ -1,0 +1,129 @@
+placement summary: 8 suboptimal orientations
+
+worst issues:
+1. C5 connections cross the routing path between its pads. Suggested move: rotate C5 180 degrees.
+2. R4 connections cross the routing path between its pads. Suggested move: rotate R4 180 degrees.
+3. R5 connections cross the routing path between its pads. Suggested move: rotate R5 180 degrees.
+4. R6 connections cross the routing path between its pads. Suggested move: rotate R6 180 degrees.
+5. R7 connections cross the routing path between its pads. Suggested move: rotate R7 180 degrees.
+
+board top-layer utilization:
+- occupied: 28.455% (919.52mm^2 of 3231.497mm^2)
+- empty spaces over 5% of board area:
+  - 10.433% (337.156mm^2); bounds=(minX=-33.615mm, maxX=-8.395mm, minY=-25.6mm, maxY=-12.231mm)
+  - 7.05% (227.805mm^2); bounds=(minX=-33.615mm, maxX=-8.752mm, minY=14.238mm, maxY=23.4mm)
+  - 5.236% (169.207mm^2); bounds=(minX=9.187mm, maxX=22.353mm, minY=-12.762mm, maxY=0.09mm)
+
+board-edge status:
+- J1: 2.015mm inside left edge
+- F1: 10.651mm inside bottom edge
+- Q1: 11.05mm inside bottom edge
+- C1: 7.43mm inside left edge
+- C2: 17.43mm inside left edge
+- D1: 2mm inside left edge
+- R1: 13.458mm inside left edge
+- LED1: 15.2mm inside top edge
+- U1: 19.9mm inside bottom edge
+- R2: 16.872mm inside top edge
+- R3: 16.872mm inside top edge
+- J2: 7.5mm inside top edge
+- J3: 7.5mm inside top edge
+- C3: 17.225mm inside bottom edge
+- C4: 16.725mm inside bottom edge
+- C5: 21.45mm inside bottom edge
+- C6: 19.95mm inside bottom edge
+- J4: 5mm inside right edge
+- J5: 5mm inside right edge
+- J6: 5mm inside right edge
+- R4: 5.968mm inside bottom edge
+- R9: 5.968mm inside bottom edge
+- R5: 9.968mm inside bottom edge
+- R10: 9.968mm inside bottom edge
+- R6: 13.968mm inside bottom edge
+- R11: 13.968mm inside bottom edge
+- R7: 14.177mm inside right edge
+- R12: 17.968mm inside bottom edge
+- R8: 14.177mm inside right edge
+- R13: 19.177mm inside right edge
+- U2: 11.225mm inside bottom edge
+- C7: 11.95mm inside bottom edge
+- R14: 7.177mm inside right edge
+- R15: 5.968mm inside bottom edge
+- LED2: 2mm inside bottom edge
+- R16: 5.968mm inside bottom edge
+- LED3: 2mm inside bottom edge
+- R17: 5.968mm inside bottom edge
+- LED4: 2mm inside bottom edge
+- R18: 7.177mm inside right edge
+- LED5: 2.184mm inside right edge
+- R19: 14.968mm inside bottom edge
+- TH1: 17.968mm inside bottom edge
+- R20: 2.177mm inside right edge
+- C8: 7.234mm inside right edge
+- J7: 2mm inside right edge
+- TP1: 2mm inside top edge
+- TP2: 2mm inside top edge
+- TP3: 2mm inside top edge
+- TP4: 2mm inside top edge
+- TP5: 2mm inside top edge
+- TP6: 2mm inside top edge
+- TP7: 2mm inside top edge
+
+flagged components:
+- C5
+  source placement: placement_mode=none
+  resolved placement: center=(-5.5mm, 1.5mm) on top; bounds=(minX=-6.6mm, maxX=-4.4mm, minY=1.05mm, maxY=1.95mm); size=(width=2.2mm, height=0.9mm); anchor_alignment="center"
+  board edge status: 21.45mm inside bottom edge
+  issues:
+  - C5 connections cross the routing path between its pads. Suggested move: rotate C5 180 degrees.
+- R4
+  source placement: placement_mode=none
+  resolved placement: center=(17mm, 17mm) on top; bounds=(minX=15.843mm, maxX=18.157mm, minY=16.568mm, maxY=17.432mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 5.968mm inside bottom edge
+  issues:
+  - R4 connections cross the routing path between its pads. Suggested move: rotate R4 180 degrees.
+- R5
+  source placement: placement_mode=none
+  resolved placement: center=(17mm, 13mm) on top; bounds=(minX=15.843mm, maxX=18.157mm, minY=12.568mm, maxY=13.432mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 9.968mm inside bottom edge
+  issues:
+  - R5 connections cross the routing path between its pads. Suggested move: rotate R5 180 degrees.
+- R6
+  source placement: placement_mode=none
+  resolved placement: center=(17mm, 9mm) on top; bounds=(minX=15.843mm, maxX=18.157mm, minY=8.568mm, maxY=9.432mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 13.968mm inside bottom edge
+  issues:
+  - R6 connections cross the routing path between its pads. Suggested move: rotate R6 180 degrees.
+- R7
+  source placement: placement_mode=none
+  resolved placement: center=(17mm, 5mm) on top; bounds=(minX=15.843mm, maxX=18.157mm, minY=4.568mm, maxY=5.432mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 14.177mm inside right edge
+  issues:
+  - R7 connections cross the routing path between its pads. Suggested move: rotate R7 180 degrees.
+- R8
+  source placement: placement_mode=none
+  resolved placement: center=(17mm, 1mm) on top; bounds=(minX=15.843mm, maxX=18.157mm, minY=0.568mm, maxY=1.432mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 14.177mm inside right edge
+  issues:
+  - R8 connections cross the routing path between its pads. Suggested move: rotate R8 180 degrees.
+- R19
+  source placement: placement_mode=none
+  resolved placement: center=(-6mm, 8mm) on top; bounds=(minX=-7.157mm, maxX=-4.843mm, minY=7.568mm, maxY=8.432mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 14.968mm inside bottom edge
+  issues:
+  - R19 connections cross the routing path between its pads. Suggested move: rotate R19 180 degrees.
+- J7
+  source placement: placement_mode=none
+  resolved placement: center=(27mm, -20mm) on top; bounds=(minX=23.666mm, maxX=30.334mm, minY=-20.8mm, maxY=-19.2mm); size=(width=6.667mm, height=1.6mm); anchor_alignment="center"
+  board edge status: 2mm inside right edge
+  issues:
+  - J7 connections favor the opposite orientation. Suggested move: rotate J7 180 degrees.
+
+placement drc:
+Errors: 0
+Warnings: 5
+- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face y- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face y+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face y- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).

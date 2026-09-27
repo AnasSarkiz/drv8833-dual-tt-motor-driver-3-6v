@@ -1,0 +1,16 @@
+{
+  "query": "C23630",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 23630,
+      "mfr": "CL10A225KO8NNNC",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 1181628,
+      "price": 0.0093
+    }
+  ]
+}

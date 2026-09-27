@@ -1,0 +1,2 @@
+$ bun scripts/check-routing-lock.ts --source-only
+PASS: routing lock; 0.30 mm drill / 0.45 mm pad minimums

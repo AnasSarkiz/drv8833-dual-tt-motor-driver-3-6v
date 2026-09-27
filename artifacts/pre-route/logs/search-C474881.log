@@ -1,0 +1,16 @@
+{
+  "query": "C474881",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 474881,
+      "mfr": "KF301-5.0-2P",
+      "package": "插件,P=5mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-30℃~+120℃ 1 1.5 14~22 17A 1x2P 2 250V 2P 5mm Blue Through Hole 插件,P=5mm Screw Terminal Blocks ROHS",
+      "stock": 173497,
+      "price": 0.1008
+    }
+  ]
+}
