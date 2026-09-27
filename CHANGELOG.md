@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0-alpha.4 — portable cloud build
+
+Unchanged routed copper. Ported the mechanical geometry gate to Bun/TypeScript, preserving all checks, because the registry has no Python runtime. The cloud build reinstalls the frozen dependency graph to replace preloaded package symlinks.
+
+
 ## 0.1.0-alpha.3 — routed prototype, 2026-09-27
 
 Completed all signal/power routes and ground copper with six additional ground stitches. Preserved the 75 × 60 mm chassis outline, M3 mounting pattern and 0.30/0.45 mm via minima. Added validated native saved routes, strict physical-connectivity regression cases, all-layer previews and passing routing evidence. Canonical generator/schema fixes are included as explicit, reproducible local packages with source patches. Physical assembly/current/thermal qualification remains pending.

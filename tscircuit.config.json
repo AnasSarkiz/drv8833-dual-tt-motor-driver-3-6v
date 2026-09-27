@@ -7,5 +7,5 @@
     "routingDisabled": false,
     "circuitJson": true
   },
-  "buildCommand": "bun run build"
+  "buildCommand": "bun install --frozen-lockfile --force && bun run build"
 }

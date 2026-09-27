@@ -1,4 +1,4 @@
-$ bun run guard:source && tsci build index.circuit.tsx && python3 scripts/check-mechanical.py && bun run guard && bun scripts/check-routed-connectivity.ts
+$ bun run guard:source && tsci build index.circuit.tsx && bun scripts/check-mechanical.ts && bun run guard && bun scripts/check-routed-connectivity.ts
 $ bun scripts/check-routing-lock.ts --source-only
 PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
 Building 1 file(s)...

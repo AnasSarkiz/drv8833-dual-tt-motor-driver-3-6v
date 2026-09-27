@@ -1,4 +1,4 @@
-# Validation — routed alpha.3 prototype
+# Validation — routed alpha.4 prototype
 
 Run on 2026-09-27. These are software checks and limited visual review, not physical measurements. Current evidence is under `artifacts/routed/logs/`; older pre-route evidence is historical.
 

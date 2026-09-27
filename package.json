@@ -1,6 +1,6 @@
 {
   "name": "@tsci/AnasSarkiz.dual-tt-motor-driver",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "Four-layer dual TT motor driver prototype",
   "main": "index.circuit.tsx",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "bun run guard:source && tsci dev index.circuit.tsx",
-    "build": "bun run guard:source && tsci build index.circuit.tsx && python3 scripts/check-mechanical.py && bun run guard && bun scripts/check-routed-connectivity.ts",
+    "build": "bun run guard:source && tsci build index.circuit.tsx && bun scripts/check-mechanical.ts && bun run guard && bun scripts/check-routed-connectivity.ts",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "format": "biome format --write .",

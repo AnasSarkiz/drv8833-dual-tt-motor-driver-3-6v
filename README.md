@@ -1,6 +1,6 @@
 # Dual TT motor driver — routed prototype
 
-Revision A; package 0.1.0-alpha.3. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
+Revision A; package 0.1.0-alpha.4. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
 
 A four-layer driver module for two brushed TT motors, controlled by an external host. The [reference TT motor](https://www.adafruit.com/product/3777) mounts to the chassis separately. This PCB is **75 × 60 × 1.6 mm**, with four **3.2 mm non-plated M3 holes on 65 × 50 mm centers** and 7 mm hardware keepouts. It is a generic module with a custom mounting pattern; compatibility with a particular chassis is not claimed. [Dimensioned mounting template](artifacts/routed/mounting-template.svg).
 

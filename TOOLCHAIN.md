@@ -21,3 +21,5 @@ The schema suite passed 397 tests / 1,899 assertions. Focused core regression te
 Commands used for final validation: `tsci check netlist`, `tsci check placement`, `tsci check pin_specification`, `tsci check source`, `tsci check trace-length net.VM`, `tsci build`, native `runAllRoutingChecks`, full schema parsing, project tests, mechanical checks and Gerber-mode shorts. `bun run render` converts unmodified generated Circuit JSON to images.
 
 The earlier partial investigation in `references/core-schema-fix/` is historical. The complete fixes above supersede its unresolved status. No upstream issue, PR or npm publication was made.
+
+The registry runtime preloads dependency symlinks and does not provide Python. The mechanical gate therefore also has a native Bun/TypeScript implementation, equivalent to the original Python check. The cloud build command performs a forced frozen-lockfile install before the complete project build, so preloaded libraries cannot create a mixed dependency graph. No check is omitted.

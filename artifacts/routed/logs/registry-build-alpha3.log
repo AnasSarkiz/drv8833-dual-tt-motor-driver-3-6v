@@ -1,0 +1,1240 @@
+:started
+retry: 2000
+
+:hb
+
+id: 1
+event: log
+data: [2026-09-27T20:27:57.249Z] Starting execution
+
+id: 2
+event: log
+data: [2026-09-27T20:27:58.790Z] Sandbox ready: tscircuit-runtime-5b57d0d474e0c6e69ce16d4306ac59074f760a5c4c9a0
+
+id: 3
+event: log
+data: [2026-09-27T20:27:58.929Z] Wrote .npmrc with auth token
+
+id: 4
+event: log
+data: [2026-09-27T20:28:32.213Z] Created directory: artifacts/pre-route
+
+id: 5
+event: log
+data: [2026-09-27T20:28:32.248Z] Created directory: artifacts/pre-route/logs
+
+id: 6
+event: log
+data: [2026-09-27T20:28:32.280Z] Created directory: artifacts/routed
+
+id: 7
+event: log
+data: [2026-09-27T20:28:32.312Z] Created directory: artifacts/routed/logs
+
+id: 8
+event: log
+data: [2026-09-27T20:28:32.345Z] Created directory: imports
+
+id: 9
+event: log
+data: [2026-09-27T20:28:32.380Z] Created directory: lib
+
+id: 10
+event: log
+data: [2026-09-27T20:28:32.410Z] Created directory: references/core-schema-fix
+
+id: 11
+event: log
+data: [2026-09-27T20:28:32.439Z] Created directory: references
+
+id: 12
+event: log
+data: [2026-09-27T20:28:32.470Z] Created directory: references/toolchain-fixes
+
+id: 13
+event: log
+data: [2026-09-27T20:28:32.499Z] Created directory: scripts
+
+id: 14
+event: log
+data: [2026-09-27T20:28:32.527Z] Created directory: tests
+
+id: 15
+event: log
+data: [2026-09-27T20:28:32.557Z] Created directory: vendor
+
+id: 16
+event: log
+data: [2026-09-27T20:28:32.585Z] Wrote file: ASSEMBLY_PLAN.md
+
+id: 17
+event: log
+data: [2026-09-27T20:28:32.617Z] Wrote file: BOM.md
+
+id: 18
+event: log
+data: [2026-09-27T20:28:32.648Z] Wrote file: CHANGELOG.md
+
+id: 19
+event: log
+data: [2026-09-27T20:28:32.680Z] Wrote file: DESIGN_REVIEW.md
+
+id: 20
+event: log
+data: [2026-09-27T20:28:32.714Z] Wrote file: IMPORTS.md
+
+id: 21
+event: log
+data: [2026-09-27T20:28:32.744Z] Wrote file: ISSUES.md
+
+id: 22
+event: log
+data: [2026-09-27T20:28:32.772Z] Wrote file: MECHANICAL.md
+
+id: 23
+event: log
+data: [2026-09-27T20:28:32.802Z] Wrote file: PLACEMENT_REVIEW.md
+
+id: 24
+event: log
+data: [2026-09-27T20:28:32.832Z] Wrote file: PRE_ROUTING_REVIEW.md
+
+id: 25
+event: log
+data: [2026-09-27T20:28:32.861Z] Wrote file: PUBLICATION.md
+
+id: 26
+event: log
+data: [2026-09-27T20:28:32.896Z] Wrote file: README.md
+
+id: 27
+event: log
+data: [2026-09-27T20:28:32.926Z] Wrote file: REFERENCE_BOARD_REVIEW.md
+
+id: 28
+event: log
+data: [2026-09-27T20:28:32.953Z] Wrote file: ROUTING_AUTHORIZATION.md
+
+id: 29
+event: log
+data: [2026-09-27T20:28:32.989Z] Wrote file: ROUTING_GATE.md
+
+id: 30
+event: log
+data: [2026-09-27T20:28:33.020Z] Wrote file: ROUTING_REVIEW.md
+
+id: 31
+event: log
+data: [2026-09-27T20:28:33.051Z] Wrote file: TEST_PLAN.md
+
+id: 32
+event: log
+data: [2026-09-27T20:28:33.077Z] Wrote file: TOOLCHAIN.md
+
+id: 33
+event: log
+data: [2026-09-27T20:28:33.105Z] Wrote file: U1_FOOTPRINT.md
+
+id: 34
+event: log
+data: [2026-09-27T20:28:33.137Z] Wrote file: VALIDATION.md
+
+id: 35
+event: log
+data: [2026-09-27T20:28:33.167Z] Wrote file: artifacts/pre-route/check-results.md
+
+id: 36
+event: log
+data: [2026-09-27T20:28:33.294Z] Wrote file: artifacts/pre-route/circuit.json
+
+id: 37
+event: log
+data: [2026-09-27T20:28:33.324Z] Wrote file: artifacts/pre-route/hashes.json
+
+id: 38
+event: log
+data: [2026-09-27T20:28:33.353Z] Wrote file: artifacts/pre-route/import-hashes.json
+
+id: 39
+event: log
+data: [2026-09-27T20:28:33.386Z] Wrote file: artifacts/pre-route/import-results.json
+
+id: 40
+event: log
+data: [2026-09-27T20:28:33.416Z] Wrote file: artifacts/pre-route/logs/bom.log
+
+id: 41
+event: log
+data: [2026-09-27T20:28:33.446Z] Wrote file: artifacts/pre-route/logs/build.log
+
+id: 42
+event: log
+data: [2026-09-27T20:28:33.476Z] Wrote file: artifacts/pre-route/logs/design-connectivity.log
+
+id: 43
+event: log
+data: [2026-09-27T20:28:33.505Z] Wrote file: artifacts/pre-route/logs/format-check.log
+
+id: 44
+event: log
+data: [2026-09-27T20:28:33.542Z] Wrote file: artifacts/pre-route/logs/format.log
+
+id: 45
+event: log
+data: [2026-09-27T20:28:33.577Z] Wrote file: artifacts/pre-route/logs/github-ci.log
+
+id: 46
+event: log
+data: [2026-09-27T20:28:33.607Z] Wrote file: artifacts/pre-route/logs/guard.log
+
+id: 47
+event: log
+data: [2026-09-27T20:28:33.638Z] Wrote file: artifacts/pre-route/logs/import-C13564.log
+
+id: 48
+event: log
+data: [2026-09-27T20:28:33.670Z] Wrote file: artifacts/pre-route/logs/import-C14663.log
+
+id: 49
+event: log
+data: [2026-09-27T20:28:33.703Z] Wrote file: artifacts/pre-route/logs/import-C15127.log
+
+id: 50
+event: log
+data: [2026-09-27T20:28:33.730Z] Wrote file: artifacts/pre-route/logs/import-C15850.log
+
+id: 51
+event: log
+data: [2026-09-27T20:28:33.757Z] Wrote file: artifacts/pre-route/logs/import-C178991.log
+
+id: 52
+event: log
+data: [2026-09-27T20:28:33.784Z] Wrote file: artifacts/pre-route/logs/import-C20627123.log
+
+id: 53
+event: log
+data: [2026-09-27T20:28:33.812Z] Wrote file: artifacts/pre-route/logs/import-C21190.log
+
+id: 54
+event: log
+data: [2026-09-27T20:28:33.843Z] Wrote file: artifacts/pre-route/logs/import-C222495.log
+
+id: 55
+event: log
+data: [2026-09-27T20:28:33.875Z] Wrote file: artifacts/pre-route/logs/import-C2286.log
+
+id: 56
+event: log
+data: [2026-09-27T20:28:33.906Z] Wrote file: artifacts/pre-route/logs/import-C2289.log
+
+id: 57
+event: log
+data: [2026-09-27T20:28:33.931Z] Wrote file: artifacts/pre-route/logs/import-C23138.log
+
+id: 58
+event: log
+data: [2026-09-27T20:28:33.962Z] Wrote file: artifacts/pre-route/logs/import-C23206.log
+
+id: 59
+event: log
+data: [2026-09-27T20:28:33.989Z] Wrote file: artifacts/pre-route/logs/import-C23630.log
+
+id: 60
+event: log
+data: [2026-09-27T20:28:34.018Z] Wrote file: artifacts/pre-route/logs/import-C25804.log
+
+id: 61
+event: log
+data: [2026-09-27T20:28:34.045Z] Wrote file: artifacts/pre-route/logs/import-C285392.log
+
+id: 62
+event: log
+data: [2026-09-27T20:28:34.074Z] Wrote file: artifacts/pre-route/logs/import-C4190.log
+
+id: 63
+event: log
+data: [2026-09-27T20:28:34.101Z] Wrote file: artifacts/pre-route/logs/import-C474881.log
+
+id: 64
+event: log
+data: [2026-09-27T20:28:34.127Z] Wrote file: artifacts/pre-route/logs/import-C49257.log
+
+id: 65
+event: log
+data: [2026-09-27T20:28:34.154Z] Wrote file: artifacts/pre-route/logs/import-C5331096.log
+
+id: 66
+event: log
+data: [2026-09-27T20:28:34.180Z] Wrote file: artifacts/pre-route/logs/import-C57112.log
+
+id: 67
+event: log
+data: [2026-09-27T20:28:34.205Z] Wrote file: artifacts/pre-route/logs/import-C83270.log
+
+id: 68
+event: log
+data: [2026-09-27T20:28:34.231Z] Wrote file: artifacts/pre-route/logs/import-C876469.log
+
+id: 69
+event: log
+data: [2026-09-27T20:28:34.260Z] Wrote file: artifacts/pre-route/logs/mechanical.log
+
+id: 70
+event: log
+data: [2026-09-27T20:28:34.292Z] Wrote file: artifacts/pre-route/logs/netlist.log
+
+id: 71
+event: log
+data: [2026-09-27T20:28:34.319Z] Wrote file: artifacts/pre-route/logs/pin-specification.log
+
+id: 72
+event: log
+data: [2026-09-27T20:28:34.349Z] Wrote file: artifacts/pre-route/logs/placement-u1.log
+
+id: 73
+event: log
+data: [2026-09-27T20:28:34.377Z] Wrote file: artifacts/pre-route/logs/placement-u2.log
+
+id: 74
+event: log
+data: [2026-09-27T20:28:34.403Z] Wrote file: artifacts/pre-route/logs/placement.log
+
+id: 75
+event: log
+data: [2026-09-27T20:28:34.430Z] Wrote file: artifacts/pre-route/logs/project-build.log
+
+id: 76
+event: log
+data: [2026-09-27T20:28:34.461Z] Wrote file: artifacts/pre-route/logs/registry-push.log
+
+id: 77
+event: log
+data: [2026-09-27T20:28:34.491Z] Wrote file: artifacts/pre-route/logs/render.log
+
+id: 78
+event: log
+data: [2026-09-27T20:28:34.521Z] Wrote file: artifacts/pre-route/logs/schema.log
+
+id: 79
+event: log
+data: [2026-09-27T20:28:34.550Z] Wrote file: artifacts/pre-route/logs/schematic-placement.log
+
+id: 80
+event: log
+data: [2026-09-27T20:28:34.579Z] Wrote file: artifacts/pre-route/logs/search-C130023.log
+
+id: 81
+event: log
+data: [2026-09-27T20:28:34.606Z] Wrote file: artifacts/pre-route/logs/search-C13564.log
+
+id: 82
+event: log
+data: [2026-09-27T20:28:34.635Z] Wrote file: artifacts/pre-route/logs/search-C14663.log
+
+id: 83
+event: log
+data: [2026-09-27T20:28:34.663Z] Wrote file: artifacts/pre-route/logs/search-C15127.log
+
+id: 84
+event: log
+data: [2026-09-27T20:28:34.692Z] Wrote file: artifacts/pre-route/logs/search-C15850.log
+
+id: 85
+event: log
+data: [2026-09-27T20:28:34.720Z] Wrote file: artifacts/pre-route/logs/search-C20627123.log
+
+id: 86
+event: log
+data: [2026-09-27T20:28:34.749Z] Wrote file: artifacts/pre-route/logs/search-C21190.log
+
+id: 87
+event: log
+data: [2026-09-27T20:28:34.777Z] Wrote file: artifacts/pre-route/logs/search-C2286.log
+
+id: 88
+event: log
+data: [2026-09-27T20:28:34.806Z] Wrote file: artifacts/pre-route/logs/search-C2289.log
+
+id: 89
+event: log
+data: [2026-09-27T20:28:34.832Z] Wrote file: artifacts/pre-route/logs/search-C23630.log
+
+id: 90
+event: log
+data: [2026-09-27T20:28:34.863Z] Wrote file: artifacts/pre-route/logs/search-C25804.log
+
+id: 91
+event: log
+data: [2026-09-27T20:28:34.896Z] Wrote file: artifacts/pre-route/logs/search-C285392.log
+
+id: 92
+event: log
+data: [2026-09-27T20:28:34.927Z] Wrote file: artifacts/pre-route/logs/search-C4190.log
+
+id: 93
+event: log
+data: [2026-09-27T20:28:34.965Z] Wrote file: artifacts/pre-route/logs/search-C474881.log
+
+id: 94
+event: log
+data: [2026-09-27T20:28:34.993Z] Wrote file: artifacts/pre-route/logs/search-C49257.log
+
+id: 95
+event: log
+data: [2026-09-27T20:28:35.024Z] Wrote file: artifacts/pre-route/logs/search-C50506.log
+
+id: 96
+event: log
+data: [2026-09-27T20:28:35.060Z] Wrote file: artifacts/pre-route/logs/search-C5331096.log
+
+id: 97
+event: log
+data: [2026-09-27T20:28:35.099Z] Wrote file: artifacts/pre-route/logs/search-C57112.log
+
+id: 98
+event: log
+data: [2026-09-27T20:28:35.136Z] Wrote file: artifacts/pre-route/logs/search-C876469.log
+
+id: 99
+event: log
+data: [2026-09-27T20:28:35.175Z] Wrote file: artifacts/pre-route/logs/shorts.log
+
+id: 100
+event: log
+data: [2026-09-27T20:28:35.205Z] Wrote file: artifacts/pre-route/logs/source-diagnostics.log
+
+id: 101
+event: log
+data: [2026-09-27T20:28:35.234Z] Wrote file: artifacts/pre-route/logs/source-lock.log
+
+id: 102
+event: log
+data: [2026-09-27T20:28:35.265Z] Wrote file: artifacts/pre-route/logs/tests.log
+
+id: 103
+event: log
+data: [2026-09-27T20:28:35.295Z] Wrote file: artifacts/pre-route/logs/typecheck.log
+
+id: 104
+event: log
+data: [2026-09-27T20:28:35.327Z] Wrote file: artifacts/pre-route/mounting-template.png
+
+id: 105
+event: log
+data: [2026-09-27T20:28:35.356Z] Wrote file: artifacts/pre-route/mounting-template.svg
+
+id: 106
+event: log
+data: [2026-09-27T20:28:35.388Z] Wrote file: artifacts/pre-route/pcb-bottom-unrouted.png
+
+id: 107
+event: log
+data: [2026-09-27T20:28:35.419Z] Wrote file: artifacts/pre-route/pcb-bottom-unrouted.svg
+
+id: 108
+event: log
+data: [2026-09-27T20:28:35.459Z] Wrote file: artifacts/pre-route/pcb-top-unrouted.png
+
+id: 109
+event: log
+data: [2026-09-27T20:28:35.494Z] Wrote file: artifacts/pre-route/pcb-top-unrouted.svg
+
+id: 110
+event: log
+data: [2026-09-27T20:28:35.523Z] Wrote file: artifacts/pre-route/publication.json
+
+id: 111
+event: log
+data: [2026-09-27T20:28:35.554Z] Wrote file: artifacts/pre-route/schematic-Control_Debug.png
+
+id: 112
+event: log
+data: [2026-09-27T20:28:35.595Z] Wrote file: artifacts/pre-route/schematic-Control_Debug.svg
+
+id: 113
+event: log
+data: [2026-09-27T20:28:35.628Z] Wrote file: artifacts/pre-route/schematic-Dual_Motor_Driver.png
+
+id: 114
+event: log
+data: [2026-09-27T20:28:35.668Z] Wrote file: artifacts/pre-route/schematic-Dual_Motor_Driver.svg
+
+id: 115
+event: log
+data: [2026-09-27T20:28:35.697Z] Wrote file: artifacts/pre-route/schematic-Power_Protection.png
+
+id: 116
+event: log
+data: [2026-09-27T20:28:35.738Z] Wrote file: artifacts/pre-route/schematic-Power_Protection.svg
+
+id: 117
+event: log
+data: [2026-09-27T20:28:35.770Z] Wrote file: artifacts/pre-route/schematic-Temperature_Test.png
+
+id: 118
+event: log
+data: [2026-09-27T20:28:35.805Z] Wrote file: artifacts/pre-route/schematic-Temperature_Test.svg
+
+id: 119
+event: log
+data: [2026-09-27T20:28:35.833Z] Wrote file: artifacts/pre-route/sourcing.json
+
+id: 120
+event: log
+data: [2026-09-27T20:28:36.040Z] Wrote file: artifacts/routed/circuit.json
+
+id: 121
+event: log
+data: [2026-09-27T20:28:36.091Z] Wrote file: artifacts/routed/hashes.json
+
+id: 122
+event: log
+data: [2026-09-27T20:28:36.130Z] Wrote file: artifacts/routed/logs/build.log
+
+id: 123
+event: log
+data: [2026-09-27T20:28:36.165Z] Wrote file: artifacts/routed/logs/format.log
+
+id: 124
+event: log
+data: [2026-09-27T20:28:36.196Z] Wrote file: artifacts/routed/logs/mechanical.log
+
+id: 125
+event: log
+data: [2026-09-27T20:28:36.228Z] Wrote file: artifacts/routed/logs/netlist.log
+
+id: 126
+event: log
+data: [2026-09-27T20:28:36.259Z] Wrote file: artifacts/routed/logs/pin-specification.log
+
+id: 127
+event: log
+data: [2026-09-27T20:28:36.290Z] Wrote file: artifacts/routed/logs/placement.log
+
+id: 128
+event: log
+data: [2026-09-27T20:28:36.326Z] Wrote file: artifacts/routed/logs/registry-push.log
+
+id: 129
+event: log
+data: [2026-09-27T20:28:36.355Z] Wrote file: artifacts/routed/logs/render.log
+
+id: 130
+event: log
+data: [2026-09-27T20:28:36.387Z] Wrote file: artifacts/routed/logs/routing.log
+
+id: 131
+event: log
+data: [2026-09-27T20:28:36.423Z] Wrote file: artifacts/routed/logs/schema.log
+
+id: 132
+event: log
+data: [2026-09-27T20:28:36.455Z] Wrote file: artifacts/routed/logs/shorts-gerber.log
+
+id: 133
+event: log
+data: [2026-09-27T20:28:36.486Z] Wrote file: artifacts/routed/logs/shorts-pcb.log
+
+id: 134
+event: log
+data: [2026-09-27T20:28:36.519Z] Wrote file: artifacts/routed/logs/source.log
+
+id: 135
+event: log
+data: [2026-09-27T20:28:36.555Z] Wrote file: artifacts/routed/logs/tests.log
+
+id: 136
+event: log
+data: [2026-09-27T20:28:36.589Z] Wrote file: artifacts/routed/logs/trace-length-vm.log
+
+id: 137
+event: log
+data: [2026-09-27T20:28:36.618Z] Wrote file: artifacts/routed/logs/typecheck.log
+
+id: 138
+event: log
+data: [2026-09-27T20:28:36.654Z] Wrote file: artifacts/routed/mounting-template.png
+
+id: 139
+event: log
+data: [2026-09-27T20:28:36.692Z] Wrote file: artifacts/routed/mounting-template.svg
+
+id: 140
+event: log
+data: [2026-09-27T20:28:36.726Z] Wrote file: artifacts/routed/pcb-bottom.png
+
+id: 141
+event: log
+data: [2026-09-27T20:28:36.769Z] Wrote file: artifacts/routed/pcb-bottom.svg
+
+id: 142
+event: log
+data: [2026-09-27T20:28:36.802Z] Wrote file: artifacts/routed/pcb-inner1.png
+
+id: 143
+event: log
+data: [2026-09-27T20:28:36.840Z] Wrote file: artifacts/routed/pcb-inner1.svg
+
+id: 144
+event: log
+data: [2026-09-27T20:28:36.873Z] Wrote file: artifacts/routed/pcb-inner2.png
+
+id: 145
+event: log
+data: [2026-09-27T20:28:36.905Z] Wrote file: artifacts/routed/pcb-inner2.svg
+
+id: 146
+event: log
+data: [2026-09-27T20:28:36.942Z] Wrote file: artifacts/routed/pcb-top.png
+
+id: 147
+event: log
+data: [2026-09-27T20:28:36.996Z] Wrote file: artifacts/routed/pcb-top.svg
+
+id: 148
+event: log
+data: [2026-09-27T20:28:37.026Z] Wrote file: artifacts/routed/routing-metrics.json
+
+id: 149
+event: log
+data: [2026-09-27T20:28:37.057Z] Wrote file: artifacts/routed/schematic-Control_Debug.png
+
+id: 150
+event: log
+data: [2026-09-27T20:28:37.099Z] Wrote file: artifacts/routed/schematic-Control_Debug.svg
+
+id: 151
+event: log
+data: [2026-09-27T20:28:37.131Z] Wrote file: artifacts/routed/schematic-Dual_Motor_Driver.png
+
+id: 152
+event: log
+data: [2026-09-27T20:28:37.168Z] Wrote file: artifacts/routed/schematic-Dual_Motor_Driver.svg
+
+id: 153
+event: log
+data: [2026-09-27T20:28:37.201Z] Wrote file: artifacts/routed/schematic-Power_Protection.png
+
+id: 154
+event: log
+data: [2026-09-27T20:28:37.243Z] Wrote file: artifacts/routed/schematic-Power_Protection.svg
+
+id: 155
+event: log
+data: [2026-09-27T20:28:37.279Z] Wrote file: artifacts/routed/schematic-Temperature_Test.png
+
+id: 156
+event: log
+data: [2026-09-27T20:28:37.316Z] Wrote file: artifacts/routed/schematic-Temperature_Test.svg
+
+id: 157
+event: log
+data: [2026-09-27T20:28:37.351Z] Wrote file: biome.json
+
+id: 158
+event: log
+data: [2026-09-27T20:28:37.387Z] Wrote file: bom.csv
+
+id: 159
+event: log
+data: [2026-09-27T20:28:37.423Z] Wrote file: bom.json
+
+id: 160
+event: log
+data: [2026-09-27T20:28:37.461Z] Wrote file: bun.lock
+
+id: 161
+event: log
+data: [2026-09-27T20:28:37.497Z] Wrote file: imports/AO3401A.tsx
+
+id: 162
+event: log
+data: [2026-09-27T20:28:37.529Z] Wrote file: imports/A_0453003_MR.tsx
+
+id: 163
+event: log
+data: [2026-09-27T20:28:37.570Z] Wrote file: imports/A_0603B103K500NT.tsx
+
+id: 164
+event: log
+data: [2026-09-27T20:28:37.604Z] Wrote file: imports/A_0603WAF1001T5E.tsx
+
+id: 165
+event: log
+data: [2026-09-27T20:28:37.636Z] Wrote file: imports/A_0603WAF1002T5E.tsx
+
+id: 166
+event: log
+data: [2026-09-27T20:28:37.669Z] Wrote file: imports/A_0603WAF2201T5E.tsx
+
+id: 167
+event: log
+data: [2026-09-27T20:28:37.704Z] Wrote file: imports/A_0603WAF3300T5E.tsx
+
+id: 168
+event: log
+data: [2026-09-27T20:28:37.749Z] Wrote file: imports/A_0603WAF5602T5E.tsx
+
+id: 169
+event: log
+data: [2026-09-27T20:28:37.789Z] Wrote file: imports/A_1812L300_24GR.tsx
+
+id: 170
+event: log
+data: [2026-09-27T20:28:37.824Z] Wrote file: imports/A_2_54_1_3P_.tsx
+
+id: 171
+event: log
+data: [2026-09-27T20:28:37.859Z] Wrote file: imports/CC0603KRX7R9BB104.tsx
+
+id: 172
+event: log
+data: [2026-09-27T20:28:37.890Z] Wrote file: imports/CL10A225KO8NNNC.tsx
+
+id: 173
+event: log
+data: [2026-09-27T20:28:37.923Z] Wrote file: imports/CL21A106KAYNNNE.tsx
+
+id: 174
+event: log
+data: [2026-09-27T20:28:37.955Z] Wrote file: imports/DRV8833PWPR.tsx
+
+id: 175
+event: log
+data: [2026-09-27T20:28:37.985Z] Wrote file: imports/KF301_5_0_2P.tsx
+
+id: 176
+event: log
+data: [2026-09-27T20:28:38.016Z] Wrote file: imports/KT_0603R.tsx
+
+id: 177
+event: log
+data: [2026-09-27T20:28:38.047Z] Wrote file: imports/KT_0603YG.tsx
+
+id: 178
+event: log
+data: [2026-09-27T20:28:38.076Z] Wrote file: imports/NCP18XH103F03RB.tsx
+
+id: 179
+event: log
+data: [2026-09-27T20:28:38.105Z] Wrote file: imports/RL2512FK_070R15L.tsx
+
+id: 180
+event: log
+data: [2026-09-27T20:28:38.137Z] Wrote file: imports/SI7655ADN_T1_GE3.tsx
+
+id: 181
+event: log
+data: [2026-09-27T20:28:38.169Z] Wrote file: imports/SMBJ6_0A.tsx
+
+id: 182
+event: log
+data: [2026-09-27T20:28:38.202Z] Wrote file: imports/SN74LVC2G86DCTR.tsx
+
+id: 183
+event: log
+data: [2026-09-27T20:28:38.234Z] Wrote file: imports/VZH221M1CTR_0607.tsx
+
+id: 184
+event: log
+data: [2026-09-27T20:28:38.269Z] Wrote file: index.circuit.tsx
+
+id: 185
+event: log
+data: [2026-09-27T20:28:38.302Z] Wrote file: lib/board-autorouter.ts
+
+id: 186
+event: log
+data: [2026-09-27T20:28:38.342Z] Wrote file: lib/chassis-mounting.tsx
+
+id: 187
+event: log
+data: [2026-09-27T20:28:38.376Z] Wrote file: lib/control-debug.tsx
+
+id: 188
+event: log
+data: [2026-09-27T20:28:38.406Z] Wrote file: lib/driver-footprint.tsx
+
+id: 189
+event: log
+data: [2026-09-27T20:28:38.443Z] Wrote file: lib/driver-part.tsx
+
+id: 190
+event: log
+data: [2026-09-27T20:28:38.474Z] Wrote file: lib/fuse-footprint.tsx
+
+id: 191
+event: log
+data: [2026-09-27T20:28:38.506Z] Wrote file: lib/ground-stitching.tsx
+
+id: 192
+event: log
+data: [2026-09-27T20:28:38.535Z] Wrote file: lib/motor-driver.tsx
+
+id: 193
+event: log
+data: [2026-09-27T20:28:38.565Z] Wrote file: lib/parts.tsx
+
+id: 194
+event: log
+data: [2026-09-27T20:28:38.596Z] Wrote file: lib/power-protection.tsx
+
+id: 195
+event: log
+data: [2026-09-27T20:28:38.635Z] Wrote file: lib/routing-nets.tsx
+
+id: 196
+event: log
+data: [2026-09-27T20:28:38.675Z] Wrote file: lib/saved-routing.ts
+
+id: 197
+event: log
+data: [2026-09-27T20:28:38.707Z] Wrote file: lib/temperature-test.tsx
+
+id: 198
+event: log
+data: [2026-09-27T20:28:38.737Z] Wrote file: package.json
+
+id: 199
+event: log
+data: [2026-09-27T20:28:38.769Z] Wrote file: references/core-schema-fix/README.md
+
+id: 200
+event: log
+data: [2026-09-27T20:28:38.798Z] Wrote file: references/core-schema-fix/build.log
+
+id: 201
+event: log
+data: [2026-09-27T20:28:38.834Z] Wrote file: references/core-schema-fix/core.patch
+
+id: 202
+event: log
+data: [2026-09-27T20:28:38.862Z] Wrote file: references/core-schema-fix/regression-after.log
+
+id: 203
+event: log
+data: [2026-09-27T20:28:38.892Z] Wrote file: references/core-schema-fix/regression-before.log
+
+id: 204
+event: log
+data: [2026-09-27T20:28:38.923Z] Wrote file: references/core-schema-fix/silkscreen-schema-repro.tsx.txt
+
+id: 205
+event: log
+data: [2026-09-27T20:28:38.956Z] Wrote file: references/core-schema-fix/typecheck.log
+
+id: 206
+event: log
+data: [2026-09-27T20:28:38.984Z] Wrote file: references/mechanical.json
+
+id: 207
+event: log
+data: [2026-09-27T20:28:39.019Z] Wrote file: references/rp2040-reference.json
+
+id: 208
+event: log
+data: [2026-09-27T20:28:39.050Z] Wrote file: references/selected-parts.json
+
+id: 209
+event: log
+data: [2026-09-27T20:28:39.081Z] Wrote file: references/thermal-structures.json
+
+id: 210
+event: log
+data: [2026-09-27T20:28:39.113Z] Wrote file: references/toolchain-fixes/README.md
+
+id: 211
+event: log
+data: [2026-09-27T20:28:39.142Z] Wrote file: references/toolchain-fixes/circuit-json-base.txt
+
+id: 212
+event: log
+data: [2026-09-27T20:28:39.173Z] Wrote file: references/toolchain-fixes/circuit-json.patch
+
+id: 213
+event: log
+data: [2026-09-27T20:28:39.204Z] Wrote file: references/toolchain-fixes/core-base.txt
+
+id: 214
+event: log
+data: [2026-09-27T20:28:39.235Z] Wrote file: references/toolchain-fixes/core-build.log
+
+id: 215
+event: log
+data: [2026-09-27T20:28:39.263Z] Wrote file: references/toolchain-fixes/core-hole-test.log
+
+id: 216
+event: log
+data: [2026-09-27T20:28:39.290Z] Wrote file: references/toolchain-fixes/core-regression.log
+
+id: 217
+event: log
+data: [2026-09-27T20:28:39.320Z] Wrote file: references/toolchain-fixes/core-saved-pth-tests.log
+
+id: 218
+event: log
+data: [2026-09-27T20:28:39.351Z] Wrote file: references/toolchain-fixes/core-saved-routing-tests.log
+
+id: 219
+event: log
+data: [2026-09-27T20:28:39.382Z] Wrote file: references/toolchain-fixes/core-typecheck.log
+
+id: 220
+event: log
+data: [2026-09-27T20:28:39.424Z] Wrote file: references/toolchain-fixes/core.patch
+
+id: 221
+event: log
+data: [2026-09-27T20:28:39.455Z] Wrote file: references/toolchain-fixes/schema-tests.log
+
+id: 222
+event: log
+data: [2026-09-27T20:28:39.483Z] Wrote file: scripts/check-mechanical.py
+
+id: 223
+event: log
+data: [2026-09-27T20:28:39.516Z] Wrote file: scripts/check-routed-connectivity.ts
+
+id: 224
+event: log
+data: [2026-09-27T20:28:39.546Z] Wrote file: scripts/check-routing-lock.ts
+
+id: 225
+event: log
+data: [2026-09-27T20:28:39.575Z] Wrote file: scripts/check-schema.ts
+
+id: 226
+event: log
+data: [2026-09-27T20:28:39.605Z] Wrote file: scripts/check-sourcing.py
+
+id: 227
+event: log
+data: [2026-09-27T20:28:39.635Z] Wrote file: scripts/import-selected-parts.py
+
+id: 228
+event: log
+data: [2026-09-27T20:28:39.665Z] Wrote file: scripts/make-review-records.py
+
+id: 229
+event: log
+data: [2026-09-27T20:28:39.695Z] Wrote file: scripts/rebuild-toolchain-fixes.py
+
+id: 230
+event: log
+data: [2026-09-27T20:28:39.726Z] Wrote file: scripts/record-review-hashes.py
+
+id: 231
+event: log
+data: [2026-09-27T20:28:39.756Z] Wrote file: scripts/record-routed-hashes.py
+
+id: 232
+event: log
+data: [2026-09-27T20:28:39.785Z] Wrote file: scripts/record-routing-review.py
+
+id: 233
+event: log
+data: [2026-09-27T20:28:39.814Z] Wrote file: scripts/render-mounting-template.py
+
+id: 234
+event: log
+data: [2026-09-27T20:28:39.841Z] Wrote file: scripts/render-pre-route.ts
+
+id: 235
+event: log
+data: [2026-09-27T20:28:39.871Z] Wrote file: scripts/render-routed.ts
+
+id: 236
+event: log
+data: [2026-09-27T20:28:39.905Z] Wrote file: scripts/routing-lock.ts
+
+id: 237
+event: log
+data: [2026-09-27T20:28:39.937Z] Wrote file: tests/design-connectivity.test.ts
+
+id: 238
+event: log
+data: [2026-09-27T20:28:39.967Z] Wrote file: tests/routed-connectivity.test.ts
+
+id: 239
+event: log
+data: [2026-09-27T20:28:39.993Z] Wrote file: tests/routing-lock.test.ts
+
+id: 240
+event: log
+data: [2026-09-27T20:28:40.023Z] Wrote file: tscircuit.config.json
+
+id: 241
+event: log
+data: [2026-09-27T20:28:40.051Z] Wrote file: tsconfig.json
+
+id: 242
+event: log
+data: [2026-09-27T20:28:40.092Z] Wrote file: vendor/circuit-json-0.0.506-dualtt.1.tgz
+
+id: 243
+event: log
+data: [2026-09-27T20:28:40.155Z] Wrote file: vendor/tscircuit-core-0.0.1993-dualtt.4.tgz
+
+id: 244
+event: log
+data: [2026-09-27T20:28:40.590Z] Created symlinks for bundled tscircuit dependencies
+
+id: 245
+event: log
+data: [2026-09-27T20:28:40.590Z] Executing script
+
+id: 246
+event: log
+data: [2026-09-27T20:28:40.565Z] Streaming command: bunx tscircuit build --ci --concurrency 4
+
+id: 247
+event: stdout
+data: [2026-09-27T20:28:47.152Z] Found existing package.json.
+
+id: 248
+event: stdout
+data: [2026-09-27T20:28:47.152Z] Installing dependencies using bun...
+
+id: 249
+event: stdout
+data: [2026-09-27T20:28:47.152Z] > bun install
+
+id: 250
+event: stdout
+data: [2026-09-27T20:28:51.202Z] bun install v1.3.12 (700fc117)
+
+id: 251
+event: stdout
+data: [2026-09-27T20:28:51.202Z]
+
+id: 252
+event: stdout
+data: [2026-09-27T20:28:51.202Z] + @biomejs/biome@2.5.14
+
+id: 253
+event: stdout
+data: [2026-09-27T20:28:51.202Z] + @tscircuit/capacity-autorouter@0.0.938
+
+id: 254
+event: stdout
+data: [2026-09-27T20:28:51.202Z] + @tscircuit/checks@0.0.221
+
+id: 255
+event: stdout
+data: [2026-09-27T20:28:51.203Z] + @tscircuit/core@vendor/tscircuit-core-0.0.1993-dualtt.4.tgz
+
+id: 256
+event: stdout
+data: [2026-09-27T20:28:51.203Z] + @types/bun@1.4.2
+
+id: 257
+event: stdout
+data: [2026-09-27T20:28:51.203Z] + circuit-json@vendor/circuit-json-0.0.506-dualtt.1.tgz
+
+id: 258
+event: stdout
+data: [2026-09-27T20:28:51.203Z] + tscircuit@0.0.2646
+
+id: 259
+event: stdout
+data: [2026-09-27T20:28:51.203Z] + typescript@5.9.3
+
+id: 260
+event: stdout
+data: [2026-09-27T20:28:51.203Z]
+
+id: 261
+event: stdout
+data: [2026-09-27T20:28:51.203Z] 286 packages installed [4.03s]
+
+id: 262
+event: stdout
+data: [2026-09-27T20:28:51.203Z] Dependencies installed successfully.
+
+id: 263
+event: stdout
+data: [2026-09-27T20:28:51.203Z] Running: bun run build
+
+id: 264
+event: stderr
+data: [2026-09-27T20:28:51.204Z] $ bun run guard:source && tsci build index.circuit.tsx && python3 scripts/check-mechanical.py && bun run guard && bun scripts/check-routed-connectivity.ts
+
+id: 265
+event: stderr
+data: [2026-09-27T20:28:51.204Z] $ bun scripts/check-routing-lock.ts --source-only
+
+id: 266
+event: stdout
+data: [2026-09-27T20:28:52.015Z] PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+
+id: 267
+event: stdout
+data: [2026-09-27T20:29:00.858Z] Building 1 file(s)...
+
+id: 268
+event: stdout
+data: [2026-09-27T20:29:00.858Z] Building index.circuit.tsx...
+
+id: 269
+event: stdout
+data: [2026-09-27T20:29:00.858Z] Generating circuit JSON...
+
+id: 270
+event: stderr
+data: [2026-09-27T20:29:13.355Z] Async effect error in PcbDesignRuleChecks "board:drc-checks":
+
+id: 271
+event: stderr
+data: [2026-09-27T20:29:13.355Z] Error
+
+id: 272
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at <anonymous> (/workspace/node_modules/@tscircuit/checks/dist/index.js:379:44)
+
+id: 273
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at some (unknown:1:11)
+
+id: 274
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at endpointTouchesNetCopper (/workspace/node_modules/@tscircuit/checks/dist/index.js:1139:16)
+
+id: 275
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at isEndpointDangling (/workspace/node_modules/@tscircuit/checks/dist/index.js:1175:11)
+
+id: 276
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at getDanglingEndpoints (/workspace/node_modules/@tscircuit/checks/dist/index.js:1185:9)
+
+id: 277
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at checkDanglingTraces (/workspace/node_modules/@tscircuit/checks/dist/index.js:1220:47)
+
+id: 278
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at runAllRoutingChecks (/workspace/node_modules/@tscircuit/checks/dist/index.js:12369:8)
+
+id: 279
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at <anonymous> (/workspace/node_modules/@tscircuit/core/dist/index.js:70005:11)
+
+id: 280
+event: stderr
+data: [2026-09-27T20:29:13.355Z]     at <anonymous> (/workspace/node_modules/@tscircuit/core/dist/index.js:70064:15)
+
+id: 281
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at _queueAsyncEffect (/workspace/node_modules/@tscircuit/core/dist/index.js:865:16)
+
+id: 282
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at updatePcbDesignRuleChecks (/workspace/node_modules/@tscircuit/core/dist/index.js:70062:10)
+
+id: 283
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at doInitialPcbDesignRuleChecks (/workspace/node_modules/@tscircuit/core/dist/index.js:69951:10)
+
+id: 284
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at runRenderPhase (/workspace/node_modules/@tscircuit/core/dist/index.js:1032:24)
+
+id: 285
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at runRenderCycle (/workspace/node_modules/@tscircuit/core/dist/index.js:981:12)
+
+id: 286
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at render (/workspace/node_modules/@tscircuit/core/dist/index.js:68798:16)
+
+id: 287
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at generateCircuitJson (/workspace/node_modules/@tscircuit/cli/dist/cli/main.js:167554:12)
+
+id: 288
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at async <anonymous> (unknown)
+
+id: 289
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at async <anonymous> (unknown)
+
+id: 290
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at async <anonymous> (unknown)
+
+id: 291
+event: stderr
+data: [2026-09-27T20:29:13.356Z]     at processTicksAndRejections (unknown:7:39)
+
+id: 292
+event: stdout
+data: [2026-09-27T20:29:17.404Z] Circuit JSON written to dist/index/circuit.json
+
+id: 293
+event: stdout
+data: [2026-09-27T20:29:17.404Z] The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+
+id: 294
+event: stdout
+data: [2026-09-27T20:29:17.404Z] Component TH1 has ftype="simple_resistor" but reference designator should start with R
+
+id: 295
+event: stdout
+data: [2026-09-27T20:29:17.404Z]
+
+id: 296
+event: stdout
+data: [2026-09-27T20:29:17.404Z] Build complete
+
+id: 297
+event: stdout
+data: [2026-09-27T20:29:17.404Z]   Circuits  1 passed
+
+id: 298
+event: stdout
+data: [2026-09-27T20:29:17.404Z]   Output    dist
+
+id: 299
+event: stdout
+data: [2026-09-27T20:29:17.404Z]
+
+id: 300
+event: stdout
+data: [2026-09-27T20:29:17.405Z] ✓ Done
+
+id: 301
+event: stdout
+data: [2026-09-27T20:29:17.406Z] Build exiting with code 0: build finished successfully
+
+id: 302
+event: stderr
+data: [2026-09-27T20:29:17.610Z] /usr/bin/bash: line 1: python3: command not found
+
+id: 303
+event: stderr
+data: [2026-09-27T20:29:17.610Z] error: script "build" exited with code 127
+
+id: 304
+event: stderr
+data: [2026-09-27T20:29:17.610Z] Command failed: bun run build
+
+id: 305
+event: stderr
+data: [2026-09-27T20:29:17.610Z] Build exiting with code 1: unexpected exception
+
+id: 306
+event: log
+data: [2026-09-27T20:29:17.715Z] Script completed with exit code 1
+
+id: 307
+event: log
+data: [2026-09-27T20:29:17.819Z] Job failed: Script exited with non-zero exit code 1
+
+id: 308
+event: log
+data: [2026-09-27T20:29:18.883Z] Destroyed sandbox: tscircuit-runtime-5b57d0d474e0c6e69ce16d4306ac59074f760a5c4c9a0
+
+event: end
+data: {"status":"failed","logs_count":308}
+
