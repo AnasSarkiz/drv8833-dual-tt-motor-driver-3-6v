@@ -1,0 +1,14 @@
+U1.center=(0mm, 0mm) on top
+U1.bounds=(minX=-2.45mm, maxX=2.45mm, minY=-3.5mm, maxY=3.5mm)
+U1.size=(width=4.9mm, height=7mm)
+U1.anchor_alignment="center"
+U1 placement definition: placement_mode=none
+U1.pcbLeftEdgeX=calc(board.minX+35.05mm)
+U1.pcbTopEdgeY=calc(board.minY+26.5mm)
+U1.centerX=calc(board.centerX+0mm)
+U1.padClearance=1.325mm [nearest=C3.pin2]
+U1.pcbLeftEdgeX=calc(C5.maxX+5.5mm)
+
+placement drc:
+Errors: 0
+Warnings: 0

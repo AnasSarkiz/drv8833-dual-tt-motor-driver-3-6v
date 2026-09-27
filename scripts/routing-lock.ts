@@ -33,7 +33,11 @@ export function checkSourceLock(source: string, filename: string) {
       const tag = node.tagName.getText(syntax)
       if (forbiddenElements.has(tag))
         throw new Error(`${filename}: forbidden routing element ${tag}`)
-      if (tag === "via" && filename !== "imports/DRV8833PWPR.tsx")
+      if (
+        tag === "via" &&
+        filename !== "imports/DRV8833PWPR.tsx" &&
+        filename !== thermalStructures.footprint_path
+      )
         throw new Error(`${filename}: unreviewed via`)
       let locked = false
       for (const attribute of node.attributes.properties) {
@@ -146,6 +150,14 @@ export async function checkProjectSourceLock() {
   )
     throw new Error(
       "Thermal footprint import changed; review and update allowlist",
+    )
+  const footprint = readFileSync(thermalStructures.footprint_path)
+  if (
+    createHash("sha256").update(footprint).digest("hex") !==
+    thermalStructures.footprint_sha256
+  )
+    throw new Error(
+      "Reviewed thermal footprint changed; review and update allowlist",
     )
   const config = JSON.parse(readFileSync("tscircuit.config.json", "utf8"))
   if (

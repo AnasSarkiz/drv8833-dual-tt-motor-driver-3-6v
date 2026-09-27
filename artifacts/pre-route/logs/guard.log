@@ -1,0 +1,16 @@
+$ bun scripts/check-routing-lock.ts
+77 | export function checkCircuitLock(input: unknown) {
+78 |   if (!Array.isArray(input)) throw new Error("Circuit JSON must be an array")
+79 |   const circuit = input.map((element, index) => {
+80 |     const parsed = any_circuit_element.safeParse(element)
+81 |     if (!parsed.success)
+82 |       throw new Error(
+                     ^
+error: Circuit JSON schema rejects element 797 (pcb_component); inspect scripts/check-schema.ts
+      at <anonymous> (/Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/routing-lock.ts:82:17)
+      at map (1:11)
+      at checkCircuitLock (/Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/routing-lock.ts:79:25)
+      at /Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/check-routing-lock.ts:6:3
+
+Bun v1.3.9 (macOS arm64)
+error: script "guard" exited with code 1

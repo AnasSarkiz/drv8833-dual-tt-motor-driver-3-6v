@@ -3,35 +3,35 @@ Warnings: 0
 
 Readable Netlist:
 COMPONENTS:
- - J1: KF301-5.0-2P
- - F1: 1812L300/24GR
- - Q1: AO3401A
+ - J1: J1, source_component
+ - F1: F1, source_component
+ - Q1: SI7655ADN-T1-GE3
  - C1: 220uF capacitor
  - C2: 220uF capacitor
- - D1: SMBJ6.0A
+ - D1: D1, source_component
  - R1: 2.2kΩ resistor
  - LED1: LED1, source_component
  - U1: DRV8833PWPR
  - R2: 150mΩ resistor
  - R3: 150mΩ resistor
- - J2: KF301-5.0-2P
- - J3: KF301-5.0-2P
+ - J2: J2, source_component
+ - J3: J3, source_component
  - C3: 10uF capacitor
  - C4: 10uF capacitor
  - C5: 2.2uF capacitor
  - C6: 10nF capacitor
- - J4: 2.54-1*3P针
- - J5: 2.54-1*3P针
- - J6: 2.54-1*3P针
- - R4: 1kΩ resistor
+ - J4: J4, source_component
+ - J5: J5, source_component
+ - J6: J6, source_component
+ - R4: 330Ω resistor
  - R9: 10kΩ resistor
- - R5: 1kΩ resistor
+ - R5: 330Ω resistor
  - R10: 10kΩ resistor
- - R6: 1kΩ resistor
+ - R6: 330Ω resistor
  - R11: 10kΩ resistor
- - R7: 1kΩ resistor
+ - R7: 330Ω resistor
  - R12: 10kΩ resistor
- - R8: 1kΩ resistor
+ - R8: 330Ω resistor
  - R13: 10kΩ resistor
  - U2: SN74LVC2G86DCTR
  - C7: 100nF capacitor
@@ -44,11 +44,11 @@ COMPONENTS:
  - LED4: LED4, source_component
  - R18: 2.2kΩ resistor
  - LED5: LED5, source_component
- - R19: 10kΩ resistor
- - TH1: NCP18XH103F03RB
+ - R19: 56kΩ resistor
+ - TH1: 10kΩ resistor
  - R20: 1kΩ resistor
  - C8: 100nF capacitor
- - J7: 2.54-1*3P针
+ - J7: J7, source_component
  - TP1: TP1, source_component
  - TP2: TP2, source_component
  - TP3: TP3, source_component
@@ -62,7 +62,11 @@ NET: VIN
   - J1 pin1
 
 NET: VIN_FUSED
-  - Q1 pin3
+  - Q1 D_EP
+  - Q1 D4
+  - Q1 D3
+  - Q1 D2
+  - Q1 D1
   - F1 pin2
 
 NET: LED_VM_A
@@ -86,11 +90,11 @@ NET: BOUT2
   - U1 BOUT2
 
 NET: VINT
-  - C5 pin1 (+)
+  - C5 pin1
   - U1 VINT
 
 NET: VCP
-  - C6 pin1 (+)
+  - C6 pin1
   - U1 VCP
 
 NET: HOST_AIN1
@@ -184,12 +188,12 @@ NET: ISEN_B
 NET: GND
   - TP3 pin1
   - J7 pin3
-  - C8 pin2 (-)
+  - C8 pin2
   - TH1 pin2
   - LED4 cathode (-)
   - LED3 cathode (-)
   - LED2 cathode (-)
-  - C7 pin2 (-)
+  - C7 pin2
   - U2 GND
   - R13 pin2
   - R12 pin2
@@ -199,31 +203,33 @@ NET: GND
   - J6 pin3
   - J5 pin3
   - J4 pin2
-  - C5 pin2 (-)
-  - C4 pin2 (-)
-  - C3 pin2 (-)
+  - C5 pin2
+  - C4 pin2
+  - C3 pin2
   - R3 pin2
   - R2 pin2
   - U1 GND2
   - U1 GND1
   - LED1 cathode (-)
-  - D1 pin2
+  - D1 pin2 (+)
   - C2 pin2 (-)
   - C1 pin2 (-)
-  - Q1 pin1
+  - Q1 G
   - J1 pin2
 
 NET: VM
   - TP4 pin1
-  - C6 pin2 (-)
-  - C4 pin1 (+)
-  - C3 pin1 (+)
+  - C6 pin2
+  - C4 pin1
+  - C3 pin1
   - U1 VM
   - R1 pin1
-  - D1 pin1
+  - D1 pin1 (-)
   - C2 pin1 (+)
   - C1 pin1 (+)
-  - Q1 pin2
+  - Q1 S3
+  - Q1 S2
+  - Q1 S1
 
 NET: VIO
   - TP5 pin1
@@ -231,7 +237,7 @@ NET: VIO
   - R18 pin1
   - R15 pin1
   - R14 pin1
-  - C7 pin1 (+)
+  - C7 pin1
   - U2 VCC
   - J4 pin1
 
@@ -245,7 +251,7 @@ NET: FAULT_N
 NET: TEMP
   - TP7 pin1
   - J7 pin2
-  - C8 pin1 (+)
+  - C8 pin1
   - R20 pin2
 
 
@@ -254,14 +260,20 @@ J1 (KF301-5.0-2P)
 - pin1: NETS(VIN)
 - pin2: NETS(GND)
 
-F1 (1812L300/24GR)
+F1 (0453003.MR)
 - pin1: NETS(VIN)
 - pin2: NETS(VIN_FUSED)
 
-Q1 (AO3401A)
-- pin1(G): NETS(GND)
-- pin2(S): NETS(VM)
-- pin3(D): NETS(VIN_FUSED)
+Q1 (SI7655ADN-T1-GE3)
+- pin1(S1): NETS(VM)
+- pin2(S2): NETS(VM)
+- pin3(S3): NETS(VM)
+- pin4(G): NETS(GND)
+- pin5(D1): NETS(VIN_FUSED)
+- pin6(D2): NETS(VIN_FUSED)
+- pin7(D3): NETS(VIN_FUSED)
+- pin8(D4): NETS(VIN_FUSED)
+- pin9(D_EP): NETS(VIN_FUSED)
 
 C1 (220uF undefined)
 - pin1(pos): NETS(VM)
@@ -272,8 +284,8 @@ C2 (220uF undefined)
 - pin2(neg): NETS(GND)
 
 D1 (SMBJ6.0A)
-- pin1(C): NETS(VM)
-- pin2(A): NETS(GND)
+- pin1(C, cathode): NETS(VM)
+- pin2(A, anode): NETS(GND)
 
 R1 (2.2kΩ undefined)
 - pin1(anode, pos, left): NETS(VM)
@@ -319,20 +331,20 @@ J3 (KF301-5.0-2P)
 - pin2: NETS(BOUT2)
 
 C3 (10uF undefined)
-- pin1(pos): NETS(VM)
-- pin2(neg): NETS(GND)
+- pin1: NETS(VM)
+- pin2: NETS(GND)
 
 C4 (10uF undefined)
-- pin1(pos): NETS(VM)
-- pin2(neg): NETS(GND)
+- pin1: NETS(VM)
+- pin2: NETS(GND)
 
 C5 (2.2uF undefined)
-- pin1(pos): NETS(VINT)
-- pin2(neg): NETS(GND)
+- pin1: NETS(VINT)
+- pin2: NETS(GND)
 
 C6 (10nF undefined)
-- pin1(pos): NETS(VCP)
-- pin2(neg): NETS(VM)
+- pin1: NETS(VCP)
+- pin2: NETS(VM)
 
 J4 (2.54-1*3P针)
 - pin1: NETS(VIO)
@@ -349,7 +361,7 @@ J6 (2.54-1*3P针)
 - pin2: NETS(HOST_BIN2)
 - pin3: NETS(GND)
 
-R4 (1kΩ undefined)
+R4 (330Ω undefined)
 - pin1(anode, pos, left): NETS(HOST_AIN1)
 - pin2(cathode, neg, right): NETS(AIN1)
 
@@ -357,7 +369,7 @@ R9 (10kΩ undefined)
 - pin1(anode, pos, left): NETS(AIN1)
 - pin2(cathode, neg, right): NETS(GND)
 
-R5 (1kΩ undefined)
+R5 (330Ω undefined)
 - pin1(anode, pos, left): NETS(HOST_AIN2)
 - pin2(cathode, neg, right): NETS(AIN2)
 
@@ -365,7 +377,7 @@ R10 (10kΩ undefined)
 - pin1(anode, pos, left): NETS(AIN2)
 - pin2(cathode, neg, right): NETS(GND)
 
-R6 (1kΩ undefined)
+R6 (330Ω undefined)
 - pin1(anode, pos, left): NETS(HOST_BIN1)
 - pin2(cathode, neg, right): NETS(BIN1)
 
@@ -373,7 +385,7 @@ R11 (10kΩ undefined)
 - pin1(anode, pos, left): NETS(BIN1)
 - pin2(cathode, neg, right): NETS(GND)
 
-R7 (1kΩ undefined)
+R7 (330Ω undefined)
 - pin1(anode, pos, left): NETS(HOST_BIN2)
 - pin2(cathode, neg, right): NETS(BIN2)
 
@@ -381,7 +393,7 @@ R12 (10kΩ undefined)
 - pin1(anode, pos, left): NETS(BIN2)
 - pin2(cathode, neg, right): NETS(GND)
 
-R8 (1kΩ undefined)
+R8 (330Ω undefined)
 - pin1(anode, pos, left): NETS(HOST_ENABLE)
 - pin2(cathode, neg, right): NETS(ENABLE)
 
@@ -400,8 +412,8 @@ U2 (SN74LVC2G86DCTR)
 - pin8(VCC): NETS(VIO)
 
 C7 (100nF undefined)
-- pin1(pos): NETS(VIO)
-- pin2(neg): NETS(GND)
+- pin1: NETS(VIO)
+- pin2: NETS(GND)
 
 R14 (10kΩ undefined)
 - pin1(anode, pos, left): NETS(VIO)
@@ -439,11 +451,11 @@ LED5 (KT-0603R)
 - pin1(anode, pos): NETS(LED_FAULT_A)
 - pin2(cathode, neg): NETS(FAULT_N)
 
-R19 (10kΩ undefined)
+R19 (56kΩ undefined)
 - pin1(anode, pos, left): NETS(VIO)
 - pin2(cathode, neg, right): NETS(TEMP_RAW)
 
-TH1 (NCP18XH103F03RB)
+TH1 (10kΩ undefined)
 - pin1: NETS(TEMP_RAW)
 - pin2: NETS(GND)
 
@@ -452,8 +464,8 @@ R20 (1kΩ undefined)
 - pin2(cathode, neg, right): NETS(TEMP)
 
 C8 (100nF undefined)
-- pin1(pos): NETS(TEMP)
-- pin2(neg): NETS(GND)
+- pin1: NETS(TEMP)
+- pin2: NETS(GND)
 
 J7 (2.54-1*3P针)
 - pin1: NETS(FAULT_N)

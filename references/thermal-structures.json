@@ -1,5 +1,5 @@
 {
-  "purpose": "Four supplier footprint thermal vias under U1 exposed GND pad; allowed only for pre-route review. No plane connections exist. Paste/fill and thermal validation remain open. These are NOT signal routing vias.",
+  "purpose": "Four retained ground thermal vias in the TI-derived U1 footprint. Filled and copper capped before assembly; no plane connections exist until routing. This is not signal routing.",
   "import_sha256": "40216f4188fcd9752f37c1cfa97c3029bb32a0b409e76a881d6eaf18e689baaf",
   "vias": [
     {
@@ -30,5 +30,7 @@
       "drill_mm": 0.3048,
       "pad_mm": 0.6096
     }
-  ]
+  ],
+  "footprint_path": "lib/driver-footprint.tsx",
+  "footprint_sha256": "bd81440e203b20ae3465ba6740fdc9f245f3556e92855b323fba5525f10d4c47"
 }

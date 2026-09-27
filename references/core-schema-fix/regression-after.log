@@ -1,0 +1,21 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/components/primitive-components/group-anchor-position.test.tsx:
+(pass) group anchor position [49.60ms]
+
+tests/components/primitive-components/plated-hole-rect-pad-id.test.tsx:
+(pass) pill holes with rectangular pads receive unique IDs and follow placement [223.42ms]
+
+tests/components/pcb/pcb-edge-positioning-with-calc-and-notes.test.tsx:
+(pass) pcb edge positioning props support calc expressions and are visible in pcb notes [609.48ms]
+
+tests/components/pcb/pcb-position-metadata-schema.test.tsx:
+(pass) explicit PCB positions emit schema-valid display offsets [219.50ms]
+
+tests/components/normal-components/pcb-component-relative-positioning1.test.tsx:
+(pass) pcb components include relative positioning metadata 1 [216.35ms]
+
+ 5 pass
+ 0 fail
+ 1 snapshots, 59 expect() calls
+Ran 5 tests across 5 files. [1.99s]

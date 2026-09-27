@@ -1,31 +1,31 @@
-# Validation — incomplete draft
+# Validation — incomplete alpha.2 draft
 
-All results are automated checks or limited visual/analytical review. No simulation or physical measurement occurred.
+All results below are automated checks or limited visual/analytical review, run on 2026-09-27. No simulation or physical measurement occurred. Actual source/artifact hashes are in artifacts/pre-route/hashes.json.
 
 | Check | Status | Evidence / limitation |
 |---|---|---|
-| Isolated workspace | PASS | New directory; prior motor projects untouched |
-| Exact tscircuit version / lockfile | PASS | TOOLCHAIN.md, package.json, bun.lock |
-| TypeScript | PASS | artifacts/pre-route/logs/typecheck.log |
-| Logical netlist | PASS (tool coverage) | logs/netlist.log: 0 errors, 0 warnings; not independent electrical signoff |
-| Standard unrouted CLI build | PASS with warnings | logs/build.log; 50 classified warnings remain |
-| Courtyard collision check | PASS (study placement only) | logs/placement.log: 0 collisions, 0 placement errors |
-| Connector accessibility / orientation | BLOCKED | Three access warnings; no orientation suggestions; mating/tool envelopes unverified |
-| Source routing lock | PASS | Literal root lock and configuration checks; no autorouter or copper-pour elements |
-| Generated raw routed geometry inventory | PASS | 0 pcb_trace, 0 pcb_copper_pour; 4 explicit footprint thermal vias |
-| Full generated-schema guard | FAIL | TOOL-001, 67 schema violations: 57 component offsets, 6 board-level silkscreen IDs and 4 header plated-hole IDs |
-| Guard tests | FAIL overall | 8 pass / 1 fails on actual generated JSON; negative routed fixture rejected |
-| Four sheets generated | PASS (existence only) | Four schematic PNG/SVG files |
-| Schematic quality | BLOCKED | logs/schematic-placement.log plus visual review; oversized IC symbol/whitespace and warnings need cleanup |
-| Candidate supplier imports | PASS (import only) | 19 real modules with hashes; 46 purchased parts |
-| Stock / final BOM verification | BLOCKED | C25804 stock lookup empty; independent datasheet/assembly checks unfinished |
-| Chassis-module outline and mounting holes | PASS (2D geometry) | 75 × 60 mm; four 3.2 mm NPTH holes; 65 × 50 mm centers; logs/mechanical.log |
-| Fit to a specific chassis | NOT RUN | User has no chassis yet; custom mounting pattern and template provided |
-| 3D fit and thermal-paste assembly review | NOT RUN | Imported model URLs exist; geometry and process unverified |
-| Electrical protection and thermal signoff | BLOCKED | DESIGN_REVIEW.md records open calculations and selections |
+| Pinned toolchain and TypeScript | PASS | TOOLCHAIN.md and logs/typecheck.log; dependencies unchanged |
+| Logical netlist | PASS within native coverage | logs/netlist.log, 0 errors / warnings |
+| Driver/protection physical pin mapping, NTC excitation, host margin, U1 pads/paste | PASS | logs/design-connectivity.log; emitted-output regression tests |
+| Native pin specifications | PASS with classified warnings | logs/pin-specification.log: 0 errors, 2 Q1 category warnings; ISSUES.md TOOL-002 |
+| Native placement | PASS | logs/placement.log: 0 errors, 0 warnings |
+| Existing unrouted copper shorts | PASS within check coverage | logs/shorts.log; prebuilt JSON input, no router or Gerber export invoked |
+| Source routing lock | PASS | logs/source-lock.log; only four declared thermal vias allowed |
+| Routed-geometry inventory | PASS | 0 pcb_trace, 0 pcb_copper_pour; 4 declared U1 thermal vias |
+| Full generated-schema guard / project build | FAIL | logs/schema.log and project-build.log; 67 rejected records, TOOL-001/004 |
+| Complete test suite | FAIL overall | logs/tests.log; 13 pass / 1 actual-output schema test fails |
+| Four schematic previews | PASS for generation | Four PNG/SVG sheets; functional groups and labels improved |
+| Schematic final approval | BLOCKED | logs/schematic-placement.log; remaining style findings and final review |
+| Sourced imports | PASS for import only | 46 purchased parts, 21 selected C-numbers; BOM.md and import hashes |
+| Final component and assembly selection | BLOCKED | C25804 stock unresolved; passive/connector qualification and exact process not complete |
+| Outline / mounting geometry | PASS in 2D | logs/mechanical.log: 75 × 60 mm, 4 × 3.2 mm NPTH, 65 × 50 mm centers, 53 courtyards |
+| Particular chassis fit | NOT RUN | User chose a generic module; dimensioned template provided |
+| U1 land/paste source geometry | PASS for reviewed emitted geometry | U1_FOOTPRINT.md and regression assertions; fabrication export fidelity still untested |
+| 3D / filled-via assembly process | BLOCKED | Model alignment, body/tool envelopes and assembler confirmation remain open |
+| Electrical protection / ratings | BLOCKED | DESIGN_REVIEW.md: hot-path loss, bus-energy/clamp, capacitor and shunt qualification |
 | Physical routed connectivity | NOT RUN | NOT ROUTED — BY DESIGN |
-| Prototype tests | NOT RUN | TEST_PLAN.md; no hardware |
-| Onboard MCU / crystal / programming | NOT APPLICABLE | External-controller baseline |
-| Public repository publication | See PUBLICATION.md | User authorized both repositories; actual remote results recorded separately |
+| Prototype tests / selling readiness | NOT RUN | TEST_PLAN.md; no hardware evidence |
+| Onboard MCU / crystal / programming | NOT APPLICABLE | External-controller module |
+| Public publication | See PUBLICATION.md | Source publication is separate from build/approval success |
 
-Visual inspection of the top preview confirms four mounting holes/keepouts, test pads and no routed copper. The mechanical template was visually checked; no physical fit measurement occurred. The driver sheet is generated but its IC symbol is oversized and some labels are crowded. Neither has been marked placement/assembly approved. No manufacturing exports, routing-difficulty solver, signal router or purchasing workflow was run.
+Top-view inspection confirms four mounting holes, separated component courtyards, corrected U1 thermal geometry and no routed copper. U2 is clear in the native 2D checks. These checks do not prove 3D clearance or thermal performance. The tested partial upstream generator patch is evidence only; this project still uses its published pinned dependencies and keeps the strict failing gate.

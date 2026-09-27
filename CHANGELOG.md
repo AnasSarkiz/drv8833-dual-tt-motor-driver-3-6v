@@ -10,3 +10,7 @@
 - Added a 75 × 60 × 1.6 mm chassis-module outline, four 3.2 mm M3 mounting holes on 65 × 50 mm centers, four-layer hardware keepouts, measured courtyard checks and a printable template.
 - Reoriented passive parts and moved the diagnostic header to clear the mounting hardware; placement orientation analysis is clean.
 - User authorized public GitHub and tscircuit publication; actual results are in PUBLICATION.md. No routing or fabrication release.
+
+## 0.1.0-alpha.2 — unrouted electrical and placement revision
+
+Lower-loss Q1 and non-resettable F1; documented Littelfuse TVS; corrected NTC excitation and host input resistors; TI-derived U1 footprint/paste; manufacturer F1 footprint; native connector directions and electrical wrappers; pin/geometry/current-margin regression checks. Mounting remains 75 × 60 mm with four M3-clearance holes. Strict schema gate remains failing on documented upstream defects. Not approved for routing, fabrication or sale.

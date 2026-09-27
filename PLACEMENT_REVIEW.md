@@ -8,4 +8,8 @@ Latest placement check reports zero courtyard collisions and zero placement DRC 
 
 TOP and BOTTOM review images and four schematic-sheet images are under artifacts/pre-route. They show an unrouted electrical study. All 53 courtyard envelopes are on-board and clear the screw/washer reserves by at least 0.5 mm; the closest is J7 at 0.732 mm beyond the reserved zone. The check is recorded in logs/mechanical.log. The template is dimensioned. Standoff fit, component-height envelopes, connector access and a selected chassis still require a 3D or physical fit check. Direct motor-shaft clearance is not a PCB mounting constraint because the motors are mounted separately. High-current corridors and sense/thermal layout still need to be designed within the approved mechanical boundary.
 
-The supplier footprint thermal vias at U1 are explicitly allowlisted for review only. They are not connected to a plane because there are no copper pours. The minimum via rules are 0.30/0.45 mm; these supplier vias are larger at 0.3048/0.6096 mm.
+The retained thermal vias in the TI-derived footprint at U1 are explicitly allowlisted for review only. They are not connected to a plane because there are no copper pours. The minimum via rules are 0.30/0.45 mm; these retained vias are larger at 0.3048/0.6096 mm.
+
+## Revision changes
+
+J1 now faces left; J2/J3 face the bottom edge, with test pads moved clear of their cable entry. R19 was separated from TH1's legend. The U1 footprint was corrected; Q1/F1 changed to lower-loss parts. Native placement reports zero errors and warnings. This validates the native 2D checks, not screwdriver clearance, mating height, 3D body fit or thermal routing. The source retains the generic 75 × 60 mm outline and 65 × 50 mm mounting centers.

@@ -1,0 +1,54 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/components/primitive-components/silkscreen-optional-component-id.test.tsx:
+26 |   const silkscreenTexts = circuit.db.pcb_silkscreen_text.list()
+27 |   const silkscreenCircles = circuit.db.pcb_silkscreen_circle.list()
+28 |   expect(silkscreenTexts).toHaveLength(3)
+29 |   expect(silkscreenCircles).toHaveLength(3)
+30 |   for (const text of silkscreenTexts) {
+31 |     expect(() => pcb_silkscreen_text.parse(text)).not.toThrow()
+                                                           ^
+error: expect(received).not.toThrow()
+
+Error name: "ZodError"
+Error message: "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"pcb_component_id\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]"
+
+      at <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/components/primitive-components/silkscreen-optional-component-id.test.tsx:31:55)
+(fail) board silkscreen omits component IDs while footprint silkscreen keeps them [242.77ms]
+
+tests/components/primitive-components/plated-hole-rect-pad-id.test.tsx:
+16 |     </board>,
+17 |   )
+18 |   await circuit.renderUntilSettled()
+19 |   const platedHoles = circuit.db.pcb_plated_hole.list()
+20 |   expect(platedHoles).toHaveLength(2)
+21 |   expect(new Set(platedHoles.map((hole) => hole.pcb_plated_hole_id)).size).toBe(2)
+                                                                                ^
+error: expect(received).toBe(expected)
+
+Expected: 2
+Received: 1
+
+      at <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/components/primitive-components/plated-hole-rect-pad-id.test.tsx:21:76)
+(fail) pill holes with rectangular pads receive unique IDs and follow placement [227.14ms]
+
+tests/components/pcb/pcb-position-metadata-schema.test.tsx:
+14 |       <pcbnotetext text="Numeric, string and edge positions" pcbY={-6} fontSize={0.7} />
+15 |     </board>,
+16 |   )
+17 |   await circuit.renderUntilSettled()
+18 |   for (const pcbComponent of circuit.db.pcb_component.list()) {
+19 |     expect(() => pcb_component.parse(pcbComponent)).not.toThrow()
+                                                             ^
+error: expect(received).not.toThrow()
+
+Error name: "ZodError"
+Error message: "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"number\",\n    \"path\": [\n      \"display_offset_x\"\n    ],\n    \"message\": \"Expected string, received number\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"number\",\n    \"path\": [\n      \"display_offset_y\"\n    ],\n    \"message\": \"Expected string, received number\"\n  }\n]"
+
+      at <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/components/pcb/pcb-position-metadata-schema.test.tsx:19:57)
+(fail) explicit PCB positions emit schema-valid display offsets [230.59ms]
+
+ 0 pass
+ 3 fail
+ 6 expect() calls
+Ran 3 tests across 3 files. [1.78s]

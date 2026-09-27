@@ -1,7 +1,7 @@
 Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
-H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 7.262 mm beyond 7 mm hardware zone
+H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
 H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
-H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.285 mm beyond 7 mm hardware zone
+H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
 H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
 PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
 NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D

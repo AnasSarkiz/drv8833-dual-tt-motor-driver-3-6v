@@ -366,5 +366,105 @@
         }
       ]
     }
+  },
+  {
+    "c_number": "C83270",
+    "checked_at": "2026-09-27T17:40:53.021249+00:00",
+    "supplier_response": {
+      "query": "C83270",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 83270,
+          "mfr": "SMBJ6.0A",
+          "package": "DO-214AA",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-65\u2103~+150\u2103 10.3V 46nA 58.3A 6.67V 600W 6V IEC 61000-4-2 TVS Unidirectional DO-214AA ESD and Surge Protection (TVS/ESD) ROHS",
+          "stock": 1654,
+          "price": 0.1213
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C23138",
+    "checked_at": "2026-09-27T17:43:23.759451+00:00",
+    "supplier_response": {
+      "query": "C23138",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 23138,
+          "mfr": "0603WAF3300T5E",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-55\u2103~+155\u2103 100mW 330\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+          "stock": 1090237,
+          "price": 0.0016
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C23206",
+    "checked_at": "2026-09-27T17:43:24.968849+00:00",
+    "supplier_response": {
+      "query": "0603WAF5602T5E",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 23206,
+          "mfr": "0603WAF5602T5E",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-55\u2103~+155\u2103 100mW 56k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+          "stock": 219781,
+          "price": 0.002
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C222495",
+    "checked_at": "2026-09-27T17:57:25.860673+00:00",
+    "supplier_response": {
+      "query": "Si7655ADN",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 222495,
+          "mfr": "SI7655ADN-T1-GE3",
+          "package": "PowerPAK1212-8S",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-50\u2103~+150\u2103 1 P-Channel 1.1V 150nC@10V 20V 40A 57W 6.6nF 890pF 930pF 9m\u03a9@2.5V P-Channel PowerPAK1212-8S MOSFETs ROHS",
+          "stock": 3695,
+          "price": 1.0299
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C178991",
+    "checked_at": "2026-09-27T17:59:26.332356+00:00",
+    "supplier_response": {
+      "query": "C178991",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 178991,
+          "mfr": "0453003.MR",
+          "package": "2410",
+          "is_basic": false,
+          "is_preferred": false,
+          "description": "-55\u2103~+125\u2103 1.65 125V 125V 2.5mm 3A 50A 6.1mm Surface Mount Fuse 2410 Disposable fuses ROHS",
+          "stock": 1160,
+          "price": 0.2799
+        }
+      ]
+    }
   }
 ]

@@ -2,5 +2,13 @@
   "$schema": "https://biomejs.dev/schemas/2.5.14/schema.json",
   "formatter": { "indentStyle": "space" },
   "javascript": { "formatter": { "semicolons": "asNeeded" } },
-  "files": { "includes": ["**", "!artifacts/**", "!imports/**", "!dist/**"] }
+  "files": {
+    "includes": [
+      "**",
+      "!artifacts/**",
+      "!imports/**",
+      "!dist/**",
+      "!.tscircuit/**"
+    ]
+  }
 }

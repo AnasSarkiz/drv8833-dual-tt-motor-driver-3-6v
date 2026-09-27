@@ -1,9 +1,9 @@
-import { DRV8833PWPR } from "../imports/DRV8833PWPR"
+import { MotorDriverIc } from "./driver-part"
 import { CL21A106KAYNNNE } from "../imports/CL21A106KAYNNNE"
 import { CL10A225KO8NNNC } from "../imports/CL10A225KO8NNNC"
 import { A_0603B103K500NT } from "../imports/A_0603B103K500NT"
 import { RL2512FK_070R15L } from "../imports/RL2512FK_070R15L"
-import { KF301_5_0_2P } from "../imports/KF301_5_0_2P"
+import { InputTerminal } from "./parts"
 
 export function MotorDriver() {
   return (
@@ -17,14 +17,12 @@ export function MotorDriver() {
         name="driver_support"
         displayName="Local bypass and charge pump"
       />
-      <DRV8833PWPR
+      <MotorDriverIc
         name="U1"
         pcbX={0}
         pcbY={0}
         schX={0}
         schY={0}
-        schWidth={5}
-        schHeight={7}
         schSheetName="Dual_Motor_Driver"
         schSectionName="bridge"
         connections={{
@@ -49,6 +47,7 @@ export function MotorDriver() {
       />
       <RL2512FK_070R15L
         name="R2"
+        schOrientation="vertical"
         pcbX={-4.5}
         pcbY={-7}
         schX={-5}
@@ -59,6 +58,7 @@ export function MotorDriver() {
       />
       <RL2512FK_070R15L
         name="R3"
+        schOrientation="vertical"
         pcbX={5}
         pcbY={-7}
         schX={5}
@@ -67,20 +67,20 @@ export function MotorDriver() {
         schSectionName="bridge"
         connections={{ pin1: "net.ISEN_B", pin2: "net.GND" }}
       />
-      <KF301_5_0_2P
+      <InputTerminal
         name="J2"
         pcbX={-3}
-        pcbY={-17}
+        pcbY={-24}
         schX={-10}
         schY={0}
         schSheetName="Dual_Motor_Driver"
         schSectionName="bridge"
         connections={{ pin1: "net.AOUT1", pin2: "net.AOUT2" }}
       />
-      <KF301_5_0_2P
+      <InputTerminal
         name="J3"
         pcbX={11}
-        pcbY={-17}
+        pcbY={-24}
         schX={10}
         schY={0}
         schSheetName="Dual_Motor_Driver"
@@ -89,6 +89,7 @@ export function MotorDriver() {
       />
       <CL21A106KAYNNNE
         name="C3"
+        schOrientation="vertical"
         pcbX={-3}
         pcbY={5.5}
         schX={-10}
@@ -99,9 +100,10 @@ export function MotorDriver() {
       />
       <CL21A106KAYNNNE
         name="C4"
+        schOrientation="vertical"
         pcbX={2}
         pcbY={6}
-        schX={-5}
+        schX={-6}
         schY={8}
         schSheetName="Dual_Motor_Driver"
         schSectionName="driver_support"
@@ -109,6 +111,7 @@ export function MotorDriver() {
       />
       <CL10A225KO8NNNC
         name="C5"
+        schOrientation="vertical"
         pcbX={-5.5}
         pcbY={1.5}
         pcbRotation={180}
@@ -120,6 +123,7 @@ export function MotorDriver() {
       />
       <A_0603B103K500NT
         name="C6"
+        schOrientation="vertical"
         pcbX={5.5}
         pcbY={3}
         schX={6}

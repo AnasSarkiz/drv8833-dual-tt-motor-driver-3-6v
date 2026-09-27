@@ -1,0 +1,12 @@
+$ tsup-node
+CLI Building entry: index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Using tsup config: /private/tmp/dual-tt-core-schema-fix/tsup.config.ts
+CLI Target: esnext
+ESM Build start
+ESM dist/index.js 2.85 MB
+ESM ⚡️ Build success in 85ms
+DTS Build start
+DTS ⚡️ Build success in 13232ms
+DTS dist/index.d.ts 9.38 MB

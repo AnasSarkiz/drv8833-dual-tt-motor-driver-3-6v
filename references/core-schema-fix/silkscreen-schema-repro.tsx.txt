@@ -1,0 +1,47 @@
+import { expect, test } from "bun:test"
+import { pcb_silkscreen_text, pcb_silkscreen_circle } from "circuit-json"
+import { getTestFixture } from "tests/fixtures/get-test-fixture"
+
+test("board silkscreen omits component IDs while footprint silkscreen keeps them", async () => {
+  const { circuit } = getTestFixture()
+  circuit.add(
+    <board width={20} height={16} routingDisabled>
+      <silkscreentext text="Board" pcbX={-4} pcbY={4} />
+      <silkscreencircle radius={1} pcbX={-4} pcbY={2} />
+      <group name="G1" pcbX={4} pcbY={4}>
+        <silkscreentext text="Group" />
+        <silkscreencircle radius={1} pcbY={-2} />
+      </group>
+      <chip
+        name="U1"
+        pcbY={-3}
+        footprint={
+          <footprint>
+            <smtpad shape="rect" width={1} height={1} portHints={["pin1"]} />
+            <silkscreentext text="Footprint" pcbY={-2} />
+            <silkscreencircle radius={1} />
+          </footprint>
+        }
+      />
+    </board>,
+  )
+  await circuit.renderUntilSettled()
+  const pcbU1 = circuit.db.pcb_component.list()[0]
+  const silkscreenTexts = circuit.db.pcb_silkscreen_text.list()
+  const silkscreenCircles = circuit.db.pcb_silkscreen_circle.list()
+  expect(silkscreenTexts).toHaveLength(3)
+  expect(silkscreenCircles).toHaveLength(3)
+  for (const text of silkscreenTexts) {
+    expect(() => pcb_silkscreen_text.parse(text)).not.toThrow()
+    expect(text.pcb_component_id).toBe(
+      text.text === "Footprint" ? pcbU1.pcb_component_id : undefined,
+    )
+  }
+  for (const circle of silkscreenCircles) {
+    expect(() => pcb_silkscreen_circle.parse(circle)).not.toThrow()
+    expect(circle.pcb_component_id).toBe(
+      circle.center.y === -3 ? pcbU1.pcb_component_id : undefined,
+    )
+  }
+  await expect(circuit).toMatchPcbSnapshot(import.meta.path)
+})

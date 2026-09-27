@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Selected candidates only. Import success is not electrical/assembly approval.
-parts = ['C15127','C876469','C13564','C15850','C23630','C57112','C14663','C285392','C5331096','C20627123','C474881','C49257','C25804','C21190','C4190','C2286','C2289']
 root = Path(__file__).resolve().parent.parent
+parts = json.loads((root / "references/selected-parts.json").read_text())
 records=[]
 for part in parts:
     print(f'Importing {part}', flush=True)

@@ -1,7 +1,7 @@
 import { Fragment } from "react"
-import { SN74LVC2G86DCTR } from "../imports/SN74LVC2G86DCTR"
-import { A_2_54_1_3P_ } from "../imports/A_2_54_1_3P_"
-import { A_0603WAF1001T5E } from "../imports/A_0603WAF1001T5E"
+import { CommandIndicatorLogic } from "./parts"
+import { HostHeader } from "./parts"
+import { A_0603WAF3300T5E } from "../imports/A_0603WAF3300T5E"
 import { A_0603WAF1002T5E } from "../imports/A_0603WAF1002T5E"
 import { A_0603WAF2201T5E } from "../imports/A_0603WAF2201T5E"
 import { CC0603KRX7R9BB104 } from "../imports/CC0603KRX7R9BB104"
@@ -22,7 +22,7 @@ export function ControlDebug() {
         name="indicators"
         displayName="Command indication, not shaft motion"
       />
-      <A_2_54_1_3P_
+      <HostHeader
         name="J4"
         pcbX={24}
         pcbY={16}
@@ -36,7 +36,7 @@ export function ControlDebug() {
           pin3: "net.HOST_ENABLE",
         }}
       />
-      <A_2_54_1_3P_
+      <HostHeader
         name="J5"
         pcbX={24}
         pcbY={9}
@@ -50,7 +50,7 @@ export function ControlDebug() {
           pin3: "net.GND",
         }}
       />
-      <A_2_54_1_3P_
+      <HostHeader
         name="J6"
         pcbX={24}
         pcbY={2}
@@ -66,7 +66,7 @@ export function ControlDebug() {
       />
       {commands.map((command, index) => (
         <Fragment key={command}>
-          <A_0603WAF1001T5E
+          <A_0603WAF3300T5E
             name={`R${4 + index}`}
             pcbX={17}
             pcbY={17 - index * 4}
@@ -82,6 +82,7 @@ export function ControlDebug() {
           />
           <A_0603WAF1002T5E
             name={`R${9 + index}`}
+            schOrientation="vertical"
             pcbX={12}
             pcbY={17 - index * 4}
             schX={-4}
@@ -92,14 +93,12 @@ export function ControlDebug() {
           />
         </Fragment>
       ))}
-      <SN74LVC2G86DCTR
+      <CommandIndicatorLogic
         name="U2"
         pcbX={6}
         pcbY={11}
         schX={3}
         schY={1}
-        schWidth={4}
-        schHeight={6}
         schSheetName="Control_Debug"
         schSectionName="indicators"
         connections={{
@@ -115,6 +114,7 @@ export function ControlDebug() {
       />
       <CC0603KRX7R9BB104
         name="C7"
+        schOrientation="vertical"
         pcbX={1}
         pcbY={11}
         schX={3}

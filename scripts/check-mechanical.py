@@ -30,6 +30,11 @@ for part in circuit:
         xs = [point["x"] for point in part["outline"]]
         ys = [point["y"] for point in part["outline"]]
         bounds = (min(xs), max(xs), min(ys), max(ys))
+    elif part["type"] == "pcb_courtyard_rect":
+        x, y = part["center"]["x"], part["center"]["y"]
+        assert part.get("ccw_rotation", 0) == 0, "Rotated courtyard requires polygon bounds"
+        bounds = (x - part["width"] / 2, x + part["width"] / 2,
+                  y - part["height"] / 2, y + part["height"] / 2)
     elif part["type"] == "pcb_courtyard_circle":
         x, y, radius = part["center"]["x"], part["center"]["y"], part["radius"]
         bounds = (x - radius, x + radius, y - radius, y + radius)

@@ -15,16 +15,13 @@
 - Upstream report: none created; no external issue submission authorized.
 - Status: OPEN, completed design review blocked; public source publication is authorized as an incomplete draft. Regression: actual-build test in `tests/routing-lock.test.ts` remains failing.
 
-### TOOL-002 — Imported non-IC components produce generic-chip diagnostics
+### TOOL-002 — Imported component kinds and native pin-check coverage
 
-- First observed: 2026-09-27, same toolchain.
-- Reproduction: import C474881/C49257/C15127/C20627123/C5331096/C13564 with exact footprints, instantiate with conventional reference prefixes, build unrouted.
-- Actual: connector/fuse/MOSFET/TVS/NTC wrappers use `<chip>` and omit electrical attributes or custom symbol reference text. Generated output reports reference-prefix, underspecified-pin, missing-power/ground and styling warnings.
-- Evidence: unchanged `imports/` modules, build log and Circuit JSON.
-- Impact: physical geometry exists, but warnings cannot be read as completed electrical or schematic verification. Some missing supply-pin warnings are category artifacts for passive parts; real semantics still need source-level typed wrappers or a proper importer fix.
-- Workaround applied: none. No warning suppression.
-- Upstream report: none.
-- Status: OPEN; explicit per-part semantic and symbol review required.
+- Source: real exact-footprint supplier imports use generic chips for non-IC parts.
+- Implemented: typed wrappers in `lib/parts.tsx` provide native connectors, fuse, diode and thermistor semantics, entry directions and reference text; U1/U2 have explicit pin attributes. Raw imported geometry remains auditable.
+- Q1 now has nine footprint pads, with the repeated source/drain terminals specified and tested. The installed native MOSFET API only accepts three logical pins, so the nine-pad device uses a generic chip and all pins require connection. The native power/ground check treats every multi-pin chip as an IC and reports two missing-supply warnings. Q1 is a discrete switch with no separate IC supply pins; assigning fake supply requirements would misrepresent it. These two warnings are classified and remain visible.
+- Build reference-prefix warnings for Q1 (generic chip) and TH1 (NTC represented as a resistor) are likewise classified; reference designators are deliberate. No diagnostic suppression was added.
+- Status: source definitions improved; multi-pin MOSFET modeling/check coverage remains a tool limitation. Per-pin regression assertions protect the actual connections independently.
 
 ### TOOL-003 — tsci doctor registry configuration check fails
 
@@ -50,6 +47,18 @@ The generic chassis arrangement and PUBLIC visibility are confirmed. These were 
 
 No claim that native netlist/placement checks are no-ops: source inspection and real output confirm they run analysis. They can report issues while exiting successfully, so logs and Circuit JSON are reviewed rather than relying on exit codes. The initialization skill download was blocked by sandbox networking; the installed skill was available and read.
 
+## Local generator investigation
+
+See [references/core-schema-fix/README.md](references/core-schema-fix/README.md) for the isolated core 0.0.1993 checkout, exact base commit, source patch and before/after regression logs. The prepared fix covers component/group offset strings and automatic rectangular-pad hole IDs. Five focused tests, typechecking and package/declaration build pass. No local dependency link, generated-JSON patch, released version or upstream acceptance is claimed.
+
+Board/group silkscreen additionally requires a coordinated schema/API change: changing null owner IDs to undefined still fails the current required-string contract. The separate failing reproduction is retained. This is why the partial generator patch cannot make this project's full gate pass.
+
+### TOOL-005 — Schematic pin-spacing prop ignored by core
+
+During schematic review, `schPinSpacing` was accepted by the installed props but emitted pins remained at 0.2 mm spacing. Current core's `_computeSchematicBoxDimensions` also hard-codes `const pinSpacing = 0.2`. No core patch for this has been applied. The board source removes the ineffective prop and uses documented per-pin margins to separate functional power/sense groups; current previews show the actual result. No upstream report submitted.
+
 ## Classified diagnostics
 
-The latest generated JSON has 50 warnings: 9 reference-prefix, 11 underspecified-pin, 12 missing-power-pin, 11 missing-ground-pin, 4 schematic styling, and 3 connector-access warnings. Connector access is a design review blocker, not a confirmed tool defect. All remain visible in the evidence.
+The native pin check now reports zero errors and two Q1 category warnings described above. Native placement reports zero errors and warnings. Schematic orientation/padding suggestions remain visible and are reviewed separately; they are not routed DRC. All actual schema failures remain blocking. Updated command results are in VALIDATION.md and artifacts/pre-route/check-results.md.
+
+An earlier sandboxed build emitted 46 supplier-part lookup warnings because network requests failed. The final network-enabled build completed the lookups with zero part-not-found warnings. This was an environment restriction, not evidence that those parts are unavailable. The separate C25804 assembly-stock query remains unresolved.

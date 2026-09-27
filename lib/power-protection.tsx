@@ -1,8 +1,8 @@
-import { AO3401A } from "../imports/AO3401A"
-import { A_1812L300_24GR } from "../imports/A_1812L300_24GR"
-import { KF301_5_0_2P } from "../imports/KF301_5_0_2P"
+import { ReversePolarityMosfet } from "./parts"
+import { InputFuse } from "./parts"
+import { InputTerminal } from "./parts"
 import { VZH221M1CTR_0607 } from "../imports/VZH221M1CTR_0607"
-import { SMBJ6_0A } from "../imports/SMBJ6_0A"
+import { BusTvs } from "./parts"
 import { A_0603WAF2201T5E } from "../imports/A_0603WAF2201T5E"
 import { KT_0603YG } from "../imports/KT_0603YG"
 
@@ -18,27 +18,29 @@ export function PowerProtection() {
         name="bus_storage"
         displayName="Bus storage and transient mitigation"
       />
-      <KF301_5_0_2P
+      <InputTerminal
         name="J1"
         pcbX={-28}
         pcbY={10}
+        pcbRotation={270}
         schX={-12}
         schY={4}
         schSheetName="Power_Protection"
         schSectionName="power_path"
         connections={{ pin1: "net.VIN", pin2: "net.GND" }}
       />
-      <A_1812L300_24GR
+      <InputFuse
         name="F1"
-        pcbX={-18}
+        pcbX={-19}
         pcbY={11}
+        pcbRotation={90}
         schX={-6}
         schY={4}
         schSheetName="Power_Protection"
         schSectionName="power_path"
         connections={{ pin1: "net.VIN", pin2: "net.VIN_FUSED" }}
       />
-      <AO3401A
+      <ReversePolarityMosfet
         name="Q1"
         pcbX={-12}
         pcbY={11}
@@ -46,10 +48,21 @@ export function PowerProtection() {
         schY={4}
         schSheetName="Power_Protection"
         schSectionName="power_path"
-        connections={{ D: "net.VIN_FUSED", S: "net.VM", G: "net.GND" }}
+        connections={{
+          pin1: "net.VM",
+          pin2: "net.VM",
+          pin3: "net.VM",
+          pin4: "net.GND",
+          pin5: "net.VIN_FUSED",
+          pin6: "net.VIN_FUSED",
+          pin7: "net.VIN_FUSED",
+          pin8: "net.VIN_FUSED",
+          pin9: "net.VIN_FUSED",
+        }}
       />
       <VZH221M1CTR_0607
         name="C1"
+        schOrientation="vertical"
         pcbX={-22}
         pcbY={0}
         schX={-8}
@@ -60,15 +73,16 @@ export function PowerProtection() {
       />
       <VZH221M1CTR_0607
         name="C2"
+        schOrientation="vertical"
         pcbX={-12}
         pcbY={0}
-        schX={-3}
+        schX={-4}
         schY={-4}
         schSheetName="Power_Protection"
         schSectionName="bus_storage"
         connections={{ pin1: "net.VM", pin2: "net.GND" }}
       />
-      <SMBJ6_0A
+      <BusTvs
         name="D1"
         pcbX={-28}
         pcbY={-10}
@@ -76,7 +90,7 @@ export function PowerProtection() {
         schY={-4}
         schSheetName="Power_Protection"
         schSectionName="bus_storage"
-        connections={{ C: "net.VM", A: "net.GND" }}
+        connections={{ pin1: "net.VM", pin2: "net.GND" }}
       />
       <A_0603WAF2201T5E
         name="R1"

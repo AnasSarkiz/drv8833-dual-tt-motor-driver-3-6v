@@ -5,102 +5,10 @@ Building 1 file(s)...
 Building index.circuit.tsx...
 Generating circuit JSON...
 Circuit JSON written to dist/index/circuit.json
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-The "F" prefix is being used with a <chip />, try using it with a <fuse />
 The "Q" prefix is being used with a <chip />, try using it with a <transistor />
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
-component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face y- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-component is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-All pins on J1 are underspecified (no pinAttributes set)
-All pins on F1 are underspecified (no pinAttributes set)
-All pins on Q1 are underspecified (no pinAttributes set)
-All pins on D1 are underspecified (no pinAttributes set)
-All pins on J2 are underspecified (no pinAttributes set)
-All pins on J3 are underspecified (no pinAttributes set)
-All pins on J4 are underspecified (no pinAttributes set)
-All pins on J5 are underspecified (no pinAttributes set)
-All pins on J6 are underspecified (no pinAttributes set)
-All pins on TH1 are underspecified (no pinAttributes set)
-All pins on J7 are underspecified (no pinAttributes set)
-J1 has no pin with requires_power=true
-F1 has no pin with requires_power=true
+Component TH1 has ftype="simple_resistor" but reference designator should start with R
 Q1 has no pin with requires_power=true
-D1 has no pin with requires_power=true
-U1 has no pin with requires_power=true
-J2 has no pin with requires_power=true
-J3 has no pin with requires_power=true
-J4 has no pin with requires_power=true
-J5 has no pin with requires_power=true
-J6 has no pin with requires_power=true
-TH1 has no pin with requires_power=true
-J7 has no pin with requires_power=true
-J1 has no pin with requires_ground=true
-F1 has no pin with requires_ground=true
 Q1 has no pin with requires_ground=true
-D1 has no pin with requires_ground=true
-J2 has no pin with requires_ground=true
-J3 has no pin with requires_ground=true
-J4 has no pin with requires_ground=true
-J5 has no pin with requires_ground=true
-J6 has no pin with requires_ground=true
-TH1 has no pin with requires_ground=true
-J7 has no pin with requires_ground=true
-F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-Q1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-Failed to fetch supplier footprint for <chip#180 name=".J7" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#177 name=".C8" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#174 name=".R20" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#173 name=".TH1" /> (jlcpcb:C13564): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#170 name=".R19" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <led#164 name=".LED5" /> (jlcpcb:C2286): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#161 name=".R18" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <led#158 name=".LED4" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#155 name=".R17" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <led#152 name=".LED3" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#149 name=".R16" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <led#146 name=".LED2" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#143 name=".R15" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#140 name=".R14" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#137 name=".C7" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#128 name=".U2" /> (jlcpcb:C130023): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#125 name=".R13" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#122 name=".R8" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#119 name=".R12" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#116 name=".R7" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#113 name=".R11" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#110 name=".R6" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#107 name=".R10" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#104 name=".R5" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#101 name=".R9" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#98 name=".R4" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#94 name=".J6" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#90 name=".J5" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#86 name=".J4" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#80 name=".C6" /> (jlcpcb:C57112): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#77 name=".C5" /> (jlcpcb:C23630): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#74 name=".C4" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#71 name=".C3" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#68 name=".J3" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#65 name=".J2" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#62 name=".R3" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#59 name=".R2" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#41 name=".U1" /> (jlcpcb:C50506): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <led#35 name=".LED1" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <resistor#32 name=".R1" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#31 name=".D1" /> (jlcpcb:C5331096): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#28 name=".C2" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <capacitor#25 name=".C1" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#24 name=".Q1" /> (jlcpcb:C15127): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#23 name=".F1" /> (jlcpcb:C20627123): Unable to connect. Is the computer able to access the url?
-Failed to fetch supplier footprint for <chip#20 name=".J1" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?
 
 Build complete
   Circuits  1 passed
@@ -109,24 +17,24 @@ Build complete
 ✓ Done
 Build exiting with code 0: build finished successfully
 Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
-H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 7.262 mm beyond 7 mm hardware zone
+H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
 H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
-H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.285 mm beyond 7 mm hardware zone
+H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
 H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
 PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
 NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
 $ bun scripts/check-routing-lock.ts
-73 | export function checkCircuitLock(input: unknown) {
-74 |   if (!Array.isArray(input)) throw new Error("Circuit JSON must be an array")
-75 |   const circuit = input.map((element, index) => {
-76 |     const parsed = any_circuit_element.safeParse(element)
-77 |     if (!parsed.success)
-78 |       throw new Error(
+77 | export function checkCircuitLock(input: unknown) {
+78 |   if (!Array.isArray(input)) throw new Error("Circuit JSON must be an array")
+79 |   const circuit = input.map((element, index) => {
+80 |     const parsed = any_circuit_element.safeParse(element)
+81 |     if (!parsed.success)
+82 |       throw new Error(
                      ^
-error: Circuit JSON schema rejects element 807 (pcb_component); inspect scripts/check-schema.ts
-      at <anonymous> (/Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/routing-lock.ts:78:17)
+error: Circuit JSON schema rejects element 797 (pcb_component); inspect scripts/check-schema.ts
+      at <anonymous> (/Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/routing-lock.ts:82:17)
       at map (1:11)
-      at checkCircuitLock (/Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/routing-lock.ts:75:25)
+      at checkCircuitLock (/Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/routing-lock.ts:79:25)
       at /Users/anassarkiz/tsci/dual-tt-motor-driver/scripts/check-routing-lock.ts:6:3
 
 Bun v1.3.9 (macOS arm64)

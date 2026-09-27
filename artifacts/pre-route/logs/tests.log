@@ -4,19 +4,26 @@ tests/routing-lock.test.ts:
 error: expect(received).not.toThrow()
 
 Error name: "Error"
-Error message: "Circuit JSON schema rejects element 807 (pcb_component); inspect scripts/check-schema.ts"
+Error message: "Circuit JSON schema rejects element 797 (pcb_component); inspect scripts/check-schema.ts"
 
-(fail) pre-route safety lock > accepts the actual unrouted build and reviewed footprint vias [705.90ms]
-(pass) pre-route safety lock > accepts a literal source lock [4.25ms]
-(pass) pre-route safety lock > rejects missing source lock [0.24ms]
-(pass) pre-route safety lock > rejects nested routing override [0.81ms]
-(pass) pre-route safety lock > rejects board prop spreads [0.43ms]
-(pass) pre-route safety lock > rejects a schema-valid deliberately routed fixture [7.79ms]
-(pass) pre-route safety lock > rejects unreviewed signal vias [17.47ms]
-(pass) pre-route safety lock > rejects changed via minimums [13.86ms]
-(pass) pre-route safety lock > rejects unknown schema elements [10.51ms]
+(fail) pre-route safety lock > accepts the actual unrouted build and reviewed footprint vias [317.62ms]
+(pass) pre-route safety lock > accepts a literal source lock [2.31ms]
+(pass) pre-route safety lock > rejects missing source lock [0.85ms]
+(pass) pre-route safety lock > rejects nested routing override [0.57ms]
+(pass) pre-route safety lock > rejects board prop spreads [0.20ms]
+(pass) pre-route safety lock > rejects a schema-valid deliberately routed fixture [6.76ms]
+(pass) pre-route safety lock > rejects unreviewed signal vias [9.81ms]
+(pass) pre-route safety lock > rejects changed via minimums [10.13ms]
+(pass) pre-route safety lock > rejects unknown schema elements [5.72ms]
 
- 8 pass
+tests/design-connectivity.test.ts:
+(pass) all components render, without component-creation or other error records [0.09ms]
+(pass) protection parts keep their physical manufacturer pin connections [0.28ms]
+(pass) NTC measuring current and host-enable margin stay within the design budget [0.17ms]
+(pass) every driver pin matches the TI PWP pin table and intended circuit [0.15ms]
+(pass) driver copper, mask opening and paste match the rotated TI drawing [1.56ms]
+
+ 13 pass
  1 fail
- 9 expect() calls
-Ran 9 tests across 1 file. [978.00ms]
+ 558 expect() calls
+Ran 14 tests across 2 files. [467.00ms]

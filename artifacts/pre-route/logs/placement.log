@@ -1,25 +1,25 @@
 placement summary: no placement issues
 
 board top-layer utilization:
-- occupied: 20.434% (919.52mm^2 of 4500mm^2)
+- occupied: 20.664% (929.885mm^2 of 4500mm^2)
 - empty spaces over 5% of board area:
-  - 14.133% (636mm^2); bounds=(minX=-37.5mm, maxX=37.5mm, minY=-30mm, maxY=-21.52mm)
   - 13.304% (598.671mm^2); bounds=(minX=-37.5mm, maxX=37.5mm, minY=22.018mm, maxY=30mm)
+  - 11.492% (517.154mm^2); bounds=(minX=-37.5mm, maxX=-8.395mm, minY=-30mm, maxY=-12.231mm)
 
 board-edge status:
-- J1: 5.9mm inside left edge
-- F1: 16.943mm inside left edge
-- Q1: 17.65mm inside bottom edge
+- J1: 8.4mm inside left edge
+- F1: 15.565mm inside bottom edge
+- Q1: 17.07mm inside bottom edge
 - C1: 11.315mm inside left edge
 - C2: 21.315mm inside left edge
-- D1: 5.885mm inside left edge
+- D1: 6.116mm inside left edge
 - R1: 17.343mm inside left edge
 - LED1: 19.6mm inside top edge
-- U1: 26.5mm inside top edge
+- U1: 26.35mm inside top edge
 - R2: 21.272mm inside top edge
 - R3: 21.272mm inside top edge
-- J2: 11.9mm inside top edge
-- J3: 11.9mm inside top edge
+- J2: 4.9mm inside top edge
+- J3: 4.9mm inside top edge
 - C3: 23.825mm inside bottom edge
 - C4: 23.325mm inside bottom edge
 - C5: 28.05mm inside bottom edge
@@ -48,22 +48,19 @@ board-edge status:
 - LED4: 8.6mm inside bottom edge
 - R18: 12.343mm inside right edge
 - LED5: 7.35mm inside right edge
-- R19: 21.568mm inside bottom edge
+- R19: 19.568mm inside bottom edge
 - TH1: 24.568mm inside bottom edge
 - R20: 7.343mm inside right edge
 - C8: 12.4mm inside right edge
 - J7: 8.166mm inside right edge
-- TP1: 6.4mm inside top edge
-- TP2: 6.4mm inside top edge
-- TP3: 6.4mm inside top edge
-- TP4: 6.4mm inside top edge
-- TP5: 6.4mm inside top edge
-- TP6: 6.4mm inside top edge
-- TP7: 6.4mm inside top edge
+- TP1: 14.4mm inside top edge
+- TP2: 14.4mm inside top edge
+- TP3: 14.4mm inside top edge
+- TP4: 14.4mm inside top edge
+- TP5: 14.4mm inside top edge
+- TP6: 14.4mm inside top edge
+- TP7: 14.4mm inside top edge
 
 placement drc:
 Errors: 0
-Warnings: 3
-- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face y- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
-- pcb_connector_not_in_accessible_orientation_warning: component is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+Warnings: 0

@@ -1,7 +1,7 @@
-import { A_2_54_1_3P_ } from "../imports/A_2_54_1_3P_"
+import { HostHeader } from "./parts"
 import { A_0603WAF1001T5E } from "../imports/A_0603WAF1001T5E"
-import { A_0603WAF1002T5E } from "../imports/A_0603WAF1002T5E"
-import { NCP18XH103F03RB } from "../imports/NCP18XH103F03RB"
+import { A_0603WAF5602T5E } from "../imports/A_0603WAF5602T5E"
+import { BoardThermistor } from "./parts"
 import { CC0603KRX7R9BB104 } from "../imports/CC0603KRX7R9BB104"
 
 export function TemperatureTest() {
@@ -16,10 +16,11 @@ export function TemperatureTest() {
         name="diagnostic"
         displayName="Status and raw switching-node test pads"
       />
-      <A_0603WAF1002T5E
+      <A_0603WAF5602T5E
         name="R19"
+        schOrientation="vertical"
         pcbX={-6}
-        pcbY={8}
+        pcbY={10}
         pcbRotation={180}
         schX={-8}
         schY={4}
@@ -27,8 +28,9 @@ export function TemperatureTest() {
         schSectionName="temperature"
         connections={{ pin1: "net.VIO", pin2: "net.TEMP_RAW" }}
       />
-      <NCP18XH103F03RB
+      <BoardThermistor
         name="TH1"
+        schRotation={-90}
         pcbX={-7.5}
         pcbY={5}
         schX={-8}
@@ -42,13 +44,14 @@ export function TemperatureTest() {
         pcbX={29}
         pcbY={-15}
         schX={-2}
-        schY={4}
+        schY={3.5}
         schSheetName="Temperature_Test"
         schSectionName="temperature"
         connections={{ pin1: "net.TEMP_RAW", pin2: "net.TEMP" }}
       />
       <CC0603KRX7R9BB104
         name="C8"
+        schOrientation="vertical"
         pcbX={24}
         pcbY={-15}
         pcbRotation={180}
@@ -58,7 +61,7 @@ export function TemperatureTest() {
         schSectionName="temperature"
         connections={{ pin1: "net.TEMP", pin2: "net.GND" }}
       />
-      <A_2_54_1_3P_
+      <HostHeader
         name="J7"
         pcbX={26}
         pcbY={-20}
@@ -84,7 +87,7 @@ export function TemperatureTest() {
             </footprint>
           }
           pcbX={-16 + index * 4}
-          pcbY={-23}
+          pcbY={-15}
           schX={-14 + index * 4}
           schY={-9}
           schSheetName="Temperature_Test"

@@ -1,0 +1,14 @@
+U2.center=(6mm, 11mm) on top
+U2.bounds=(minX=3.643mm, maxX=8.357mm, minY=9.825mm, maxY=12.175mm)
+U2.size=(width=4.715mm, height=2.351mm)
+U2.anchor_alignment="center"
+U2 placement definition: placement_mode=none
+U2.pcbRightEdgeX=calc(board.maxX-29.143mm)
+U2.pcbBottomEdgeY=calc(board.maxY-17.825mm)
+U2.centerY=calc(board.centerY-11mm)
+U2.padClearance=1.542mm [nearest=C7.pin2]
+U2.pcbLeftEdgeX=calc(C7.maxX+5mm)
+
+placement drc:
+Errors: 0
+Warnings: 0

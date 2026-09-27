@@ -1,0 +1,13 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/design-connectivity.test.ts:
+(pass) all components render, without component-creation or other error records [1.92ms]
+(pass) protection parts keep their physical manufacturer pin connections [0.48ms]
+(pass) NTC measuring current and host-enable margin stay within the design budget [0.17ms]
+(pass) every driver pin matches the TI PWP pin table and intended circuit [0.28ms]
+(pass) driver copper, mask opening and paste match the rotated TI drawing [4.23ms]
+
+ 5 pass
+ 0 fail
+ 549 expect() calls
+Ran 5 tests across 1 file. [55.00ms]
