@@ -1,0 +1,137 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/features/autoroutingphase-saved-through-hole-layer.test.tsx:
+(pass) saved routes can use the bottom copper of a through-hole connector [399.42ms]
+
+tests/features/autoroutingphase-saved-complete-fanout-paths.test.tsx:
+(pass) a complete saved fanout path with a pad via needs no follow-up routing [540.94ms]
+
+tests/features/autoroutingphase-saved-paths-validation.test.tsx:
+Async effect error in PcbTraceRender "autorouting":
+Error: pcbTracePaths must cover every connection in the phase; missing: source_trace_0
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:191:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Saved phase path "MISSING.1" must select a PCB port
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:62:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Saved phase path "U3.1" must select exactly one connection in this phase
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:74:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Duplicate saved phase path for "U1.1"
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:66:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Saved phase path "U1.1" must start at its PCB port on an available layer
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:125:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Saved phase path "U1.1" must end at another connection endpoint; use autorouter="fanout" for saved escapes
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:145:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Saved phase path "U1.1" uses a layer unavailable on this board
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:109:19)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+Async effect error in PcbTraceRender "autorouting":
+Error: Saved phase path "U1.1" has a via at a pad; enable allowViaInPad
+    at getSavedAutoroutingPhaseTraces (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/get-saved-autorouting-phase-traces.ts:139:17)
+    at _runLocalAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1706:26)
+    at <anonymous> (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1997:14)
+    at _queueAsyncEffect (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:305:16)
+    at _startAsyncAutorouting (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:1996:12)
+    at doInitialPcbTraceRender (/private/tmp/dual-tt-core-schema-fix/lib/components/primitive-components/Group/Group.ts:2045:10)
+    at runRenderPhase (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:514:34)
+    at runRenderCycle (/private/tmp/dual-tt-core-schema-fix/lib/components/base-components/Renderable.ts:451:12)
+    at render (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:211:16)
+    at renderUntilSettled (/private/tmp/dual-tt-core-schema-fix/lib/IsolatedCircuit.ts:229:12)
+    at async <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/features/autoroutingphase-saved-paths-validation.test.tsx:105:19)
+    at processTicksAndRejections (native:7:39)
+(pass) saved phase paths reject invalid ports, layers, anchors, and coverage [2697.89ms]
+
+tests/features/autoroutingphase-saved-trace-paths.test.tsx:
+(pass) autoroutingphase preserves complete saved routes before later routing [802.46ms]
+
+tests/features/autoroutingphase-saved-via-width.test.tsx:
+Creating snapshot at /private/tmp/dual-tt-core-schema-fix/tests/features/__snapshots__/autoroutingphase-saved-via-width-pcb.snap.svg
+(pass) saved routes retain existing via contacts and their local wire widths [329.22ms]
+
+tests/features/autoroutingphase-saved-fanout-paths.test.tsx:
+(pass) autoroutingphase continues saved fanout escapes from their exit layer [548.51ms]
+
+ 6 pass
+ 0 fail
+ 39 expect() calls
+Ran 6 tests across 6 files. [5.78s]

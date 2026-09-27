@@ -31,8 +31,9 @@ export function TemperatureTest() {
       <BoardThermistor
         name="TH1"
         schRotation={-90}
-        pcbX={-7.5}
-        pcbY={5}
+        pcbX={-9}
+        pcbY={7}
+        pcbRotation={180}
         schX={-8}
         schY={-2}
         schSheetName="Temperature_Test"
@@ -86,8 +87,10 @@ export function TemperatureTest() {
               <courtyardcircle radius={0.85} />
             </footprint>
           }
-          pcbX={-16 + index * 4}
-          pcbY={-15}
+          pcbX={
+            netName === "ISEN_B" ? 14 : netName === "VM" ? -20 : -16 + index * 4
+          }
+          pcbY={netName === "ISEN_B" ? -13 : netName === "VM" ? -7 : -15}
           schX={-14 + index * 4}
           schY={-9}
           schSheetName="Temperature_Test"

@@ -1,0 +1,488 @@
+<TraceLengthAnalysis requestedTarget="net.VM" resolvedTarget="net.VM" targetKind="net" traceCount="12" totalLengthMm="104.29" totalStraightLineDistanceMm="135.71">
+  <Trace id="source_trace_13:source_port_14" label="C1.pin1 -&gt; net.VM" connectionType="via net" lengthMm="8.67" straightLineDistanceMm="8.67">
+    <ConnectedPins>
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+  </Trace>
+  <Trace id="source_trace_15:source_port_16" label="C2.pin1 -&gt; net.VM" connectionType="via net" lengthMm="9.68" straightLineDistanceMm="2.32">
+    <ConnectedPins>
+      <Pin ref="C2.pin1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="-9.45" y="0.00" layer="top" kind="endpoint" />
+      <Point x="-9.60" y="0.00" layer="top" kind="track" />
+      <Point x="-9.20" y="0.40" layer="top" kind="track" />
+      <Point x="-9.20" y="0.80" layer="top" kind="track" />
+      <Point x="-6.80" y="3.20" layer="top" kind="track" />
+      <Point x="-6.40" y="3.20" layer="top" kind="track" />
+      <Point x="-6.00" y="3.60" layer="top" kind="track" />
+      <Point x="-5.20" y="3.60" layer="top" kind="track" />
+      <Point x="-4.40" y="4.40" layer="top" kind="track" />
+      <Point x="-4.40" y="6.00" layer="top" kind="track" />
+      <Point x="-4.00" y="6.40" layer="top" kind="track" />
+      <Point x="-4.00" y="6.50" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_48:source_port_56" label="C3.pin1 -&gt; net.VM" connectionType="via net" lengthMm="8.42" straightLineDistanceMm="8.42">
+    <ConnectedPins>
+      <Pin ref="C3.pin1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+  </Trace>
+  <Trace id="source_trace_50:source_port_58" label="C4.pin1 -&gt; net.VM" connectionType="via net" lengthMm="8.14" straightLineDistanceMm="13.97">
+    <ConnectedPins>
+      <Pin ref="C4.pin1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="2.00" y="7.00" layer="top" kind="endpoint" />
+      <Point x="2.00" y="5.50" layer="top" kind="track" />
+      <Point x="3.25" y="5.50" layer="top" kind="track" />
+      <Point x="3.75" y="5.50" layer="top" kind="track" />
+      <Point x="4.00" y="5.50" layer="top" kind="track" />
+      <Point x="4.25" y="5.75" layer="top" kind="track" />
+      <Point x="4.50" y="5.75" layer="top" kind="track" />
+      <Point x="5.10" y="5.95" layer="top" kind="track" />
+      <Point x="5.10" y="5.95" layer="inner1" kind="track" />
+      <Point x="5.63" y="5.63" layer="inner1" kind="track" />
+      <Point x="5.66" y="4.63" layer="inner1" kind="track" />
+      <Point x="5.95" y="3.97" layer="inner1" kind="track" />
+      <Point x="5.95" y="3.97" layer="top" kind="via" />
+      <Point x="6.20" y="3.72" layer="top" kind="track" />
+      <Point x="6.20" y="3.45" layer="top" kind="track" />
+      <Point x="6.20" y="3.45" layer="top" kind="track" />
+      <Point x="6.20" y="3.00" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_55:source_port_63" label="C6.pin2 -&gt; net.VM" connectionType="via net" lengthMm="17.20" straightLineDistanceMm="17.20">
+    <ConnectedPins>
+      <Pin ref="C6.pin2" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+  </Trace>
+  <Trace id="source_trace_17:source_port_18" label="D1.pin1 -&gt; net.VM" connectionType="via net" lengthMm="13.48" straightLineDistanceMm="22.69">
+    <ConnectedPins>
+      <Pin ref="D1.pin1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="-30.36" y="-10.00" layer="top" kind="endpoint" />
+      <Point x="-29.71" y="-10.75" layer="top" kind="track" />
+      <Point x="-29.06" y="-11.50" layer="top" kind="track" />
+      <Point x="-29.06" y="-12.25" layer="top" kind="track" />
+      <Point x="-21.05" y="-12.25" layer="top" kind="track" />
+      <Point x="-21.05" y="-11.50" layer="top" kind="track" />
+      <Point x="-20.40" y="-10.75" layer="top" kind="track" />
+      <Point x="-20.13" y="-10.43" layer="top" kind="track" />
+      <Point x="-20.13" y="-10.43" layer="top" kind="track" />
+      <Point x="-19.75" y="-10.00" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_4:source_port_4" label="Q1.S1 -&gt; net.VM" connectionType="via net" lengthMm="0.65" straightLineDistanceMm="8.06">
+    <ConnectedPins>
+      <Pin ref="Q1.S1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="-12.97" y="9.57" layer="top" kind="endpoint" />
+      <Point x="-12.97" y="9.57" layer="top" kind="track" />
+      <Point x="-12.93" y="9.57" layer="top" kind="track" />
+      <Point x="-12.89" y="9.57" layer="top" kind="track" />
+      <Point x="-12.85" y="9.57" layer="top" kind="track" />
+      <Point x="-12.81" y="9.57" layer="top" kind="track" />
+      <Point x="-12.77" y="9.57" layer="top" kind="track" />
+      <Point x="-12.77" y="9.57" layer="top" kind="track" />
+      <Point x="-12.77" y="9.57" layer="top" kind="track" />
+      <Point x="-12.73" y="9.57" layer="top" kind="track" />
+      <Point x="-12.69" y="9.57" layer="top" kind="track" />
+      <Point x="-12.65" y="9.57" layer="top" kind="track" />
+      <Point x="-12.61" y="9.57" layer="top" kind="track" />
+      <Point x="-12.57" y="9.57" layer="top" kind="track" />
+      <Point x="-12.53" y="9.57" layer="top" kind="track" />
+      <Point x="-12.53" y="9.57" layer="top" kind="track" />
+      <Point x="-12.49" y="9.57" layer="top" kind="track" />
+      <Point x="-12.48" y="9.57" layer="top" kind="track" />
+      <Point x="-12.45" y="9.57" layer="top" kind="track" />
+      <Point x="-12.41" y="9.57" layer="top" kind="track" />
+      <Point x="-12.37" y="9.57" layer="top" kind="track" />
+      <Point x="-12.32" y="9.57" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_5:source_port_5" label="Q1.S2 -&gt; net.VM" connectionType="via net" lengthMm="0.65" straightLineDistanceMm="7.93">
+    <ConnectedPins>
+      <Pin ref="Q1.S2" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="-12.32" y="9.57" layer="top" kind="endpoint" />
+      <Point x="-12.32" y="9.57" layer="top" kind="track" />
+      <Point x="-11.68" y="9.57" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_6:source_port_6" label="Q1.S3 -&gt; net.VM" connectionType="via net" lengthMm="10.37" straightLineDistanceMm="7.84">
+    <ConnectedPins>
+      <Pin ref="Q1.S3" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="-11.68" y="9.57" layer="top" kind="endpoint" />
+      <Point x="-12.00" y="9.50" layer="top" kind="track" />
+      <Point x="-12.00" y="8.75" layer="top" kind="track" />
+      <Point x="-12.00" y="8.25" layer="top" kind="track" />
+      <Point x="-11.50" y="8.25" layer="top" kind="track" />
+      <Point x="-8.40" y="8.40" layer="top" kind="track" />
+      <Point x="-8.40" y="8.40" layer="inner2" kind="track" />
+      <Point x="-7.42" y="8.40" layer="inner2" kind="track" />
+      <Point x="-6.44" y="8.40" layer="inner2" kind="track" />
+      <Point x="-6.41" y="8.37" layer="inner2" kind="track" />
+      <Point x="-6.41" y="8.37" layer="inner2" kind="track" />
+      <Point x="-6.41" y="8.37" layer="inner2" kind="track" />
+      <Point x="-6.41" y="8.37" layer="top" kind="via" />
+      <Point x="-5.87" y="8.37" layer="top" kind="track" />
+      <Point x="-5.25" y="7.75" layer="top" kind="track" />
+      <Point x="-4.62" y="7.12" layer="top" kind="track" />
+      <Point x="-4.00" y="6.50" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_19:source_port_19" label="R1.pin1 -&gt; net.VM" connectionType="via net" lengthMm="3.10" straightLineDistanceMm="14.69">
+    <ConnectedPins>
+      <Pin ref="R1.pin1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="TP4.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+    <Path>
+      <Point x="-19.75" y="-10.00" layer="top" kind="endpoint" />
+      <Point x="-20.00" y="-9.75" layer="top" kind="track" />
+      <Point x="-20.00" y="-9.57" layer="top" kind="track" />
+      <Point x="-20.00" y="-9.57" layer="top" kind="track" />
+      <Point x="-20.00" y="-7.60" layer="top" kind="track" />
+      <Point x="-20.00" y="-7.60" layer="top" kind="track" />
+      <Point x="-20.00" y="-7.00" layer="top" kind="endpoint" />
+    </Path>
+  </Trace>
+  <Trace id="source_trace_127:source_port_135" label="TP4.pin1 -&gt; net.VM" connectionType="via net" lengthMm="12.59" straightLineDistanceMm="12.59">
+    <ConnectedPins>
+      <Pin ref="TP4.pin1" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="U1.VM" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+  </Trace>
+  <Trace id="source_trace_35:source_port_34" label="U1.VM -&gt; net.VM" connectionType="via net" lengthMm="11.34" straightLineDistanceMm="11.34">
+    <ConnectedPins>
+      <Pin ref="U1.VM" />
+      <Pin ref="C1.pin1" />
+      <Pin ref="C2.pin1" />
+      <Pin ref="C3.pin1" />
+      <Pin ref="C4.pin1" />
+      <Pin ref="C6.pin2" />
+      <Pin ref="D1.pin1" />
+      <Pin ref="Q1.S1" />
+      <Pin ref="Q1.S2" />
+      <Pin ref="Q1.S3" />
+      <Pin ref="R1.pin1" />
+      <Pin ref="TP4.pin1" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="U1.VM" x="0.33" y="2.90" layers="top" />
+      <Pin ref="C1.pin1" x="-19.45" y="0.00" layers="top" />
+      <Pin ref="C2.pin1" x="-9.45" y="0.00" layers="top" />
+      <Pin ref="C3.pin1" x="-4.00" y="6.50" layers="top" />
+      <Pin ref="C4.pin1" x="2.00" y="7.00" layers="top" />
+      <Pin ref="C6.pin2" x="6.20" y="3.00" layers="top" />
+      <Pin ref="D1.pin1" x="-30.36" y="-10.00" layers="top" />
+      <Pin ref="Q1.S1" x="-12.97" y="9.57" layers="top" />
+      <Pin ref="Q1.S2" x="-12.32" y="9.57" layers="top" />
+      <Pin ref="Q1.S3" x="-11.68" y="9.57" layers="top" />
+      <Pin ref="R1.pin1" x="-19.75" y="-10.00" layers="top" />
+      <Pin ref="TP4.pin1" x="-20.00" y="-7.00" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.VM" x="-10.95" y="1.76" layer="top" />
+    <TraceRequirements none />
+  </Trace>
+</TraceLengthAnalysis>

@@ -1,0 +1,34 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/routed-connectivity.test.ts:
+(pass) every physical port and trace is connected [219.09ms]
+(pass) removing the ground pours exposes disconnected ground pads [22.32ms]
+(pass) removing a motor-output route exposes physical disconnection [153.86ms]
+
+tests/routing-lock.test.ts:
+(pass) authorized routed-board contract > accepts the generated routed board and reviewed thermal vias [722.18ms]
+(pass) authorized routed-board contract > accepts explicit routing authorization in source [2.48ms]
+(pass) authorized routed-board contract > rejects missing routing state [0.95ms]
+(pass) authorized routed-board contract > rejects disabled routing [0.16ms]
+(pass) authorized routed-board contract > rejects a bare routingDisabled flag [0.22ms]
+(pass) authorized routed-board contract > rejects board prop spreads [0.05ms]
+(pass) authorized routed-board contract > rejects a board with all routes removed [689.49ms]
+(pass) authorized routed-board contract > rejects undersized generated vias [1513.41ms]
+(pass) authorized routed-board contract > rejects changed board via minimums [783.94ms]
+(pass) authorized routed-board contract > rejects changed thermal via geometry [786.97ms]
+(pass) authorized routed-board contract > rejects a missing inner ground plane [789.91ms]
+(pass) authorized routed-board contract > rejects unknown schema elements [816.32ms]
+
+tests/design-connectivity.test.ts:
+(pass) all components render, without component-creation or other error records [0.12ms]
+(pass) protection parts keep their physical manufacturer pin connections [0.30ms]
+(pass) all thirty ground returns share one electrical network without bypassing the shunts [0.37ms]
+(pass) ground connectivity detects an isolated exposed pad even when its net is also named GND [0.08ms]
+(pass) NTC measuring current and host-enable margin stay within the design budget [0.15ms]
+(pass) every driver pin matches the TI PWP pin table and intended circuit [0.15ms]
+(pass) driver copper, mask opening and paste match the rotated TI drawing [1.50ms]
+
+ 22 pass
+ 0 fail
+ 706 expect() calls
+Ran 22 tests across 3 files. [8.17s]

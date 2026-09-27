@@ -4,7 +4,7 @@
   "previewComponentPath": "index.circuit.tsx",
   "alwaysUseLatestTscircuitOnCloud": false,
   "build": {
-    "routingDisabled": true,
+    "routingDisabled": false,
     "circuitJson": true
   },
   "buildCommand": "bun run build"

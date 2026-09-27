@@ -1,0 +1,1 @@
+Additional PCB-image shorts check at 40 px/mm across all layers was stopped after more than 10 minutes without a result. No pass is claimed. Native full routing checks and the separate all-layer Gerber shorts check passed.

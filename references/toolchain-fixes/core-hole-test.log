@@ -1,0 +1,10 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/components/primitive-components/hole-board-owner-schema.test.tsx:
+Creating snapshot at /private/tmp/dual-tt-core-schema-fix/tests/components/primitive-components/__snapshots__/hole-board-owner-schema-pcb.snap.svg
+(pass) board mounting holes omit missing component ownership [233.05ms]
+
+ 1 pass
+ 0 fail
+ 6 expect() calls
+Ran 1 test across 1 file. [776.00ms]

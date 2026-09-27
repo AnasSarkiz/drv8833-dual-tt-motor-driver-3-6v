@@ -1,4 +1,4 @@
-name: Pre-route review checks
+name: Routed board checks
 on: [push, pull_request]
 jobs:
   review:

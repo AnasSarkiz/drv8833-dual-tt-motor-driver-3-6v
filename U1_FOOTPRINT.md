@@ -14,6 +14,6 @@ The two coincident pin-17 pads describe one electrical copper area and its small
 
 The four retained vias meet the requested 0.30 mm drill / 0.45 mm pad minima. They are a documented alternative to TI's illustrative via array; their thermal performance is not established by the drawing. They need **filled and copper-capped via-in-pad processing**, with a flat reflow surface. The TI stencil example is 0.125 mm thick. Confirm the exact process and paste coverage with the fabricator/assembler; no order or process acceptance exists yet.
 
-These four holes are conductive thermal-via barrels, not mounting posts. With routing disabled they have no completed ground-plane connections. Final routing must connect exposed copper/vias to GND while keeping AISEN/BISEN separate until their shunts. Mechanical fit of the imported 3D model and prototype thermal behavior remain unverified.
+These four holes are conductive thermal-via barrels, not mounting posts. The routed revision connects them and the exposed pad to GND pours; AISEN/BISEN remain separate until their shunts. Physical-connectivity and native routing checks pass. Mechanical fit of the imported 3D model and prototype thermal behavior remain unverified.
 
 `tests/design-connectivity.test.ts` checks all 17 physical pin nets, lead pitch/position/size, thermal copper/opening and emitted paste. The source routing guard hashes this reviewed footprint and allows only the four listed thermal vias. This document is a geometry review, not assembly approval.

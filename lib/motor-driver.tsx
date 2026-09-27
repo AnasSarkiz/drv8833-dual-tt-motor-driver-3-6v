@@ -48,8 +48,9 @@ export function MotorDriver() {
       <RL2512FK_070R15L
         name="R2"
         schOrientation="vertical"
-        pcbX={-4.5}
-        pcbY={-7}
+        pcbX={-8}
+        pcbY={-9}
+        pcbRotation={180}
         schX={-5}
         schY={-7}
         schSheetName="Dual_Motor_Driver"
@@ -59,8 +60,8 @@ export function MotorDriver() {
       <RL2512FK_070R15L
         name="R3"
         schOrientation="vertical"
-        pcbX={5}
-        pcbY={-7}
+        pcbX={8}
+        pcbY={-9}
         schX={5}
         schY={-7}
         schSheetName="Dual_Motor_Driver"
@@ -91,7 +92,7 @@ export function MotorDriver() {
         name="C3"
         schOrientation="vertical"
         pcbX={-3}
-        pcbY={5.5}
+        pcbY={6.5}
         schX={-10}
         schY={8}
         schSheetName="Dual_Motor_Driver"
@@ -101,8 +102,8 @@ export function MotorDriver() {
       <CL21A106KAYNNNE
         name="C4"
         schOrientation="vertical"
-        pcbX={2}
-        pcbY={6}
+        pcbX={3}
+        pcbY={7}
         schX={-6}
         schY={8}
         schSheetName="Dual_Motor_Driver"

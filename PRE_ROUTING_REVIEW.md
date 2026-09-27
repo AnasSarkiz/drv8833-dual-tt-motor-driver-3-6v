@@ -1,5 +1,7 @@
 # Work required before routing
 
+> Historical review from before routing. Current routing and validation status is documented in ROUTING_REVIEW.md and VALIDATION.md. Earlier routing holds/schema failures below describe that historical revision and are superseded.
+
 Review date: 2026-09-27. The user wants a store product for common TT motors; the test bench's regulator does not define its sole power source. Target input remains 3–6 V at the connector including tolerance. Routing is disabled, with no routing approval requested for this incomplete revision.
 
 The user's working RP2040 motor board is now a documented comparison in [REFERENCE_BOARD_REVIEW.md](REFERENCE_BOARD_REVIEW.md). Its delivered and latest designs differ; the comparison adds logical ground-connectivity regression coverage and an outside-pad thermal-via option for review. It does not change our hardware, supply target, or routing state.

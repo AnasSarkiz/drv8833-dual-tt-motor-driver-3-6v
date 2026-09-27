@@ -1,7 +1,7 @@
 {
   "name": "@tsci/AnasSarkiz.dual-tt-motor-driver",
-  "version": "0.1.0-alpha.2",
-  "description": "Unrouted dual TT motor driver \u2014 NOT FOR FABRICATION",
+  "version": "0.1.0-alpha.3",
+  "description": "Four-layer dual TT motor driver prototype",
   "main": "index.circuit.tsx",
   "keywords": [
     "tscircuit",
@@ -11,25 +11,34 @@
   ],
   "scripts": {
     "dev": "bun run guard:source && tsci dev index.circuit.tsx",
-    "build": "bun run guard:source && tsci build index.circuit.tsx --routing-disabled && python3 scripts/check-mechanical.py && bun run guard",
+    "build": "bun run guard:source && tsci build index.circuit.tsx && python3 scripts/check-mechanical.py && bun run guard && bun scripts/check-routed-connectivity.ts",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "format": "biome format --write .",
     "format:check": "biome format .",
     "guard:source": "bun scripts/check-routing-lock.ts --source-only",
     "guard": "bun scripts/check-routing-lock.ts",
-    "render": "python3 scripts/render-mounting-template.py && bun scripts/render-pre-route.ts",
+    "render": "bun scripts/render-routed.ts",
     "validate": "bun run typecheck && bun run build && bun test",
     "start": "bun run dev"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.14",
+    "@tscircuit/capacity-autorouter": "0.0.938",
+    "@tscircuit/checks": "0.0.221",
+    "@tscircuit/core": "file:vendor/tscircuit-core-0.0.1993-dualtt.4.tgz",
     "@tscircuit/props": "0.0.666",
     "@types/bun": "1.4.2",
-    "circuit-json": "0.0.499",
+    "circuit-json": "file:vendor/circuit-json-0.0.506-dualtt.1.tgz",
     "tscircuit": "0.0.2646",
     "typescript": "5.9.3"
   },
   "author": "AnasSarkiz",
-  "packageManager": "bun@1.3.9"
+  "packageManager": "bun@1.3.9",
+  "overrides": {
+    "@tscircuit/core": "file:vendor/tscircuit-core-0.0.1993-dualtt.4.tgz",
+    "circuit-json": "file:vendor/circuit-json-0.0.506-dualtt.1.tgz",
+    "@tscircuit/checks": "0.0.221",
+    "@tscircuit/capacity-autorouter": "0.0.938"
+  }
 }

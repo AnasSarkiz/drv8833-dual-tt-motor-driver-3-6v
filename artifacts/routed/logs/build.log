@@ -1,0 +1,31 @@
+$ bun run guard:source && tsci build index.circuit.tsx && python3 scripts/check-mechanical.py && bun run guard && bun scripts/check-routed-connectivity.ts
+$ bun scripts/check-routing-lock.ts --source-only
+PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Circuit JSON written to dist/index/circuit.json
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+Component TH1 has ftype="simple_resistor" but reference designator should start with R
+Q1 has no pin with requires_power=true
+Q1 has no pin with requires_ground=true
+F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+
+Build complete
+  Circuits  1 passed
+  Output    dist
+
+✓ Done
+Build exiting with code 0: build finished successfully
+Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
+H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
+H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
+H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
+H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
+PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
+NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
+$ bun scripts/check-routing-lock.ts
+PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+Fresh native routing checks: 0 findings

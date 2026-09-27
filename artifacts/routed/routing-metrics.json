@@ -1,0 +1,435 @@
+{
+  "note": "Planar trace lengths sum all branches and exclude vertical barrels. Geometry is not a current rating.",
+  "trace_count": 70,
+  "via_count": 64,
+  "via_sizes": [
+    {
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "count": 54
+    },
+    {
+      "drill_mm": 0.3,
+      "pad_mm": 0.6,
+      "count": 6
+    },
+    {
+      "drill_mm": 0.3048,
+      "pad_mm": 0.6096,
+      "count": 4
+    }
+  ],
+  "pour_polygons_by_layer": {
+    "top": 3,
+    "inner1": 1,
+    "bottom": 1
+  },
+  "nets": {
+    "AIN1": {
+      "trace_count": 3,
+      "length_mm": 31.069,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "inner2",
+        "top"
+      ]
+    },
+    "AIN2": {
+      "trace_count": 3,
+      "length_mm": 24.464,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner2",
+        "top"
+      ]
+    },
+    "AOUT1": {
+      "trace_count": 1,
+      "length_mm": 22.705,
+      "widths_mm": [
+        0.325,
+        0.35000000000000003,
+        0.525,
+        0.55,
+        1
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "AOUT2": {
+      "trace_count": 1,
+      "length_mm": 21.943,
+      "widths_mm": [
+        0.25,
+        0.325,
+        0.65,
+        1
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "A_CMD": {
+      "trace_count": 1,
+      "length_mm": 11.112,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner1",
+        "top"
+      ]
+    },
+    "BIN1": {
+      "trace_count": 3,
+      "length_mm": 27.451,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "inner1",
+        "top"
+      ]
+    },
+    "BIN2": {
+      "trace_count": 3,
+      "length_mm": 36.225,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "BOUT1": {
+      "trace_count": 1,
+      "length_mm": 24.059,
+      "widths_mm": [
+        0.25,
+        0.275,
+        0.35000000000000003,
+        0.42500000000000004,
+        0.55,
+        0.675,
+        0.8,
+        0.875,
+        0.9,
+        0.925,
+        1
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "BOUT2": {
+      "trace_count": 1,
+      "length_mm": 26.557,
+      "widths_mm": [
+        0.325,
+        0.41250000000000003,
+        0.525,
+        0.9750000000000001,
+        1
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "B_CMD": {
+      "trace_count": 1,
+      "length_mm": 12.293,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner1",
+        "top"
+      ]
+    },
+    "ENABLE": {
+      "trace_count": 2,
+      "length_mm": 22.481,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner2",
+        "top"
+      ]
+    },
+    "FAULT_N": {
+      "trace_count": 4,
+      "length_mm": 53.262,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "top"
+      ]
+    },
+    "GND": {
+      "trace_count": 1,
+      "length_mm": 1.432,
+      "widths_mm": [
+        0.3
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "HOST_AIN1": {
+      "trace_count": 1,
+      "length_mm": 9.593,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner1",
+        "top"
+      ]
+    },
+    "HOST_AIN2": {
+      "trace_count": 1,
+      "length_mm": 7.897,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "HOST_BIN1": {
+      "trace_count": 1,
+      "length_mm": 11.274,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "HOST_BIN2": {
+      "trace_count": 1,
+      "length_mm": 7.887,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner2",
+        "top"
+      ]
+    },
+    "HOST_ENABLE": {
+      "trace_count": 1,
+      "length_mm": 18.985,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "ISEN_A": {
+      "trace_count": 2,
+      "length_mm": 22.132,
+      "widths_mm": [
+        0.25,
+        0.30000000000000004,
+        1
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "ISEN_B": {
+      "trace_count": 2,
+      "length_mm": 18.679,
+      "widths_mm": [
+        0.3,
+        0.5750000000000001,
+        0.625,
+        0.75,
+        0.925,
+        1
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "LED_A_CMD_A": {
+      "trace_count": 1,
+      "length_mm": 4.002,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "LED_B_CMD_A": {
+      "trace_count": 1,
+      "length_mm": 5.801,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "LED_FAULT_A": {
+      "trace_count": 1,
+      "length_mm": 6.672,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "LED_VIO_A": {
+      "trace_count": 1,
+      "length_mm": 4.002,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "LED_VM_A": {
+      "trace_count": 1,
+      "length_mm": 5.821,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "TEMP": {
+      "trace_count": 3,
+      "length_mm": 30.659,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "TEMP_RAW": {
+      "trace_count": 2,
+      "length_mm": 49.172,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner1",
+        "top"
+      ]
+    },
+    "VCP": {
+      "trace_count": 1,
+      "length_mm": 7.021,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "inner1",
+        "top"
+      ]
+    },
+    "VIN": {
+      "trace_count": 1,
+      "length_mm": 10.638,
+      "widths_mm": [
+        1
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "VINT": {
+      "trace_count": 1,
+      "length_mm": 8.8,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "top"
+      ]
+    },
+    "VIN_FUSED": {
+      "trace_count": 5,
+      "length_mm": 11.329,
+      "widths_mm": [
+        0.405003,
+        0.9899904,
+        1
+      ],
+      "layers": [
+        "top"
+      ]
+    },
+    "VIO": {
+      "trace_count": 7,
+      "length_mm": 97.363,
+      "widths_mm": [
+        0.25
+      ],
+      "layers": [
+        "bottom",
+        "inner1",
+        "inner2",
+        "top"
+      ]
+    },
+    "VM": {
+      "trace_count": 11,
+      "length_mm": 79.809,
+      "widths_mm": [
+        0.25,
+        0.275,
+        0.30000000000000004,
+        0.325,
+        0.375,
+        0.405003,
+        0.425,
+        0.5,
+        0.55,
+        0.625,
+        0.725,
+        0.75,
+        0.7999984,
+        0.8064754,
+        0.8250000000000001,
+        0.9,
+        0.925,
+        0.9899904,
+        1
+      ],
+      "layers": [
+        "inner1",
+        "inner2",
+        "top"
+      ]
+    }
+  }
+}

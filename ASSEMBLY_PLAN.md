@@ -1,6 +1,6 @@
 # Assembly plan — review incomplete
 
-39 purchased SMD parts on TOP; 7 through-hole connectors inserted from TOP (3 terminals and 4 headers). Seven test pads and four footprint thermal vias are PCB features. No bottom purchased components. No DNP parts. No approved substitutions. Assembly of an unrouted PCB is not authorized or useful.
+39 purchased SMD parts on TOP; 7 through-hole connectors inserted from TOP (3 terminals and 4 headers). Seven test pads, four footprint thermal vias and the routing/stitching vias are PCB features. No bottom purchased components. No DNP parts. No approved substitutions. The board is now routed; assembly process qualification and a fabrication order remain pending.
 
 TOP SMT reflow precedes manual/selective through-hole soldering. JLC catalog stock does not establish turnkey THT assembly. Service eligibility, sourcing fees, panelization, minimum board constraints and final quote remain unverified.
 

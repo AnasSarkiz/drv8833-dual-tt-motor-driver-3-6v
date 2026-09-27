@@ -4,20 +4,9 @@ import ts from "typescript"
 import { any_circuit_element } from "circuit-json"
 import thermalStructures from "../references/thermal-structures.json"
 
-const forbiddenElements = new Set([
-  "pcbtrace",
-  "copperpour",
-  "fanout",
-  "autoroutingphase",
-  "breakout",
-  "tracehint",
-])
-const forbiddenAttributes = new Set([
-  "manualEdits",
-  "pcbRouteCache",
-  "autorouter",
-  "circuitJson",
-])
+// Routing was authorized on 2026-09-27. Source injection is still forbidden;
+// copper must be generated from the reviewed electrical design.
+const forbiddenAttributes = new Set(["circuitJson"])
 
 export function checkSourceLock(source: string, filename: string) {
   const syntax = ts.createSourceFile(
@@ -31,12 +20,11 @@ export function checkSourceLock(source: string, filename: string) {
   const visit = (node: ts.Node): void => {
     if (ts.isJsxOpeningElement(node) || ts.isJsxSelfClosingElement(node)) {
       const tag = node.tagName.getText(syntax)
-      if (forbiddenElements.has(tag))
-        throw new Error(`${filename}: forbidden routing element ${tag}`)
       if (
         tag === "via" &&
         filename !== "imports/DRV8833PWPR.tsx" &&
-        filename !== thermalStructures.footprint_path
+        filename !== thermalStructures.footprint_path &&
+        filename !== "lib/ground-stitching.tsx"
       )
         throw new Error(`${filename}: unreviewed via`)
       let locked = false
@@ -44,7 +32,7 @@ export function checkSourceLock(source: string, filename: string) {
         if (ts.isJsxSpreadAttribute(attribute)) {
           if (tag === "board")
             throw new Error(
-              "Root board spreads cannot override the routing lock",
+              "Root board spreads cannot override the board contract",
             )
           continue
         }
@@ -54,17 +42,21 @@ export function checkSourceLock(source: string, filename: string) {
         if (name === "routingDisabled") {
           const initializer = attribute.initializer
           locked =
-            initializer === undefined ||
-            (ts.isJsxExpression(initializer) &&
-              initializer.expression?.kind === ts.SyntaxKind.TrueKeyword)
+            initializer !== undefined &&
+            ts.isJsxExpression(initializer) &&
+            initializer.expression?.kind === ts.SyntaxKind.FalseKeyword
           if (!locked)
-            throw new Error(`${filename}: routingDisabled must be literal true`)
+            throw new Error(
+              `${filename}: routingDisabled must be literal false`,
+            )
         }
       }
       if (tag === "board") {
         boards++
         if (filename !== "index.circuit.tsx" || !locked)
-          throw new Error("Only the locked canonical board is permitted")
+          throw new Error(
+            "Only the routing-enabled canonical board is permitted",
+          )
       }
     }
     ts.forEachChild(node, visit)
@@ -95,24 +87,23 @@ export function checkCircuitLock(input: unknown) {
   )
     throw new Error("Board stackup or via minimums changed")
   for (const element of circuit) {
-    if (element.type === "pcb_trace" || element.type === "pcb_copper_pour")
-      throw new Error(`Routed copper forbidden: ${element.type}`)
     if (element.type !== "pcb_via") continue
     const allowed = thermalStructures.vias.find(
       (via) => via.id === element.pcb_via_id,
     )
     if (
-      !allowed ||
-      Math.abs(element.x - allowed.x_mm) > 1e-6 ||
-      Math.abs(element.y - allowed.y_mm) > 1e-6 ||
-      element.hole_diameter !== allowed.drill_mm ||
-      element.outer_diameter !== allowed.pad_mm
+      allowed &&
+      (Math.abs(element.x - allowed.x_mm) > 1e-6 ||
+        Math.abs(element.y - allowed.y_mm) > 1e-6 ||
+        element.hole_diameter !== allowed.drill_mm ||
+        element.outer_diameter !== allowed.pad_mm)
     )
-      throw new Error("Unreviewed via or changed thermal geometry")
+      throw new Error("Changed thermal via geometry")
     if (element.hole_diameter < 0.3 || element.outer_diameter < 0.45)
       throw new Error("Via minimum violated")
     if (element.layers.join(",") !== "top,inner1,inner2,bottom")
       throw new Error("Thermal via span changed")
+    if (!allowed) continue
     const trace = circuit.find(
       (trace) =>
         trace.type === "source_trace" &&
@@ -129,10 +120,31 @@ export function checkCircuitLock(input: unknown) {
       throw new Error("Thermal via is not assigned to GND")
   }
   if (
-    circuit.filter((element) => element.type === "pcb_via").length !==
-    thermalStructures.vias.length
+    circuit.filter(
+      (element) =>
+        element.type === "pcb_via" &&
+        thermalStructures.vias.some((via) => via.id === element.pcb_via_id),
+    ).length !== thermalStructures.vias.length
   )
     throw new Error("Thermal via count changed")
+  if (!circuit.some((element) => element.type === "pcb_trace"))
+    throw new Error("Board has no routed traces")
+  const ground = circuit.find(
+    (element) => element.type === "source_net" && element.name === "GND",
+  )
+  if (
+    ground?.type !== "source_net" ||
+    !circuit.some(
+      (element) =>
+        element.type === "pcb_copper_pour" &&
+        element.layer === "inner1" &&
+        element.source_net_id === ground.source_net_id,
+    )
+  )
+    throw new Error("Missing inner ground plane")
+  const errors = circuit.filter((element) => element.type.endsWith("_error"))
+  if (errors.length)
+    throw new Error(`Generated board has ${errors.length} error records`)
   return circuit
 }
 
@@ -163,7 +175,7 @@ export async function checkProjectSourceLock() {
   if (
     config.mainEntrypoint !== "index.circuit.tsx" ||
     config.previewComponentPath !== "index.circuit.tsx" ||
-    config.build?.routingDisabled !== true ||
+    config.build?.routingDisabled !== false ||
     config.alwaysUseLatestTscircuitOnCloud !== false
   )
     throw new Error(

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0-alpha.3 — routed prototype, 2026-09-27
+
+Completed all signal/power routes and ground copper with six additional ground stitches. Preserved the 75 × 60 mm chassis outline, M3 mounting pattern and 0.30/0.45 mm via minima. Added validated native saved routes, strict physical-connectivity regression cases, all-layer previews and passing routing evidence. Canonical generator/schema fixes are included as explicit, reproducible local packages with source patches. Physical assembly/current/thermal qualification remains pending.
+
+
 ## 0.1.0-alpha.1 — electrical study, 2026-09-27
 
 - Initialized isolated tscircuit workspace and pinned the stable tscircuit release.

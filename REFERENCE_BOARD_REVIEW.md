@@ -1,5 +1,7 @@
 # Working reference board comparison
 
+> Historical review from before routing. Current routing and validation status is documented in ROUTING_REVIEW.md and VALIDATION.md. Earlier routing holds/schema failures below describe that historical revision and are superseded.
+
 Reviewed 2026-09-27 from the public tscircuit source, without rebuilding, routing, or modifying the reference board.
 
 The user reports that an ordered board from [imrishabh18/rp2040-motor-controller](https://tscircuit.com/imrishabh18/rp2040-motor-controller) works. The exact ordered revision is uncertain. The latest release is **1.0.28**, dated September 26; its own README identifies **1.0.21** as the previously delivered iteration. That makes 1.0.21 a useful additional comparison, not a confirmed identification of the user's hardware. The user's report is recorded as physical-use evidence for their unit; no new measurements were performed here.

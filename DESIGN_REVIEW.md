@@ -1,6 +1,6 @@
 # Electrical design review — incomplete
 
-Analysis only; no physical measurements or circuit simulation. This file records both calculations and blocking decisions. The candidate cannot pass the routing gate.
+Analysis only; no physical measurements or circuit simulation. This file records both calculations and blocking decisions. The alpha.3 prototype is now routed and passes automated routing checks. The physical rating and manufacturing qualification items below remain open; routing does not resolve them.
 
 ## Power architecture
 

@@ -33,7 +33,12 @@ export function ChassisMounting() {
         pcbY={25}
         fontSize={1}
       />
-      <silkscreentext text="UNROUTED" pcbX={-19} pcbY={22.5} fontSize={1} />
+      <silkscreentext
+        text="3–6V MOTOR / PROTOTYPE"
+        pcbX={-19}
+        pcbY={22.5}
+        fontSize={0.8}
+      />
     </>
   )
 }

@@ -1,15 +1,11 @@
-# Placement review — study only
+# Placement review — routed prototype
 
-The board has a fixed 75 × 60 mm outline, 1.6 mm thickness and four layers. Four 3.2 mm NPTH mounting holes form a 65 × 50 mm rectangle, with 7 mm diameter hardware reserves and keepouts on all four copper layers. This is the user-approved generic chassis-module arrangement; no specific chassis has been selected. See MECHANICAL.md and the dimensioned mounting template.
+The outline is 75 × 60 × 1.6 mm with four copper layers. Four 3.2 mm NPTH holes form a 65 × 50 mm rectangle, with 7 mm hardware keepouts on all layers. This is the accepted generic chassis-module arrangement, not a specific chassis fit claim.
 
-There are 53 logical physical features: 46 purchased parts plus 7 bare test pads. Circuit JSON contains 57 PCB component records because the four imported thermal vias also create records. All 46 purchased parts have TOP placement coordinates; bottom purchased count is zero; unplaced purchased count is zero. Through-hole pads span the board.
+All 46 purchased components are on top, together with seven bare test pads. There are 53 checked courtyards and 63 PCB-component records (including ten explicitly authored thermal/ground vias). Native placement reports zero errors and warnings. Every courtyard is inside the outline and clears each hardware reserve by at least 0.5 mm; J7 is the closest at 0.732 mm beyond the hardware zone. See `artifacts/routed/logs/mechanical.log`.
 
-Latest placement check reports zero courtyard collisions and zero placement DRC errors, but three connector-access warnings remain; the orientation analysis reports no suboptimal placements. They are unresolved, not waived. Imported connector bodies/access still need independent drawing and mating-envelope checks. Schematic quality warnings remain; consult VALIDATION.md and logs.
+J1 faces the left edge; motor connectors J2/J3 face the bottom. The shunts are adjacent to the driver, with nearby ground stitches. C3/C4 and the sense/VM test-pad positions were adjusted to permit clean routing. U2's 2D courtyard is clear. Four layer previews are in `artifacts/routed/`.
 
-TOP and BOTTOM review images and four schematic-sheet images are under artifacts/pre-route. They show an unrouted electrical study. All 53 courtyard envelopes are on-board and clear the screw/washer reserves by at least 0.5 mm; the closest is J7 at 0.732 mm beyond the reserved zone. The check is recorded in logs/mechanical.log. The template is dimensioned. Standoff fit, component-height envelopes, connector access and a selected chassis still require a 3D or physical fit check. Direct motor-shaft clearance is not a PCB mounting constraint because the motors are mounted separately. High-current corridors and sense/thermal layout still need to be designed within the approved mechanical boundary.
+The four U1 holes are conductive thermal vias, not mounting posts. Their 0.3048 mm drills / 0.6096 mm pads exceed the requested minima and now connect to GND copper. Six further ground stitches support the shunts, C3 and logic ground; all routes and pours are checked together for physical continuity.
 
-The retained thermal vias in the TI-derived footprint at U1 are explicitly allowlisted for review only. They are not connected to a plane because there are no copper pours. The minimum via rules are 0.30/0.45 mm; these retained vias are larger at 0.3048/0.6096 mm.
-
-## Revision changes
-
-J1 now faces left; J2/J3 face the bottom edge, with test pads moved clear of their cable entry. R19 was separated from TH1's legend. The U1 footprint was corrected; Q1/F1 changed to lower-loss parts. Native placement reports zero errors and warnings. This validates the native 2D checks, not screwdriver clearance, mating height, 3D body fit or thermal routing. The source retains the generic 75 × 60 mm outline and 65 × 50 mm mounting centers.
+Connector mating envelopes, tool access, standoff height, imported 3D model alignment and physical chassis fit remain unverified. Routing and 2D checks do not establish thermal performance or assembly readiness. See ASSEMBLY_PLAN.md and TEST_PLAN.md.

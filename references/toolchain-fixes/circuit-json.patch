@@ -1,0 +1,205 @@
+diff --git a/src/pcb/pcb_silkscreen_circle.ts b/src/pcb/pcb_silkscreen_circle.ts
+index 4a6ea8d..fbae9eb 100644
+--- a/src/pcb/pcb_silkscreen_circle.ts
++++ b/src/pcb/pcb_silkscreen_circle.ts
+@@ -15,7 +15,7 @@ export const pcb_silkscreen_circle = z
+     pcb_silkscreen_circle_id: getZodPrefixedIdWithDefault(
+       "pcb_silkscreen_circle",
+     ),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     pcb_group_id: z.string().optional(),
+     subcircuit_id: z.string().optional(),
+     center: point,
+@@ -35,7 +35,7 @@ type InferredPcbSilkscreenCircle = z.infer<typeof pcb_silkscreen_circle>
+ export interface PcbSilkscreenCircle {
+   type: "pcb_silkscreen_circle"
+   pcb_silkscreen_circle_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   center: Point
+diff --git a/src/pcb/pcb_silkscreen_graphic.ts b/src/pcb/pcb_silkscreen_graphic.ts
+index d1af6cf..1ba2388 100644
+--- a/src/pcb/pcb_silkscreen_graphic.ts
++++ b/src/pcb/pcb_silkscreen_graphic.ts
+@@ -9,7 +9,7 @@ const pcb_silkscreen_graphic_base = z.object({
+   pcb_silkscreen_graphic_id: getZodPrefixedIdWithDefault(
+     "pcb_silkscreen_graphic",
+   ),
+-  pcb_component_id: z.string(),
++  pcb_component_id: z.string().optional(),
+   pcb_group_id: z.string().optional(),
+   subcircuit_id: z.string().optional(),
+   layer: visible_layer,
+@@ -36,7 +36,7 @@ type InferredPcbSilkscreenGraphicBRep = z.infer<
+ export interface PcbSilkscreenGraphicBRep {
+   type: "pcb_silkscreen_graphic"
+   pcb_silkscreen_graphic_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   layer: VisibleLayer
+diff --git a/src/pcb/pcb_silkscreen_line.ts b/src/pcb/pcb_silkscreen_line.ts
+index a2f16db..11efed8 100644
+--- a/src/pcb/pcb_silkscreen_line.ts
++++ b/src/pcb/pcb_silkscreen_line.ts
+@@ -13,7 +13,7 @@ export const pcb_silkscreen_line = z
+   .object({
+     type: z.literal("pcb_silkscreen_line"),
+     pcb_silkscreen_line_id: getZodPrefixedIdWithDefault("pcb_silkscreen_line"),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     pcb_group_id: z.string().optional(),
+     subcircuit_id: z.string().optional(),
+     stroke_width: distance.default("0.1mm"),
+@@ -34,7 +34,7 @@ type InferredPcbSilkscreenLine = z.infer<typeof pcb_silkscreen_line>
+ export interface PcbSilkscreenLine {
+   type: "pcb_silkscreen_line"
+   pcb_silkscreen_line_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   stroke_width: Distance
+diff --git a/src/pcb/pcb_silkscreen_oval.ts b/src/pcb/pcb_silkscreen_oval.ts
+index e1efe9a..d3a76c6 100644
+--- a/src/pcb/pcb_silkscreen_oval.ts
++++ b/src/pcb/pcb_silkscreen_oval.ts
+@@ -13,7 +13,7 @@ export const pcb_silkscreen_oval = z
+   .object({
+     type: z.literal("pcb_silkscreen_oval"),
+     pcb_silkscreen_oval_id: getZodPrefixedIdWithDefault("pcb_silkscreen_oval"),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     pcb_group_id: z.string().optional(),
+     subcircuit_id: z.string().optional(),
+     center: point,
+@@ -33,7 +33,7 @@ type InferredPcbSilkscreenOval = z.infer<typeof pcb_silkscreen_oval>
+ export interface PcbSilkscreenOval {
+   type: "pcb_silkscreen_oval"
+   pcb_silkscreen_oval_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   center: Point
+diff --git a/src/pcb/pcb_silkscreen_path.ts b/src/pcb/pcb_silkscreen_path.ts
+index 0f93c5e..db1e7b9 100644
+--- a/src/pcb/pcb_silkscreen_path.ts
++++ b/src/pcb/pcb_silkscreen_path.ts
+@@ -11,7 +11,7 @@ export const pcb_silkscreen_path = z
+   .object({
+     type: z.literal("pcb_silkscreen_path"),
+     pcb_silkscreen_path_id: getZodPrefixedIdWithDefault("pcb_silkscreen_path"),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     pcb_group_id: z.string().optional(),
+     subcircuit_id: z.string().optional(),
+     layer: visible_layer,
+@@ -29,7 +29,7 @@ type InferredPcbSilkscreenPath = z.infer<typeof pcb_silkscreen_path>
+ export interface PcbSilkscreenPath {
+   type: "pcb_silkscreen_path"
+   pcb_silkscreen_path_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   layer: VisibleLayerRef
+diff --git a/src/pcb/pcb_silkscreen_pill.ts b/src/pcb/pcb_silkscreen_pill.ts
+index e690a1f..ed591b0 100644
+--- a/src/pcb/pcb_silkscreen_pill.ts
++++ b/src/pcb/pcb_silkscreen_pill.ts
+@@ -8,7 +8,7 @@ export const pcb_silkscreen_pill = z
+   .object({
+     type: z.literal("pcb_silkscreen_pill"),
+     pcb_silkscreen_pill_id: getZodPrefixedIdWithDefault("pcb_silkscreen_pill"),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     pcb_group_id: z.string().optional(),
+     subcircuit_id: z.string().optional(),
+     center: point,
+@@ -28,7 +28,7 @@ type InferredPcbSilkscreenPill = z.infer<typeof pcb_silkscreen_pill>
+ export interface PcbSilkscreenPill {
+   type: "pcb_silkscreen_pill"
+   pcb_silkscreen_pill_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   center: Point
+diff --git a/src/pcb/pcb_silkscreen_rect.ts b/src/pcb/pcb_silkscreen_rect.ts
+index 59bf890..c6a90ff 100644
+--- a/src/pcb/pcb_silkscreen_rect.ts
++++ b/src/pcb/pcb_silkscreen_rect.ts
+@@ -8,7 +8,7 @@ export const pcb_silkscreen_rect = z
+   .object({
+     type: z.literal("pcb_silkscreen_rect"),
+     pcb_silkscreen_rect_id: getZodPrefixedIdWithDefault("pcb_silkscreen_rect"),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     pcb_group_id: z.string().optional(),
+     subcircuit_id: z.string().optional(),
+     center: point,
+@@ -33,7 +33,7 @@ type InferredPcbSilkscreenRect = z.infer<typeof pcb_silkscreen_rect>
+ export interface PcbSilkscreenRect {
+   type: "pcb_silkscreen_rect"
+   pcb_silkscreen_rect_id: string
+-  pcb_component_id: string
++  pcb_component_id?: string
+   pcb_group_id?: string
+   subcircuit_id?: string
+   center: Point
+diff --git a/src/pcb/pcb_silkscreen_text.ts b/src/pcb/pcb_silkscreen_text.ts
+index fcdd527..1cb75a4 100644
+--- a/src/pcb/pcb_silkscreen_text.ts
++++ b/src/pcb/pcb_silkscreen_text.ts
+@@ -16,7 +16,7 @@ export const pcb_silkscreen_text = z
+     subcircuit_id: z.string().optional(),
+     font: z.literal("tscircuit2024").default("tscircuit2024"),
+     font_size: distance.default("0.2mm"),
+-    pcb_component_id: z.string(),
++    pcb_component_id: z.string().optional(),
+     text: z.string(),
+     is_knockout: z.boolean().default(false).optional(),
+     knockout_padding: z
+@@ -54,7 +54,7 @@ export interface PcbSilkscreenText {
+   subcircuit_id?: string
+   font: "tscircuit2024"
+   font_size: Length
+-  pcb_component_id: string
++  pcb_component_id?: string
+   text: string
+   is_knockout?: boolean
+   knockout_padding?: {
+diff --git a/tests/pcb_silkscreen_owner.test.ts b/tests/pcb_silkscreen_owner.test.ts
+new file mode 100644
+index 0000000..3bce22b
+--- /dev/null
++++ b/tests/pcb_silkscreen_owner.test.ts
+@@ -0,0 +1,23 @@
++import { expect, test } from "bun:test"
++import { any_circuit_element } from "../src/any_circuit_element"
++
++const artwork = [
++  { type: "pcb_silkscreen_text", text: "Board revision A" },
++  { type: "pcb_silkscreen_circle", center: { x: 0, y: 0 }, radius: 1 },
++  { type: "pcb_silkscreen_rect", center: { x: 0, y: 0 }, width: 2, height: 1 },
++  { type: "pcb_silkscreen_path", route: [{ x: 0, y: 0 }, { x: 1, y: 1 }] },
++  { type: "pcb_silkscreen_line", x1: 0, y1: 0, x2: 1, y2: 1 },
++  { type: "pcb_silkscreen_oval", center: { x: 0, y: 0 }, radius_x: 2, radius_y: 1 },
++  { type: "pcb_silkscreen_pill", center: { x: 0, y: 0 }, width: 2, height: 1 },
++  { type: "pcb_silkscreen_graphic", shape: "brep", brep_shape: { outer_ring: { vertices: [{x:0,y:0},{x:1,y:0},{x:0,y:1}] } } },
++]
++
++test("board and group artwork does not require a component owner", () => {
++  for (const shape of artwork) {
++    const boardArtwork = { ...shape, layer: "top", stroke_width: 0.15, pcb_group_id: "pcb_group_board", subcircuit_id: "subcircuit_board" }
++    expect(any_circuit_element.safeParse(boardArtwork).success, shape.type).toBe(true)
++    expect(any_circuit_element.safeParse({ ...boardArtwork, pcb_component_id: "pcb_component_1" }).success).toBe(true)
++    expect(any_circuit_element.safeParse({ ...boardArtwork, pcb_component_id: null }).success).toBe(false)
++    expect(any_circuit_element.safeParse({ ...boardArtwork, pcb_component_id: 1 }).success).toBe(false)
++  }
++})

@@ -1,0 +1,16 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/components/primitive-components/silkscreen-board-owner-schema.test.tsx:
+Creating snapshot at /private/tmp/dual-tt-core-schema-fix/tests/components/primitive-components/__snapshots__/silkscreen-board-owner-schema-pcb.snap.svg
+(pass) board and component silkscreen emit valid optional ownership [250.37ms]
+
+tests/components/primitive-components/plated-hole-rect-pad-id.test.tsx:
+(pass) pill holes with rectangular pads receive unique IDs and follow placement [431.46ms]
+
+tests/components/pcb/pcb-position-metadata-schema.test.tsx:
+(pass) explicit PCB positions emit schema-valid display offsets [479.98ms]
+
+ 3 pass
+ 0 fail
+ 33 expect() calls
+Ran 3 tests across 3 files. [2.09s]

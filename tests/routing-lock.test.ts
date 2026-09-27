@@ -1,91 +1,95 @@
 import { describe, expect, test } from "bun:test"
 import { readFileSync } from "node:fs"
-import { pcb_trace } from "circuit-json"
 import { checkCircuitLock, checkSourceLock } from "../scripts/routing-lock"
 
-const circuit: unknown[] = JSON.parse(
-  readFileSync("dist/index/circuit.json", "utf8"),
-)
-const fixture = [
-  {
-    type: "pcb_board",
-    pcb_board_id: "test_board",
-    center: { x: 0, y: 0 },
-    width: 10,
-    height: 10,
-    thickness: 1.6,
-    num_layers: 4,
-    material: "fr4",
-    min_via_hole_diameter: 0.3,
-    min_via_pad_diameter: 0.45,
-  },
-  ...circuit.filter(
-    (element) =>
-      typeof element === "object" &&
-      element !== null &&
-      "type" in element &&
-      ["pcb_via", "source_trace", "source_net"].includes(String(element.type)),
-  ),
-]
-const locked = "export default () => <board routingDisabled={true} />"
+const circuit = JSON.parse(readFileSync("dist/index/circuit.json", "utf8"))
+// Validate the shared baseline once; each negative fixture still runs the full guard.
+const parsed = checkCircuitLock(circuit)
+const enabled = "export default () => <board routingDisabled={false} />"
 
-describe("pre-route safety lock", () => {
-  test("accepts the actual unrouted build and reviewed footprint vias", () =>
+describe("authorized routed-board contract", () => {
+  test("accepts the generated routed board and reviewed thermal vias", () =>
     expect(() => checkCircuitLock(circuit)).not.toThrow())
-  test("accepts a literal source lock", () =>
-    expect(() => checkSourceLock(locked, "index.circuit.tsx")).not.toThrow())
-  test("rejects missing source lock", () =>
+  test("accepts explicit routing authorization in source", () =>
+    expect(() => checkSourceLock(enabled, "index.circuit.tsx")).not.toThrow())
+  test("rejects missing routing state", () =>
     expect(() =>
       checkSourceLock("export default () => <board />", "index.circuit.tsx"),
     ).toThrow())
-  test("rejects nested routing override", () =>
+  test("rejects disabled routing", () =>
     expect(() =>
       checkSourceLock(
-        "export default () => <board routingDisabled={true}><group routingDisabled={false} /></board>",
+        "export default () => <board routingDisabled={true} />",
         "index.circuit.tsx",
       ),
-    ).toThrow("literal true"))
+    ).toThrow("literal false"))
+  test("rejects a bare routingDisabled flag", () =>
+    expect(() =>
+      checkSourceLock(
+        "export default () => <board routingDisabled />",
+        "index.circuit.tsx",
+      ),
+    ).toThrow("literal false"))
   test("rejects board prop spreads", () =>
     expect(() =>
       checkSourceLock(
-        "export default () => <board routingDisabled={true} {...options} />",
+        "export default () => <board routingDisabled={false} {...options} />",
         "index.circuit.tsx",
       ),
     ).toThrow("spreads"))
-  test("rejects a schema-valid deliberately routed fixture", () => {
-    const routed = pcb_trace.parse({
-      type: "pcb_trace",
-      pcb_trace_id: "forbidden_fixture",
-      route: [
-        { route_type: "wire", x: 0, y: 0, width: 0.3, layer: "top" },
-        { route_type: "wire", x: 2, y: 0, width: 0.3, layer: "top" },
-      ],
-    })
-    expect(() => checkCircuitLock([...fixture, routed])).toThrow(
-      "Routed copper forbidden",
-    )
+  test("rejects a board with all routes removed", () => {
+    expect(() =>
+      checkCircuitLock(
+        parsed.filter((element) => element.type !== "pcb_trace"),
+      ),
+    ).toThrow("no routed traces")
   })
-  test("rejects unreviewed signal vias", () => {
-    const existing = checkCircuitLock(fixture).find(
-      (element) => element.type === "pcb_via",
-    )!
+  test("rejects undersized generated vias", () => {
+    const via = parsed.find((element) => element.type === "pcb_via")!
     expect(() =>
       checkCircuitLock([
-        ...fixture,
-        { ...existing, pcb_via_id: "signal_via", x: 10 },
+        ...parsed,
+        { ...via, pcb_via_id: "undersized_via", x: 10, hole_diameter: 0.29 },
       ]),
-    ).toThrow("Unreviewed via")
+    ).toThrow("Via minimum violated")
+    expect(() =>
+      checkCircuitLock([
+        ...parsed,
+        { ...via, pcb_via_id: "undersized_via", x: 10, outer_diameter: 0.44 },
+      ]),
+    ).toThrow("Via minimum violated")
   })
-  test("rejects changed via minimums", () => {
-    const changed = checkCircuitLock(fixture).map((element) =>
-      element.type === "pcb_board"
-        ? { ...element, min_via_pad_diameter: 0.4 }
-        : element,
-    )
-    expect(() => checkCircuitLock(changed)).toThrow("via minimums changed")
+  test("rejects changed board via minimums", () => {
+    expect(() =>
+      checkCircuitLock(
+        parsed.map((element) =>
+          element.type === "pcb_board"
+            ? { ...element, min_via_pad_diameter: 0.4 }
+            : element,
+        ),
+      ),
+    ).toThrow("via minimums changed")
+  })
+  test("rejects changed thermal via geometry", () => {
+    expect(() =>
+      checkCircuitLock(
+        parsed.map((element) =>
+          element.type === "pcb_via" && element.pcb_via_id === "pcb_via_0"
+            ? { ...element, x: element.x + 1 }
+            : element,
+        ),
+      ),
+    ).toThrow("thermal via geometry")
+  })
+  test("rejects a missing inner ground plane", () => {
+    expect(() =>
+      checkCircuitLock(
+        parsed.filter((element) => element.type !== "pcb_copper_pour"),
+      ),
+    ).toThrow("Missing inner ground plane")
   })
   test("rejects unknown schema elements", () =>
     expect(() =>
-      checkCircuitLock([...fixture, { type: "invented_copper" }]),
-    ).toThrow())
+      checkCircuitLock([...circuit, { type: "invented_copper" }]),
+    ).toThrow("schema rejects"))
 })

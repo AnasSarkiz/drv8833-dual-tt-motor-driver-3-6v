@@ -1,16 +1,14 @@
-# Dual TT motor driver — UNROUTED / INCOMPLETE REVIEW
+# Dual TT motor driver — routed prototype
 
-Hardware revision A-study; package 0.1.0-alpha.2. **NOT FOR FABRICATION.** This is an electrical draft, not an approved assembly-ready board. No routing approval has been received.
+Revision A; package 0.1.0-alpha.3. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
 
-The reference motor is [Adafruit TT motor 3777](https://www.adafruit.com/product/3777). The user selected a **chassis-mounted board**, with the two motors mounted separately. The board is **75 × 60 × 1.6 mm**, with four **3.2 mm non-plated M3 holes on 65 × 50 mm centers**. Each screw/washer has a 7 mm diameter keepout on all four layers. This is a custom module pattern; no chassis has been chosen, so compatibility with existing chassis holes is not claimed. See [MECHANICAL.md](MECHANICAL.md) and the [printable mounting template](artifacts/pre-route/mounting-template.svg).
+A four-layer driver module for two brushed TT motors, controlled by an external host. The [reference TT motor](https://www.adafruit.com/product/3777) mounts to the chassis separately. This PCB is **75 × 60 × 1.6 mm**, with four **3.2 mm non-plated M3 holes on 65 × 50 mm centers** and 7 mm hardware keepouts. It is a generic module with a custom mounting pattern; compatibility with a particular chassis is not claimed. [Dimensioned mounting template](artifacts/routed/mounting-template.svg).
 
-The four-layer source sets `routingDisabled={true}`, minimum via drill **0.30 mm** and minimum via pad **0.45 mm**. The four original driver-footprint thermal vias are 0.3048/0.6096 mm and exceed these minimums. They are explicitly listed in `references/thermal-structures.json`. There are zero signal/power routes or copper pours. Physical connectivity is **NOT ROUTED — BY DESIGN**.
+Minimum via drill **0.30 mm**, minimum via pad **0.45 mm**. The final board has 70 trace records, 64 through vias and ground pours on top, inner1 and bottom. Inner1 also carries signal routes. The four vias under U1 are thermal vias connected to ground, not mounting posts. [Routing details and layer previews](ROUTING_REVIEW.md).
 
-The design has 46 purchased parts, 21 selected imported part types, five LEDs, seven bare test pads, separate A/B shunts and an NTC divider. Nominal current chopping is approximately 1.33 A/channel; this is not a continuous board rating. The 3–6 V motor input and 1 A/channel continuous objectives remain unverified. The revised low-loss MOSFET and non-resettable 3 A fuse improve the 3 V margin, but hot-path loss and regenerative transients remain unverified. See [DESIGN_REVIEW.md](DESIGN_REVIEW.md).
+The design has 46 purchased parts, 21 imported part types, five LEDs, seven bare test pads, separate A/B shunts and an NTC divider. The input target is **3–6 V at J1 including supply tolerance**. Nominal current chopping is about 1.33 A/channel; neither this nor the 1 A/channel continuous objective is a verified board rating. Hot-path voltage loss, regenerative spikes and thermal performance need bench testing. F1 is a non-resettable 3 A fuse; diagnose the fault before replacement. [Electrical review](DESIGN_REVIEW.md).
 
-The product input target is 3.0–6.0 V **at the connector including tolerance**; the adjustable supply is for testing. F1 is non-resettable: diagnose the fault and replace the fuse after it blows. See the power-source and host interface conditions in DESIGN_REVIEW.md.
-
-## Draft connector pinout
+## Connector pinout
 
 All pin numbers are component pin numbers. Header geometry and assembly orientation remain under review.
 
@@ -28,16 +26,18 @@ VIO is supplied by the host: match 3.3 V logic with 3.3 V VIO, or 5 V logic with
 
 LED1 indicates protected VM; LED2 VIO; LED3/4 unequal A/B commands (they can light while the driver sleeps); LED5 asserted fault. No LED measures rotation. TEMP measures local board temperature, not motor winding or silicon junction temperature. Its revised 56 kΩ/10 kΩ divider gives TEMP≈0.1515×VIO at 25°C; it is not an automatic cutoff. TP1/2 expose raw switching sense nodes, not calibrated ADC current telemetry. TP3 is GND; TP4 VM; TP5 VIO; TP6 FAULT_N; TP7 TEMP.
 
-## Review and reproduction
+## Reproduce and inspect
 
-- [BOM.md](BOM.md), [bom.json](bom.json), [IMPORTS.md](IMPORTS.md)
-- [VALIDATION.md](VALIDATION.md), [ROUTING_GATE.md](ROUTING_GATE.md), [ISSUES.md](ISSUES.md)
-- [ASSEMBLY_PLAN.md](ASSEMBLY_PLAN.md), [PLACEMENT_REVIEW.md](PLACEMENT_REVIEW.md), [TEST_PLAN.md](TEST_PLAN.md)
-- [TOOLCHAIN.md](TOOLCHAIN.md)
-- [Working reference board comparison](REFERENCE_BOARD_REVIEW.md)
+Run `bun install --frozen-lockfile`, `bun run format:check`, `bun run typecheck`, `bun run build`, then `bun test`. `bun run render` regenerates the layer and schematic previews. Build validates the real generated output and checks physical routing; it does not patch Circuit JSON or suppress errors. The saved routes are editable native TSX route paths with validated component anchors.
 
-Use `bun install --frozen-lockfile`, `bun run typecheck`, `bun run build`, then `bun test`. The strict build/test gate currently fails on the documented generated-schema defect. Do not bypass it. `bun run render` produces review-only images from unmodified output and is not validation.
+Two unpublished, source-patched toolchain packages are included in `vendor/`, with exact upstream bases, regression tests and patches in [references/toolchain-fixes](references/toolchain-fixes/README.md). See [TOOLCHAIN.md](TOOLCHAIN.md).
 
-GitHub account verified: AnasSarkiz. The user authorized PUBLIC GitHub and tscircuit repositories. Publication results are recorded in [PUBLICATION.md](PUBLICATION.md). No manufacturing package or order has been generated.
+- [BOM](BOM.md), [imports](IMPORTS.md), [placement](PLACEMENT_REVIEW.md) and [mechanical dimensions](MECHANICAL.md)
+- [Validation](VALIDATION.md), [routing status](ROUTING_GATE.md) and [tool limitations](ISSUES.md)
+- [Assembly review](ASSEMBLY_PLAN.md) and [physical test plan](TEST_PLAN.md)
+- [Working reference comparison](REFERENCE_BOARD_REVIEW.md)
+- [Public repository and registry receipts](PUBLICATION.md)
 
-![Unrouted top view](artifacts/pre-route/pcb-top-unrouted.png)
+Earlier `artifacts/pre-route/` files are historical and are superseded by `artifacts/routed/`. No manufacturing order has been placed.
+
+![Routed top layer](artifacts/routed/pcb-top.png)

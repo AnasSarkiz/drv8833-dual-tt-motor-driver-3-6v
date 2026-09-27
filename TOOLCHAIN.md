@@ -1,23 +1,23 @@
 # Toolchain
 
-Resolved 2026-09-27. macOS 26.6.2, arm64. Node v25.6.0; Bun/package manager 1.3.9. Latest stable npm tscircuit dist-tag resolved once to 0.0.2646. TypeScript 7 was initially resolved but immediately replaced with 5.9.3 to satisfy tscircuit’s declared ^5 peer range before design validation. No competing lockfile.
+Pinned on 2026-09-27. Bun 1.3.9; TypeScript 5.9.3; Biome 2.5.14. `bun.lock` is the dependency lockfile. Registry automatic dependency upgrades are disabled.
 
-| Package | Resolved version |
+| Package | Version |
 |---|---|
 | tscircuit | 0.0.2646 |
-| @tscircuit/core | 0.0.1971 |
 | @tscircuit/cli | 0.1.2167 |
+| @tscircuit/core | 0.0.1993-dualtt.4, local archive |
+| circuit-json | 0.0.506-dualtt.1, local archive |
 | @tscircuit/props | 0.0.666 |
-| circuit-json | 0.0.499 |
-| circuit-to-svg | 0.0.430 |
-| react | 19.3.0 |
-| typescript | 5.9.3 |
-| @biomejs/biome | 2.5.14 |
+| @tscircuit/checks | 0.0.221 |
+| @tscircuit/capacity-autorouter | 0.0.938 |
 
-Canonical source: `index.circuit.tsx`; configured in package and tscircuit config. Registry cloud auto-upgrade is disabled. Imports use real `tsci import --jlcpcb --use-exact-footprint`; netlist, placement and schematic-placement commands were inspected before use. Builds use `--routing-disabled`; the source lock also protects dev/registry previews.
+The two local archives in `vendor/` are unpublished builds from canonical upstream source, not npm releases. Exact base commits, complete patches, tests and logs are in [references/toolchain-fixes](references/toolchain-fixes/README.md). Fixes cover position metadata serialization, real plated-hole IDs, optional board-artwork ownership, physical layer anchors on saved routes at plated connectors, and preservation of local trace widths beside saved vias. Electrical and copper-clearance checks remain unchanged.
 
-Commands actually used: `tsci init --yes --no-install`, `bun install`, `bun run typecheck`, `tsci doctor`, `tsci search C-number --jlcpcb --json`, `tsci import C-number --jlcpcb --use-exact-footprint`, `tsci check netlist index.circuit.tsx`, `tsci check placement index.circuit.tsx`, `tsci check schematic-placement index.circuit.tsx`, `tsci build index.circuit.tsx --routing-disabled --pcb-svgs --schematic-svgs`, `bun scripts/check-schema.ts`, `bun test`, `bun scripts/render-pre-route.ts`. No routing command was used.
+The schema suite passed 397 tests / 1,899 assertions. Focused core regression tests, TypeScript and package/declaration builds passed; six saved-route regression cases passed 39 assertions. The complete upstream core suite was not run. `scripts/rebuild-toolchain-fixes.py` documents a clean rebuild from the pinned upstream sources; that complete helper has not been executed from scratch. No installed dependency or generated board JSON is patched at runtime, and the user's separate core checkout was not changed.
 
-Hashes are recorded in `artifacts/pre-route/hashes.json`. The current strict project build is intentionally blocked by a real schema-validation failure, not silently downgraded to PASS.
+`index.circuit.tsx` is the canonical board entrypoint. `lib/saved-routing.ts` holds native-generated route paths consumed through the supported `autoroutingphase` API. All 32 non-GND nets are explicitly assigned to this phase; GND is joined by pours and authored stitching. The default rerender validates route anchors and recreates the copper. `routeRemaining={false}` prevents an extra autorouting pass; it does not disable full physical-connectivity or routing checks.
 
-The current pinned core calls the keepout intrinsic `<keepout>`, as verified in its JSX catalogue; the newer skill reference calls it `<pcbkeepout>`. Source uses the installed supported element. Python 3 is used for mechanical checks and the dimensioned SVG template. Core 0.0.1993 was inspected in a separate temporary directory and still has the numeric-offset defect. A tested partial source fix is preserved in `references/core-schema-fix/`; it was not linked into the board or published upstream. No speculative dependency upgrade was made. The temporary clone's installed dependencies were removed after validation to recover disk space; source and evidence remain available.
+Commands used for final validation: `tsci check netlist`, `tsci check placement`, `tsci check pin_specification`, `tsci check source`, `tsci check trace-length net.VM`, `tsci build`, native `runAllRoutingChecks`, full schema parsing, project tests, mechanical checks and Gerber-mode shorts. `bun run render` converts unmodified generated Circuit JSON to images.
+
+The earlier partial investigation in `references/core-schema-fix/` is historical. The complete fixes above supersede its unresolved status. No upstream issue, PR or npm publication was made.
