@@ -6,17 +6,17 @@ error: expect(received).not.toThrow()
 Error name: "Error"
 Error message: "Circuit JSON schema rejects element 807 (pcb_component); inspect scripts/check-schema.ts"
 
-(fail) pre-route safety lock > accepts the actual unrouted build and reviewed footprint vias [329.30ms]
-(pass) pre-route safety lock > accepts a literal source lock [2.60ms]
-(pass) pre-route safety lock > rejects missing source lock [0.47ms]
-(pass) pre-route safety lock > rejects nested routing override [0.46ms]
-(pass) pre-route safety lock > rejects board prop spreads [0.19ms]
-(pass) pre-route safety lock > rejects a schema-valid deliberately routed fixture [5.12ms]
-(pass) pre-route safety lock > rejects unreviewed signal vias [12.23ms]
-(pass) pre-route safety lock > rejects changed via minimums [10.91ms]
-(pass) pre-route safety lock > rejects unknown schema elements [5.38ms]
+(fail) pre-route safety lock > accepts the actual unrouted build and reviewed footprint vias [705.90ms]
+(pass) pre-route safety lock > accepts a literal source lock [4.25ms]
+(pass) pre-route safety lock > rejects missing source lock [0.24ms]
+(pass) pre-route safety lock > rejects nested routing override [0.81ms]
+(pass) pre-route safety lock > rejects board prop spreads [0.43ms]
+(pass) pre-route safety lock > rejects a schema-valid deliberately routed fixture [7.79ms]
+(pass) pre-route safety lock > rejects unreviewed signal vias [17.47ms]
+(pass) pre-route safety lock > rejects changed via minimums [13.86ms]
+(pass) pre-route safety lock > rejects unknown schema elements [10.51ms]
 
  8 pass
  1 fail
  9 expect() calls
-Ran 9 tests across 1 file. [476.00ms]
+Ran 9 tests across 1 file. [978.00ms]

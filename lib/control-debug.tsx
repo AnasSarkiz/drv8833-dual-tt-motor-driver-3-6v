@@ -70,6 +70,7 @@ export function ControlDebug() {
             name={`R${4 + index}`}
             pcbX={17}
             pcbY={17 - index * 4}
+            pcbRotation={180}
             schX={-10}
             schY={10 - index * 4}
             schSheetName="Control_Debug"

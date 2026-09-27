@@ -1,8 +1,8 @@
 # Dual TT motor driver — UNROUTED / INCOMPLETE REVIEW
 
-Hardware revision A-study; package 0.1.0-alpha.1. **NOT FOR FABRICATION.** This is an electrical draft, not the requested completed motor-fitting board. No routing approval has been received.
+Hardware revision A-study; package 0.1.0-alpha.1. **NOT FOR FABRICATION.** This is an electrical draft, not an approved assembly-ready board. No routing approval has been received.
 
-The reference is [Adafruit TT motor 3777](https://www.adafruit.com/product/3777). Its [official mechanical drawing](https://cdn-shop.adafruit.com/product-files/3777/3777_diagram.jpg) must be interpreted against the intended mounting arrangement and a physical sample. Direct mounting on one motor and mounting to a two-motor chassis require different outlines and hole patterns. **Final dimensions, mounting holes, shaft clearance and standoffs are not yet specified.** The generated approximately 65.95 × 49.00 mm outline is an automatic study canvas, not a motor-fit claim.
+The reference motor is [Adafruit TT motor 3777](https://www.adafruit.com/product/3777). The user selected a **chassis-mounted board**, with the two motors mounted separately. The board is **75 × 60 × 1.6 mm**, with four **3.2 mm non-plated M3 holes on 65 × 50 mm centers**. Each screw/washer has a 7 mm diameter keepout on all four layers. This is a custom module pattern; no chassis has been chosen, so compatibility with existing chassis holes is not claimed. See [MECHANICAL.md](MECHANICAL.md) and the [printable mounting template](artifacts/pre-route/mounting-template.svg).
 
 The four-layer source sets `routingDisabled={true}`, minimum via drill **0.30 mm** and minimum via pad **0.45 mm**. The four original driver-footprint thermal vias are 0.3048/0.6096 mm and exceed these minimums. They are explicitly listed in `references/thermal-structures.json`. There are zero signal/power routes or copper pours. Physical connectivity is **NOT ROUTED — BY DESIGN**.
 
@@ -35,4 +35,6 @@ LED1 indicates protected VM; LED2 VIO; LED3/4 unequal A/B commands (they can lig
 
 Use `bun install --frozen-lockfile`, `bun run typecheck`, `bun run build`, then `bun test`. The strict build/test gate currently fails on the documented generated-schema defect. Do not bypass it. `bun run render` produces review-only images from unmodified output and is not validation.
 
-GitHub account verified: AnasSarkiz. Remote GitHub and tscircuit publication await the user's public/private choice. No remote success is claimed. No manufacturing package or order has been generated.
+GitHub account verified: AnasSarkiz. The user authorized PUBLIC GitHub and tscircuit repositories. Publication results are recorded in [PUBLICATION.md](PUBLICATION.md). No manufacturing package or order has been generated.
+
+![Unrouted top view](artifacts/pre-route/pcb-top-unrouted.png)

@@ -20,6 +20,7 @@ export function TemperatureTest() {
         name="R19"
         pcbX={-6}
         pcbY={8}
+        pcbRotation={180}
         schX={-8}
         schY={4}
         schSheetName="Temperature_Test"
@@ -50,6 +51,7 @@ export function TemperatureTest() {
         name="C8"
         pcbX={24}
         pcbY={-15}
+        pcbRotation={180}
         schX={3}
         schY={-2}
         schSheetName="Temperature_Test"
@@ -58,8 +60,9 @@ export function TemperatureTest() {
       />
       <A_2_54_1_3P_
         name="J7"
-        pcbX={27}
+        pcbX={26}
         pcbY={-20}
+        pcbRotation={180}
         schX={10}
         schY={4}
         schSheetName="Temperature_Test"

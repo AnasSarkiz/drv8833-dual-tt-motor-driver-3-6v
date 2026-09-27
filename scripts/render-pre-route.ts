@@ -28,6 +28,14 @@ for (const layer of ["top", "bottom"] as const) {
     `pcb-${layer}-unrouted`,
   )
 }
+writeFileSync(
+  `${destination}/mounting-template.png`,
+  new Resvg(readFileSync(`${destination}/mounting-template.svg`, "utf8"), {
+    fitTo: { mode: "width", value: 1500 },
+  })
+    .render()
+    .asPng(),
+)
 for (const sheet of circuit.filter(
   (element) => element.type === "schematic_sheet",
 )) {

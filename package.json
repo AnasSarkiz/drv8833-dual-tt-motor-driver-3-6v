@@ -11,14 +11,14 @@
   ],
   "scripts": {
     "dev": "bun run guard:source && tsci dev index.circuit.tsx",
-    "build": "bun run guard:source && tsci build index.circuit.tsx --routing-disabled && bun run guard",
+    "build": "bun run guard:source && tsci build index.circuit.tsx --routing-disabled && python3 scripts/check-mechanical.py && bun run guard",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "format": "biome format --write .",
     "format:check": "biome format .",
     "guard:source": "bun scripts/check-routing-lock.ts --source-only",
     "guard": "bun scripts/check-routing-lock.ts",
-    "render": "bun scripts/render-pre-route.ts",
+    "render": "python3 scripts/render-mounting-template.py && bun scripts/render-pre-route.ts",
     "validate": "bun run typecheck && bun run build && bun test",
     "start": "bun run dev"
   },

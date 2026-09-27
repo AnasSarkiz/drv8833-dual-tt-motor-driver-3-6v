@@ -111,6 +111,7 @@ export function MotorDriver() {
         name="C5"
         pcbX={-5.5}
         pcbY={1.5}
+        pcbRotation={180}
         schX={0}
         schY={8}
         schSheetName="Dual_Motor_Driver"
