@@ -1,0 +1,93 @@
+review	Run bun run build	﻿2026-09-27T13:32:57.6788250Z ##[group]Run bun run build
+review	Run bun run build	2026-09-27T13:32:57.6788675Z [36;1mbun run build[0m
+review	Run bun run build	2026-09-27T13:32:57.6822739Z shell: /usr/bin/bash -e {0}
+review	Run bun run build	2026-09-27T13:32:57.6823046Z ##[endgroup]
+review	Run bun run build	2026-09-27T13:32:57.6888994Z $ bun run guard:source && tsci build index.circuit.tsx --routing-disabled && python3 scripts/check-mechanical.py && bun run guard
+review	Run bun run build	2026-09-27T13:32:57.6910991Z $ bun scripts/check-routing-lock.ts --source-only
+review	Run bun run build	2026-09-27T13:32:58.2400138Z PASS: routing lock; 0.30 mm drill / 0.45 mm pad minimums
+review	Run bun run build	2026-09-27T13:33:00.9776608Z Building 1 file(s)...
+review	Run bun run build	2026-09-27T13:33:00.9778876Z Building index.circuit.tsx...
+review	Run bun run build	2026-09-27T13:33:00.9783129Z Generating circuit JSON...
+review	Run bun run build	2026-09-27T13:33:10.0772430Z Circuit JSON written to dist/index/circuit.json
+review	Run bun run build	2026-09-27T13:33:10.0781357Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0781928Z The "F" prefix is being used with a <chip />, try using it with a <fuse />
+review	Run bun run build	2026-09-27T13:33:10.0782545Z The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+review	Run bun run build	2026-09-27T13:33:10.0783287Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0783834Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0784438Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0784856Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0785265Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0785728Z The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+review	Run bun run build	2026-09-27T13:33:10.0787250Z component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+review	Run bun run build	2026-09-27T13:33:10.0789704Z component is inferred to face y+ from its cable insertion center because no explicit footprint insertionDirection is defined, but should face y- so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+review	Run bun run build	2026-09-27T13:33:10.0792136Z component is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection="from_above"> for a connector accessed from above the PCB (+Z).
+review	Run bun run build	2026-09-27T13:33:10.0793784Z All pins on J1 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0794127Z All pins on F1 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0794447Z All pins on Q1 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0794774Z All pins on D1 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0795111Z All pins on J2 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0795454Z All pins on J3 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0795793Z All pins on J4 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0796115Z All pins on J5 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0796429Z All pins on J6 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0796744Z All pins on TH1 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0797086Z All pins on J7 are underspecified (no pinAttributes set)
+review	Run bun run build	2026-09-27T13:33:10.0797529Z J1 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0797780Z F1 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0798259Z Q1 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0798593Z D1 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0798914Z U1 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0799171Z J2 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0799458Z J3 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0799729Z J4 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0799990Z J5 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0800357Z J6 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0800665Z TH1 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0800931Z J7 has no pin with requires_power=true
+review	Run bun run build	2026-09-27T13:33:10.0801692Z J1 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0801963Z F1 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0802240Z Q1 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0802519Z D1 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0802773Z J2 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0803041Z J3 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0803292Z J4 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0803558Z J5 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0803868Z J6 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0804131Z TH1 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0804408Z J7 has no pin with requires_ground=true
+review	Run bun run build	2026-09-27T13:33:10.0804794Z F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-27T13:33:10.0805321Z Q1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-27T13:33:10.0805843Z D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-27T13:33:10.0806341Z TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-27T13:33:10.0806743Z 
+review	Run bun run build	2026-09-27T13:33:10.0806899Z Build complete
+review	Run bun run build	2026-09-27T13:33:10.0807145Z   Circuits  1 passed
+review	Run bun run build	2026-09-27T13:33:10.0807363Z   Output    dist
+review	Run bun run build	2026-09-27T13:33:10.0807573Z 
+review	Run bun run build	2026-09-27T13:33:10.0818343Z ✓ Done
+review	Run bun run build	2026-09-27T13:33:10.0819212Z Build exiting with code 0: build finished successfully
+review	Run bun run build	2026-09-27T13:33:10.1409578Z Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
+review	Run bun run build	2026-09-27T13:33:10.1410374Z H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 7.262 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-27T13:33:10.1411133Z H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-27T13:33:10.1411762Z H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.285 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-27T13:33:10.1412375Z H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-27T13:33:10.1413367Z PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
+review	Run bun run build	2026-09-27T13:33:10.1413982Z NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
+review	Run bun run build	2026-09-27T13:33:10.1463392Z $ bun scripts/check-routing-lock.ts
+review	Run bun run build	2026-09-27T13:33:11.1668617Z 73 | export function checkCircuitLock(input: unknown) {
+review	Run bun run build	2026-09-27T13:33:11.1669708Z 74 |   if (!Array.isArray(input)) throw new Error("Circuit JSON must be an array")
+review	Run bun run build	2026-09-27T13:33:11.1670666Z 75 |   const circuit = input.map((element, index) => {
+review	Run bun run build	2026-09-27T13:33:11.1671299Z 76 |     const parsed = any_circuit_element.safeParse(element)
+review	Run bun run build	2026-09-27T13:33:11.1671925Z 77 |     if (!parsed.success)
+review	Run bun run build	2026-09-27T13:33:11.1672464Z 78 |       throw new Error(
+review	Run bun run build	2026-09-27T13:33:11.1673076Z                      ^
+review	Run bun run build	2026-09-27T13:33:11.1674279Z error: Circuit JSON schema rejects element 807 (pcb_component); inspect scripts/check-schema.ts
+review	Run bun run build	2026-09-27T13:33:11.1675186Z       at <anonymous> (/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/routing-lock.ts:78:17)
+review	Run bun run build	2026-09-27T13:33:11.1676149Z       at map (1:11)
+review	Run bun run build	2026-09-27T13:33:11.1676872Z       at checkCircuitLock (/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/routing-lock.ts:75:25)
+review	Run bun run build	2026-09-27T13:33:11.1677801Z       at /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/scripts/check-routing-lock.ts:6:3
+review	Run bun run build	2026-09-27T13:33:11.1678392Z 
+review	Run bun run build	2026-09-27T13:33:11.1678577Z Bun v1.3.9 (Linux x64)
+review	Run bun run build	2026-09-27T13:33:11.1751406Z error: script "guard" exited with code 1
+review	Run bun run build	2026-09-27T13:33:11.1753079Z error: script "build" exited with code 1
+review	Run bun run build	2026-09-27T13:33:11.1767853Z ##[error]Process completed with exit code 1.

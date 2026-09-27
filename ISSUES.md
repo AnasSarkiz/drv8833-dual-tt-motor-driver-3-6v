@@ -31,7 +31,7 @@
 - First observed: 2026-09-27.
 - Command: `tsci doctor`, both sandboxed and with network access.
 - Actual: registry login check passes; global npm registry authorization-header check fails.
-- Impact: registry package dependency setup is not proven healthy. JLC import/search worked and tscircuit dependencies installed from npm. Registry push results are recorded in PUBLICATION.md; this doctor check alone is not evidence of failed push authentication.
+- Impact: registry package dependency setup is not proven healthy. JLC import/search worked and tscircuit dependencies installed from npm. The registry push subsequently SUCCEEDED: 125 files, public release 0.1.0-alpha.1-unrouted. This doctor check does not prevent this push. Registry dependency configuration remains a separate environment check.
 - Credentials were not displayed or copied into the repository. Proper next action is the documented registry configuration flow if publishing requires it.
 - Status: OPEN environment check; no global credential/config changes made.
 
