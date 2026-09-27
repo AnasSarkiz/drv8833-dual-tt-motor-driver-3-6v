@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-09-27T20:39:27.218355+00:00",
+  "source_commit": "62b0f0b3889e763abc053318cadb695dab250831",
+  "github": {
+    "url": "https://github.com/AnasSarkiz/dual-tt-motor-driver",
+    "visibility": "public",
+    "source_push": "success",
+    "ci_run": "https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36348504034",
+    "ci_conclusion": "success"
+  },
+  "registry": {
+    "url": "https://tscircuit.com/AnasSarkiz/dual-tt-motor-driver",
+    "package_id": "ff313008-51e9-4880-a4f8-e4c96b84c19a",
+    "is_public": true,
+    "is_private": false,
+    "release_id": "a84a2f78-810b-45da-afb3-c95f925347fd",
+    "version": "0.1.0-alpha.4-routed",
+    "is_latest": true,
+    "upload_status": "success",
+    "files_uploaded": 231,
+    "verified_source_review_hashes": 142,
+    "sha256_matches": true,
+    "build_status": "success",
+    "display_status": "pending",
+    "latest_package_build_id": "5809b3e7-2100-461f-a892-7388e0c11df8",
+    "user_code_job_started_at": "2026-09-27T20:34:58.292Z",
+    "user_code_job_completed_at": "2026-09-27T20:38:18.039Z",
+    "user_code_job_error": null,
+    "user_code_job_log_stream_url": "https://usercode.tscircuit.com/user_code_jobs/view_log_stream?user_code_job_id=ee1ca0597e88bb089bcf8546768ec5dfabd18b8474d584b82ef307e77a3e3f36",
+    "circuit_json_build_error": null,
+    "image_generation_error": null,
+    "pcb_preview_image_url": null,
+    "native_routing_findings": 0,
+    "build_log_url": "https://usercode.tscircuit.com/user_code_jobs/view_log_stream?user_code_job_id=ee1ca0597e88bb089bcf8546768ec5dfabd18b8474d584b82ef307e77a3e3f36",
+    "preview_image_status": "No separate thumbnail generated; registry aggregate display remains pending",
+    "cloud_generated_geometry_matches_local": true,
+    "cloud_generated_trace_count": 70,
+    "cloud_generated_via_count": 64,
+    "cloud_generated_error_count": 0
+  },
+  "receipt_note": "Registry snapshot includes the preceding publication receipt. This later GitHub receipt records the verified alpha.4 release and its remote results. Routed copper is unchanged from alpha.3; build portability changed. No fabrication order or physical product qualification is claimed."
+}

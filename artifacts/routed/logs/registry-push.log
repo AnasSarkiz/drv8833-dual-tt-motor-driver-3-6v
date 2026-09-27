@@ -107,3 +107,5 @@ Archive upload failed, falling back to file-by-file upload: TimeoutError: Reques
 
 Archive actually completed: 228 files found. Verified 140 source/archive/review hashes without authentication. File-by-file duplicate errors followed the CLI timeout; no source was lost.
 Alpha.3 cloud build failed: Python missing and mixed preloaded geometry dependencies. Alpha.4 preserves the copper and fixes the portable build.
+
+Alpha.4: archive API returned HTTP 200; 231 files uploaded. All 142 published source/archive/review hashes match. Cloud job completed with exit code 0 and fresh native routing checks reported 0 findings.
