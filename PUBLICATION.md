@@ -11,7 +11,8 @@ Both repositories are public. **The routed alpha.4 source builds successfully lo
 | Published source commit | `62b0f0b3889e763abc053318cadb695dab250831` |
 | Upload verification | 231 files; all 142 source/archive/review hashes match through the unauthenticated public API |
 | Cloud build | Completed with exit code 0; source/schema/via and mechanical gates pass; fresh native routing checks: 0 findings |
-| Registry preview metadata | Circuit JSON generated and uploaded; separate thumbnail not generated, aggregate status still says pending |
+| Public PCB viewer | Opened the alpha.4 PCB page and visually confirmed the routed board with **0 errors** |
+| Registry metadata | Circuit JSON generated and uploaded; separate thumbnail URL absent and aggregate API status still pending at the recorded check |
 
 The CLI's alpha.3 compressed upload timed out after the server accepted the archive; duplicate file errors followed. Hash verification proved that upload complete. Its cloud build then exposed missing Python and conflicting preloaded dependency libraries. Alpha.4 uses an equivalent Bun mechanical check and a forced frozen-lockfile install. It retains identical routed copper and all validation requirements. The alpha.4 archive upload completed with HTTP 200.
 

@@ -36,7 +36,9 @@
     "cloud_generated_geometry_matches_local": true,
     "cloud_generated_trace_count": 70,
     "cloud_generated_via_count": 64,
-    "cloud_generated_error_count": 0
+    "cloud_generated_error_count": 0,
+    "public_pcb_viewer_verified": true,
+    "public_pcb_viewer_error_count": 0
   },
   "receipt_note": "Registry snapshot includes the preceding publication receipt. This later GitHub receipt records the verified alpha.4 release and its remote results. Routed copper is unchanged from alpha.3; build portability changed. No fabrication order or physical product qualification is claimed."
 }
