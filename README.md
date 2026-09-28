@@ -2,15 +2,17 @@
 
 [Public PCB](https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v#pcb) · [GitHub repository](https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v)
 
-Revision A; package 0.1.0-alpha.5. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
+Revision A; package 0.1.0-alpha.6. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
 
 **Prototype order packet:** [Layout/export fixes completed; final quote and manufacturer preview remain](ORDER_READINESS.md). [Current stock for five boards](artifacts/order-release/STOCK.md).
 
 A four-layer driver module for two brushed TT motors, controlled by an external host. The [reference TT motor](https://www.adafruit.com/product/3777) mounts to the chassis separately. This PCB is **75 × 60 × 1.6 mm**, with four **3.2 mm non-plated M3 holes on 65 × 50 mm centers** and 7 mm hardware keepouts. It is a generic module with a custom mounting pattern; compatibility with a particular chassis is not claimed. [Dimensioned mounting template](artifacts/routed/mounting-template.svg).
 
-Minimum via drill **0.30 mm**, minimum via pad **0.45 mm**. The final board has 70 trace records, 58 through vias and ground pours on top, inner1 and bottom. Inner1 also carries signal routes. The four vias under U1 are thermal vias connected to ground, not mounting posts. [Routing details and layer previews](ROUTING_REVIEW.md).
+Minimum via drill **0.30 mm**, minimum via pad **0.45 mm**. The final board has 72 trace records, 60 through vias and ground pours on top, inner1 and bottom. Inner1 also carries signal routes. The four vias under U1 are thermal vias connected to ground, not mounting posts. [Routing details and layer previews](ROUTING_REVIEW.md).
 
-The design has 46 purchased parts, 21 imported part types, five LEDs, seven bare test pads, separate A/B shunts and an NTC divider. The input target is **3–6 V at J1 including supply tolerance**. Nominal current chopping is about 1.33 A/channel; neither this nor the 1 A/channel continuous objective is a verified board rating. Hot-path voltage loss, regenerative spikes and thermal performance need bench testing. F1 is a non-resettable 3 A fuse; diagnose the fault before replacement. [Electrical review](DESIGN_REVIEW.md).
+The design has 47 purchased parts, 23 imported part types, five LEDs, seven bare test pads, separate A/B shunts and an NTC divider. The input target is **3–6 V at J1 including supply tolerance**. Nominal current chopping is about 1.33 A/channel; neither this nor the 1 A/channel continuous objective is a verified board rating. Hot-path voltage loss, regenerative spikes and thermal performance need bench testing. F1 is a non-resettable 3 A fuse; diagnose the fault before replacement. [Electrical review](DESIGN_REVIEW.md).
+
+**SW1 — HOLD TO DISABLE:** hold the button to disable both motor outputs and let the motors coast. Release returns control to the host and can restart motion. It does not disconnect board power. [Button design and operating details](BUTTON_REVIEW.md).
 
 ## Connector pinout
 

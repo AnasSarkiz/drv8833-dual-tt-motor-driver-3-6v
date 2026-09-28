@@ -95,12 +95,12 @@ function getNetNames(referenceDesignator: string, pinNumber: number) {
 }
 
 test("all components render, without component-creation or other error records", () => {
-  expect(components).toHaveLength(53)
+  expect(components).toHaveLength(54)
   expect(
     components.filter(
       (component) => component.supplier_part_numbers?.jlcpcb?.length,
     ),
-  ).toHaveLength(46)
+  ).toHaveLength(47)
   expect(
     circuit.filter(
       (element) =>
@@ -124,7 +124,7 @@ test("protection parts keep their physical manufacturer pin connections", () => 
   expect(getNetNames("F1", 2)).toEqual(["VIN_FUSED"])
 })
 
-test("all thirty ground returns share one electrical network without bypassing the shunts", () => {
+test("all ground returns share one electrical network without bypassing the shunts", () => {
   const groundNets = nets.filter((net) => net.name === "GND")
   expect(groundNets).toHaveLength(1)
   const ground = connectedNodes(groundNets[0]!.source_net_id, electricalEdges)
@@ -150,6 +150,8 @@ test("all thirty ground returns share one electrical network without bypassing t
     ["R11", 2],
     ["R12", 2],
     ["R13", 2],
+    ["SW1", 3],
+    ["SW1", 4],
     ["U2", 4],
     ["C7", 2],
     ["LED2", 1],
@@ -232,6 +234,47 @@ test("NTC measuring current and host-enable margin stay within the design budget
     ((2.8 - maximumSeriesOhms * 0.000013) * minimumPullOhms) /
     (minimumPullOhms + maximumSeriesOhms)
   expect(minimumEnableVolts).toBeGreaterThan(2.65)
+})
+
+test("the normally open disable button connects only ENABLE and ground through the correct contact pairs", () => {
+  const button = components.find((component) => component.name === "SW1")!
+  expect(button.ftype).toBe("simple_push_button")
+  expect(button.supplier_part_numbers?.jlcpcb).toEqual(["C318884"])
+  for (const pinNumber of [1, 2])
+    expect(getNetNames("SW1", pinNumber)).toEqual(["ENABLE"])
+  for (const pinNumber of [3, 4])
+    expect(getNetNames("SW1", pinNumber)).toEqual(["GND"])
+  const contactPairs = records("source_component_internal_connection")
+    .map((element) => source_component_internal_connection.parse(element))
+    .filter((pair) => pair.source_component_id === button.source_component_id)
+    .map((pair) =>
+      pair.source_port_ids
+        .map(
+          (id) => ports.find((port) => port.source_port_id === id)!.pin_number,
+        )
+        .sort(),
+    )
+  expect(contactPairs).toEqual([
+    [1, 2],
+    [3, 4],
+  ])
+  const enableId = getPort("U1", 1).source_port_id
+  const groundId = getPort("SW1", 3).source_port_id
+  const hostId = getPort("J4", 3).source_port_id
+  expect(connectedNodes(enableId, electricalEdges).has(groundId)).toBe(false)
+  const pressedEdges = [
+    ...electricalEdges,
+    [getPort("SW1", 1).source_port_id, groundId],
+  ]
+  expect(connectedNodes(enableId, pressedEdges).has(groundId)).toBe(true)
+  // The host must still be isolated by R8 when the switch is pressed.
+  expect(connectedNodes(enableId, pressedEdges).has(hostId)).toBe(false)
+  expect(getNetNames("R8", 1)).toEqual(["HOST_ENABLE"])
+  expect(getNetNames("R8", 2)).toEqual(["ENABLE"])
+  const maximumPressedCurrentAmps = 5.25 / (getResistance("R8") * 0.99)
+  expect(maximumPressedCurrentAmps).toBeLessThan(0.0025)
+  // Manufacturer contact resistance is 100 milliohms maximum.
+  expect(maximumPressedCurrentAmps * 0.1).toBeLessThan(0.5)
 })
 
 test("every driver pin matches the TI PWP pin table and intended circuit", () => {

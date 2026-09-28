@@ -22,10 +22,10 @@ const smtCircuit = circuit.filter(
 const options = { supplier: "jlcpcb", requireSupplierRotation: true } as const
 const placements = convertCircuitJsonToPickAndPlaceRows(smtCircuit, options)
 if (
-  placements.length !== 39 ||
+  placements.length !== 40 ||
   placements.some((placement) => placement.layer !== "top")
 )
-  throw new Error("Expected exactly 39 top SMT placements")
+  throw new Error("Expected exactly 40 top SMT placements")
 const destination = "artifacts/order-release"
 mkdirSync(destination, { recursive: true })
 await Bun.write(
@@ -41,5 +41,5 @@ await Bun.write(
   ) + "\n",
 )
 console.log(
-  "Exported 39 SMT placements with required, verified JLCPCB rotations; J1–J7 are manually fitted",
+  "Exported 40 SMT placements with required, verified JLCPCB rotations; J1–J7 are manually fitted",
 )

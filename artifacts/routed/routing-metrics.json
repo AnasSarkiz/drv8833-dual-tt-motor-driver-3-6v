@@ -1,12 +1,12 @@
 {
   "note": "Planar trace lengths sum all branches and exclude vertical barrels. Geometry is not a current rating.",
-  "trace_count": 70,
-  "via_count": 58,
+  "trace_count": 72,
+  "via_count": 60,
   "via_sizes": [
     {
       "drill_mm": 0.3,
       "pad_mm": 0.45,
-      "count": 47
+      "count": 49
     },
     {
       "drill_mm": 0.3,
@@ -154,8 +154,8 @@
       ]
     },
     "ENABLE": {
-      "trace_count": 2,
-      "length_mm": 22.481,
+      "trace_count": 4,
+      "length_mm": 55.057,
       "widths_mm": [
         0.25
       ],

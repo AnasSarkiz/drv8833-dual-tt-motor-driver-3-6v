@@ -31,8 +31,8 @@ const purchasedSmtIds = new Set(
 )
 
 test("stencil contains only top purchased-SMT apertures, never bare test pads or THT", () => {
-  expect(purchasedSmtIds.size).toBe(39)
-  expect(stencilApertures).toHaveLength(106)
+  expect(purchasedSmtIds.size).toBe(40)
+  expect(stencilApertures).toHaveLength(110)
   for (const aperture of stencilApertures) {
     expect(aperture.layer).toBe("top")
     const pad = pads.find((pad) => pad.pcb_smtpad_id === aperture.pcb_smtpad_id)
@@ -51,7 +51,7 @@ test("stencil contains only top purchased-SMT apertures, never bare test pads or
     ).toBe(true)
 })
 
-test("all 39 automated SMT placements have verified supplier rotations", () => {
+test("all 40 automated SMT placements have verified supplier rotations", () => {
   const smtCircuit = circuit.filter(
     (element) =>
       element.type !== "pcb_component" ||
@@ -61,10 +61,13 @@ test("all 39 automated SMT placements have verified supplier rotations", () => {
     supplier: "jlcpcb",
     requireSupplierRotation: true,
   })
-  expect(placements).toHaveLength(39)
+  expect(placements).toHaveLength(40)
   expect(
     placements.filter((placement) => /^LED[1-5]$/.test(placement.designator)),
   ).toHaveLength(5)
+  expect(
+    placements.filter((placement) => placement.designator === "SW1"),
+  ).toHaveLength(1)
 })
 
 test("U1 bypasses remain local and the AISEN current path retains its wider copper", () => {

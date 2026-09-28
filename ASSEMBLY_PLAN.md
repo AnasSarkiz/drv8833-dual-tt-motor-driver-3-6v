@@ -1,6 +1,6 @@
 # Assembly plan — prototype SMT packet
 
-39 purchased SMD parts on TOP; 7 through-hole connectors inserted from TOP (3 terminals and 4 headers). Seven test pads, four footprint thermal vias and the routing/stitching vias are PCB features. No bottom purchased components. No DNP parts. No approved substitutions. The board is now routed; assembly process qualification and a fabrication order remain pending.
+40 purchased SMD parts on TOP; 7 through-hole connectors inserted from TOP (3 terminals and 4 headers). Seven test pads, four footprint thermal vias and the routing/stitching vias are PCB features. No bottom purchased components. No DNP parts. No approved substitutions. The board is now routed; assembly process qualification and a fabrication order remain pending.
 
 TOP SMT reflow precedes manual/selective through-hole soldering. JLC catalog stock does not establish turnkey THT assembly. Service eligibility, sourcing fees, panelization, minimum board constraints and final quote remain unverified.
 
@@ -16,4 +16,4 @@ Thermal-pad paste, reflow profile, moisture handling, tall capacitor clearances,
 
 Mounting proposal: four M3 insulating standoffs, nominally 10 mm tall, with screws/washers contained within each 7 mm hardware zone. Hole positions and 2D courtyard clearances pass the mechanical check; standoff height, actual screw lengths, mating access and chassis fit are not physically verified. See MECHANICAL.md.
 
-Alpha.5 manufacturing files are in [artifacts/order-release](artifacts/order-release/MANUFACTURING_NOTES.md). The actual Gerbers have 106 TOP paste flashes and no BOTTOM paste. Through-hole connectors and bare test pads have no paste. All 39 automatic SMT placements pass required JLCPCB supplier-orientation verification, including LEDs. The seven manual connectors are in their own BOM. These files resolve the prior export findings; final quote, CAM and assembly preview remain manufacturer steps.
+Alpha.6 manufacturing files are in [artifacts/order-release](artifacts/order-release/MANUFACTURING_NOTES.md). The actual Gerbers have 110 TOP paste flashes and no BOTTOM paste. Through-hole connectors and bare test pads have no paste. All 40 automatic SMT placements pass required JLCPCB supplier-orientation verification, including LEDs. The seven manual connectors are in their own BOM. These files resolve the prior export findings; final quote, CAM and assembly preview remain manufacturer steps.

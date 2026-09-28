@@ -1,0 +1,29 @@
+{
+  "c_number": "C25803",
+  "references": "R13",
+  "quantity_per_board": 1,
+  "quantity_for_five_boards": 5,
+  "checked_at": "2026-09-28T13:59:04.352604+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C25803",
+  "response_sha256": "4e9c84f4975f589a4777bb6b378809fe286739e9d2d800e5e9871bbfa02bddcb",
+  "catalog_fields": {
+    "componentCode": "C25803",
+    "componentModelEn": "0603WAF1003T5E",
+    "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+    "componentSpecificationEn": "0603",
+    "overseasStockCount": 22572532,
+    "canPresaleNumber": 20884103,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 10,
+    "leastPatchNumber": 20,
+    "preMinPurchaseNum": 3760,
+    "noBuyReason": null,
+    "initialPrice": 0.0031,
+    "componentLibraryType": "base",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

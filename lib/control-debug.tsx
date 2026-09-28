@@ -7,8 +7,9 @@ import { A_0603WAF2201T5E } from "../imports/A_0603WAF2201T5E"
 import { CC0603KRX7R9BB104 } from "../imports/CC0603KRX7R9BB104"
 import { KT_0603YG } from "../imports/KT_0603YG"
 import { KT_0603R } from "../imports/KT_0603R"
+import { MotorDisableButton } from "./motor-disable-button"
 
-const commands = ["AIN1", "AIN2", "BIN1", "BIN2", "ENABLE"] as const
+const commands = ["AIN1", "AIN2", "BIN1", "BIN2"] as const
 
 export function ControlDebug() {
   return (
@@ -93,6 +94,7 @@ export function ControlDebug() {
           />
         </Fragment>
       ))}
+      <MotorDisableButton />
       <CommandIndicatorLogic
         name="U2"
         pcbX={6}

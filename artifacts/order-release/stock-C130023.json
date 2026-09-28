@@ -3,9 +3,9 @@
   "references": "U2",
   "quantity_per_board": 1,
   "quantity_for_five_boards": 5,
-  "checked_at": "2026-09-28T09:24:24.023039+00:00",
+  "checked_at": "2026-09-28T13:58:28.680197+00:00",
   "source_url": "https://jlcpcb.com/partdetail/C130023",
-  "response_sha256": "4d85dd45d6940f02de62e54786ba5e5fa5aefc896ccd584f1a7dd38ac2b33357",
+  "response_sha256": "f9831ca70539042534a5ce45f3e8008be53a247cb9229f52ab7060b71174c331",
   "catalog_fields": {
     "componentCode": "C130023",
     "componentModelEn": "SN74LVC2G86DCTR",

@@ -3,9 +3,9 @@
   "references": "F1",
   "quantity_per_board": 1,
   "quantity_for_five_boards": 5,
-  "checked_at": "2026-09-28T09:23:00.512237+00:00",
+  "checked_at": "2026-09-28T13:57:04.305587+00:00",
   "source_url": "https://jlcpcb.com/partdetail/C178991",
-  "response_sha256": "65de08d41e9e88359106629058a81bb778973662e25c940e16c9e13dc4061c0c",
+  "response_sha256": "e3287d03df929489951ae3ccc030f94e993e354550146f281a8cabcd640ef04a",
   "catalog_fields": {
     "componentCode": "C178991",
     "componentModelEn": "0453003.MR",

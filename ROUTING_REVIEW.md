@@ -1,15 +1,15 @@
 # Routed revision A review
 
-Routing is complete and passes fresh native routing checks with zero findings. All 32 non-GND nets use 69 saved reviewed native route paths; a short C3 ground connection makes 70 trace records. GND continuity is established through the checked ground pours, thermal vias and six added stitches.
+Routing is complete and passes fresh native routing checks with zero findings. All 32 non-GND nets use 71 saved reviewed native route paths; a short C3 ground connection makes 72 trace records. GND continuity is established through the checked ground pours, thermal vias and six added stitches.
 
-The saved routes in `lib/saved-routing.ts` are canonical, editable route paths referenced by real component pin selectors. They originated from native capacity-autorouter 0.0.938, pipeline9, with additional routing margins. Alpha.5 locally revises U1 current return, bypass placement and affected neighboring paths. They are consumed by the supported `autoroutingphase` API, which checks anchors, physical layers and endpoint coverage. Moving a component requires updating its affected saved paths. No Circuit JSON is injected or repaired after generation.
+The saved routes in `lib/saved-routing.ts` are canonical, editable route paths referenced by real component pin selectors. They originated from native capacity-autorouter 0.0.938, pipeline9, with additional routing margins. Alpha.5 locally revises U1 current return, bypass placement and affected neighboring paths. Alpha.6 adds two ENABLE route paths and two vias for SW1; the prior 69 saved paths are unchanged. They are consumed by the supported `autoroutingphase` API, which checks anchors, physical layers and endpoint coverage. Moving a component requires updating its affected saved paths. No Circuit JSON is injected or repaired after generation.
 
 | Copper feature | Final geometry |
 |---|---|
 | Stack | Four layers, 1.6 mm board |
 | Ground copper | Top (two polygons), inner1 and bottom (one polygon each) |
 | Inner1 | Ground pour with some signal routes; not an exclusive or uninterrupted plane |
-| Signal/power vias | 48 total: 47 at 0.30/0.45 mm; AOUT1 transition at 0.30/0.60 mm |
+| Signal/power vias | 50 total: 49 at 0.30/0.45 mm; AOUT1 transition at 0.30/0.60 mm |
 | Added ground stitches | Six, drill 0.30 mm / pad 0.60 mm |
 | Original U1 thermal vias | Four, drill 0.3048 mm / pad 0.6096 mm |
 | Board minimum via rule | Drill 0.30 mm / pad 0.45 mm |

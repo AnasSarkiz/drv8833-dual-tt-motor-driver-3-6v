@@ -7,7 +7,7 @@ import zipfile
 
 root = Path(__file__).resolve().parents[1]
 destination = root / 'artifacts/order-release'
-raw_export = destination / 'dual-tt-rev-a-alpha5-gerbers.zip'
+raw_export = destination / 'dual-tt-rev-a-alpha6-gerbers.zip'
 smt_designators = set(json.loads((destination / 'smt-designators.json').read_text()))
 with zipfile.ZipFile(raw_export) as source:
     rows = list(csv.DictReader(io.StringIO(source.read('bom.csv').decode())))
@@ -21,7 +21,7 @@ with zipfile.ZipFile(raw_export) as source:
             writer = csv.DictWriter(output, fieldnames=rows[0].keys())
             writer.writeheader()
             writer.writerows(selected)
-    assert source.read('F_Paste.gbr').count(b'D03*') == 106
+    assert source.read('F_Paste.gbr').count(b'D03*') == 110
     assert source.read('B_Paste.gbr').count(b'D03*') == 0
     # Keep the native combined export as provenance; fabricator ZIP contains artwork only.
     with zipfile.ZipFile(destination / 'jlc-fabrication.zip', 'w', zipfile.ZIP_DEFLATED) as target:
@@ -30,4 +30,13 @@ with zipfile.ZipFile(raw_export) as source:
                 target.writestr(name, source.read(name))
     for name in ['F_Paste.gbr', 'B_Paste.gbr', 'F_Mask.gbr', 'drill-L1-L4.drl', 'drill_npth.drl']:
         (destination / name).write_bytes(source.read(name))
-print('PASS: 39 SMT BOM/CPL references; 7 separate manual connectors; 106 top / 0 bottom paste apertures')
+print('PASS: 40 SMT BOM/CPL references; 7 separate manual connectors; 110 top / 0 bottom paste apertures')
+
+with zipfile.ZipFile(destination / 'dual-tt-prototype-order-packet.zip', 'w', zipfile.ZIP_DEFLATED) as packet:
+    for name in ['jlc-fabrication.zip', 'jlc-smt-bom.csv', 'jlc-smt-cpl.csv', 'manual-tht-bom.csv', 'MANUFACTURING_NOTES.md', 'STOCK.md']:
+        packet.write(destination / name, name)
+    packet.write(root / 'BUTTON_REVIEW.md', 'BUTTON_REVIEW.md')
+    packet.write(root / 'references/TS-1187A-B-A-B.pdf', 'references/TS-1187A-B-A-B.pdf')
+    for name in ['pcb-top.png', 'mounting-template.svg']:
+        packet.write(root / 'artifacts/routed' / name, name)
+print('Updated complete prototype order packet, including button operating and assembly notes')

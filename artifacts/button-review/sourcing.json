@@ -1,0 +1,42 @@
+[
+  {
+    "c_number": "C318884",
+    "checked_at": "2026-09-28T13:50:52.727343+00:00",
+    "supplier_response": {
+      "query": "C318884",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 318884,
+          "mfr": "TS-1187A-B-A-B",
+          "package": "SMD-4P,5.1x5.1mm",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-30\u2103~+85\u2103 1.5mm 1.6N 100,000 cycles 12V 5.1mm 5.1mm 50mA Gold No Round Button SPST Surface Mount,Vertical Without Bracket SMD-4P,5.1x5.1mm Tactile Switches ROHS",
+          "stock": 1683297,
+          "price": 0.0197
+        }
+      ]
+    }
+  },
+  {
+    "c_number": "C25803",
+    "checked_at": "2026-09-28T13:50:53.988640+00:00",
+    "supplier_response": {
+      "query": "C25803",
+      "results": [
+        {
+          "source": "jlcpcb",
+          "lcsc": 25803,
+          "mfr": "0603WAF1003T5E",
+          "package": "0603",
+          "is_basic": true,
+          "is_preferred": false,
+          "description": "-55\u2103~+155\u2103 100k\u03a9 100mW 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+          "stock": 7990119,
+          "price": 0.0016
+        }
+      ]
+    }
+  }
+]

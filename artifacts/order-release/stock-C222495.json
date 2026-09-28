@@ -3,9 +3,9 @@
   "references": "Q1",
   "quantity_per_board": 1,
   "quantity_for_five_boards": 5,
-  "checked_at": "2026-09-28T09:23:06.308666+00:00",
+  "checked_at": "2026-09-28T13:57:10.654403+00:00",
   "source_url": "https://jlcpcb.com/partdetail/C222495",
-  "response_sha256": "5bf1fee087d6d6562ee8b2aa9906ccc6e1761e8e46628989016fe915d5e04548",
+  "response_sha256": "6837cb4d99017dd0eb08f6f221abd86dee305771e41bbf4a1f748615730c0764",
   "catalog_fields": {
     "componentCode": "C222495",
     "componentModelEn": "SI7655ADN-T1-GE3",

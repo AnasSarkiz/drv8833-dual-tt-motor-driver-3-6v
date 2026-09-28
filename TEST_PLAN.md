@@ -16,3 +16,7 @@ No board has been manufactured. No simulation or laboratory result is claimed. F
 12. Verify fault reporting and recovery. Store raw waveforms and results, including failed runs.
 
 Use differential or isolated methods on H-bridge outputs. Never attach an earth-referenced scope ground clip to a switching motor terminal. Final test acceptance tables, temperature limits, supply margin and PWM endpoints remain blocked by the design review; this is a plan, not release evidence.
+
+## Alpha.6 motor-disable button
+
+First measure ENABLE with no motors attached. Released with host enable high: verify a valid high at 3.3 V and 5 V host supplies. Pressed: verify low and less than 2.5 mA host output current at VIO≤5.25 V. Released with host enable low/disconnected: verify the driver stays asleep. With wheels lifted, verify both channels coast while held and can resume on release. Check contact bounce, wake delay and motor-supply transients. SW1 is not a maintained stop, brake or power disconnect.

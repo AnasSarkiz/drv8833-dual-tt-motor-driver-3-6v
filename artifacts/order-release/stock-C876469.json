@@ -3,9 +3,9 @@
   "references": "R2, R3",
   "quantity_per_board": 2,
   "quantity_for_five_boards": 10,
-  "checked_at": "2026-09-28T09:23:41.842843+00:00",
+  "checked_at": "2026-09-28T13:57:47.079610+00:00",
   "source_url": "https://jlcpcb.com/partdetail/C876469",
-  "response_sha256": "ecf6f2efaca5d24f5ca26264ff39f80686daf2ecce1c6dddcf2196c8aa79b31e",
+  "response_sha256": "5691a898e14b1b24308ecda31c82176b887f2e02f403abee56b4f3445e9c1e2b",
   "catalog_fields": {
     "componentCode": "C876469",
     "componentModelEn": "RL2512FK-070R15L",

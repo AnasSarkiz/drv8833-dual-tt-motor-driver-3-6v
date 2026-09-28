@@ -2,7 +2,7 @@
 
 The outline is 75 × 60 × 1.6 mm with four copper layers. Four 3.2 mm NPTH holes form a 65 × 50 mm rectangle, with 7 mm hardware keepouts on all layers. This is the accepted generic chassis-module arrangement, not a specific chassis fit claim.
 
-All 46 purchased components are on top, together with seven bare test pads. There are 53 checked courtyards and 63 PCB-component records (including ten explicitly authored thermal/ground vias). Native placement DRC reports zero errors and warnings; the CLI’s separate C7 orientation suggestion is advisory. Every courtyard is inside the outline and clears each hardware reserve by at least 0.5 mm; J7 is the closest at 0.732 mm beyond the hardware zone. See `artifacts/order-release/logs/build.log`.
+All 47 purchased components are on top, together with seven bare test pads. There are 54 checked courtyards and 64 PCB-component records (including ten explicitly authored thermal/ground vias). Native placement DRC reports zero errors and warnings; the CLI’s separate C7 orientation suggestion is advisory. Every courtyard is inside the outline and clears each hardware reserve by at least 0.5 mm; J7 is the closest at 0.732 mm beyond the hardware zone. See `artifacts/order-release/logs/build.log`.
 
 J1 faces the left edge; motor connectors J2/J3 face the bottom. The shunts are adjacent to the driver, with nearby ground stitches. C3/C4 and the sense/VM test-pad positions were adjusted to permit clean routing. U2's 2D courtyard is clear. Four layer previews are in `artifacts/routed/`.
 

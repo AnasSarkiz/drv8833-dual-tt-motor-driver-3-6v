@@ -1,0 +1,10 @@
+{"trace_count": 72, "via_count": 60, "via_sizes": [{"drill_mm": 0.3, "pad_mm": 0.45, "count": 49}, {"drill_mm": 0.3, "pad_mm": 0.6, "count": 7}, {"drill_mm": 0.3048, "pad_mm": 0.6096, "count": 4}], "pour_polygons_by_layer": {"top": 2, "inner1": 1, "bottom": 1}}
+VIN {'trace_count': 1, 'length_mm': 10.638, 'widths_mm': [1], 'layers': ['top']}
+VIN_FUSED {'trace_count': 5, 'length_mm': 11.329, 'widths_mm': [0.405003, 0.9899904, 1], 'layers': ['top']}
+VM {'trace_count': 11, 'length_mm': 77.28, 'widths_mm': [0.325, 0.375, 0.4, 0.405003, 0.5, 0.7, 0.8064754, 0.9899904, 1], 'layers': ['inner2', 'top']}
+AOUT1 {'trace_count': 1, 'length_mm': 22.472, 'widths_mm': [0.4, 1], 'layers': ['bottom', 'top']}
+AOUT2 {'trace_count': 1, 'length_mm': 21.943, 'widths_mm': [0.25, 0.325, 0.65, 1], 'layers': ['top']}
+BOUT1 {'trace_count': 1, 'length_mm': 24.059, 'widths_mm': [0.25, 0.275, 0.35000000000000003, 0.42500000000000004, 0.55, 0.675, 0.8, 0.875, 0.9, 0.925, 1], 'layers': ['top']}
+BOUT2 {'trace_count': 1, 'length_mm': 26.557, 'widths_mm': [0.325, 0.41250000000000003, 0.525, 0.9750000000000001, 1], 'layers': ['bottom', 'top']}
+ISEN_A {'trace_count': 2, 'length_mm': 21.298, 'widths_mm': [0.4, 0.45, 0.6, 1], 'layers': ['top']}
+ISEN_B {'trace_count': 2, 'length_mm': 18.679, 'widths_mm': [0.3, 0.5750000000000001, 0.625, 0.75, 0.925, 1], 'layers': ['bottom', 'top']}

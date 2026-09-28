@@ -47,7 +47,7 @@ for part in circuit:
     assert bounds[2] >= -board["height"] / 2
     assert bounds[3] <= board["height"] / 2
     courtyards.append((name, bounds))
-assert len(courtyards) == 53, "Every purchased component and test pad needs a courtyard"
+assert len(courtyards) == 54, "Every purchased component and test pad needs a courtyard"
 print("Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern")
 for expected in mechanical["holes"]:
     x, y = expected["x_mm"], expected["y_mm"]
@@ -67,5 +67,5 @@ for expected in mechanical["holes"]:
         clearances.append((gap, name))
     gap, nearest = min(clearances)
     print(f"{expected['name']}: ({x}, {y}) mm; drill 3.2 mm; nearest courtyard {nearest}, gap {gap:.3f} mm beyond 7 mm hardware zone")
-print("PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes")
+print("PASS: outline, four NPTH holes, four-layer keepouts and 54 courtyard envelopes")
 print("NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D")

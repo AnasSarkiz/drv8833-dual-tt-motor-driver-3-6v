@@ -73,7 +73,7 @@ for (const element of circuit) {
 }
 assert.equal(
   courtyards.length,
-  53,
+  54,
   "Every purchased component and test pad needs a courtyard",
 )
 console.log(
@@ -114,7 +114,7 @@ for (const expected of mechanical.holes) {
   )
 }
 console.log(
-  "PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes",
+  "PASS: outline, four NPTH holes, four-layer keepouts and 54 courtyard envelopes",
 )
 console.log(
   "NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D",
