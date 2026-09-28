@@ -69,3 +69,5 @@ saved_phase_null_0_65,TEMP_RAW,48.167,0.25,0.25,inner1; top,2,14,0,0
 saved_phase_null_0_66,TEMP,7.612,0.25,0.25,bottom; top,2,10,1,0
 saved_phase_null_0_67,TEMP,5.541,0.25,0.25,top,0,2,0,0
 saved_phase_null_0_68,TEMP,17.505,0.25,0.25,top,0,3,0,0
+saved_phase_null_0_69,ENABLE,6.0,0.25,0.25,top,0,1,0,0
+saved_phase_null_0_70,ENABLE,26.576,0.25,0.25,inner2; top,2,4,0,0

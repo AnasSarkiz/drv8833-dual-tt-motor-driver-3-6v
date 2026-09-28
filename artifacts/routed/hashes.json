@@ -90,7 +90,7 @@
   "artifacts/order-release/stock-C83270.json": "10446141b2a94af56e1a549c6d2d4b64c1a76bb8f6249f74d7482a6b7a16d7cb",
   "artifacts/order-release/stock-C876469.json": "83b58bd9747d4294b92d3df7fae265d68d5f4e0043445564947bd2a99360a2a4",
   "artifacts/order-release/trace-geometry.json": "75f9997b0c15143234822f050d2cd96c16bb7ee553990b0a32337a4495044c7e",
-  "artifacts/order-release/trace-inventory.csv": "871e669949f316af7301caafdfbc509200163dbe3c942ab166b68281dce2052a",
+  "artifacts/order-release/trace-inventory.csv": "32980524534d3d4a342d94b2b01c43b10dc6f33fa226fc3eefda4d27d2626e69",
   "artifacts/routed/circuit.json": "a872acebb338d2162f3e2b68a5b7c1b11c2e7aed9ccf76bfa3a386b113622692",
   "artifacts/routed/logs/build.log": "1d8a034dc2acf07d7aa299597607649332f7fee36cb6f1571154095d614d2221",
   "artifacts/routed/logs/format.log": "ae0792725ea2e36e29824d6738216a0cceca4e21444370aed8ccd5135e3614df",
