@@ -2,14 +2,14 @@
   "checked_at_utc": "2026-09-28T09:46:48.482239+00:00",
   "source_commit": "90e9587d55828761798d2d7dc068a3918c4e2a8f",
   "github": {
-    "url": "https://github.com/AnasSarkiz/dual-tt-motor-driver",
+    "url": "https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v",
     "visibility": "public",
     "source_push": "success",
-    "ci_run": "https://github.com/AnasSarkiz/dual-tt-motor-driver/actions/runs/36404608465",
+    "ci_run": "https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v/actions/runs/36404608465",
     "ci_conclusion": "success"
   },
   "registry": {
-    "url": "https://tscircuit.com/AnasSarkiz/dual-tt-motor-driver",
+    "url": "https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v",
     "package_id": "ff313008-51e9-4880-a4f8-e4c96b84c19a",
     "is_public": true,
     "is_private": false,
@@ -43,5 +43,20 @@
     "public_pcb_viewer_error_count": 0,
     "preview_image_status": "No separate thumbnail URL; registry aggregate display remains pending despite completed user-code job and verified public PCB"
   },
-  "receipt_note": "Registry snapshot includes the preceding publication receipt. This later GitHub-only receipt records alpha.5 remote verification. All PCB records exactly match local generated output; source records differ only in the filesystem metadata hash. One dot-prefixed GitHub workflow in the 210-entry local manifest is excluded by registry upload rules; the other 209 hashes match. No fabrication order, manufacturer acceptance, inventory reservation or physical product qualification is claimed."
+  "receipt_note": "Registry snapshot includes the preceding publication receipt. This later GitHub-only receipt records alpha.5 remote verification. All PCB records exactly match local generated output; source records differ only in the filesystem metadata hash. One dot-prefixed GitHub workflow in the 210-entry local manifest is excluded by registry upload rules; the other 209 hashes match. No fabrication order, manufacturer acceptance, inventory reservation or physical product qualification is claimed.",
+  "rename": {
+    "checked_at_utc": "2026-09-28T10:19:47.414962+00:00",
+    "previous_name": "dual-tt-motor-driver",
+    "name": "drv8833-dual-tt-motor-driver-3-6v",
+    "github_repository_id": "R_kgDOUucvOw",
+    "registry_package_id": "ff313008-51e9-4880-a4f8-e4c96b84c19a",
+    "registry_release_preserved": true,
+    "circuit_and_manufacturing_files_unchanged": true,
+    "local_metadata_files_updated": [
+      "package.json",
+      "bun.lock",
+      "README.md"
+    ],
+    "historical_hash_manifest_preserved": true
+  }
 }

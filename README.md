@@ -1,4 +1,6 @@
-# Dual TT motor driver — routed prototype
+# DRV8833 dual TT motor driver, 3–6 V — routed prototype
+
+[Public PCB](https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v#pcb) · [GitHub repository](https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v)
 
 Revision A; package 0.1.0-alpha.5. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
 
