@@ -1,245 +1,253 @@
-review	Set up job	﻿2026-09-27T20:34:00.9927783Z Current runner version: '2.337.0'
-review	Set up job	2026-09-27T20:34:00.9949578Z ##[group]Runner Image Provisioner
-review	Set up job	2026-09-27T20:34:00.9950348Z Hosted Compute Agent
-review	Set up job	2026-09-27T20:34:00.9950905Z Version: 20260828.587
-review	Set up job	2026-09-27T20:34:00.9951431Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
-review	Set up job	2026-09-27T20:34:00.9952041Z Build Date: 2026-08-28T16:44:25Z
-review	Set up job	2026-09-27T20:34:00.9952610Z Worker ID: {332ce64f-bddf-4331-8f24-d732ab979ae5}
-review	Set up job	2026-09-27T20:34:00.9953208Z Azure Region: westus
-review	Set up job	2026-09-27T20:34:00.9953835Z ##[endgroup]
-review	Set up job	2026-09-27T20:34:00.9955008Z ##[group]Operating System
-review	Set up job	2026-09-27T20:34:00.9955588Z Ubuntu
-review	Set up job	2026-09-27T20:34:00.9956025Z 24.04.5
-review	Set up job	2026-09-27T20:34:00.9956474Z LTS
-review	Set up job	2026-09-27T20:34:00.9956934Z ##[endgroup]
-review	Set up job	2026-09-27T20:34:00.9957396Z ##[group]Runner Image
-review	Set up job	2026-09-27T20:34:00.9957882Z Image: ubuntu-24.04
-review	Set up job	2026-09-27T20:34:00.9958398Z Version: 20260920.314.1
-review	Set up job	2026-09-27T20:34:00.9959284Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
-review	Set up job	2026-09-27T20:34:00.9960763Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
-review	Set up job	2026-09-27T20:34:00.9961559Z ##[endgroup]
-review	Set up job	2026-09-27T20:34:00.9962625Z ##[group]GITHUB_TOKEN Permissions
-review	Set up job	2026-09-27T20:34:00.9964532Z Contents: read
-review	Set up job	2026-09-27T20:34:00.9965126Z Metadata: read
-review	Set up job	2026-09-27T20:34:00.9965599Z Packages: read
-review	Set up job	2026-09-27T20:34:00.9966383Z ##[endgroup]
-review	Set up job	2026-09-27T20:34:00.9968093Z Secret source: Actions
-review	Set up job	2026-09-27T20:34:00.9968903Z Cache mode: write
-review	Set up job	2026-09-27T20:34:00.9969469Z Prepare workflow directory
-review	Set up job	2026-09-27T20:34:01.0225509Z Prepare all required actions
-review	Set up job	2026-09-27T20:34:01.0264073Z Getting action download info
-review	Set up job	2026-09-27T20:34:01.3827542Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
-review	Set up job	2026-09-27T20:34:01.4863671Z Download action repository 'oven-sh/setup-bun@v2' (SHA:0c5077e51419868618aeaa5fe8019c62421857d6)
-review	Set up job	2026-09-27T20:34:01.9243221Z Complete job name: review
-review	Run actions/checkout@v4	﻿2026-09-27T20:34:01.9837585Z ##[group]Run actions/checkout@v4
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9838278Z with:
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9838661Z   repository: AnasSarkiz/dual-tt-motor-driver
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9841660Z   token: ***
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9842007Z   ssh-strict: true
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9842360Z   ssh-user: git
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9842710Z   persist-credentials: true
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9843093Z   clean: true
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9843714Z   sparse-checkout-cone-mode: true
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9844129Z   fetch-depth: 1
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9844473Z   fetch-tags: false
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9844826Z   show-progress: true
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9845182Z   lfs: false
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9845503Z   submodules: false
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9845858Z   set-safe-directory: true
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9846254Z   allow-unsafe-pr-checkout: false
-review	Run actions/checkout@v4	2026-09-27T20:34:01.9846848Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0688521Z Syncing repository: AnasSarkiz/dual-tt-motor-driver
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0690084Z ##[group]Getting Git version info
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0690743Z Working directory is '/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver'
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0691803Z [command]/usr/bin/git version
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0848089Z git version 2.55.0
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0895913Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0928187Z Temporarily overriding HOME='/home/runner/work/_temp/67338404-1232-4d89-841d-ab4d1f9215b8' before making global git config changes
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0929374Z Adding repository directory to the temporary git global config as a safe directory
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0930409Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0955479Z Deleting the contents of '/home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver'
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0964187Z ##[group]Initializing the repository
-review	Run actions/checkout@v4	2026-09-27T20:34:02.0965546Z [command]/usr/bin/git init /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1219077Z hint: Using 'master' as the name for the initial branch. This default branch name
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1221251Z hint: will change to "main" in Git 3.0. To configure the initial branch name
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1222357Z hint: to use in all of your new repositories, which will suppress this warning,
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1223503Z hint: call:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1224103Z hint:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1224801Z hint: 	git config --global init.defaultBranch <name>
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1225695Z hint:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1226569Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1227580Z hint: 'development'. The just-created branch can be renamed via this command:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1228204Z hint:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1228539Z hint: 	git branch -m <name>
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1228920Z hint:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1229421Z hint: Disable this message with "git config set advice.defaultBranchName false"
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1230316Z Initialized empty Git repository in /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver/.git/
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1241947Z [command]/usr/bin/git remote add origin https://github.com/AnasSarkiz/dual-tt-motor-driver
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1286983Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1287953Z ##[group]Disabling automatic garbage collection
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1290886Z [command]/usr/bin/git config --local gc.auto 0
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1320737Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1327150Z ##[group]Setting up auth
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1328094Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1359916Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1846521Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-review	Run actions/checkout@v4	2026-09-27T20:34:02.1877927Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
-review	Run actions/checkout@v4	2026-09-27T20:34:02.2065462Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
-review	Run actions/checkout@v4	2026-09-27T20:34:02.2096452Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
-review	Run actions/checkout@v4	2026-09-27T20:34:02.2286639Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
-review	Run actions/checkout@v4	2026-09-27T20:34:02.2321393Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:02.2322281Z ##[group]Fetching the repository
-review	Run actions/checkout@v4	2026-09-27T20:34:02.2329705Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +62b0f0b3889e763abc053318cadb695dab250831:refs/remotes/origin/main
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0063194Z From https://github.com/AnasSarkiz/dual-tt-motor-driver
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0064907Z  * [new ref]         62b0f0b3889e763abc053318cadb695dab250831 -> origin/main
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0068035Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0069515Z ##[group]Determining the checkout info
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0072173Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0075446Z [command]/usr/bin/git sparse-checkout disable
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0129066Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0159454Z ##[group]Checking out the ref
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0164235Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0486314Z Switched to a new branch 'main'
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0495599Z branch 'main' set up to track 'origin/main'.
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0500088Z ##[endgroup]
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0540634Z [command]/usr/bin/git log -1 --format=%H
-review	Run actions/checkout@v4	2026-09-27T20:34:03.0563171Z 62b0f0b3889e763abc053318cadb695dab250831
-review	Run oven-sh/setup-bun@v2	﻿2026-09-27T20:34:03.0850626Z ##[group]Run oven-sh/setup-bun@v2
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:03.0851633Z with:
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:03.0852381Z   bun-version: 1.3.9
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:03.0853196Z   no-cache: false
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:03.0859720Z   token: ***
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:03.0860506Z ##[endgroup]
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:03.4641096Z Cache hit for: bun-AuUSW9alPX0VpeQncP5B/2hJwOM=
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:04.7511456Z Received 0 of 35769339 (0.0%), 0.0 MBs/sec
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.0573022Z Received 35769339 of 35769339 (100.0%), 26.1 MBs/sec
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.0573972Z Cache Size: ~34 MB (35769339 B)
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.0600025Z [command]/usr/bin/tar -xf /home/runner/work/_temp/41b0f131-0586-4210-b3fa-e00940d26a2a/cache.tzst -P -C /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver --use-compress-program unzstd
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.1923552Z Cache restored successfully
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.1943413Z [command]/home/runner/.bun/bin/bun --revision
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.1977794Z 1.3.9+cf6cdbbba
-review	Run oven-sh/setup-bun@v2	2026-09-27T20:34:05.1982790Z Using a cached version of Bun: 1.3.9+cf6cdbbba
-review	Run bun install --frozen-lockfile	﻿2026-09-27T20:34:05.2151120Z ##[group]Run bun install --frozen-lockfile
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:05.2151563Z [36;1mbun install --frozen-lockfile[0m
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:05.2657747Z shell: /usr/bin/bash -e {0}
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:05.2658058Z ##[endgroup]
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:05.2775982Z bun install v1.3.9 (cf6cdbbb)
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7083666Z 
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7084544Z + @biomejs/biome@2.5.14
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7085717Z + @tscircuit/capacity-autorouter@0.0.938
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7085985Z + @tscircuit/checks@0.0.221
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7086276Z + @tscircuit/core@vendor/tscircuit-core-0.0.1993-dualtt.4.tgz
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7086593Z + @tscircuit/props@0.0.666
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7086798Z + @types/bun@1.4.2
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7087032Z + circuit-json@vendor/circuit-json-0.0.506-dualtt.1.tgz
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7087309Z + tscircuit@0.0.2646
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7087493Z + typescript@5.9.3
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7087609Z 
-review	Run bun install --frozen-lockfile	2026-09-27T20:34:09.7087695Z 293 packages installed [4.43s]
-review	Run bun run format:check	﻿2026-09-27T20:34:09.7348125Z ##[group]Run bun run format:check
-review	Run bun run format:check	2026-09-27T20:34:09.7348400Z [36;1mbun run format:check[0m
-review	Run bun run format:check	2026-09-27T20:34:09.7406748Z shell: /usr/bin/bash -e {0}
-review	Run bun run format:check	2026-09-27T20:34:09.7406985Z ##[endgroup]
-review	Run bun run format:check	2026-09-27T20:34:09.7495625Z $ biome format .
-review	Run bun run format:check	2026-09-27T20:34:09.7986543Z Checked 33 files in 16ms. No fixes applied.
-review	Run bun run typecheck	﻿2026-09-27T20:34:09.8066788Z ##[group]Run bun run typecheck
-review	Run bun run typecheck	2026-09-27T20:34:09.8067057Z [36;1mbun run typecheck[0m
-review	Run bun run typecheck	2026-09-27T20:34:09.8127626Z shell: /usr/bin/bash -e {0}
-review	Run bun run typecheck	2026-09-27T20:34:09.8127882Z ##[endgroup]
-review	Run bun run typecheck	2026-09-27T20:34:09.8221771Z $ tsc --noEmit
-review	Run bun run build	﻿2026-09-27T20:34:15.1351362Z ##[group]Run bun run build
-review	Run bun run build	2026-09-27T20:34:15.1351633Z [36;1mbun run build[0m
-review	Run bun run build	2026-09-27T20:34:15.1425931Z shell: /usr/bin/bash -e {0}
-review	Run bun run build	2026-09-27T20:34:15.1426179Z ##[endgroup]
-review	Run bun run build	2026-09-27T20:34:15.1512186Z $ bun run guard:source && tsci build index.circuit.tsx && bun scripts/check-mechanical.ts && bun run guard && bun scripts/check-routed-connectivity.ts
-review	Run bun run build	2026-09-27T20:34:15.1537465Z $ bun scripts/check-routing-lock.ts --source-only
-review	Run bun run build	2026-09-27T20:34:15.7622781Z PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
-review	Run bun run build	2026-09-27T20:34:18.7447135Z Building 1 file(s)...
-review	Run bun run build	2026-09-27T20:34:18.7450327Z Building index.circuit.tsx...
-review	Run bun run build	2026-09-27T20:34:18.7455292Z Generating circuit JSON...
-review	Run bun run build	2026-09-27T20:34:25.0171531Z Circuit JSON written to dist/index/circuit.json
-review	Run bun run build	2026-09-27T20:34:25.0177998Z The "Q" prefix is being used with a <chip />, try using it with a <transistor />
-review	Run bun run build	2026-09-27T20:34:25.0178596Z Component TH1 has ftype="simple_resistor" but reference designator should start with R
-review	Run bun run build	2026-09-27T20:34:25.0179196Z Q1 has no pin with requires_power=true
-review	Run bun run build	2026-09-27T20:34:25.0179505Z Q1 has no pin with requires_ground=true
-review	Run bun run build	2026-09-27T20:34:25.0180042Z F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T20:34:25.0180843Z D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T20:34:25.0181603Z TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
-review	Run bun run build	2026-09-27T20:34:25.0182542Z 
-review	Run bun run build	2026-09-27T20:34:25.0194333Z Build complete
-review	Run bun run build	2026-09-27T20:34:25.0194623Z   Circuits  1 passed
-review	Run bun run build	2026-09-27T20:34:25.0194877Z   Output    dist
-review	Run bun run build	2026-09-27T20:34:25.0195238Z 
-review	Run bun run build	2026-09-27T20:34:25.0195526Z ✓ Done
-review	Run bun run build	2026-09-27T20:34:25.0195734Z Build exiting with code 0: build finished successfully
-review	Run bun run build	2026-09-27T20:34:27.1177191Z Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
-review	Run bun run build	2026-09-27T20:34:27.1181469Z H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T20:34:27.1182272Z H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T20:34:27.1194009Z H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T20:34:27.1194911Z H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
-review	Run bun run build	2026-09-27T20:34:27.1195789Z PASS: outline, four NPTH holes, four-layer keepouts and 53 courtyard envelopes
-review	Run bun run build	2026-09-27T20:34:27.1196556Z NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
-review	Run bun run build	2026-09-27T20:34:27.1330194Z $ bun scripts/check-routing-lock.ts
-review	Run bun run build	2026-09-27T20:34:29.4081168Z PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
-review	Run bun run build	2026-09-27T20:34:32.1780833Z Fresh native routing checks: 0 findings
-review	Run bun test	﻿2026-09-27T20:34:32.2022675Z ##[group]Run bun test
-review	Run bun test	2026-09-27T20:34:32.2022918Z [36;1mbun test[0m
-review	Run bun test	2026-09-27T20:34:32.2086358Z shell: /usr/bin/bash -e {0}
-review	Run bun test	2026-09-27T20:34:32.2086601Z ##[endgroup]
-review	Run bun test	2026-09-27T20:34:32.3065600Z bun test v1.3.9 (cf6cdbbb)
-review	Run bun test	2026-09-27T20:34:32.3116562Z 
-review	Run bun test	2026-09-27T20:34:32.3118028Z ##[group]tests/design-connectivity.test.ts:
-review	Run bun test	2026-09-27T20:34:32.3978647Z (pass) all components render, without component-creation or other error records [2.00ms]
-review	Run bun test	2026-09-27T20:34:32.3988634Z (pass) protection parts keep their physical manufacturer pin connections [1.00ms]
-review	Run bun test	2026-09-27T20:34:32.3997244Z (pass) all thirty ground returns share one electrical network without bypassing the shunts [1.00ms]
-review	Run bun test	2026-09-27T20:34:32.4000695Z (pass) ground connectivity detects an isolated exposed pad even when its net is also named GND
-review	Run bun test	2026-09-27T20:34:32.4003718Z (pass) NTC measuring current and host-enable margin stay within the design budget
-review	Run bun test	2026-09-27T20:34:32.4007250Z (pass) every driver pin matches the TI PWP pin table and intended circuit [1.00ms]
-review	Run bun test	2026-09-27T20:34:32.4096517Z (pass) driver copper, mask opening and paste match the rotated TI drawing [8.00ms]
-review	Run bun test	2026-09-27T20:34:32.4097025Z 
-review	Run bun test	2026-09-27T20:34:32.4097570Z ##[endgroup]
-review	Run bun test	2026-09-27T20:34:32.4097789Z 
-review	Run bun test	2026-09-27T20:34:32.4098161Z ##[group]tests/routed-connectivity.test.ts:
-review	Run bun test	2026-09-27T20:34:34.9230876Z (pass) every physical port and trace is connected [520.01ms]
-review	Run bun test	2026-09-27T20:34:34.9758837Z (pass) removing the ground pours exposes disconnected ground pads [53.00ms]
-review	Run bun test	2026-09-27T20:34:35.3289990Z (pass) removing a motor-output route exposes physical disconnection [353.01ms]
-review	Run bun test	2026-09-27T20:34:35.3290367Z 
-review	Run bun test	2026-09-27T20:34:35.3290812Z ##[endgroup]
-review	Run bun test	2026-09-27T20:34:35.3291639Z 
-review	Run bun test	2026-09-27T20:34:35.3292004Z ##[group]tests/routing-lock.test.ts:
-review	Run bun test	2026-09-27T20:34:39.4929309Z (pass) authorized routed-board contract > accepts the generated routed board and reviewed thermal vias [1984.04ms]
-review	Run bun test	2026-09-27T20:34:39.4992852Z (pass) authorized routed-board contract > accepts explicit routing authorization in source [6.00ms]
-review	Run bun test	2026-09-27T20:34:39.4997828Z (pass) authorized routed-board contract > rejects missing routing state [1.00ms]
-review	Run bun test	2026-09-27T20:34:39.5003451Z (pass) authorized routed-board contract > rejects disabled routing
-review	Run bun test	2026-09-27T20:34:39.5007227Z (pass) authorized routed-board contract > rejects a bare routingDisabled flag [1.00ms]
-review	Run bun test	2026-09-27T20:34:39.5012005Z (pass) authorized routed-board contract > rejects board prop spreads
-review	Run bun test	2026-09-27T20:34:41.3826462Z (pass) authorized routed-board contract > rejects a board with all routes removed [1882.04ms]
-review	Run bun test	2026-09-27T20:34:45.2814039Z (pass) authorized routed-board contract > rejects undersized generated vias [3898.08ms]
-review	Run bun test	2026-09-27T20:34:47.2059379Z (pass) authorized routed-board contract > rejects changed board via minimums [1925.04ms]
-review	Run bun test	2026-09-27T20:34:49.1734641Z (pass) authorized routed-board contract > rejects changed thermal via geometry [1967.04ms]
-review	Run bun test	2026-09-27T20:34:51.0164133Z (pass) authorized routed-board contract > rejects a missing inner ground plane [1843.04ms]
-review	Run bun test	2026-09-27T20:34:53.0101721Z (pass) authorized routed-board contract > rejects unknown schema elements [1994.04ms]
-review	Run bun test	2026-09-27T20:34:53.0102381Z 
-review	Run bun test	2026-09-27T20:34:53.0103125Z ##[endgroup]
-review	Run bun test	2026-09-27T20:34:53.0103428Z 
-review	Run bun test	2026-09-27T20:34:53.0103531Z  22 pass
-review	Run bun test	2026-09-27T20:34:53.0103733Z  0 fail
-review	Run bun test	2026-09-27T20:34:53.0103954Z  706 expect() calls
-review	Run bun test	2026-09-27T20:34:53.0105274Z Ran 22 tests across 3 files. [20.70s]
-review	Post Run oven-sh/setup-bun@v2	﻿2026-09-27T20:34:53.0409188Z Post job cleanup.
-review	Post Run actions/checkout@v4	﻿2026-09-27T20:34:53.1848514Z Post job cleanup.
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2556788Z [command]/usr/bin/git version
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2591728Z git version 2.55.0
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2622876Z Temporarily overriding HOME='/home/runner/work/_temp/fb232ab7-26fc-4da1-9016-bb91d287f2f7' before making global git config changes
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2623867Z Adding repository directory to the temporary git global config as a safe directory
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2627988Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/dual-tt-motor-driver/dual-tt-motor-driver
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2661362Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2690835Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2906633Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2932108Z http.https://github.com/.extraheader
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2941237Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.2972434Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.3188704Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
-review	Post Run actions/checkout@v4	2026-09-27T20:34:53.3221210Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
-review	Complete job	﻿2026-09-27T20:34:53.3612523Z Cleaning up orphan processes
-review	Complete job	2026-09-27T20:34:53.3857763Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+review	Set up job	﻿2026-09-28T14:06:11.9734260Z Current runner version: '2.337.0'
+review	Set up job	2026-09-28T14:06:11.9762742Z ##[group]Runner Image Provisioner
+review	Set up job	2026-09-28T14:06:11.9763672Z Hosted Compute Agent
+review	Set up job	2026-09-28T14:06:11.9764415Z Version: 20260828.587
+review	Set up job	2026-09-28T14:06:11.9765084Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+review	Set up job	2026-09-28T14:06:11.9766121Z Build Date: 2026-08-28T16:44:25Z
+review	Set up job	2026-09-28T14:06:11.9766908Z Worker ID: {5ca0b589-4560-4d67-ab88-7f3f2f79ed41}
+review	Set up job	2026-09-28T14:06:11.9767641Z Azure Region: eastus2
+review	Set up job	2026-09-28T14:06:11.9768374Z ##[endgroup]
+review	Set up job	2026-09-28T14:06:11.9769959Z ##[group]Operating System
+review	Set up job	2026-09-28T14:06:11.9770700Z Ubuntu
+review	Set up job	2026-09-28T14:06:11.9771246Z 24.04.5
+review	Set up job	2026-09-28T14:06:11.9771765Z LTS
+review	Set up job	2026-09-28T14:06:11.9772356Z ##[endgroup]
+review	Set up job	2026-09-28T14:06:11.9772925Z ##[group]Runner Image
+review	Set up job	2026-09-28T14:06:11.9773599Z Image: ubuntu-24.04
+review	Set up job	2026-09-28T14:06:11.9774194Z Version: 20260920.314.1
+review	Set up job	2026-09-28T14:06:11.9775525Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+review	Set up job	2026-09-28T14:06:11.9777529Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+review	Set up job	2026-09-28T14:06:11.9778628Z ##[endgroup]
+review	Set up job	2026-09-28T14:06:11.9779886Z ##[group]GITHUB_TOKEN Permissions
+review	Set up job	2026-09-28T14:06:11.9782632Z Contents: read
+review	Set up job	2026-09-28T14:06:11.9783334Z Metadata: read
+review	Set up job	2026-09-28T14:06:11.9783902Z Packages: read
+review	Set up job	2026-09-28T14:06:11.9784601Z ##[endgroup]
+review	Set up job	2026-09-28T14:06:11.9787266Z Secret source: Actions
+review	Set up job	2026-09-28T14:06:11.9788403Z Cache mode: write
+review	Set up job	2026-09-28T14:06:11.9789404Z Prepare workflow directory
+review	Set up job	2026-09-28T14:06:12.0132747Z Prepare all required actions
+review	Set up job	2026-09-28T14:06:12.0182165Z Getting action download info
+review	Set up job	2026-09-28T14:06:12.2624682Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+review	Set up job	2026-09-28T14:06:12.4072707Z Download action repository 'oven-sh/setup-bun@v2' (SHA:0c5077e51419868618aeaa5fe8019c62421857d6)
+review	Set up job	2026-09-28T14:06:12.6921440Z Complete job name: review
+review	Run actions/checkout@v4	﻿2026-09-28T14:06:12.7729209Z ##[group]Run actions/checkout@v4
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7730189Z with:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7730759Z   repository: AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7735546Z   token: ***
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7735999Z   ssh-strict: true
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7736441Z   ssh-user: git
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7736896Z   persist-credentials: true
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7737398Z   clean: true
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7737862Z   sparse-checkout-cone-mode: true
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7738396Z   fetch-depth: 1
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7738834Z   fetch-tags: false
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7739287Z   show-progress: true
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7739739Z   lfs: false
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7740155Z   submodules: false
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7740606Z   set-safe-directory: true
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7741120Z   allow-unsafe-pr-checkout: false
+review	Run actions/checkout@v4	2026-09-28T14:06:12.7742091Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8779974Z Syncing repository: AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8783022Z ##[group]Getting Git version info
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8784571Z Working directory is '/home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v'
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8786500Z [command]/usr/bin/git version
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8876466Z git version 2.55.0
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8901941Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8922347Z Temporarily overriding HOME='/home/runner/work/_temp/a7578f8e-e14a-49c5-bcc0-bceedee27955' before making global git config changes
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8925620Z Adding repository directory to the temporary git global config as a safe directory
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8930881Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v
+review	Run actions/checkout@v4	2026-09-28T14:06:12.8991622Z Deleting the contents of '/home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v'
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9003632Z ##[group]Initializing the repository
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9012714Z [command]/usr/bin/git init /home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9155386Z hint: Using 'master' as the name for the initial branch. This default branch name
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9157633Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9159253Z hint: to use in all of your new repositories, which will suppress this warning,
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9160528Z hint: call:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9161486Z hint:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9162296Z hint: 	git config --global init.defaultBranch <name>
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9163296Z hint:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9164318Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9166204Z hint: 'development'. The just-created branch can be renamed via this command:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9167457Z hint:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9168105Z hint: 	git branch -m <name>
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9169068Z hint:
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9169842Z hint: Disable this message with "git config set advice.defaultBranchName false"
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9171392Z Initialized empty Git repository in /home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v/.git/
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9178503Z [command]/usr/bin/git remote add origin https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9225504Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9227100Z ##[group]Disabling automatic garbage collection
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9230248Z [command]/usr/bin/git config --local gc.auto 0
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9266853Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9268064Z ##[group]Setting up auth
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9273429Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9313819Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9740968Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+review	Run actions/checkout@v4	2026-09-28T14:06:12.9779246Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+review	Run actions/checkout@v4	2026-09-28T14:06:13.0029582Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+review	Run actions/checkout@v4	2026-09-28T14:06:13.0071514Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+review	Run actions/checkout@v4	2026-09-28T14:06:13.0346892Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+review	Run actions/checkout@v4	2026-09-28T14:06:13.0396353Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:13.0398223Z ##[group]Fetching the repository
+review	Run actions/checkout@v4	2026-09-28T14:06:13.0408041Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +3e3889693500d535ef679ed5e26e5703415aea84:refs/remotes/origin/main
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6195685Z From https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6199774Z  * [new ref]         3e3889693500d535ef679ed5e26e5703415aea84 -> origin/main
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6207843Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6210651Z ##[group]Determining the checkout info
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6213898Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6215938Z [command]/usr/bin/git sparse-checkout disable
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6279594Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6313591Z ##[group]Checking out the ref
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6325935Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6869891Z Switched to a new branch 'main'
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6874471Z branch 'main' set up to track 'origin/main'.
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6886267Z ##[endgroup]
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6935045Z [command]/usr/bin/git log -1 --format=%H
+review	Run actions/checkout@v4	2026-09-28T14:06:13.6963105Z 3e3889693500d535ef679ed5e26e5703415aea84
+review	Run oven-sh/setup-bun@v2	﻿2026-09-28T14:06:13.7341839Z ##[group]Run oven-sh/setup-bun@v2
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:13.7343165Z with:
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:13.7344349Z   bun-version: 1.3.9
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:13.7345634Z   no-cache: false
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:13.7356726Z   token: ***
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:13.7357665Z ##[endgroup]
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.0211451Z Cache hit for: bun-AuUSW9alPX0VpeQncP5B/2hJwOM=
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.3724347Z Received 35769339 of 35769339 (100.0%), 117.6 MBs/sec
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.3726086Z Cache Size: ~34 MB (35769339 B)
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.3765863Z [command]/usr/bin/tar -xf /home/runner/work/_temp/b9ab04d1-e24f-4467-a75e-f19d052f736b/cache.tzst -P -C /home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v --use-compress-program unzstd
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.5507897Z Cache restored successfully
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.5532547Z [command]/home/runner/.bun/bin/bun --revision
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.5580864Z 1.3.9+cf6cdbbba
+review	Run oven-sh/setup-bun@v2	2026-09-28T14:06:14.5587413Z Using a cached version of Bun: 1.3.9+cf6cdbbba
+review	Run bun install --frozen-lockfile	﻿2026-09-28T14:06:14.5817163Z ##[group]Run bun install --frozen-lockfile
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:14.5817731Z [36;1mbun install --frozen-lockfile[0m
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:14.6126202Z shell: /usr/bin/bash -e {0}
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:14.6126765Z ##[endgroup]
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:14.6263015Z bun install v1.3.9 (cf6cdbbb)
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8557348Z
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8557915Z + @biomejs/biome@2.5.14
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8558466Z + @tscircuit/capacity-autorouter@0.0.938
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8558998Z + @tscircuit/checks@0.0.221
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8559768Z + @tscircuit/circuit-json-util@vendor/tscircuit-circuit-json-util-0.0.116-dualtt.1.tgz
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8560766Z + @tscircuit/core@vendor/tscircuit-core-0.0.1993-dualtt.6.tgz
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8561408Z + @tscircuit/props@0.0.666
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8561873Z + @types/bun@1.4.2
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8562333Z + circuit-json@vendor/circuit-json-0.0.506-dualtt.1.tgz
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8563177Z + tscircuit@0.0.2646
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8563612Z + typescript@5.9.3
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8563878Z
+review	Run bun install --frozen-lockfile	2026-09-28T14:06:19.8564149Z 292 packages installed [5.23s]
+review	Run bun run format:check	﻿2026-09-28T14:06:19.9000187Z ##[group]Run bun run format:check
+review	Run bun run format:check	2026-09-28T14:06:19.9000651Z [36;1mbun run format:check[0m
+review	Run bun run format:check	2026-09-28T14:06:19.9068238Z shell: /usr/bin/bash -e {0}
+review	Run bun run format:check	2026-09-28T14:06:19.9068554Z ##[endgroup]
+review	Run bun run format:check	2026-09-28T14:06:19.9176007Z $ biome format .
+review	Run bun run format:check	2026-09-28T14:06:19.9842857Z Checked 36 files in 27ms. No fixes applied.
+review	Run bun run typecheck	﻿2026-09-28T14:06:19.9947297Z ##[group]Run bun run typecheck
+review	Run bun run typecheck	2026-09-28T14:06:19.9947827Z [36;1mbun run typecheck[0m
+review	Run bun run typecheck	2026-09-28T14:06:20.0033690Z shell: /usr/bin/bash -e {0}
+review	Run bun run typecheck	2026-09-28T14:06:20.0034131Z ##[endgroup]
+review	Run bun run typecheck	2026-09-28T14:06:20.0162064Z $ tsc --noEmit
+review	Run bun run build	﻿2026-09-28T14:06:26.8685084Z ##[group]Run bun run build
+review	Run bun run build	2026-09-28T14:06:26.8707332Z [36;1mbun run build[0m
+review	Run bun run build	2026-09-28T14:06:26.8769448Z shell: /usr/bin/bash -e {0}
+review	Run bun run build	2026-09-28T14:06:26.8769746Z ##[endgroup]
+review	Run bun run build	2026-09-28T14:06:26.8871903Z $ bun run guard:source && tsci build index.circuit.tsx && bun scripts/check-mechanical.ts && bun run guard && bun scripts/check-routed-connectivity.ts
+review	Run bun run build	2026-09-28T14:06:26.8901395Z $ bun scripts/check-routing-lock.ts --source-only
+review	Run bun run build	2026-09-28T14:06:27.6657177Z PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+review	Run bun run build	2026-09-28T14:06:31.2903680Z Building 1 file(s)...
+review	Run bun run build	2026-09-28T14:06:31.2908416Z Building index.circuit.tsx...
+review	Run bun run build	2026-09-28T14:06:31.2914236Z Generating circuit JSON...
+review	Run bun run build	2026-09-28T14:06:38.7761403Z Circuit JSON written to dist/index/circuit.json
+review	Run bun run build	2026-09-28T14:06:38.7775651Z The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+review	Run bun run build	2026-09-28T14:06:38.7777220Z Component TH1 has ftype="simple_resistor" but reference designator should start with R
+review	Run bun run build	2026-09-28T14:06:38.7778888Z Q1 has no pin with requires_power=true
+review	Run bun run build	2026-09-28T14:06:38.7780026Z Q1 has no pin with requires_ground=true
+review	Run bun run build	2026-09-28T14:06:38.7781502Z F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-28T14:06:38.7783579Z D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-28T14:06:38.7785951Z TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+review	Run bun run build	2026-09-28T14:06:38.7787818Z
+review	Run bun run build	2026-09-28T14:06:38.7788239Z Build complete
+review	Run bun run build	2026-09-28T14:06:38.7789856Z   Circuits  1 passed
+review	Run bun run build	2026-09-28T14:06:38.7791708Z   Output    dist
+review	Run bun run build	2026-09-28T14:06:38.7792150Z
+review	Run bun run build	2026-09-28T14:06:38.7792591Z ✓ Done
+review	Run bun run build	2026-09-28T14:06:38.7793197Z Build exiting with code 0: build finished successfully
+review	Run bun run build	2026-09-28T14:06:41.4045526Z Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
+review	Run bun run build	2026-09-28T14:06:41.4049066Z H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-28T14:06:41.4050658Z H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-28T14:06:41.4051963Z H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-28T14:06:41.4055945Z H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
+review	Run bun run build	2026-09-28T14:06:41.4057930Z PASS: outline, four NPTH holes, four-layer keepouts and 54 courtyard envelopes
+review	Run bun run build	2026-09-28T14:06:41.4058959Z NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
+review	Run bun run build	2026-09-28T14:06:41.4251307Z $ bun scripts/check-routing-lock.ts
+review	Run bun run build	2026-09-28T14:06:44.3518212Z PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+review	Run bun run build	2026-09-28T14:06:47.8585397Z Fresh native routing checks: 0 findings
+review	Run bun test	﻿2026-09-28T14:06:47.8859694Z ##[group]Run bun test
+review	Run bun test	2026-09-28T14:06:47.8860009Z [36;1mbun test[0m
+review	Run bun test	2026-09-28T14:06:47.8923756Z shell: /usr/bin/bash -e {0}
+review	Run bun test	2026-09-28T14:06:47.8924089Z ##[endgroup]
+review	Run bun test	2026-09-28T14:06:47.9035804Z bun test v1.3.9 (cf6cdbbb)
+review	Run bun test	2026-09-28T14:06:47.9097931Z
+review	Run bun test	2026-09-28T14:06:47.9099969Z ##[group]tests/design-connectivity.test.ts:
+review	Run bun test	2026-09-28T14:06:48.0206931Z (pass) all components render, without component-creation or other error records [2.00ms]
+review	Run bun test	2026-09-28T14:06:48.0220851Z (pass) protection parts keep their physical manufacturer pin connections [2.00ms]
+review	Run bun test	2026-09-28T14:06:48.0233124Z (pass) all ground returns share one electrical network without bypassing the shunts [1.00ms]
+review	Run bun test	2026-09-28T14:06:48.0237249Z (pass) ground connectivity detects an isolated exposed pad even when its net is also named GND [1.00ms]
+review	Run bun test	2026-09-28T14:06:48.0241160Z (pass) NTC measuring current and host-enable margin stay within the design budget
+review	Run bun test	2026-09-28T14:06:48.0249691Z (pass) the normally open disable button connects only ENABLE and ground through the correct contact pairs [1.00ms]
+review	Run bun test	2026-09-28T14:06:48.0254955Z (pass) every driver pin matches the TI PWP pin table and intended circuit
+review	Run bun test	2026-09-28T14:06:48.0366613Z (pass) driver copper, mask opening and paste match the rotated TI drawing [11.00ms]
+review	Run bun test	2026-09-28T14:06:48.0367312Z
+review	Run bun test	2026-09-28T14:06:48.0367923Z ##[endgroup]
+review	Run bun test	2026-09-28T14:06:48.0368071Z
+review	Run bun test	2026-09-28T14:06:48.0368379Z ##[group]tests/manufacturing-release.test.ts:
+review	Run bun test	2026-09-28T14:06:50.4925024Z (pass) stencil contains only top purchased-SMT apertures, never bare test pads or THT [14.00ms]
+review	Run bun test	2026-09-28T14:06:50.4962696Z (pass) all 40 automated SMT placements have verified supplier rotations [4.00ms]
+review	Run bun test	2026-09-28T14:06:50.4970215Z (pass) U1 bypasses remain local and the AISEN current path retains its wider copper [1.00ms]
+review	Run bun test	2026-09-28T14:06:50.4970850Z
+review	Run bun test	2026-09-28T14:06:50.4971468Z ##[endgroup]
+review	Run bun test	2026-09-28T14:06:50.4971664Z
+review	Run bun test	2026-09-28T14:06:50.4972126Z ##[group]tests/routed-connectivity.test.ts:
+review	Run bun test	2026-09-28T14:06:53.7214240Z (pass) every physical port and trace is connected [633.00ms]
+review	Run bun test	2026-09-28T14:06:53.7865804Z (pass) removing the ground pours exposes disconnected ground pads [65.00ms]
+review	Run bun test	2026-09-28T14:06:54.1938418Z (pass) removing a motor-output route exposes physical disconnection [408.00ms]
+review	Run bun test	2026-09-28T14:06:54.1938903Z
+review	Run bun test	2026-09-28T14:06:54.1939395Z ##[endgroup]
+review	Run bun test	2026-09-28T14:06:54.1940497Z
+review	Run bun test	2026-09-28T14:06:54.1941152Z ##[group]tests/routing-lock.test.ts:
+review	Run bun test	2026-09-28T14:06:59.2808611Z (pass) authorized routed-board contract > accepts the generated routed board and reviewed thermal vias [2450.01ms]
+review	Run bun test	2026-09-28T14:06:59.2894642Z (pass) authorized routed-board contract > accepts explicit routing authorization in source [8.00ms]
+review	Run bun test	2026-09-28T14:06:59.2900393Z (pass) authorized routed-board contract > rejects missing routing state [1.00ms]
+review	Run bun test	2026-09-28T14:06:59.2908900Z (pass) authorized routed-board contract > rejects disabled routing [1.00ms]
+review	Run bun test	2026-09-28T14:06:59.2914524Z (pass) authorized routed-board contract > rejects a bare routingDisabled flag
+review	Run bun test	2026-09-28T14:06:59.2921943Z (pass) authorized routed-board contract > rejects board prop spreads [1.00ms]
+review	Run bun test	2026-09-28T14:07:01.4938084Z (pass) authorized routed-board contract > rejects a board with all routes removed [2202.01ms]
+review	Run bun test	2026-09-28T14:07:06.1582426Z (pass) authorized routed-board contract > rejects undersized generated vias [4664.03ms]
+review	Run bun test	2026-09-28T14:07:08.5449572Z (pass) authorized routed-board contract > rejects changed board via minimums [2387.01ms]
+review	Run bun test	2026-09-28T14:07:10.8738277Z (pass) authorized routed-board contract > rejects changed thermal via geometry [2329.01ms]
+review	Run bun test	2026-09-28T14:07:13.1828537Z (pass) authorized routed-board contract > rejects a missing inner ground plane [2309.01ms]
+review	Run bun test	2026-09-28T14:07:15.4933266Z (pass) authorized routed-board contract > rejects unknown schema elements [2310.01ms]
+review	Run bun test	2026-09-28T14:07:15.4934593Z
+review	Run bun test	2026-09-28T14:07:15.4935564Z ##[endgroup]
+review	Run bun test	2026-09-28T14:07:15.4935720Z
+review	Run bun test	2026-09-28T14:07:15.4935809Z  26 pass
+review	Run bun test	2026-09-28T14:07:15.4935996Z  0 fail
+review	Run bun test	2026-09-28T14:07:15.4936211Z  1139 expect() calls
+review	Run bun test	2026-09-28T14:07:15.4937001Z Ran 26 tests across 4 files. [27.59s]
+review	Post Run oven-sh/setup-bun@v2	﻿2026-09-28T14:07:15.5309028Z Post job cleanup.
+review	Post Run actions/checkout@v4	﻿2026-09-28T14:07:15.7202777Z Post job cleanup.
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8108703Z [command]/usr/bin/git version
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8158267Z git version 2.55.0
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8204619Z Temporarily overriding HOME='/home/runner/work/_temp/4750ddce-2fdc-43e0-a2d6-2bba9f8be8e6' before making global git config changes
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8206672Z Adding repository directory to the temporary git global config as a safe directory
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8212036Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/drv8833-dual-tt-motor-driver-3-6v/drv8833-dual-tt-motor-driver-3-6v
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8256063Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8296630Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8553949Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8585811Z http.https://github.com/.extraheader
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8599402Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8641824Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8908803Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+review	Post Run actions/checkout@v4	2026-09-28T14:07:15.8950180Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+review	Complete job	﻿2026-09-28T14:07:15.9383317Z Cleaning up orphan processes
+review	Complete job	2026-09-28T14:07:15.9693252Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
