@@ -1,0 +1,29 @@
+{
+  "c_number": "C23138",
+  "references": "R4, R5, R6, R7, R8",
+  "quantity_per_board": 5,
+  "quantity_for_five_boards": 25,
+  "checked_at": "2026-09-28T09:24:11.985392+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C23138",
+  "response_sha256": "4ea7145d57194030d4dec01b26401ec1bbca6de8b515c19e9b68a5aa8a3bf81c",
+  "catalog_fields": {
+    "componentCode": "C23138",
+    "componentModelEn": "0603WAF3300T5E",
+    "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+    "componentSpecificationEn": "0603",
+    "overseasStockCount": 3385437,
+    "canPresaleNumber": 2962497,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 10,
+    "leastPatchNumber": 20,
+    "preMinPurchaseNum": 4512,
+    "noBuyReason": null,
+    "initialPrice": 0.0026,
+    "componentLibraryType": "base",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

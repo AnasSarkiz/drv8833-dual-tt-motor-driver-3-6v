@@ -83,7 +83,12 @@ export function TemperatureTest() {
           padDiameter="1.2mm"
           footprint={
             <footprint>
-              <smtpad shape="circle" radius={0.6} portHints={["pin1"]} />
+              <smtpad
+                shape="circle"
+                radius={0.6}
+                solderPasteMargin={-0.6}
+                portHints={["pin1"]}
+              />
               <courtyardcircle radius={0.85} />
             </footprint>
           }

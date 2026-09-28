@@ -91,7 +91,7 @@ export function MotorDriver() {
       <CL21A106KAYNNNE
         name="C3"
         schOrientation="vertical"
-        pcbX={-3}
+        pcbX={-4.3}
         pcbY={6.5}
         schX={-10}
         schY={8}
@@ -102,7 +102,7 @@ export function MotorDriver() {
       <CL21A106KAYNNNE
         name="C4"
         schOrientation="vertical"
-        pcbX={3}
+        pcbX={4.3}
         pcbY={7}
         schX={-6}
         schY={8}
@@ -113,9 +113,9 @@ export function MotorDriver() {
       <CL10A225KO8NNNC
         name="C5"
         schOrientation="vertical"
-        pcbX={-5.5}
-        pcbY={1.5}
-        pcbRotation={180}
+        pcbX={-0.975}
+        pcbY={5.65}
+        pcbRotation={90}
         schX={0}
         schY={8}
         schSheetName="Dual_Motor_Driver"
@@ -125,8 +125,9 @@ export function MotorDriver() {
       <A_0603B103K500NT
         name="C6"
         schOrientation="vertical"
-        pcbX={5.5}
-        pcbY={3}
+        pcbX={0.975}
+        pcbY={5.65}
+        pcbRotation={90}
         schX={6}
         schY={8}
         schSheetName="Dual_Motor_Driver"

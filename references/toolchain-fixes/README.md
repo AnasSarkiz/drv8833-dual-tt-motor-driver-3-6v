@@ -11,3 +11,5 @@ Validation: the schema suite passed 397 tests / 1,899 assertions. Core's focused
 No upstream issue, PR or npm publication has been made. These archives travel with this board for reproducibility while the canonical fixes await separate upstream review.
 
 Saved-route fixes accept the actual copper layers of plated connector pads and preserve existing via contacts with their local trace widths. The six saved-route regression tests pass (39 assertions), including invalid anchors/layers/coverage and existing fanout cases. The generated board is still checked by the complete native routing checks. No electrical check is bypassed.
+
+Alpha.5 uses core dualtt.6 plus circuit-json-util dualtt.1. These add THT stencil correction, LED axis-rounding classification, orientation cache v4 and outline-keepout transform support. `core-assembly-regressions.log` records six passing assembly cases. Two unrelated visual snapshot mismatches reproduce on baseline source (`core-baseline-artwork.log`, `utility-baseline-snapshot.log`); their snapshots were not rewritten. All board checks pass independently.

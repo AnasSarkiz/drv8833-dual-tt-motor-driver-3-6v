@@ -7,6 +7,7 @@ Run from the repository root. Quantity excludes assembler-calculated attrition.
 from datetime import datetime, timezone
 from pathlib import Path
 import hashlib
+import os
 import json
 import re
 import sys
@@ -15,7 +16,7 @@ import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
-DESTINATION = ROOT / "artifacts/order-review"
+DESTINATION = ROOT / os.environ.get("DUAL_TT_REVIEW_DIR", "artifacts/order-review")
 FIELDS = [
     "componentCode", "componentModelEn", "componentBrandEn",
     "componentSpecificationEn", "overseasStockCount", "canPresaleNumber",

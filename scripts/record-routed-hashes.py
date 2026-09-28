@@ -8,7 +8,7 @@ paths = set()
 for pattern in [
     '*.md', '*.json', '*.csv', '*.tsx', 'bun.lock',
     'lib/**/*', 'imports/**/*', 'scripts/**/*', 'tests/**/*',
-    'references/**/*', 'vendor/*', '.github/workflows/*', 'artifacts/routed/**/*',
+    'references/**/*', 'vendor/*', '.github/workflows/*', 'artifacts/routed/**/*', 'artifacts/order-release/**/*',
 ]:
     paths.update(path for path in root.glob(pattern) if path.is_file())
 excluded = {

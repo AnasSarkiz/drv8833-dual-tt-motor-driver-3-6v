@@ -1,0 +1,29 @@
+{
+  "c_number": "C2289",
+  "references": "LED1, LED2, LED3, LED4",
+  "quantity_per_board": 4,
+  "quantity_for_five_boards": 20,
+  "checked_at": "2026-09-28T09:23:30.044544+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C2289",
+  "response_sha256": "f3f1a348b4175031ec883d3781cd5a4effc6f19157a46e931daa6d0df687db9e",
+  "catalog_fields": {
+    "componentCode": "C2289",
+    "componentModelEn": "KT-0603YG",
+    "componentBrandEn": "Hubei KENTO Elec",
+    "componentSpecificationEn": "0603",
+    "overseasStockCount": 36862,
+    "canPresaleNumber": 34957,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 10,
+    "leastPatchNumber": 20,
+    "preMinPurchaseNum": 1014,
+    "noBuyReason": null,
+    "initialPrice": 0.0111,
+    "componentLibraryType": "expand",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

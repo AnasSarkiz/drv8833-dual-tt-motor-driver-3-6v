@@ -1,0 +1,83 @@
+diff --git a/lib/analyze-pcb-pin1-location.ts b/lib/analyze-pcb-pin1-location.ts
+index 6aea00b..110c1e1 100644
+--- a/lib/analyze-pcb-pin1-location.ts
++++ b/lib/analyze-pcb-pin1-location.ts
+@@ -148,12 +148,15 @@ export const analyzePcbPin1Location = (
+   // Applying the same convention to local and supplier pads preserves their
+   // relative rotation, including the 180-degree polarity reversal.
+   if (numberedPads.length === 2 && nextNumberedPad.pinNumber === 2) {
++    // Imported pad coordinates can differ by a sub-micron conversion rounding.
++    // This tolerance only classifies a two-terminal axis; it does not alter copper.
++    const axisToleranceMm = Math.max(tolerance, 0.001)
+     const dx = nextNumberedPad.center.x - pin1Center.x
+     const dy = nextNumberedPad.center.y - pin1Center.y
+-    if (Math.abs(dy) <= tolerance && Math.abs(dx) > tolerance) {
++    if (Math.abs(dy) <= axisToleranceMm && Math.abs(dx) > axisToleranceMm) {
+       return dx > 0 ? "topside_left" : "bottomside_right"
+     }
+-    if (Math.abs(dx) <= tolerance && Math.abs(dy) > tolerance) {
++    if (Math.abs(dx) <= axisToleranceMm && Math.abs(dy) > axisToleranceMm) {
+       return dy > 0 ? "leftside_bottom" : "rightside_top"
+     }
+   }
+diff --git a/lib/transform-soup-elements.ts b/lib/transform-soup-elements.ts
+index a8b9d5f..db4b92a 100644
+--- a/lib/transform-soup-elements.ts
++++ b/lib/transform-soup-elements.ts
+@@ -171,6 +171,8 @@ export const transformPCBElement = (elm: AnyCircuitElement, matrix: Matrix) => {
+         }
+       })
+     }
++  } else if (elm.type === "pcb_keepout" && elm.shape === "outline") {
++    elm.outline = elm.outline.map((point) => applyToPoint(matrix, point))
+   } else if (elm.type === "pcb_keepout" || elm.type === "pcb_board") {
+     // TODO adjust size/rotation
+     elm.center = applyToPoint(matrix, elm.center)
+diff --git a/tests/analyze-pcb-pin1-location.test.ts b/tests/analyze-pcb-pin1-location.test.ts
+index 246bf91..ba0d82c 100644
+--- a/tests/analyze-pcb-pin1-location.test.ts
++++ b/tests/analyze-pcb-pin1-location.test.ts
+@@ -147,3 +147,23 @@ test("does not guess a two-pad frame without distinct axis-aligned pins 1 and 2"
+     expect(analyzePcbPin1Location(pads)).toBeNull()
+   }
+ })
++
++// Actual imported LED pad centers, including inch-to-mm rounding.
++test("retains two-terminal polarity across sub-micron imported offsets", () => {
++  const importedPads = [
++    createPad(1, -0.7489952, -0.000127),
++    createPad(2, 0.7489952, 0.000127),
++  ]
++  for (const supplierRotation of rightAngles) {
++    for (const localRotation of rightAngles) {
++      const supplier = analyzePcbPin1Location(rotatePads(importedPads, supplierRotation))
++      const local = analyzePcbPin1Location(rotatePads(importedPads, localRotation))
++      expect(supplier).not.toBeNull()
++      expect(local).not.toBeNull()
++      expect(getRotationBetweenPcbPin1Locations(supplier!, local!)).toBe(
++        ((localRotation - supplierRotation + 360) % 360) as RightAngleRotation,
++      )
++    }
++  }
++  expect(analyzePcbPin1Location([createPad(1, -0.75, 0), createPad(2, 0.75, 0.005)])).toBeNull()
++})
+diff --git a/tests/transform-outline-keepout.test.ts b/tests/transform-outline-keepout.test.ts
+new file mode 100644
+index 0000000..6ee67ca
+--- /dev/null
++++ b/tests/transform-outline-keepout.test.ts
+@@ -0,0 +1,14 @@
++import { expect, test } from "bun:test"
++import { pcb_keepout } from "circuit-json"
++import { compose, rotateDEG, translate } from "transformation-matrix"
++import { transformPCBElement } from "../lib/transform-soup-elements"
++
++test("outline keepouts transform their vertices without a synthetic center", () => {
++  const keepout = pcb_keepout.parse({ type: "pcb_keepout", pcb_keepout_id: "keepout_0", shape: "outline", outline: [{x: 0, y: 0}, {x: 2, y: 0}, {x: 2, y: 1}], stroke_width: 0.1, layers: ["top"] })
++  transformPCBElement(keepout, compose(translate(3, 4), rotateDEG(90)))
++  if (keepout.shape !== "outline") throw new Error("Expected outline keepout")
++  expect(keepout.outline[0]).toEqual({ x: 3, y: 4 })
++  expect(keepout.outline[1]).toEqual({ x: 3, y: 6 })
++  expect(keepout.outline[2]).toEqual({ x: 2, y: 6 })
++  expect("center" in keepout).toBe(false)
++})

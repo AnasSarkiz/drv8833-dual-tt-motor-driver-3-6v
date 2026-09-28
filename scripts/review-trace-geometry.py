@@ -1,7 +1,9 @@
 from pathlib import Path
 from collections import defaultdict
-import json, math, csv, hashlib
+import json, math, csv, hashlib, os
 root=Path(__file__).resolve().parent.parent
+review_directory = root / os.environ.get('DUAL_TT_REVIEW_DIR', 'artifacts/order-review')
+review_directory.mkdir(parents=True, exist_ok=True)
 c=json.loads((root/'dist/index/circuit.json').read_text())
 by=defaultdict(list)
 for e in c: by[e['type']].append(e)
@@ -80,7 +82,7 @@ for i,h in enumerate(holes):
   gap=dist(h['xy'],hh['xy'])-h['radius']-hh['radius']
   if gap<limit-1e-5:hole_pairs.append({'holes':[h['id'],hh['id']],'gap_mm':gap,'minimum_mm':limit})
 report={'source_sha256':hashlib.sha256((root/'dist/index/circuit.json').read_bytes()).hexdigest(),'trace_count':len(traces),'segment_count':len(segments),'traces':traces,'hole_to_trace_minima':minima,'hole_to_trace_violations':clearance,'hole_spacing_violations':hole_pairs,'scope':'Exact centerline/capsule trace geometry and round drills; this supplemental audit does not replace native DRC, polygon/mask validation or manufacturer CAM review.'}
-(root/'artifacts/order-review/trace-geometry.json').write_text(json.dumps(report,indent=2)+'\n')
+(review_directory/'trace-geometry.json').write_text(json.dumps(report,indent=2)+'\n')
 print('TRACES',len(traces),'SEGMENTS',len(segments),'HOLE TRACE VIOLATIONS',len(clearance),'HOLE HOLE VIOLATIONS',len(hole_pairs))
 print('MINIMA',json.dumps(minima,indent=2))
 for t in traces:
@@ -131,10 +133,10 @@ for hole in holes:
 report['hole_to_pad_pour_violations']=extra
 report['hole_to_pad_pour_minima']=extra_minima
 report['scope']='Exact centerline/capsule trace geometry, round drills, axis-aligned pads and generated pour polygon edges. Supplemental review; does not replace native DRC, solder-mask validation or manufacturer CAM review.'
-(root/'artifacts/order-review/trace-geometry.json').write_text(json.dumps(report,indent=2)+'\n')
+(review_directory/'trace-geometry.json').write_text(json.dumps(report,indent=2)+'\n')
 print('DRILL TO PAD/POUR VIOLATIONS',len(extra))
 print(json.dumps(extra_minima,indent=2))
-with (root/'artifacts/order-review/trace-inventory.csv').open('w') as output:
+with (review_directory/'trace-inventory.csv').open('w') as output:
  writer=csv.writer(output)
  writer.writerow(['Trace','Net','Planar length mm','Minimum width mm','Maximum width mm','Layers','Via transitions','Nonzero segments','Turns >90 deg','Proper self crossings'])
  for t in traces:

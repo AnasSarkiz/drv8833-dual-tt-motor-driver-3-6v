@@ -1,0 +1,29 @@
+{
+  "c_number": "C285392",
+  "references": "C1, C2",
+  "quantity_per_board": 2,
+  "quantity_for_five_boards": 10,
+  "checked_at": "2026-09-28T09:23:12.210995+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C285392",
+  "response_sha256": "6208c9438642f8151d4cfdba11c125bb60f8fe1b0ae6e48c57e50338370bcd2d",
+  "catalog_fields": {
+    "componentCode": "C285392",
+    "componentModelEn": "VZH221M1CTR-0607",
+    "componentBrandEn": "Lelon",
+    "componentSpecificationEn": "SMD,D6.3xL7.7mm",
+    "overseasStockCount": 577,
+    "canPresaleNumber": 387,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 1,
+    "leastPatchNumber": 5,
+    "preMinPurchaseNum": 156,
+    "noBuyReason": null,
+    "initialPrice": 0.0718,
+    "componentLibraryType": "expand",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

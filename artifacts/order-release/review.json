@@ -1,0 +1,24 @@
+{
+  "revision": "0.1.0-alpha.5",
+  "date": "2026-09-28",
+  "board_tests": {
+    "passed": 25,
+    "failed": 0,
+    "assertions": 1077
+  },
+  "native_routing_findings": 0,
+  "placement_drc_errors": 0,
+  "placement_drc_warnings": 0,
+  "placement_advisory": "C7 rotation heuristic retained; existing routed copper passes",
+  "gerber_shorts_all_layers": 0,
+  "top_paste_flashes": 106,
+  "bottom_paste_flashes": 0,
+  "smt_placements_per_board": 39,
+  "manual_tht_per_board": 7,
+  "verified_smt_supplier_rotations": 39,
+  "stock_types_checked": 21,
+  "stock_covers_five_board_placement_quantities": true,
+  "stock_reserved": false,
+  "manufacturer_cam_accepted": false,
+  "order_placed": false
+}

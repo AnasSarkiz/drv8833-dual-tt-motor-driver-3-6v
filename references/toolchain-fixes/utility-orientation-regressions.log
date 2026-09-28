@@ -1,0 +1,18 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/analyze-pcb-pin1-location.test.ts:
+(pass) analyzes all semantic pin 1 locations [1.68ms]
+(pass) returns null for ambiguous multi-pad footprints and missing pin 1 [0.34ms]
+(pass) infers a consistent two-pad LED frame at each right-angle rotation [0.16ms]
+(pass) recovers supplier-to-local LED rotation for every pair of frames [0.23ms]
+(pass) two-pad frames do not depend on pad order, origin or small rounding errors
+(pass) does not guess a two-pad frame without distinct axis-aligned pins 1 and 2
+(pass) retains two-terminal polarity across sub-micron imported offsets
+
+tests/transform-outline-keepout.test.ts:
+(pass) outline keepouts transform their vertices without a synthetic center [1.11ms]
+
+ 8 pass
+ 0 fail
+ 120 expect() calls
+Ran 8 tests across 2 files. [39.00ms]

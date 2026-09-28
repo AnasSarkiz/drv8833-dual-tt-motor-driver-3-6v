@@ -1,0 +1,29 @@
+{
+  "c_number": "C49257",
+  "references": "J4, J5, J6, J7",
+  "quantity_per_board": 4,
+  "quantity_for_five_boards": 20,
+  "checked_at": "2026-09-28T09:24:05.992427+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C49257",
+  "response_sha256": "038280cd30b5fbebe8bcb9805986ea6e2151346f23d4a381dadf96c6a448d108",
+  "catalog_fields": {
+    "componentCode": "C49257",
+    "componentModelEn": "2.54-1*3PPin",
+    "componentBrandEn": "BOOMELE(Boom Precision Elec)",
+    "componentSpecificationEn": "Plugin,P=2.54mm",
+    "overseasStockCount": 219625,
+    "canPresaleNumber": 209264,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 2,
+    "leastPatchNumber": 2,
+    "preMinPurchaseNum": 400,
+    "noBuyReason": null,
+    "initialPrice": 0.0275,
+    "componentLibraryType": "expand",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

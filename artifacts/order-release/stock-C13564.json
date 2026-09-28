@@ -1,0 +1,29 @@
+{
+  "c_number": "C13564",
+  "references": "TH1",
+  "quantity_per_board": 1,
+  "quantity_for_five_boards": 5,
+  "checked_at": "2026-09-28T09:24:47.394951+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C13564",
+  "response_sha256": "562f5a46cc973a786fd3d9a5e6faef83ed375079de2fd83c93b44911a0c86190",
+  "catalog_fields": {
+    "componentCode": "C13564",
+    "componentModelEn": "NCP18XH103F03RB",
+    "componentBrandEn": "Murata Electronics",
+    "componentSpecificationEn": "0603",
+    "overseasStockCount": 282925,
+    "canPresaleNumber": 278802,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 4,
+    "leastPatchNumber": 5,
+    "preMinPurchaseNum": 232,
+    "noBuyReason": null,
+    "initialPrice": 0.0463,
+    "componentLibraryType": "expand",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

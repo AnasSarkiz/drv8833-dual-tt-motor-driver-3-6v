@@ -1,0 +1,77 @@
+placement summary: 1 suboptimal orientation
+
+worst issues:
+1. C7 connections cross the routing path between its pads. Suggested move: rotate C7 180 degrees.
+
+board top-layer utilization:
+- occupied: 20.664% (929.885mm^2 of 4500mm^2)
+- empty spaces over 5% of board area:
+  - 13.304% (598.671mm^2); bounds=(minX=-37.5mm, maxX=37.5mm, minY=22.018mm, maxY=30mm)
+  - 11.492% (517.154mm^2); bounds=(minX=-37.5mm, maxX=-8.395mm, minY=-30mm, maxY=-12.231mm)
+
+board-edge status:
+- J1: 8.4mm inside left edge
+- F1: 15.565mm inside bottom edge
+- Q1: 17.07mm inside bottom edge
+- C1: 11.315mm inside left edge
+- C2: 21.315mm inside left edge
+- D1: 6.116mm inside left edge
+- R1: 17.343mm inside left edge
+- LED1: 19.6mm inside top edge
+- U1: 26.35mm inside top edge
+- R2: 19.272mm inside top edge
+- R3: 19.272mm inside top edge
+- J2: 4.9mm inside top edge
+- J3: 4.9mm inside top edge
+- C3: 22.825mm inside bottom edge
+- C4: 22.325mm inside bottom edge
+- C5: 23.25mm inside bottom edge
+- C6: 23.25mm inside bottom edge
+- J4: 10.166mm inside right edge
+- J5: 10.166mm inside right edge
+- J6: 10.166mm inside right edge
+- R4: 12.568mm inside bottom edge
+- R9: 12.568mm inside bottom edge
+- R5: 16.568mm inside bottom edge
+- R10: 16.568mm inside bottom edge
+- R6: 19.343mm inside right edge
+- R11: 20.568mm inside bottom edge
+- R7: 19.343mm inside right edge
+- R12: 24.343mm inside right edge
+- R8: 19.343mm inside right edge
+- R13: 24.343mm inside right edge
+- U2: 17.825mm inside bottom edge
+- C7: 18.55mm inside bottom edge
+- R14: 12.343mm inside right edge
+- R15: 12.568mm inside bottom edge
+- LED2: 8.6mm inside bottom edge
+- R16: 12.568mm inside bottom edge
+- LED3: 8.6mm inside bottom edge
+- R17: 12.568mm inside bottom edge
+- LED4: 8.6mm inside bottom edge
+- R18: 12.343mm inside right edge
+- LED5: 7.35mm inside right edge
+- R19: 19.568mm inside bottom edge
+- TH1: 22.568mm inside bottom edge
+- R20: 7.343mm inside right edge
+- C8: 12.4mm inside right edge
+- J7: 8.166mm inside right edge
+- TP1: 14.4mm inside top edge
+- TP2: 16.4mm inside top edge
+- TP3: 14.4mm inside top edge
+- TP4: 16.9mm inside left edge
+- TP5: 14.4mm inside top edge
+- TP6: 14.4mm inside top edge
+- TP7: 14.4mm inside top edge
+
+flagged components:
+- C7
+  source placement: placement_mode=none
+  resolved placement: center=(1mm, 11mm) on top; bounds=(minX=-0.1mm, maxX=2.1mm, minY=10.55mm, maxY=11.45mm); size=(width=2.2mm, height=0.9mm); anchor_alignment="center"
+  board edge status: 18.55mm inside bottom edge
+  issues:
+  - C7 connections cross the routing path between its pads. Suggested move: rotate C7 180 degrees.
+
+placement drc:
+Errors: 0
+Warnings: 0

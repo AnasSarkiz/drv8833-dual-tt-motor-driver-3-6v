@@ -1,0 +1,29 @@
+{
+  "c_number": "C4190",
+  "references": "R1, R15, R16, R17, R18",
+  "quantity_per_board": 5,
+  "quantity_for_five_boards": 25,
+  "checked_at": "2026-09-28T09:23:24.073449+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C4190",
+  "response_sha256": "e9d2191fa556156de565925546692704e8edffbc9b9853ed94e074797abf12f5",
+  "catalog_fields": {
+    "componentCode": "C4190",
+    "componentModelEn": "0603WAF2201T5E",
+    "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+    "componentSpecificationEn": "0603",
+    "overseasStockCount": 7800823,
+    "canPresaleNumber": 7323792,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 10,
+    "leastPatchNumber": 20,
+    "preMinPurchaseNum": 5000,
+    "noBuyReason": null,
+    "initialPrice": 0.0018,
+    "componentLibraryType": "base",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

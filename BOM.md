@@ -1,6 +1,6 @@
 # Candidate BOM — NOT APPROVED
 
-Latest availability: [27 September 2026 stock audit for five boards](artifacts/order-review/STOCK.md). Earlier quantities below are historical; use the new available-order quantities, especially for R2/R3.
+Latest availability: [28 September 2026 stock audit for five boards](artifacts/order-release/STOCK.md). Earlier quantities below are historical; use the new available-order quantities, especially for R2/R3.
 
 Generated from actual Circuit JSON. 46 purchased parts, 21 unique C-numbers. Seven bare PCB test pads are not purchased parts. No DNP rows. Manufacturer identities must be checked against exact supplier documents before release. Imported identity and catalog fields do not establish suitability or assembly approval.
 

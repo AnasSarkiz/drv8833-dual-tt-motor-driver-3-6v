@@ -6,8 +6,8 @@ export function GroundStitching() {
     <>
       <via
         name="GND_C3"
-        pcbX={-0.7}
-        pcbY={5.9}
+        pcbX={-2.6}
+        pcbY={5.15}
         holeDiameter="0.3mm"
         outerDiameter="0.6mm"
         fromLayer="top"

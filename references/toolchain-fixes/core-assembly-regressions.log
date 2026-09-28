@@ -1,0 +1,20 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/components/primitive-components/create-solderpaste-from-smtpad-and-plated-holes.test.tsx:
+(pass) only SMT pads generate stencil paste in mixed SMT/THT footprints [44.99ms]
+
+tests/components/primitive-components/plated-hole-no-stencil-paste.test.tsx:
+(pass) through-hole pads on a mixed-technology board have no automatic stencil paste [229.86ms]
+
+tests/components/normal-components/diode-supplier-pin1-polarity.test.tsx:
+(pass) reports diode pin 1 polarity mismatches and reuses the orientation cache [634.22ms]
+(pass) accepts diode and LED pin 1 mappings that match the supplier [323.11ms]
+(pass) does not guess when supplier pin 1 polarity is unknown [313.75ms]
+
+tests/components/normal-components/led-two-pad-orientation-cache.test.tsx:
+(pass) recomputes cached unknown LED orientation and reuses the new frame [954.70ms]
+
+ 6 pass
+ 0 fail
+ 33 expect() calls
+Ran 6 tests across 4 files. [3.15s]

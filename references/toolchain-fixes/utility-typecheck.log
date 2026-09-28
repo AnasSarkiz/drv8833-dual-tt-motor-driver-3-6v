@@ -1,0 +1,32 @@
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/complete-original-endpoints.ts(43,25): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/prepare-buses.ts(376,30): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/prepare-buses.ts(416,36): error TS2339: Property 'busId' does not exist on type 'ConnectionPoint$1'.
+  Property 'busId' does not exist on type 'SingleLayerConnectionPoint'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/prepare-buses.ts(416,56): error TS2339: Property 'busId' does not exist on type 'ConnectionPoint$1'.
+  Property 'busId' does not exist on type 'SingleLayerConnectionPoint'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/route-adaptive-left-crossbar-bus.ts(148,9): error TS2322: Type '({ layers: string[]; obstacleId?: string | undefined; componentId?: string | undefined; isFanoutSourceKeepout?: boolean | undefined; shape?: "circle" | undefined; circuitJsonMetadata?: CircuitJsonMetadata | undefined; ... 10 more ...; offBoardConnectsTo?: string[] | undefined; } | { ...; })[]' is not assignable to type 'Obstacle[]'.
+  Type '{ layers: string[]; obstacleId?: string | undefined; componentId?: string | undefined; isFanoutSourceKeepout?: boolean | undefined; shape?: "circle" | undefined; circuitJsonMetadata?: CircuitJsonMetadata | undefined; ... 10 more ...; offBoardConnectsTo?: string[] | undefined; } | { ...; }' is not assignable to type 'Obstacle'.
+    Type '{ type: "rect"; shape: string; center: Point2D; width: number; height: number; layers: string[]; connectedTo: string[]; }' is not assignable to type 'Obstacle'.
+      Types of property 'shape' are incompatible.
+        Type 'string' is not assignable to type '"circle"'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/route-bottom-crossbar-bus.ts(193,5): error TS2322: Type '{ busId: string; sharedBoundary: Bounds; preferredExit: undefined; exitEdge: undefined; connections: { sourcePoint: { layer: string; x: number; y: number; layers?: undefined; pointId?: string | undefined; pcb_port_id?: string | undefined; port_selector?: string | undefined; terminalVia?: TerminalViaHint | undefined;...' is not assignable to type 'PreparedBus[]'.
+  Type '{ busId: string; sharedBoundary: Bounds; preferredExit: undefined; exitEdge: undefined; connections: { sourcePoint: { layer: string; x: number; y: number; layers?: never; pointId?: string; pcb_port_id?: string; port_selector?: string; terminalVia?: TerminalViaHint; } | { ...; }; ... 8 more ...; targetPoint: Connecti...' is not assignable to type 'PreparedBus'.
+    Types of property 'connections' are incompatible.
+      Type '{ sourcePoint: { layer: string; x: number; y: number; layers?: undefined; pointId?: string | undefined; pcb_port_id?: string | undefined; port_selector?: string | undefined; terminalVia?: TerminalViaHint | undefined; } | { ...; }; ... 8 more ...; targetPoint: ConnectionPoint$1; }[]' is not assignable to type 'PreparedConnection[]'.
+        Type '{ sourcePoint: { layer: string; x: number; y: number; layers?: never; pointId?: string; pcb_port_id?: string; port_selector?: string; terminalVia?: TerminalViaHint; } | { ...; }; ... 8 more ...; targetPoint: ConnectionPoint$1; }' is not assignable to type 'PreparedConnection'.
+          Types of property 'sourcePoint' are incompatible.
+            Type '{ layer: string; x: number; y: number; layers?: undefined; pointId?: string | undefined; pcb_port_id?: string | undefined; port_selector?: string | undefined; terminalVia?: TerminalViaHint | undefined; } | { ...; }' is not assignable to type 'ConnectionPoint$1'.
+              Type '{ layer: string; x: number; y: number; layers: string[]; pointId?: string; busId?: BusId; pcb_port_id?: string; port_selector?: string; }' is not assignable to type 'ConnectionPoint$1'.
+                Type '{ layer: string; x: number; y: number; layers: string[]; pointId?: string; busId?: BusId; pcb_port_id?: string; port_selector?: string; }' is not assignable to type 'SingleLayerConnectionPoint'.
+                  Types of property 'layers' are incompatible.
+                    Type 'string[]' is not assignable to type 'undefined'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/types.ts(121,18): error TS2430: Interface 'FanoutBusSpec' incorrectly extends interface 'SimpleRouteBus'.
+  Types of property 'allowedLayers' are incompatible.
+    Type 'readonly string[] | undefined' is not assignable to type 'string[] | undefined'.
+      The type 'readonly string[]' is 'readonly' and cannot be assigned to the mutable type 'string[]'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/validate-fanout-solution.ts(40,30): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+../../../Users/anassarkiz/tsci/dual-tt-motor-driver/node_modules/@tscircuit/fanout-solver/lib/validate-original-endpoint-connectivity.ts(84,30): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.

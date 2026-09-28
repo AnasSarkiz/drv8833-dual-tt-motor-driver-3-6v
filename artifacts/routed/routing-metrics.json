@@ -1,17 +1,17 @@
 {
   "note": "Planar trace lengths sum all branches and exclude vertical barrels. Geometry is not a current rating.",
   "trace_count": 70,
-  "via_count": 64,
+  "via_count": 58,
   "via_sizes": [
     {
       "drill_mm": 0.3,
       "pad_mm": 0.45,
-      "count": 54
+      "count": 47
     },
     {
       "drill_mm": 0.3,
       "pad_mm": 0.6,
-      "count": 6
+      "count": 7
     },
     {
       "drill_mm": 0.3048,
@@ -20,14 +20,14 @@
     }
   ],
   "pour_polygons_by_layer": {
-    "top": 3,
+    "top": 2,
     "inner1": 1,
     "bottom": 1
   },
   "nets": {
     "AIN1": {
       "trace_count": 3,
-      "length_mm": 31.069,
+      "length_mm": 31.368,
       "widths_mm": [
         0.25
       ],
@@ -39,7 +39,7 @@
     },
     "AIN2": {
       "trace_count": 3,
-      "length_mm": 24.464,
+      "length_mm": 24.509,
       "widths_mm": [
         0.25
       ],
@@ -50,12 +50,9 @@
     },
     "AOUT1": {
       "trace_count": 1,
-      "length_mm": 22.705,
+      "length_mm": 22.472,
       "widths_mm": [
-        0.325,
-        0.35000000000000003,
-        0.525,
-        0.55,
+        0.4,
         1
       ],
       "layers": [
@@ -182,7 +179,7 @@
     },
     "GND": {
       "trace_count": 1,
-      "length_mm": 1.432,
+      "length_mm": 1.521,
       "widths_mm": [
         0.3
       ],
@@ -245,10 +242,11 @@
     },
     "ISEN_A": {
       "trace_count": 2,
-      "length_mm": 22.132,
+      "length_mm": 21.298,
       "widths_mm": [
-        0.25,
-        0.30000000000000004,
+        0.4,
+        0.45,
+        0.6,
         1
       ],
       "layers": [
@@ -335,7 +333,7 @@
     },
     "TEMP_RAW": {
       "trace_count": 2,
-      "length_mm": 49.172,
+      "length_mm": 51.587,
       "widths_mm": [
         0.25
       ],
@@ -346,12 +344,11 @@
     },
     "VCP": {
       "trace_count": 1,
-      "length_mm": 7.021,
+      "length_mm": 2.05,
       "widths_mm": [
         0.25
       ],
       "layers": [
-        "inner1",
         "top"
       ]
     },
@@ -367,12 +364,11 @@
     },
     "VINT": {
       "trace_count": 1,
-      "length_mm": 8.8,
+      "length_mm": 2.05,
       "widths_mm": [
         0.25
       ],
       "layers": [
-        "bottom",
         "top"
       ]
     },
@@ -403,30 +399,19 @@
     },
     "VM": {
       "trace_count": 11,
-      "length_mm": 79.809,
+      "length_mm": 77.28,
       "widths_mm": [
-        0.25,
-        0.275,
-        0.30000000000000004,
         0.325,
         0.375,
+        0.4,
         0.405003,
-        0.425,
         0.5,
-        0.55,
-        0.625,
-        0.725,
-        0.75,
-        0.7999984,
+        0.7,
         0.8064754,
-        0.8250000000000001,
-        0.9,
-        0.925,
         0.9899904,
         1
       ],
       "layers": [
-        "inner1",
         "inner2",
         "top"
       ]

@@ -1,0 +1,29 @@
+{
+  "c_number": "C14663",
+  "references": "C7, C8",
+  "quantity_per_board": 2,
+  "quantity_for_five_boards": 10,
+  "checked_at": "2026-09-28T09:24:29.813274+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C14663",
+  "response_sha256": "5c89ac651c0fc2a200346223452dce1c14a4e940e0f9474bfba3fc70160b4036",
+  "catalog_fields": {
+    "componentCode": "C14663",
+    "componentModelEn": "CC0603KRX7R9BB104",
+    "componentBrandEn": "YAGEO",
+    "componentSpecificationEn": "0603",
+    "overseasStockCount": 50199977,
+    "canPresaleNumber": 37805282,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 10,
+    "leastPatchNumber": 20,
+    "preMinPurchaseNum": 1026,
+    "noBuyReason": null,
+    "initialPrice": 0.0122,
+    "componentLibraryType": "base",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

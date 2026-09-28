@@ -1,0 +1,20 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/components/primitive-components/silkscreen-board-owner-schema.test.tsx:
+18 |   const artwork = circuit.getCircuitJson().filter((element) => element.type.startsWith("pcb_silkscreen_"))
+19 |   expect(artwork.length).toBeGreaterThanOrEqual(5)
+20 |   for (const element of artwork) expect(any_circuit_element.safeParse(element).success).toBe(true)
+21 |   expect(circuit.db.pcb_silkscreen_text.list().find((text) => text.text === "BOARD ARTWORK")?.pcb_component_id).toBeUndefined()
+22 |   expect(circuit.db.pcb_silkscreen_path.list().some((path) => path.pcb_component_id === circuit.db.pcb_component.list()[0].pcb_component_id)).toBe(true)
+23 |   expect(circuit).toMatchPcbSnapshot(import.meta.path)
+                       ^
+error: 
+
+Snapshot does not match (diff 0.09%). Diff saved at /private/tmp/dual-tt-core-schema-fix/tests/components/primitive-components/__snapshots__/silkscreen-board-owner-schema-pcb.diff.png
+      at <anonymous> (/private/tmp/dual-tt-core-schema-fix/tests/components/primitive-components/silkscreen-board-owner-schema.test.tsx:23:19)
+(fail) board and component silkscreen emit valid optional ownership [735.40ms]
+
+ 0 pass
+ 1 fail
+ 12 expect() calls
+Ran 1 test across 1 file. [1214.00ms]

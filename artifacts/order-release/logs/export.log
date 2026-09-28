@@ -1,0 +1,5 @@
+J4: cannot verify jlcpcb pick-and-place rotation (missing_pin1_location); PCB rotation 0 is unverified.
+J5: cannot verify jlcpcb pick-and-place rotation (missing_pin1_location); PCB rotation 0 is unverified.
+J6: cannot verify jlcpcb pick-and-place rotation (missing_pin1_location); PCB rotation 0 is unverified.
+J7: cannot verify jlcpcb pick-and-place rotation (missing_pin1_location); PCB rotation 180 is unverified.
+Exported to /Users/anassarkiz/tsci/dual-tt-motor-driver/artifacts/order-release/dual-tt-rev-a-alpha5-gerbers.zip!

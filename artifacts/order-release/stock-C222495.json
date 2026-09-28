@@ -1,0 +1,29 @@
+{
+  "c_number": "C222495",
+  "references": "Q1",
+  "quantity_per_board": 1,
+  "quantity_for_five_boards": 5,
+  "checked_at": "2026-09-28T09:23:06.308666+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C222495",
+  "response_sha256": "5bf1fee087d6d6562ee8b2aa9906ccc6e1761e8e46628989016fe915d5e04548",
+  "catalog_fields": {
+    "componentCode": "C222495",
+    "componentModelEn": "SI7655ADN-T1-GE3",
+    "componentBrandEn": "Vishay Intertech",
+    "componentSpecificationEn": "PowerPAK1212-8S",
+    "overseasStockCount": 3495,
+    "canPresaleNumber": 3495,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 0,
+    "leastPatchNumber": 2,
+    "preMinPurchaseNum": 9,
+    "noBuyReason": null,
+    "initialPrice": 1.0735,
+    "componentLibraryType": "expand",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}

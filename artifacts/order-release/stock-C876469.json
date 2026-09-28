@@ -1,0 +1,29 @@
+{
+  "c_number": "C876469",
+  "references": "R2, R3",
+  "quantity_per_board": 2,
+  "quantity_for_five_boards": 10,
+  "checked_at": "2026-09-28T09:23:41.842843+00:00",
+  "source_url": "https://jlcpcb.com/partdetail/C876469",
+  "response_sha256": "ecf6f2efaca5d24f5ca26264ff39f80686daf2ecce1c6dddcf2196c8aa79b31e",
+  "catalog_fields": {
+    "componentCode": "C876469",
+    "componentModelEn": "RL2512FK-070R15L",
+    "componentBrandEn": "YAGEO",
+    "componentSpecificationEn": "2512",
+    "overseasStockCount": 37,
+    "canPresaleNumber": 12,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "lossNumber": 2,
+    "leastPatchNumber": 5,
+    "preMinPurchaseNum": 87,
+    "noBuyReason": null,
+    "initialPrice": 0.1241,
+    "componentLibraryType": "expand",
+    "assemblyComponentFlag": false
+  },
+  "stock_covers_placement_quantity": true,
+  "available_order_quantity_covers_placements": true,
+  "scope": "Public catalog; assembler attrition, reservation and final order matching are separate."
+}
