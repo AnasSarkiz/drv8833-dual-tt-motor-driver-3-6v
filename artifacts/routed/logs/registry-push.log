@@ -1,111 +1,345 @@
-Uploading package archive...
-Archive upload failed, falling back to file-by-file upload: TimeoutError: Request timed out: POST https://registry-api.tscircuit.com/package_files/upload_archive
-  ASSEMBLY_PLAN.md - failed
-  BOM.md - failed
-  CHANGELOG.md - failed
-  DESIGN_REVIEW.md - failed
-  IMPORTS.md - failed
-  ISSUES.md - failed
-  MECHANICAL.md - failed
-  PLACEMENT_REVIEW.md - failed
-  PRE_ROUTING_REVIEW.md - failed
-  PUBLICATION.md - failed
-  README.md - failed
-  REFERENCE_BOARD_REVIEW.md - failed
-  ROUTING_AUTHORIZATION.md - failed
-  ROUTING_GATE.md - failed
-  ROUTING_REVIEW.md - failed
-  TEST_PLAN.md - failed
-  TOOLCHAIN.md - failed
-  U1_FOOTPRINT.md - failed
-  VALIDATION.md - failed
-  artifacts/pre-route/check-results.md - failed
-  artifacts/pre-route/circuit.json - failed
-  artifacts/pre-route/hashes.json - failed
-  artifacts/pre-route/import-hashes.json - failed
-  artifacts/pre-route/import-results.json - failed
-  artifacts/pre-route/logs/bom.log - failed
-  artifacts/pre-route/logs/build.log - failed
-  artifacts/pre-route/logs/design-connectivity.log - failed
-  artifacts/pre-route/logs/format-check.log - failed
-  artifacts/pre-route/logs/format.log - failed
-  artifacts/pre-route/logs/github-ci.log - failed
-  artifacts/pre-route/logs/guard.log - failed
-  artifacts/pre-route/logs/import-C13564.log - failed
-  artifacts/pre-route/logs/import-C14663.log - failed
-  artifacts/pre-route/logs/import-C15127.log - failed
-  artifacts/pre-route/logs/import-C15850.log - failed
-  artifacts/pre-route/logs/import-C178991.log - failed
-  artifacts/pre-route/logs/import-C20627123.log - failed
-  artifacts/pre-route/logs/import-C21190.log - failed
-  artifacts/pre-route/logs/import-C222495.log - failed
-  artifacts/pre-route/logs/import-C2286.log - failed
-  artifacts/pre-route/logs/import-C2289.log - failed
-  artifacts/pre-route/logs/import-C23138.log - failed
-  artifacts/pre-route/logs/import-C23206.log - failed
-  artifacts/pre-route/logs/import-C23630.log - failed
-  artifacts/pre-route/logs/import-C25804.log - failed
-  artifacts/pre-route/logs/import-C285392.log - failed
-  artifacts/pre-route/logs/import-C4190.log - failed
-  artifacts/pre-route/logs/import-C474881.log - failed
-  artifacts/pre-route/logs/import-C49257.log - failed
-  artifacts/pre-route/logs/import-C5331096.log - failed
-  artifacts/pre-route/logs/import-C57112.log - failed
-  artifacts/pre-route/logs/import-C83270.log - failed
-  artifacts/pre-route/logs/import-C876469.log - failed
-  artifacts/pre-route/logs/mechanical.log - failed
-  artifacts/pre-route/logs/netlist.log - failed
-  artifacts/pre-route/logs/pin-specification.log - failed
-  artifacts/pre-route/logs/placement-u1.log - failed
-  artifacts/pre-route/logs/placement-u2.log - failed
-  artifacts/pre-route/logs/placement.log - failed
-  artifacts/pre-route/logs/project-build.log - failed
-  artifacts/pre-route/logs/registry-push.log - failed
-  artifacts/pre-route/logs/render.log - failed
-  artifacts/pre-route/logs/schema.log - failed
-  artifacts/pre-route/logs/schematic-placement.log - failed
-  artifacts/pre-route/logs/search-C130023.log - failed
-  artifacts/pre-route/logs/search-C13564.log - failed
-  artifacts/pre-route/logs/search-C14663.log - failed
-  artifacts/pre-route/logs/search-C15127.log - failed
-  artifacts/pre-route/logs/search-C15850.log - failed
-  artifacts/pre-route/logs/search-C20627123.log - failed
-  artifacts/pre-route/logs/search-C21190.log - failed
-  artifacts/pre-route/logs/search-C2286.log - failed
-  artifacts/pre-route/logs/search-C2289.log - failed
-  artifacts/pre-route/logs/search-C23630.log - failed
-  artifacts/pre-route/logs/search-C25804.log - failed
-  artifacts/pre-route/logs/search-C285392.log - failed
-  artifacts/pre-route/logs/search-C4190.log - failed
-  artifacts/pre-route/logs/search-C474881.log - failed
-  artifacts/pre-route/logs/search-C49257.log - failed
-  artifacts/pre-route/logs/search-C50506.log - failed
-  artifacts/pre-route/logs/search-C5331096.log - failed
-  artifacts/pre-route/logs/search-C57112.log - failed
-  artifacts/pre-route/logs/search-C876469.log - failed
-  artifacts/pre-route/logs/shorts.log - failed
-  artifacts/pre-route/logs/source-diagnostics.log - failed
-  artifacts/pre-route/logs/source-lock.log - failed
-  artifacts/pre-route/logs/tests.log - failed
-  artifacts/pre-route/logs/typecheck.log - failed
-  artifacts/pre-route/mounting-template.png - failed
-  artifacts/pre-route/mounting-template.svg - failed
-  artifacts/pre-route/pcb-bottom-unrouted.png - failed
-  artifacts/pre-route/pcb-bottom-unrouted.svg - failed
-  artifacts/pre-route/pcb-top-unrouted.png - failed
-  artifacts/pre-route/pcb-top-unrouted.svg - failed
-  artifacts/pre-route/publication.json - failed
-  artifacts/pre-route/schematic-Control_Debug.png - failed
-  artifacts/pre-route/schematic-Control_Debug.svg - failed
-  artifacts/pre-route/schematic-Dual_Motor_Driver.png - failed
-  artifacts/pre-route/schematic-Dual_Motor_Driver.svg - failed
-  artifacts/pre-route/schematic-Power_Protection.png - failed
-  artifacts/pre-route/schematic-Power_Protection.svg - failed
-  artifacts/pre-route/schematic-Temperature_Test.png - failed
-  artifacts/pre-route/schematic-Temperature_Test.svg - failed
-  artifacts/pre-route/sourcing.json - failed
-
-Archive actually completed: 228 files found. Verified 140 source/archive/review hashes without authentication. File-by-file duplicate errors followed the CLI timeout; no source was lost.
-Alpha.3 cloud build failed: Python missing and mixed preloaded geometry dependencies. Alpha.4 preserves the copper and fixes the portable build.
-
-Alpha.4: archive API returned HTTP 200; 231 files uploaded. All 142 published source/archive/review hashes match. Cloud job completed with exit code 0 and fresh native routing checks reported 0 findings.
+Alpha.5 publication: compressed archive exceeded the server request-size limit (HTTP 413).
+The CLI then uploaded each file; the full error request body is omitted.
+⬆︎ ASSEMBLY_PLAN.md
+⬆︎ BOM.md
+⬆︎ CHANGELOG.md
+⬆︎ DESIGN_REVIEW.md
+⬆︎ IMPORTS.md
+⬆︎ ISSUES.md
+⬆︎ MECHANICAL.md
+⬆︎ ORDER_READINESS.md
+⬆︎ PLACEMENT_REVIEW.md
+⬆︎ PRE_ROUTING_REVIEW.md
+⬆︎ PUBLICATION.md
+⬆︎ README.md
+⬆︎ REFERENCE_BOARD_REVIEW.md
+⬆︎ ROUTING_AUTHORIZATION.md
+⬆︎ ROUTING_GATE.md
+⬆︎ ROUTING_REVIEW.md
+⬆︎ TEST_PLAN.md
+⬆︎ TOOLCHAIN.md
+⬆︎ U1_FOOTPRINT.md
+⬆︎ VALIDATION.md
+⬆︎ artifacts/order-release/B_Paste.gbr
+⬆︎ artifacts/order-release/F_Mask.gbr
+⬆︎ artifacts/order-release/F_Paste.gbr
+⬆︎ artifacts/order-release/MANUFACTURING_NOTES.md
+⬆︎ artifacts/order-release/STOCK.md
+⬆︎ artifacts/order-release/drill-L1-L4.drl
+⬆︎ artifacts/order-release/drill_npth.drl
+📦 artifacts/order-release/dual-tt-prototype-order-packet.zip
+📦 artifacts/order-release/dual-tt-rev-a-alpha5-gerbers.zip
+⬆︎ artifacts/order-release/hashes.json
+📦 artifacts/order-release/jlc-fabrication.zip
+⬆︎ artifacts/order-release/jlc-smt-bom.csv
+⬆︎ artifacts/order-release/jlc-smt-cpl.csv
+⬆︎ artifacts/order-release/jlc-stock.json
+⬆︎ artifacts/order-release/logs/build.log
+⬆︎ artifacts/order-release/logs/export.log
+⬆︎ artifacts/order-release/logs/format.log
+⬆︎ artifacts/order-release/logs/geometry.log
+⬆︎ artifacts/order-release/logs/netlist.log
+⬆︎ artifacts/order-release/logs/placement.log
+⬆︎ artifacts/order-release/logs/render.log
+⬆︎ artifacts/order-release/logs/shorts.log
+⬆︎ artifacts/order-release/logs/tests.log
+⬆︎ artifacts/order-release/logs/typecheck.log
+⬆︎ artifacts/order-release/manual-tht-bom.csv
+⬆︎ artifacts/order-release/review.json
+⬆︎ artifacts/order-release/smt-designators.json
+⬆︎ artifacts/order-release/stock-C130023.json
+⬆︎ artifacts/order-release/stock-C13564.json
+⬆︎ artifacts/order-release/stock-C14663.json
+⬆︎ artifacts/order-release/stock-C15850.json
+⬆︎ artifacts/order-release/stock-C178991.json
+⬆︎ artifacts/order-release/stock-C21190.json
+⬆︎ artifacts/order-release/stock-C222495.json
+⬆︎ artifacts/order-release/stock-C2286.json
+⬆︎ artifacts/order-release/stock-C2289.json
+⬆︎ artifacts/order-release/stock-C23138.json
+⬆︎ artifacts/order-release/stock-C23206.json
+⬆︎ artifacts/order-release/stock-C23630.json
+⬆︎ artifacts/order-release/stock-C25804.json
+⬆︎ artifacts/order-release/stock-C285392.json
+⬆︎ artifacts/order-release/stock-C4190.json
+⬆︎ artifacts/order-release/stock-C474881.json
+⬆︎ artifacts/order-release/stock-C49257.json
+⬆︎ artifacts/order-release/stock-C50506.json
+⬆︎ artifacts/order-release/stock-C57112.json
+⬆︎ artifacts/order-release/stock-C83270.json
+⬆︎ artifacts/order-release/stock-C876469.json
+⬆︎ artifacts/order-release/trace-geometry.json
+⬆︎ artifacts/order-release/trace-inventory.csv
+⬆︎ artifacts/order-review/STOCK.md
+⬆︎ artifacts/order-review/checks.json
+⬆︎ artifacts/order-review/export/B_Cu.gbr
+⬆︎ artifacts/order-review/export/B_Mask.gbr
+⬆︎ artifacts/order-review/export/B_Paste.gbr
+⬆︎ artifacts/order-review/export/B_SilkScreen.gbr
+⬆︎ artifacts/order-review/export/Edge_Cuts.gbr
+⬆︎ artifacts/order-review/export/F_Cu.gbr
+⬆︎ artifacts/order-review/export/F_Fab.gbr
+⬆︎ artifacts/order-review/export/F_Mask.gbr
+⬆︎ artifacts/order-review/export/F_Paste.gbr
+⬆︎ artifacts/order-review/export/F_SilkScreen.gbr
+⬆︎ artifacts/order-review/export/In1_Cu.gbr
+⬆︎ artifacts/order-review/export/In2_Cu.gbr
+⬆︎ artifacts/order-review/export/README-NOT-FOR-ORDER.txt
+⬆︎ artifacts/order-review/export/bom.csv
+⬆︎ artifacts/order-review/export/drill-L1-L4.drl
+⬆︎ artifacts/order-review/export/drill_npth.drl
+⬆︎ artifacts/order-review/export/pick_and_place.csv
+⬆︎ artifacts/order-review/hashes.json
+⬆︎ artifacts/order-review/jlc-stock.json
+⬆︎ artifacts/order-review/logs/build.log
+⬆︎ artifacts/order-review/logs/format.log
+⬆︎ artifacts/order-review/logs/gerber-export.log
+⬆︎ artifacts/order-review/logs/netlist.log
+⬆︎ artifacts/order-review/logs/placement.log
+⬆︎ artifacts/order-review/logs/shorts-gerber.log
+⬆︎ artifacts/order-review/logs/tests.log
+⬆︎ artifacts/order-review/logs/trace-geometry.log
+⬆︎ artifacts/order-review/logs/trace-length-vm.log
+⬆︎ artifacts/order-review/logs/typecheck.log
+📦 artifacts/order-review/review-only-NOT-FOR-ORDER.zip
+⬆︎ artifacts/order-review/review.json
+📦 artifacts/order-review/trace-atlas-1.png
+⬆︎ artifacts/order-review/trace-atlas-1.svg
+📦 artifacts/order-review/trace-atlas-2.png
+⬆︎ artifacts/order-review/trace-atlas-2.svg
+📦 artifacts/order-review/trace-atlas-3.png
+⬆︎ artifacts/order-review/trace-atlas-3.svg
+⬆︎ artifacts/order-review/trace-geometry.json
+⬆︎ artifacts/order-review/trace-inventory.csv
+⬆︎ artifacts/pre-route/check-results.md
+⬆︎ artifacts/pre-route/circuit.json
+⬆︎ artifacts/pre-route/hashes.json
+⬆︎ artifacts/pre-route/import-hashes.json
+⬆︎ artifacts/pre-route/import-results.json
+⬆︎ artifacts/pre-route/logs/bom.log
+⬆︎ artifacts/pre-route/logs/build.log
+⬆︎ artifacts/pre-route/logs/design-connectivity.log
+⬆︎ artifacts/pre-route/logs/format-check.log
+⬆︎ artifacts/pre-route/logs/format.log
+⬆︎ artifacts/pre-route/logs/github-ci.log
+⬆︎ artifacts/pre-route/logs/guard.log
+⬆︎ artifacts/pre-route/logs/import-C13564.log
+⬆︎ artifacts/pre-route/logs/import-C14663.log
+⬆︎ artifacts/pre-route/logs/import-C15127.log
+⬆︎ artifacts/pre-route/logs/import-C15850.log
+⬆︎ artifacts/pre-route/logs/import-C178991.log
+⬆︎ artifacts/pre-route/logs/import-C20627123.log
+⬆︎ artifacts/pre-route/logs/import-C21190.log
+⬆︎ artifacts/pre-route/logs/import-C222495.log
+⬆︎ artifacts/pre-route/logs/import-C2286.log
+⬆︎ artifacts/pre-route/logs/import-C2289.log
+⬆︎ artifacts/pre-route/logs/import-C23138.log
+⬆︎ artifacts/pre-route/logs/import-C23206.log
+⬆︎ artifacts/pre-route/logs/import-C23630.log
+⬆︎ artifacts/pre-route/logs/import-C25804.log
+⬆︎ artifacts/pre-route/logs/import-C285392.log
+⬆︎ artifacts/pre-route/logs/import-C4190.log
+⬆︎ artifacts/pre-route/logs/import-C474881.log
+⬆︎ artifacts/pre-route/logs/import-C49257.log
+⬆︎ artifacts/pre-route/logs/import-C5331096.log
+⬆︎ artifacts/pre-route/logs/import-C57112.log
+⬆︎ artifacts/pre-route/logs/import-C83270.log
+⬆︎ artifacts/pre-route/logs/import-C876469.log
+⬆︎ artifacts/pre-route/logs/mechanical.log
+⬆︎ artifacts/pre-route/logs/netlist.log
+⬆︎ artifacts/pre-route/logs/pin-specification.log
+⬆︎ artifacts/pre-route/logs/placement-u1.log
+⬆︎ artifacts/pre-route/logs/placement-u2.log
+⬆︎ artifacts/pre-route/logs/placement.log
+⬆︎ artifacts/pre-route/logs/project-build.log
+⬆︎ artifacts/pre-route/logs/registry-push.log
+⬆︎ artifacts/pre-route/logs/render.log
+⬆︎ artifacts/pre-route/logs/schema.log
+⬆︎ artifacts/pre-route/logs/schematic-placement.log
+⬆︎ artifacts/pre-route/logs/search-C130023.log
+⬆︎ artifacts/pre-route/logs/search-C13564.log
+⬆︎ artifacts/pre-route/logs/search-C14663.log
+⬆︎ artifacts/pre-route/logs/search-C15127.log
+⬆︎ artifacts/pre-route/logs/search-C15850.log
+⬆︎ artifacts/pre-route/logs/search-C20627123.log
+⬆︎ artifacts/pre-route/logs/search-C21190.log
+⬆︎ artifacts/pre-route/logs/search-C2286.log
+⬆︎ artifacts/pre-route/logs/search-C2289.log
+⬆︎ artifacts/pre-route/logs/search-C23630.log
+⬆︎ artifacts/pre-route/logs/search-C25804.log
+⬆︎ artifacts/pre-route/logs/search-C285392.log
+⬆︎ artifacts/pre-route/logs/search-C4190.log
+⬆︎ artifacts/pre-route/logs/search-C474881.log
+⬆︎ artifacts/pre-route/logs/search-C49257.log
+⬆︎ artifacts/pre-route/logs/search-C50506.log
+⬆︎ artifacts/pre-route/logs/search-C5331096.log
+⬆︎ artifacts/pre-route/logs/search-C57112.log
+⬆︎ artifacts/pre-route/logs/search-C876469.log
+⬆︎ artifacts/pre-route/logs/shorts.log
+⬆︎ artifacts/pre-route/logs/source-diagnostics.log
+⬆︎ artifacts/pre-route/logs/source-lock.log
+⬆︎ artifacts/pre-route/logs/tests.log
+⬆︎ artifacts/pre-route/logs/typecheck.log
+📦 artifacts/pre-route/mounting-template.png
+⬆︎ artifacts/pre-route/mounting-template.svg
+📦 artifacts/pre-route/pcb-bottom-unrouted.png
+⬆︎ artifacts/pre-route/pcb-bottom-unrouted.svg
+📦 artifacts/pre-route/pcb-top-unrouted.png
+⬆︎ artifacts/pre-route/pcb-top-unrouted.svg
+⬆︎ artifacts/pre-route/publication.json
+📦 artifacts/pre-route/schematic-Control_Debug.png
+⬆︎ artifacts/pre-route/schematic-Control_Debug.svg
+📦 artifacts/pre-route/schematic-Dual_Motor_Driver.png
+⬆︎ artifacts/pre-route/schematic-Dual_Motor_Driver.svg
+📦 artifacts/pre-route/schematic-Power_Protection.png
+⬆︎ artifacts/pre-route/schematic-Power_Protection.svg
+📦 artifacts/pre-route/schematic-Temperature_Test.png
+⬆︎ artifacts/pre-route/schematic-Temperature_Test.svg
+⬆︎ artifacts/pre-route/sourcing.json
+⬆︎ artifacts/routed/circuit.json
+⬆︎ artifacts/routed/hashes.json
+⬆︎ artifacts/routed/logs/build.log
+⬆︎ artifacts/routed/logs/format.log
+⬆︎ artifacts/routed/logs/github-ci.log
+⬆︎ artifacts/routed/logs/mechanical.log
+⬆︎ artifacts/routed/logs/netlist.log
+⬆︎ artifacts/routed/logs/pin-specification.log
+⬆︎ artifacts/routed/logs/placement.log
+⬆︎ artifacts/routed/logs/registry-build-alpha3.log
+⬆︎ artifacts/routed/logs/registry-push.log
+⬆︎ artifacts/routed/logs/render.log
+⬆︎ artifacts/routed/logs/routing.log
+⬆︎ artifacts/routed/logs/schema.log
+⬆︎ artifacts/routed/logs/shorts-gerber.log
+⬆︎ artifacts/routed/logs/shorts-pcb.log
+⬆︎ artifacts/routed/logs/source.log
+⬆︎ artifacts/routed/logs/tests.log
+⬆︎ artifacts/routed/logs/trace-length-vm.log
+⬆︎ artifacts/routed/logs/typecheck.log
+📦 artifacts/routed/mounting-template.png
+⬆︎ artifacts/routed/mounting-template.svg
+📦 artifacts/routed/pcb-bottom.png
+⬆︎ artifacts/routed/pcb-bottom.svg
+📦 artifacts/routed/pcb-inner1.png
+⬆︎ artifacts/routed/pcb-inner1.svg
+📦 artifacts/routed/pcb-inner2.png
+⬆︎ artifacts/routed/pcb-inner2.svg
+📦 artifacts/routed/pcb-top.png
+⬆︎ artifacts/routed/pcb-top.svg
+⬆︎ artifacts/routed/publication.json
+⬆︎ artifacts/routed/routing-metrics.json
+📦 artifacts/routed/schematic-Control_Debug.png
+⬆︎ artifacts/routed/schematic-Control_Debug.svg
+📦 artifacts/routed/schematic-Dual_Motor_Driver.png
+⬆︎ artifacts/routed/schematic-Dual_Motor_Driver.svg
+📦 artifacts/routed/schematic-Power_Protection.png
+⬆︎ artifacts/routed/schematic-Power_Protection.svg
+📦 artifacts/routed/schematic-Temperature_Test.png
+⬆︎ artifacts/routed/schematic-Temperature_Test.svg
+⬆︎ biome.json
+⬆︎ bom.csv
+⬆︎ bom.json
+⬆︎ bun.lock
+⬆︎ imports/AO3401A.tsx
+⬆︎ imports/A_0453003_MR.tsx
+⬆︎ imports/A_0603B103K500NT.tsx
+⬆︎ imports/A_0603WAF1001T5E.tsx
+⬆︎ imports/A_0603WAF1002T5E.tsx
+⬆︎ imports/A_0603WAF2201T5E.tsx
+⬆︎ imports/A_0603WAF3300T5E.tsx
+⬆︎ imports/A_0603WAF5602T5E.tsx
+⬆︎ imports/A_1812L300_24GR.tsx
+⬆︎ imports/A_2_54_1_3P_.tsx
+⬆︎ imports/CC0603KRX7R9BB104.tsx
+⬆︎ imports/CL10A225KO8NNNC.tsx
+⬆︎ imports/CL21A106KAYNNNE.tsx
+⬆︎ imports/DRV8833PWPR.tsx
+⬆︎ imports/KF301_5_0_2P.tsx
+⬆︎ imports/KT_0603R.tsx
+⬆︎ imports/KT_0603YG.tsx
+⬆︎ imports/NCP18XH103F03RB.tsx
+⬆︎ imports/RL2512FK_070R15L.tsx
+⬆︎ imports/SI7655ADN_T1_GE3.tsx
+⬆︎ imports/SMBJ6_0A.tsx
+⬆︎ imports/SN74LVC2G86DCTR.tsx
+⬆︎ imports/VZH221M1CTR_0607.tsx
+⬆︎ index.circuit.tsx
+⬆︎ lib/board-autorouter.ts
+⬆︎ lib/chassis-mounting.tsx
+⬆︎ lib/control-debug.tsx
+⬆︎ lib/driver-footprint.tsx
+⬆︎ lib/driver-part.tsx
+⬆︎ lib/fuse-footprint.tsx
+⬆︎ lib/ground-stitching.tsx
+⬆︎ lib/motor-driver.tsx
+⬆︎ lib/parts.tsx
+⬆︎ lib/power-protection.tsx
+⬆︎ lib/routing-nets.tsx
+⬆︎ lib/saved-routing.ts
+⬆︎ lib/temperature-test.tsx
+⬆︎ package.json
+⬆︎ references/core-schema-fix/README.md
+⬆︎ references/core-schema-fix/build.log
+⬆︎ references/core-schema-fix/core.patch
+⬆︎ references/core-schema-fix/regression-after.log
+⬆︎ references/core-schema-fix/regression-before.log
+⬆︎ references/core-schema-fix/silkscreen-schema-repro.tsx.txt
+⬆︎ references/core-schema-fix/typecheck.log
+⬆︎ references/mechanical.json
+⬆︎ references/rp2040-reference.json
+⬆︎ references/selected-parts.json
+⬆︎ references/thermal-structures.json
+⬆︎ references/toolchain-fixes/README.md
+⬆︎ references/toolchain-fixes/circuit-json-base.txt
+⬆︎ references/toolchain-fixes/circuit-json-util-base.txt
+⬆︎ references/toolchain-fixes/circuit-json-util.patch
+⬆︎ references/toolchain-fixes/circuit-json.patch
+⬆︎ references/toolchain-fixes/core-assembly-regressions.log
+⬆︎ references/toolchain-fixes/core-base.txt
+⬆︎ references/toolchain-fixes/core-baseline-artwork.log
+⬆︎ references/toolchain-fixes/core-build.log
+⬆︎ references/toolchain-fixes/core-hole-test.log
+⬆︎ references/toolchain-fixes/core-regression.log
+⬆︎ references/toolchain-fixes/core-saved-pth-tests.log
+⬆︎ references/toolchain-fixes/core-saved-routing-tests.log
+⬆︎ references/toolchain-fixes/core-typecheck-alpha5.log
+⬆︎ references/toolchain-fixes/core-typecheck.log
+⬆︎ references/toolchain-fixes/core.patch
+⬆︎ references/toolchain-fixes/schema-tests.log
+⬆︎ references/toolchain-fixes/utility-baseline-snapshot.log
+⬆︎ references/toolchain-fixes/utility-full-suite.log
+⬆︎ references/toolchain-fixes/utility-orientation-regressions.log
+⬆︎ references/toolchain-fixes/utility-typecheck.log
+⬆︎ scripts/check-mechanical.py
+⬆︎ scripts/check-mechanical.ts
+⬆︎ scripts/check-routed-connectivity.ts
+⬆︎ scripts/check-routing-lock.ts
+⬆︎ scripts/check-schema.ts
+⬆︎ scripts/check-sourcing.py
+⬆︎ scripts/export-smt-assembly.ts
+⬆︎ scripts/import-selected-parts.py
+⬆︎ scripts/make-review-records.py
+⬆︎ scripts/prepare-order-packet.py
+⬆︎ scripts/rebuild-toolchain-fixes.py
+⬆︎ scripts/record-review-hashes.py
+⬆︎ scripts/record-routed-hashes.py
+⬆︎ scripts/record-routing-review.py
+⬆︎ scripts/render-mounting-template.py
+⬆︎ scripts/render-pre-route.ts
+⬆︎ scripts/render-routed.ts
+⬆︎ scripts/review-jlc-stock.py
+⬆︎ scripts/review-trace-geometry.py
+⬆︎ scripts/routing-lock.ts
+⬆︎ tests/design-connectivity.test.ts
+⬆︎ tests/manufacturing-release.test.ts
+⬆︎ tests/routed-connectivity.test.ts
+⬆︎ tests/routing-lock.test.ts
+⬆︎ tscircuit.config.json
+⬆︎ tsconfig.json
+📦 vendor/circuit-json-0.0.506-dualtt.1.tgz
+📦 vendor/tscircuit-circuit-json-util-0.0.116-dualtt.1.tgz
+📦 vendor/tscircuit-core-0.0.1993-dualtt.4.tgz
+📦 vendor/tscircuit-core-0.0.1993-dualtt.6.tgz
+Upload Summary: Succeeded: 340 files
+@tsci/AnasSarkiz.dual-tt-motor-driver@0.1.0-alpha.5-routed published
+Verification: all 209 non-dotfile source, toolchain, manufacturing and review hashes match.
