@@ -2,7 +2,21 @@
 
 ## Alpha.8 — bottom evaluation label
 
-The alpha.8 source, bottom preview and updated fabrication ZIP are prepared for GitHub and tscircuit publication. Verification is in progress; the alpha.7 receipt below records the preceding public release. The online editor's separate saved-routing issue is tracked in [tscircuit/core#4197](https://github.com/tscircuit/core/issues/4197).
+**Alpha.8 is published to both public repositories.** The bottom silkscreen now reads “For evaluation only; not FCC approved for resale.” [Bottom preview and updated fabrication ZIP](artifacts/silkscreen-review/README.md).
+
+| Destination | Verified result |
+|---|---|
+| GitHub source | `d1f7bbf01a7ee00ec65604b4830edd94331d7d5b` pushed to `main` |
+| [GitHub CI](https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v/actions/runs/36605200165) | PASS: frozen install, format, TypeScript, build and 27 tests / 1,139 assertions |
+| [tscircuit PCB](https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v#pcb) | Latest release `0.1.0-alpha.8-routed`; release ID `20e4c3da-a9a2-4ae0-bc2e-cdc5a9c807a3` |
+| Upload verification | 388 files uploaded; all 256 non-dotfile source/toolchain/review hashes match |
+| Cloud build | Completed successfully; 1,921 schema-valid records, zero error records and zero native routing findings |
+| Cloud comparison | All 1,002 PCB, 468 schematic and 54 CAD records exactly match local output; electrical connections also match |
+| Bottom label | Both lines present on `bottom`, with 1.8 mm font size |
+
+[Machine-readable publication receipt](artifacts/silkscreen-review/publication.json). Only bottom silkscreen artwork changes relative to the alpha.6 manufacturing export after normalizing timestamps and aperture numbers. Copper, drills, mask, paste and top silkscreen are unchanged. The older alpha.6 order packet does not contain the new label; use the separate updated fabrication ZIP linked above.
+
+The registry's aggregate display status remains `pending` despite successful completion of its custom build and verified generated output. This GitHub-only receipt records the results; the registry snapshot contains the preceding publication-status document. The online editor's separate saved-routing issue remains tracked in [tscircuit/core#4197](https://github.com/tscircuit/core/issues/4197); this silkscreen update does not resolve it.
 
 ## Alpha.7 — schematic review receipt
 

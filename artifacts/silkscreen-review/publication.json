@@ -1,0 +1,87 @@
+{
+  "checked_at_utc": "2026-09-29T17:39:55.389052+00:00",
+  "source_commit": "d1f7bbf01a7ee00ec65604b4830edd94331d7d5b",
+  "github": {
+    "url": "https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v",
+    "visibility": "public",
+    "ci_run": "https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v/actions/runs/36605200165",
+    "ci_conclusion": "success",
+    "tests_passed": 27,
+    "assertions": 1139
+  },
+  "registry": {
+    "url": "https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v",
+    "package_id": "ff313008-51e9-4880-a4f8-e4c96b84c19a",
+    "release_id": "20e4c3da-a9a2-4ae0-bc2e-cdc5a9c807a3",
+    "version": "0.1.0-alpha.8-routed",
+    "is_latest": true,
+    "upload_status": "success",
+    "files_uploaded": 388,
+    "file_verification": {
+      "verified_files": 256,
+      "mismatches": [],
+      "excluded_dotfiles": [
+        ".github/workflows/pre-route.yml"
+      ]
+    },
+    "build_id": "495832e9-5044-491a-a04a-effa04d302e9",
+    "user_code_job_started_at": "2026-09-29T17:33:12.280Z",
+    "user_code_job_completed_at": "2026-09-29T17:38:37.429Z",
+    "user_code_job_error": null,
+    "display_status": "pending",
+    "generated_circuit_verification": {
+      "records": 1921,
+      "error_count": 0,
+      "layer_comparisons": {
+        "pcb_": {
+          "records": 1002,
+          "match": true
+        },
+        "schematic_": {
+          "records": 468,
+          "match": true
+        },
+        "cad_": {
+          "records": 54,
+          "match": true
+        }
+      },
+      "electrical_match": true,
+      "bottom_labels": [
+        {
+          "type": "pcb_silkscreen_text",
+          "pcb_silkscreen_text_id": "pcb_silkscreen_text_2",
+          "anchor_alignment": "center",
+          "anchor_position": {
+            "x": 0,
+            "y": 25
+          },
+          "font": "tscircuit2024",
+          "font_size": 1.8,
+          "layer": "bottom",
+          "text": "For evaluation only;",
+          "ccw_rotation": 0,
+          "subcircuit_id": "subcircuit_source_group_0"
+        },
+        {
+          "type": "pcb_silkscreen_text",
+          "pcb_silkscreen_text_id": "pcb_silkscreen_text_3",
+          "anchor_alignment": "center",
+          "anchor_position": {
+            "x": 0,
+            "y": 22.5
+          },
+          "font": "tscircuit2024",
+          "font_size": 1.8,
+          "layer": "bottom",
+          "text": "not FCC approved for resale.",
+          "ccw_rotation": 0,
+          "subcircuit_id": "subcircuit_source_group_0"
+        }
+      ]
+    },
+    "schema_validation": "pass",
+    "native_routing_findings": 0
+  },
+  "receipt_note": "This GitHub-only receipt records the completed alpha.8 publication. The registry snapshot contains the preceding publication-status document. The registry aggregate status remains pending despite the successful custom build and verified generated output. The online editor saved-routing issue remains tracked separately in tscircuit/core#4197."
+}
