@@ -1,0 +1,78 @@
+$ bun run guard:source && tsci build index.circuit.tsx && bun scripts/check-mechanical.ts && bun run guard && bun scripts/check-routed-connectivity.ts
+$ bun scripts/check-routing-lock.ts --source-only
+PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Circuit JSON written to dist/index/circuit.json
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+Component TH1 has ftype="simple_resistor" but reference designator should start with R
+Failed to fetch supplier footprint for <connector#260 name=".J7" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#255 name=".C8" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#252 name=".R20" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#251 name=".TH1" /> (jlcpcb:C13564): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#248 name=".R19" /> (jlcpcb:C23206): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <led#238 name=".LED5" /> (jlcpcb:C2286): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#235 name=".R18" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <led#232 name=".LED4" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#229 name=".R17" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <led#226 name=".LED3" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#223 name=".R16" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <led#220 name=".LED2" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#217 name=".R15" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#214 name=".R14" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#211 name=".C7" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#202 name=".U2" /> (jlcpcb:C130023): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <pushbutton#192 name=".SW1" /> (jlcpcb:C318884): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#187 name=".R13" /> (jlcpcb:C25803): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#184 name=".R8" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#179 name=".R12" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#176 name=".R7" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#172 name=".R11" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#169 name=".R6" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#165 name=".R10" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#162 name=".R5" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#158 name=".R9" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#155 name=".R4" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <connector#150 name=".J6" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <connector#145 name=".J5" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <connector#140 name=".J4" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#130 name=".C6" /> (jlcpcb:C57112): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#127 name=".C5" /> (jlcpcb:C23630): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#124 name=".C4" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#121 name=".C3" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <connector#118 name=".J3" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <connector#114 name=".J2" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#110 name=".R3" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#107 name=".R2" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#89 name=".U1" /> (jlcpcb:C50506): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <led#79 name=".LED1" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <resistor#76 name=".R1" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <diode#75 name=".D1" /> (jlcpcb:C83270): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#72 name=".C2" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <capacitor#69 name=".C1" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#59 name=".Q1" /> (jlcpcb:C222495): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <fuse#55 name=".F1" /> (jlcpcb:C178991): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <connector#52 name=".J1" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?
+Q1 has no pin with requires_power=true
+Q1 has no pin with requires_ground=true
+F1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+D1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+TH1 is missing schematic reference designator text. For a custom symbol, add name="{REFDES}" inside the symbol.
+
+Build complete
+  Circuits  1 passed
+  Output    dist
+
+✓ Done
+Build exiting with code 0: build finished successfully
+Board: 75 x 60 x 1.6 mm; four-layer; custom chassis mounting pattern
+H1: (-32.5, 25) mm; drill 3.2 mm; nearest courtyard J1, gap 6.112 mm beyond 7 mm hardware zone
+H2: (32.5, 25) mm; drill 3.2 mm; nearest courtyard J4, gap 5.202 mm beyond 7 mm hardware zone
+H3: (-32.5, -25) mm; drill 3.2 mm; nearest courtyard D1, gap 9.299 mm beyond 7 mm hardware zone
+H4: (32.5, -25) mm; drill 3.2 mm; nearest courtyard J7, gap 0.732 mm beyond 7 mm hardware zone
+PASS: outline, four NPTH holes, four-layer keepouts and 54 courtyard envelopes
+NOT VERIFIED: any particular chassis, connector mating envelope, screw/tool access in 3D
+$ bun scripts/check-routing-lock.ts
+PASS: routed-board contract; 0.30 mm drill / 0.45 mm pad minimums
+Fresh native routing checks: 0 findings

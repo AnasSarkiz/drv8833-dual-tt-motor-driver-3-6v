@@ -30,6 +30,7 @@ export default function DualTtMotorDriver() {
       minViaPadDiameter="0.45mm"
       isViaInPadAllowed={false}
       title="Dual TT Motor Driver — REV A PROTOTYPE"
+      schMaxTraceDistance={5}
     >
       <ChassisMounting />
       <RoutingNets />

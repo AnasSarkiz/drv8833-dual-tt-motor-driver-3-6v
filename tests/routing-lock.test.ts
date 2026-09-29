@@ -44,18 +44,16 @@ describe("authorized routed-board contract", () => {
       ),
     ).toThrow("no routed traces")
   })
-  test("rejects undersized generated vias", () => {
+  // Each independent negative fixture gets its own unchanged runner deadline.
+  test.each([
+    { dimension: "drill", geometry: { hole_diameter: 0.29 } },
+    { dimension: "pad", geometry: { outer_diameter: 0.44 } },
+  ])("rejects undersized generated via $dimension", ({ geometry }) => {
     const via = parsed.find((element) => element.type === "pcb_via")!
     expect(() =>
       checkCircuitLock([
         ...parsed,
-        { ...via, pcb_via_id: "undersized_via", x: 10, hole_diameter: 0.29 },
-      ]),
-    ).toThrow("Via minimum violated")
-    expect(() =>
-      checkCircuitLock([
-        ...parsed,
-        { ...via, pcb_via_id: "undersized_via", x: 10, outer_diameter: 0.44 },
+        { ...via, pcb_via_id: "undersized_via", x: 10, ...geometry },
       ]),
     ).toThrow("Via minimum violated")
   })

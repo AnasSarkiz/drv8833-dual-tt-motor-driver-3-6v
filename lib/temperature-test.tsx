@@ -3,19 +3,31 @@ import { A_0603WAF1001T5E } from "../imports/A_0603WAF1001T5E"
 import { A_0603WAF5602T5E } from "../imports/A_0603WAF5602T5E"
 import { BoardThermistor } from "./parts"
 import { CC0603KRX7R9BB104 } from "../imports/CC0603KRX7R9BB104"
+import { SchematicNote } from "./schematic-note"
 
 export function TemperatureTest() {
   return (
     <>
-      <schematicsheet name="Temperature_Test" sheetIndex={3} />
+      <schematicsheet name="Temperature_Test" sheetIndex={3}>
+        <SchematicNote
+          schX={-9}
+          schY={-4.2}
+          lines={[
+            "TH1: local board-temperature sensor, 10k NTC at 25 C",
+            "TEMP = 0.1515 x VIO at 25 C (nominal)",
+            "Host must monitor TEMP; no automatic thermal cutoff",
+          ]}
+        />
+      </schematicsheet>
       <schematicsection
         name="temperature"
         displayName="Local board temperature — not motor or junction"
       />
       <schematicsection
         name="diagnostic"
-        displayName="Status and raw switching-node test pads"
+        displayName="Status and temperature connector"
       />
+      <schematicsection name="testpads" displayName="Labeled test access" />
       <A_0603WAF5602T5E
         name="R19"
         schOrientation="vertical"
@@ -30,7 +42,7 @@ export function TemperatureTest() {
       />
       <BoardThermistor
         name="TH1"
-        schRotation={-90}
+        schRotation={-180}
         pcbX={-9}
         pcbY={7}
         pcbRotation={180}
@@ -45,7 +57,7 @@ export function TemperatureTest() {
         pcbX={29}
         pcbY={-15}
         schX={-2}
-        schY={3.5}
+        schY={1}
         schSheetName="Temperature_Test"
         schSectionName="temperature"
         connections={{ pin1: "net.TEMP_RAW", pin2: "net.TEMP" }}
@@ -72,7 +84,16 @@ export function TemperatureTest() {
         schSheetName="Temperature_Test"
         schSectionName="diagnostic"
         connections={{ pin1: "net.FAULT_N", pin2: "net.TEMP", pin3: "net.GND" }}
-      />
+      >
+        <SchematicNote
+          schX={-6}
+          schY={2.4}
+          lines={[
+            "J7: DIAGNOSTICS TO HOST",
+            "FAULT_N: active low; TEMP: analog output",
+          ]}
+        />
+      </HostHeader>
       {(
         ["ISEN_A", "ISEN_B", "GND", "VM", "VIO", "FAULT_N", "TEMP"] as const
       ).map((netName, index) => (
@@ -99,7 +120,7 @@ export function TemperatureTest() {
           schX={-14 + index * 4}
           schY={-9}
           schSheetName="Temperature_Test"
-          schSectionName="diagnostic"
+          schSectionName="testpads"
           connections={{ pin1: `net.${netName}` }}
         />
       ))}

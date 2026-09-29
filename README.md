@@ -2,7 +2,9 @@
 
 [Public PCB](https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v#pcb) · [GitHub repository](https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v)
 
-Revision A; package 0.1.0-alpha.6. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
+Revision A; package 0.1.0-alpha.7. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
+
+Alpha.7 improves the four schematic sheets with nearby chip functions/ratings and connector labels. Electrical connections, PCB geometry and the alpha.6 prototype manufacturing packet are unchanged. [Schematic design review and previews](SCHEMATIC_REVIEW.md).
 
 **Prototype order packet:** [Layout/export fixes completed; final quote and manufacturer preview remain](ORDER_READINESS.md). [Current stock for five boards](artifacts/order-release/STOCK.md).
 

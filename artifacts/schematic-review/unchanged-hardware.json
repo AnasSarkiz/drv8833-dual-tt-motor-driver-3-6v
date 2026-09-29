@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "61d73a63cc9b86099159276b82ba96cf252c9d54",
+  "baseline_circuit_sha256": "a872acebb338d2162f3e2b68a5b7c1b11c2e7aed9ccf76bfa3a386b113622692",
+  "current_circuit_sha256": "aa2f60f5390bb99264b4a088ed23d7ad92760ff4ca0c6812aa6b5fb82f60a808",
+  "identical_record_counts": {
+    "pcb_": 1000,
+    "cad_": 54,
+    "source_component": 56,
+    "source_port": 155,
+    "source_net": 33,
+    "source_trace": 136,
+    "source_component_internal_connection": 2
+  },
+  "unchanged_order_release_files": 53,
+  "native_schematic_note_lines": 26,
+  "all_notes_have_sheet_ids": true
+}

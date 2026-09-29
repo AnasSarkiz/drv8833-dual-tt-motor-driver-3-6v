@@ -4,6 +4,7 @@ import { CL10A225KO8NNNC } from "../imports/CL10A225KO8NNNC"
 import { A_0603B103K500NT } from "../imports/A_0603B103K500NT"
 import { RL2512FK_070R15L } from "../imports/RL2512FK_070R15L"
 import { InputTerminal } from "./parts"
+import { SchematicNote } from "./schematic-note"
 
 export function MotorDriver() {
   return (
@@ -44,7 +45,18 @@ export function MotorDriver() {
           GND1: "net.GND",
           GND2: "net.GND",
         }}
-      />
+      >
+        <SchematicNote
+          schX={-4.6}
+          schY={-3.4}
+          lines={[
+            "U1: dual H-bridge for two brushed DC motors",
+            "IC VM: 2.7-10.8 V; board input target: 3-6 V",
+            "Current chop: 1.33 A/channel nominal (R2/R3)",
+            "Continuous board current: requires thermal testing",
+          ]}
+        />
+      </MotorDriverIc>
       <RL2512FK_070R15L
         name="R2"
         schOrientation="vertical"
@@ -77,7 +89,9 @@ export function MotorDriver() {
         schSheetName="Dual_Motor_Driver"
         schSectionName="bridge"
         connections={{ pin1: "net.AOUT1", pin2: "net.AOUT2" }}
-      />
+      >
+        <SchematicNote schX={-1.4} schY={1.2} lines={["J2: MOTOR A"]} />
+      </InputTerminal>
       <InputTerminal
         name="J3"
         pcbX={11}
@@ -87,7 +101,9 @@ export function MotorDriver() {
         schSheetName="Dual_Motor_Driver"
         schSectionName="bridge"
         connections={{ pin1: "net.BOUT1", pin2: "net.BOUT2" }}
-      />
+      >
+        <SchematicNote schX={-1.4} schY={1.2} lines={["J3: MOTOR B"]} />
+      </InputTerminal>
       <CL21A106KAYNNNE
         name="C3"
         schOrientation="vertical"

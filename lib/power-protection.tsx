@@ -5,6 +5,7 @@ import { VZH221M1CTR_0607 } from "../imports/VZH221M1CTR_0607"
 import { BusTvs } from "./parts"
 import { A_0603WAF2201T5E } from "../imports/A_0603WAF2201T5E"
 import { KT_0603YG } from "../imports/KT_0603YG"
+import { SchematicNote } from "./schematic-note"
 
 export function PowerProtection() {
   return (
@@ -12,7 +13,7 @@ export function PowerProtection() {
       <schematicsheet name="Power_Protection" sheetIndex={0} />
       <schematicsection
         name="power_path"
-        displayName="Input protection — candidate, review open"
+        displayName="Input protection — prototype, physical tests pending"
       />
       <schematicsection
         name="bus_storage"
@@ -28,7 +29,16 @@ export function PowerProtection() {
         schSheetName="Power_Protection"
         schSectionName="power_path"
         connections={{ pin1: "net.VIN", pin2: "net.GND" }}
-      />
+      >
+        <SchematicNote
+          schX={-1.4}
+          schY={1.8}
+          lines={[
+            "J1: MOTOR SUPPLY INPUT",
+            "3-6 V target; verify loaded VM >= 2.7 V",
+          ]}
+        />
+      </InputTerminal>
       <InputFuse
         name="F1"
         pcbX={-19}
@@ -59,7 +69,17 @@ export function PowerProtection() {
           pin8: "net.VIN_FUSED",
           pin9: "net.VIN_FUSED",
         }}
-      />
+      >
+        <SchematicNote
+          schX={-3}
+          schY={-2.2}
+          lines={[
+            "Q1: P-channel reverse-polarity protection",
+            "VDS rating: -20 V; board input target: 3-6 V",
+            "Source = VM; drain + exposed pad = VIN_FUSED",
+          ]}
+        />
+      </ReversePolarityMosfet>
       <VZH221M1CTR_0607
         name="C1"
         schOrientation="vertical"

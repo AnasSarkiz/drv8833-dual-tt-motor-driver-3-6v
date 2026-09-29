@@ -9,8 +9,8 @@
     "sheet_width": 297,
     "sheet_height": 210,
     "center": {
-      "x": -2.2800000000000002,
-      "y": -0.5375000000000005
+      "x": -3.3550000000000013,
+      "y": -0.21250000000000036
     }
   },
   {
@@ -23,7 +23,7 @@
     "sheet_width": 297,
     "sheet_height": 210,
     "center": {
-      "x": 0,
+      "x": -0.3000000000000007,
       "y": 0.5000000000000004
     }
   },
@@ -37,8 +37,8 @@
     "sheet_width": 431.8,
     "sheet_height": 279.4,
     "center": {
-      "x": -1.2800000000000011,
-      "y": -0.9797276749999995
+      "x": -2.0549999999999997,
+      "y": -1.9249999999999998
     }
   },
   {
@@ -52,7 +52,7 @@
     "sheet_height": 210,
     "center": {
       "x": -1.75,
-      "y": -2.285
+      "y": -1.2999999999999998
     }
   },
   {
@@ -6532,7 +6532,7 @@
     "schematic_component_id": "schematic_component_44",
     "center": {
       "x": -2,
-      "y": 3.5
+      "y": 1
     },
     "size": {
       "width": 0.6,
@@ -7528,7 +7528,7 @@
     "distance_from_component_edge": 0.4,
     "pin_number": 2,
     "display_pin_label": "cathode",
-    "is_connected": false,
+    "is_connected": true,
     "schematic_sheet_id": "schematic_sheet_1"
   },
   {
@@ -7560,7 +7560,7 @@
     "distance_from_component_edge": 0.4,
     "pin_number": 2,
     "display_pin_label": "cathode",
-    "is_connected": false,
+    "is_connected": true,
     "schematic_sheet_id": "schematic_sheet_1"
   },
   {
@@ -7965,7 +7965,7 @@
     "distance_from_component_edge": 0.4,
     "pin_number": 2,
     "display_pin_label": "cathode",
-    "is_connected": true,
+    "is_connected": false,
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
@@ -8029,7 +8029,7 @@
     "distance_from_component_edge": 0.4,
     "pin_number": 2,
     "display_pin_label": "cathode",
-    "is_connected": true,
+    "is_connected": false,
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
@@ -8157,7 +8157,7 @@
     "distance_from_component_edge": 0.4,
     "pin_number": 2,
     "display_pin_label": "cathode",
-    "is_connected": true,
+    "is_connected": false,
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
@@ -8847,7 +8847,7 @@
     "schematic_component_id": "schematic_component_44",
     "center": {
       "x": -2.3,
-      "y": 3.5
+      "y": 1
     },
     "source_port_id": "source_port_129",
     "facing_direction": "left",
@@ -8863,7 +8863,7 @@
     "schematic_component_id": "schematic_component_44",
     "center": {
       "x": -1.7,
-      "y": 3.5
+      "y": 1
     },
     "source_port_id": "source_port_130",
     "facing_direction": "right",
@@ -9072,6 +9072,34 @@
     "schematic_symbol_id": "schematic_symbol_2"
   },
   {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_20",
+    "anchor": "left",
+    "text": "J1: MOTOR SUPPLY INPUT",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -13.4,
+      "y": 5.8
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_21",
+    "anchor": "left",
+    "text": "3-6 V target; verify loaded VM >= 2.7 V",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -13.4,
+      "y": 5.25
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
     "type": "schematic_path",
     "schematic_path_id": "schematic_path_0",
     "schematic_component_id": "schematic_component_1",
@@ -9113,7 +9141,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_20",
+    "schematic_text_id": "schematic_text_22",
     "schematic_symbol_id": "schematic_symbol_0",
     "anchor": "center",
     "text": "F1",
@@ -9122,6 +9150,48 @@
     "position": {
       "x": -6,
       "y": 4.8
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_23",
+    "anchor": "left",
+    "text": "Q1: P-channel reverse-polarity protection",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -3,
+      "y": 1.7999999999999998
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_24",
+    "anchor": "left",
+    "text": "VDS rating: -20 V; board input target: 3-6 V",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -3,
+      "y": 1.25
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_25",
+    "anchor": "left",
+    "text": "Source = VM; drain + exposed pad = VIN_FUSED",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -3,
+      "y": 0.6999999999999997
     },
     "rotation": 0,
     "schematic_sheet_id": "schematic_sheet_0"
@@ -9186,7 +9256,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_21",
+    "schematic_text_id": "schematic_text_26",
     "schematic_symbol_id": "schematic_symbol_1",
     "anchor": "center",
     "text": "D1",
@@ -9198,6 +9268,272 @@
     },
     "rotation": 0,
     "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_27",
+    "anchor": "left",
+    "text": "U1: dual H-bridge for two brushed DC motors",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -4.6,
+      "y": -3.4
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_28",
+    "anchor": "left",
+    "text": "IC VM: 2.7-10.8 V; board input target: 3-6 V",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -4.6,
+      "y": -3.95
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_29",
+    "anchor": "left",
+    "text": "Current chop: 1.33 A/channel nominal (R2/R3)",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -4.6,
+      "y": -4.5
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_30",
+    "anchor": "left",
+    "text": "Continuous board current: requires thermal testing",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -4.6,
+      "y": -5.05
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_31",
+    "anchor": "left",
+    "text": "J2: MOTOR A",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -11.4,
+      "y": 1.2
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_32",
+    "anchor": "left",
+    "text": "J3: MOTOR B",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 8.6,
+      "y": 1.2
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_33",
+    "anchor": "left",
+    "text": "J4: HOST POWER / ENABLE",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -19.4,
+      "y": 10.4
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_34",
+    "anchor": "left",
+    "text": "VIO input: match host 3.3 V or 5 V",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -19.4,
+      "y": 9.85
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_35",
+    "anchor": "left",
+    "text": "J5: MOTOR A COMMANDS",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -19.4,
+      "y": 3.5
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_36",
+    "anchor": "left",
+    "text": "J6: MOTOR B COMMANDS",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -19.4,
+      "y": -2.5
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_37",
+    "anchor": "left",
+    "text": "SW1: HOLD TO DISABLE; motors coast",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -7,
+      "y": -13.7
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_38",
+    "anchor": "left",
+    "text": "Release returns host control; motion can restart",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -7,
+      "y": -14.25
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_39",
+    "anchor": "left",
+    "text": "U2: dual XOR for command LEDs",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 0.6000000000000001,
+      "y": -1
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_40",
+    "anchor": "left",
+    "text": "IC VCC: 1.65-5.5 V; board VIO: 3.3/5 V",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 0.6000000000000001,
+      "y": -1.5499999999999998
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_41",
+    "anchor": "left",
+    "text": "LED3/4 light for unequal motor inputs",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 0.6000000000000001,
+      "y": -2.1
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_42",
+    "anchor": "left",
+    "text": "Indicates commands, not shaft motion",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 0.6000000000000001,
+      "y": -2.6500000000000004
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_43",
+    "anchor": "left",
+    "text": "TH1: local board-temperature sensor, 10k NTC at 25 C",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -9,
+      "y": -4.2
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_44",
+    "anchor": "left",
+    "text": "TEMP = 0.1515 x VIO at 25 C (nominal)",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -9,
+      "y": -4.75
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_45",
+    "anchor": "left",
+    "text": "Host must monitor TEMP; no automatic thermal cutoff",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": -9,
+      "y": -5.300000000000001
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_3"
   },
   {
     "type": "schematic_rect",
@@ -9245,7 +9581,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_22",
+    "schematic_text_id": "schematic_text_46",
     "schematic_symbol_id": "schematic_symbol_2",
     "anchor": "center",
     "text": "TH1",
@@ -9259,34 +9595,52 @@
     "schematic_sheet_id": "schematic_sheet_3"
   },
   {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_47",
+    "anchor": "left",
+    "text": "J7: DIAGNOSTICS TO HOST",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 4,
+      "y": 6.4
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_48",
+    "anchor": "left",
+    "text": "FAULT_N: active low; TEMP: analog output",
+    "font_size": 0.3,
+    "color": "#243746",
+    "position": {
+      "x": 4,
+      "y": 5.85
+    },
+    "rotation": 0,
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_0",
-    "source_trace_id": "schematic_port_13-schematic_port_15",
+    "source_trace_id": "schematic_port_15-schematic_port_13",
     "edges": [
       {
         "from": {
-          "x": -8,
+          "x": -4,
           "y": -4.3
         },
         "to": {
-          "x": -8,
+          "x": -3.999999999999999,
           "y": -4.39
         }
       },
       {
         "from": {
-          "x": -8,
+          "x": -3.999999999999999,
           "y": -4.39
-        },
-        "to": {
-          "x": -8,
-          "y": -4.59
-        }
-      },
-      {
-        "from": {
-          "x": -8,
-          "y": -4.59
         },
         "to": {
           "x": -3.999999999999999,
@@ -9299,17 +9653,27 @@
           "y": -4.59
         },
         "to": {
-          "x": -3.999999999999999,
+          "x": -8,
+          "y": -4.59
+        }
+      },
+      {
+        "from": {
+          "x": -8,
+          "y": -4.59
+        },
+        "to": {
+          "x": -8,
           "y": -4.39
         }
       },
       {
         "from": {
-          "x": -3.999999999999999,
+          "x": -8,
           "y": -4.39
         },
         "to": {
-          "x": -4,
+          "x": -8,
           "y": -4.3
         }
       }
@@ -9479,32 +9843,22 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_5",
-    "source_trace_id": "schematic_port_14-schematic_port_16",
+    "source_trace_id": "schematic_port_16-schematic_port_14",
     "edges": [
       {
         "from": {
-          "x": -8,
+          "x": -4,
           "y": -3.7
         },
         "to": {
-          "x": -8,
+          "x": -4,
           "y": -3.6100000000000003
         }
       },
       {
         "from": {
-          "x": -8,
+          "x": -4,
           "y": -3.6100000000000003
-        },
-        "to": {
-          "x": -8,
-          "y": -3.41
-        }
-      },
-      {
-        "from": {
-          "x": -8,
-          "y": -3.41
         },
         "to": {
           "x": -4,
@@ -9517,17 +9871,27 @@
           "y": -3.41
         },
         "to": {
-          "x": -4,
+          "x": -8,
+          "y": -3.41
+        }
+      },
+      {
+        "from": {
+          "x": -8,
+          "y": -3.41
+        },
+        "to": {
+          "x": -8,
           "y": -3.6100000000000003
         }
       },
       {
         "from": {
-          "x": -4,
+          "x": -8,
           "y": -3.6100000000000003
         },
         "to": {
-          "x": -4,
+          "x": -8,
           "y": -3.7
         }
       }
@@ -9619,6 +9983,126 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_8",
+    "source_trace_id": "schematic_port_20-schematic_port_22",
+    "edges": [
+      {
+        "from": {
+          "x": 8.3,
+          "y": -2
+        },
+        "to": {
+          "x": 8.5,
+          "y": -2
+        }
+      },
+      {
+        "from": {
+          "x": 8.5,
+          "y": -2
+        },
+        "to": {
+          "x": 8.5,
+          "y": -4
+        }
+      },
+      {
+        "from": {
+          "x": 8.5,
+          "y": -4
+        },
+        "to": {
+          "x": 7.235,
+          "y": -4
+        }
+      },
+      {
+        "from": {
+          "x": 7.235,
+          "y": -4
+        },
+        "to": {
+          "x": 7.235,
+          "y": -6
+        }
+      },
+      {
+        "from": {
+          "x": 7.235,
+          "y": -6
+        },
+        "to": {
+          "x": 7.4350000000000005,
+          "y": -6
+        }
+      },
+      {
+        "from": {
+          "x": 7.4350000000000005,
+          "y": -6
+        },
+        "to": {
+          "x": 7.46,
+          "y": -6
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_9",
+    "source_trace_id": "schematic_port_18-schematic_port_19",
+    "edges": [
+      {
+        "from": {
+          "x": 1.6,
+          "y": -4
+        },
+        "to": {
+          "x": 1.52,
+          "y": -4
+        }
+      },
+      {
+        "from": {
+          "x": 1.52,
+          "y": -4
+        },
+        "to": {
+          "x": 1.32,
+          "y": -4
+        }
+      },
+      {
+        "from": {
+          "x": 1.32,
+          "y": -4
+        },
+        "to": {
+          "x": 1.32,
+          "y": -2
+        }
+      },
+      {
+        "from": {
+          "x": 1.32,
+          "y": -2
+        },
+        "to": {
+          "x": 7.699999999999999,
+          "y": -2
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3",
+    "schematic_sheet_id": "schematic_sheet_0"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_10",
     "source_trace_id": "available-net-orientation-0-VIN",
     "edges": [
       {
@@ -9648,7 +10132,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_9",
+    "schematic_trace_id": "schematic_trace_11",
     "source_trace_id": "available-net-orientation-1-VIN",
     "edges": [
       {
@@ -9678,7 +10162,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_10",
+    "schematic_trace_id": "schematic_trace_12",
     "source_trace_id": "available-net-orientation-2-GND",
     "edges": [
       {
@@ -9708,7 +10192,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_11",
+    "schematic_trace_id": "schematic_trace_13",
     "source_trace_id": "available-net-orientation-3-GND",
     "edges": [
       {
@@ -9738,7 +10222,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_12",
+    "schematic_trace_id": "schematic_trace_14",
     "source_trace_id": "available-net-orientation-5-GND",
     "edges": [
       {
@@ -9768,7 +10252,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_13",
+    "schematic_trace_id": "schematic_trace_15",
     "source_trace_id": "available-net-orientation-6-GND",
     "edges": [
       {
@@ -9808,7 +10292,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_14",
+    "schematic_trace_id": "schematic_trace_16",
     "source_trace_id": "available-net-orientation-7-VIN_FUSED",
     "edges": [
       {
@@ -9834,146 +10318,6 @@
     ],
     "junctions": [],
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net2",
-    "schematic_sheet_id": "schematic_sheet_0"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_15",
-    "source_trace_id": "available-net-orientation-11-VM",
-    "edges": [
-      {
-        "from": {
-          "x": 1.6,
-          "y": -4
-        },
-        "to": {
-          "x": 1.52,
-          "y": -4
-        }
-      },
-      {
-        "from": {
-          "x": 1.52,
-          "y": -4
-        },
-        "to": {
-          "x": 1.3390000000000002,
-          "y": -4
-        }
-      },
-      {
-        "from": {
-          "x": 1.3390000000000002,
-          "y": -4
-        },
-        "to": {
-          "x": 1.3390000000000002,
-          "y": -3.799
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3",
-    "schematic_sheet_id": "schematic_sheet_0"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_16",
-    "source_trace_id": "available-net-orientation-12-VM",
-    "edges": [
-      {
-        "from": {
-          "x": 7.699999999999999,
-          "y": -2
-        },
-        "to": {
-          "x": 7.518999999999999,
-          "y": -2
-        }
-      },
-      {
-        "from": {
-          "x": 7.518999999999999,
-          "y": -2
-        },
-        "to": {
-          "x": 7.518999999999999,
-          "y": -1.649
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3",
-    "schematic_sheet_id": "schematic_sheet_0"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_17",
-    "source_trace_id": "available-net-orientation-13-LED_VM_A",
-    "edges": [
-      {
-        "from": {
-          "x": 8.3,
-          "y": -2
-        },
-        "to": {
-          "x": 8.841,
-          "y": -2
-        }
-      },
-      {
-        "from": {
-          "x": 8.841,
-          "y": -2
-        },
-        "to": {
-          "x": 8.841,
-          "y": -1.649
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
-    "schematic_sheet_id": "schematic_sheet_0"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_18",
-    "source_trace_id": "available-net-orientation-14-LED_VM_A",
-    "edges": [
-      {
-        "from": {
-          "x": 7.46,
-          "y": -6
-        },
-        "to": {
-          "x": 7.4350000000000005,
-          "y": -6
-        }
-      },
-      {
-        "from": {
-          "x": 7.4350000000000005,
-          "y": -6
-        },
-        "to": {
-          "x": 6.894,
-          "y": -6
-        }
-      },
-      {
-        "from": {
-          "x": 6.894,
-          "y": -6
-        },
-        "to": {
-          "x": 6.894,
-          "y": -5.399
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "schematic_sheet_id": "schematic_sheet_0"
   },
   {
@@ -10050,11 +10394,11 @@
     "text": "GND",
     "source_net_id": "source_net_0",
     "anchor_position": {
-      "x": -8,
+      "x": -3.999999999999999,
       "y": -4.59
     },
     "center": {
-      "x": -8,
+      "x": -3.999999999999999,
       "y": -4.68
     },
     "anchor_side": "top",
@@ -10152,11 +10496,11 @@
     "text": "VM",
     "source_net_id": "source_net_3",
     "anchor_position": {
-      "x": -8,
+      "x": -4,
       "y": -3.41
     },
     "center": {
-      "x": -8,
+      "x": -4,
       "y": -3.3200000000000003
     },
     "anchor_side": "bottom",
@@ -10169,12 +10513,12 @@
     "text": "VM",
     "source_net_id": "source_net_3",
     "anchor_position": {
-      "x": 1.3390000000000002,
-      "y": -3.799
+      "x": 1.32,
+      "y": -2
     },
     "center": {
-      "x": 1.3390000000000002,
-      "y": -3.709
+      "x": 1.32,
+      "y": -1.91
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_0",
@@ -10183,49 +10527,15 @@
   {
     "type": "schematic_net_label",
     "schematic_net_label_id": "schematic_net_label_12",
-    "text": "VM",
-    "source_net_id": "source_net_3",
-    "anchor_position": {
-      "x": 7.518999999999999,
-      "y": -1.649
-    },
-    "center": {
-      "x": 7.518999999999999,
-      "y": -1.559
-    },
-    "anchor_side": "bottom",
-    "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_name": "rail_up"
-  },
-  {
-    "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_13",
     "text": "LED_VM_A",
     "source_net_id": "source_net_13",
     "anchor_position": {
-      "x": 8.841,
-      "y": -1.649
+      "x": 7.235,
+      "y": -4
     },
     "center": {
-      "x": 8.841,
-      "y": -1.559
-    },
-    "anchor_side": "bottom",
-    "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_name": "rail_up"
-  },
-  {
-    "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_14",
-    "text": "LED_VM_A",
-    "source_net_id": "source_net_13",
-    "anchor_position": {
-      "x": 6.894,
-      "y": -5.399
-    },
-    "center": {
-      "x": 6.894,
-      "y": -5.309
+      "x": 7.235,
+      "y": -3.91
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_0",
@@ -10233,33 +10543,23 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_19",
-    "source_trace_id": "schematic_port_48-schematic_port_50",
+    "schematic_trace_id": "schematic_trace_17",
+    "source_trace_id": "schematic_port_50-schematic_port_48",
     "edges": [
       {
         "from": {
-          "x": -10,
+          "x": -6,
           "y": 8.3
         },
         "to": {
-          "x": -10,
+          "x": -6,
           "y": 8.38
         }
       },
       {
         "from": {
-          "x": -10,
+          "x": -6,
           "y": 8.38
-        },
-        "to": {
-          "x": -10,
-          "y": 8.58
-        }
-      },
-      {
-        "from": {
-          "x": -10,
-          "y": 8.58
         },
         "to": {
           "x": -6,
@@ -10272,17 +10572,27 @@
           "y": 8.58
         },
         "to": {
-          "x": -6,
+          "x": -10,
+          "y": 8.58
+        }
+      },
+      {
+        "from": {
+          "x": -10,
+          "y": 8.58
+        },
+        "to": {
+          "x": -10,
           "y": 8.38
         }
       },
       {
         "from": {
-          "x": -6,
+          "x": -10,
           "y": 8.38
         },
         "to": {
-          "x": -6,
+          "x": -10,
           "y": 8.3
         }
       }
@@ -10293,7 +10603,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_20",
+    "schematic_trace_id": "schematic_trace_18",
     "source_trace_id": "schematic_port_39-schematic_port_35",
     "edges": [
       {
@@ -10333,33 +10643,63 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_21",
-    "source_trace_id": "schematic_port_49-schematic_port_51",
+    "schematic_trace_id": "schematic_trace_19",
+    "source_trace_id": "schematic_port_41-schematic_port_43",
     "edges": [
       {
         "from": {
-          "x": -10,
+          "x": -5,
+          "y": -7.3
+        },
+        "to": {
+          "x": -5,
+          "y": -7.5
+        }
+      },
+      {
+        "from": {
+          "x": -5,
+          "y": -7.5
+        },
+        "to": {
+          "x": 5,
+          "y": -7.5
+        }
+      },
+      {
+        "from": {
+          "x": 5,
+          "y": -7.5
+        },
+        "to": {
+          "x": 5,
+          "y": -7.3
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "schematic_sheet_id": "schematic_sheet_1"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_20",
+    "source_trace_id": "schematic_port_51-schematic_port_49",
+    "edges": [
+      {
+        "from": {
+          "x": -6,
           "y": 7.7
         },
         "to": {
-          "x": -10,
+          "x": -6,
           "y": 7.619999999999999
         }
       },
       {
         "from": {
-          "x": -10,
+          "x": -6,
           "y": 7.619999999999999
-        },
-        "to": {
-          "x": -10,
-          "y": 7.42
-        }
-      },
-      {
-        "from": {
-          "x": -10,
-          "y": 7.42
         },
         "to": {
           "x": -6,
@@ -10372,17 +10712,27 @@
           "y": 7.42
         },
         "to": {
-          "x": -6,
+          "x": -10,
+          "y": 7.42
+        }
+      },
+      {
+        "from": {
+          "x": -10,
+          "y": 7.42
+        },
+        "to": {
+          "x": -10,
           "y": 7.619999999999999
         }
       },
       {
         "from": {
-          "x": -6,
+          "x": -10,
           "y": 7.619999999999999
         },
         "to": {
-          "x": -6,
+          "x": -10,
           "y": 7.7
         }
       }
@@ -10398,7 +10748,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_22",
+    "schematic_trace_id": "schematic_trace_21",
     "source_trace_id": "schematic_port_51-schematic_port_53",
     "edges": [
       {
@@ -10408,13 +10758,23 @@
         },
         "to": {
           "x": -6,
-          "y": 7.42
+          "y": 7.619999999999999
         }
       },
       {
         "from": {
           "x": -6,
-          "y": 7.42
+          "y": 7.619999999999999
+        },
+        "to": {
+          "x": -6,
+          "y": 7.419999999999999
+        }
+      },
+      {
+        "from": {
+          "x": -6,
+          "y": 7.419999999999999
         },
         "to": {
           "x": 0,
@@ -10445,7 +10805,7 @@
     "junctions": [
       {
         "x": -6,
-        "y": 7.42
+        "y": 7.419999999999999
       }
     ],
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
@@ -10453,7 +10813,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_23",
+    "schematic_trace_id": "schematic_trace_22",
     "source_trace_id": "available-net-orientation-20-VM",
     "edges": [
       {
@@ -10503,7 +10863,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_15",
+    "schematic_net_label_id": "schematic_net_label_13",
     "text": "VCP",
     "source_net_id": "source_net_18",
     "anchor_position": {
@@ -10520,7 +10880,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_16",
+    "schematic_net_label_id": "schematic_net_label_14",
     "text": "VCP",
     "source_net_id": "source_net_18",
     "anchor_position": {
@@ -10537,7 +10897,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_17",
+    "schematic_net_label_id": "schematic_net_label_15",
     "text": "VM",
     "source_net_id": "source_net_3",
     "anchor_position": {
@@ -10554,15 +10914,15 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_18",
+    "schematic_net_label_id": "schematic_net_label_16",
     "text": "VM",
     "source_net_id": "source_net_3",
     "anchor_position": {
-      "x": -10,
+      "x": -6,
       "y": 8.58
     },
     "center": {
-      "x": -10,
+      "x": -6,
       "y": 8.67
     },
     "anchor_side": "bottom",
@@ -10571,7 +10931,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_19",
+    "schematic_net_label_id": "schematic_net_label_17",
     "text": "VM",
     "source_net_id": "source_net_3",
     "anchor_position": {
@@ -10588,7 +10948,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_20",
+    "schematic_net_label_id": "schematic_net_label_18",
     "text": "GND",
     "source_net_id": "source_net_0",
     "anchor_position": {
@@ -10605,58 +10965,41 @@
   },
   {
     "type": "schematic_net_label",
+    "schematic_net_label_id": "schematic_net_label_19",
+    "text": "GND",
+    "source_net_id": "source_net_0",
+    "anchor_position": {
+      "x": -5,
+      "y": -7.5
+    },
+    "center": {
+      "x": -5,
+      "y": -7.59
+    },
+    "anchor_side": "top",
+    "schematic_sheet_id": "schematic_sheet_1",
+    "symbol_name": "rail_down"
+  },
+  {
+    "type": "schematic_net_label",
+    "schematic_net_label_id": "schematic_net_label_20",
+    "text": "GND",
+    "source_net_id": "source_net_0",
+    "anchor_position": {
+      "x": -6,
+      "y": 7.419999999999999
+    },
+    "center": {
+      "x": -6,
+      "y": 7.329999999999999
+    },
+    "anchor_side": "top",
+    "schematic_sheet_id": "schematic_sheet_1",
+    "symbol_name": "rail_down"
+  },
+  {
+    "type": "schematic_net_label",
     "schematic_net_label_id": "schematic_net_label_21",
-    "text": "GND",
-    "source_net_id": "source_net_0",
-    "anchor_position": {
-      "x": -5,
-      "y": -7.3
-    },
-    "center": {
-      "x": -5,
-      "y": -7.39
-    },
-    "anchor_side": "top",
-    "schematic_sheet_id": "schematic_sheet_1",
-    "symbol_name": "rail_down"
-  },
-  {
-    "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_22",
-    "text": "GND",
-    "source_net_id": "source_net_0",
-    "anchor_position": {
-      "x": 5,
-      "y": -7.3
-    },
-    "center": {
-      "x": 5,
-      "y": -7.39
-    },
-    "anchor_side": "top",
-    "schematic_sheet_id": "schematic_sheet_1",
-    "symbol_name": "rail_down"
-  },
-  {
-    "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_23",
-    "text": "GND",
-    "source_net_id": "source_net_0",
-    "anchor_position": {
-      "x": -10,
-      "y": 7.42
-    },
-    "center": {
-      "x": -10,
-      "y": 7.33
-    },
-    "anchor_side": "top",
-    "schematic_sheet_id": "schematic_sheet_1",
-    "symbol_name": "rail_down"
-  },
-  {
-    "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_24",
     "text": "VINT",
     "source_net_id": "source_net_19",
     "anchor_position": {
@@ -10673,7 +11016,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_25",
+    "schematic_net_label_id": "schematic_net_label_22",
     "text": "VINT",
     "source_net_id": "source_net_19",
     "anchor_position": {
@@ -10690,7 +11033,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_24",
+    "schematic_trace_id": "schematic_trace_23",
     "source_trace_id": "source_trace_23",
     "edges": [
       {
@@ -10710,7 +11053,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_23",
+    "schematic_text_id": "schematic_text_49",
     "text": "ENABLE",
     "source_trace_id": "source_trace_23",
     "anchor": "right",
@@ -10725,7 +11068,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_25",
+    "schematic_trace_id": "schematic_trace_24",
     "source_trace_id": "source_trace_28",
     "edges": [
       {
@@ -10745,7 +11088,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_24",
+    "schematic_text_id": "schematic_text_50",
     "text": "AOUT1",
     "source_trace_id": "source_trace_28",
     "anchor": "left",
@@ -10760,7 +11103,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_26",
+    "schematic_trace_id": "schematic_trace_25",
     "source_trace_id": "source_trace_44",
     "edges": [
       {
@@ -10780,7 +11123,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_25",
+    "schematic_text_id": "schematic_text_51",
     "text": "AOUT1",
     "source_trace_id": "source_trace_44",
     "anchor": "right",
@@ -10795,7 +11138,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_27",
+    "schematic_trace_id": "schematic_trace_26",
     "source_trace_id": "source_trace_32",
     "edges": [
       {
@@ -10815,7 +11158,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_26",
+    "schematic_text_id": "schematic_text_52",
     "text": "ISEN_A",
     "source_trace_id": "source_trace_32",
     "anchor": "left",
@@ -10830,7 +11173,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_28",
+    "schematic_trace_id": "schematic_trace_27",
     "source_trace_id": "source_trace_40",
     "edges": [
       {
@@ -10850,7 +11193,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_27",
+    "schematic_text_id": "schematic_text_53",
     "text": "ISEN_A",
     "source_trace_id": "source_trace_40",
     "anchor": "left",
@@ -10865,7 +11208,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_29",
+    "schematic_trace_id": "schematic_trace_28",
     "source_trace_id": "source_trace_29",
     "edges": [
       {
@@ -10885,7 +11228,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_28",
+    "schematic_text_id": "schematic_text_54",
     "text": "AOUT2",
     "source_trace_id": "source_trace_29",
     "anchor": "left",
@@ -10900,7 +11243,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_30",
+    "schematic_trace_id": "schematic_trace_29",
     "source_trace_id": "source_trace_45",
     "edges": [
       {
@@ -10920,7 +11263,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_29",
+    "schematic_text_id": "schematic_text_55",
     "text": "AOUT2",
     "source_trace_id": "source_trace_45",
     "anchor": "left",
@@ -10935,7 +11278,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_31",
+    "schematic_trace_id": "schematic_trace_30",
     "source_trace_id": "source_trace_31",
     "edges": [
       {
@@ -10955,7 +11298,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_30",
+    "schematic_text_id": "schematic_text_56",
     "text": "BOUT2",
     "source_trace_id": "source_trace_31",
     "anchor": "left",
@@ -10970,7 +11313,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_32",
+    "schematic_trace_id": "schematic_trace_31",
     "source_trace_id": "source_trace_47",
     "edges": [
       {
@@ -10990,7 +11333,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_31",
+    "schematic_text_id": "schematic_text_57",
     "text": "BOUT2",
     "source_trace_id": "source_trace_47",
     "anchor": "left",
@@ -11005,7 +11348,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_33",
+    "schematic_trace_id": "schematic_trace_32",
     "source_trace_id": "source_trace_33",
     "edges": [
       {
@@ -11025,7 +11368,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_32",
+    "schematic_text_id": "schematic_text_58",
     "text": "ISEN_B",
     "source_trace_id": "source_trace_33",
     "anchor": "left",
@@ -11040,7 +11383,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_34",
+    "schematic_trace_id": "schematic_trace_33",
     "source_trace_id": "source_trace_42",
     "edges": [
       {
@@ -11060,7 +11403,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_33",
+    "schematic_text_id": "schematic_text_59",
     "text": "ISEN_B",
     "source_trace_id": "source_trace_42",
     "anchor": "left",
@@ -11075,7 +11418,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_35",
+    "schematic_trace_id": "schematic_trace_34",
     "source_trace_id": "source_trace_30",
     "edges": [
       {
@@ -11095,7 +11438,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_34",
+    "schematic_text_id": "schematic_text_60",
     "text": "BOUT1",
     "source_trace_id": "source_trace_30",
     "anchor": "left",
@@ -11110,7 +11453,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_36",
+    "schematic_trace_id": "schematic_trace_35",
     "source_trace_id": "source_trace_46",
     "edges": [
       {
@@ -11130,7 +11473,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_35",
+    "schematic_text_id": "schematic_text_61",
     "text": "BOUT1",
     "source_trace_id": "source_trace_46",
     "anchor": "right",
@@ -11145,7 +11488,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_37",
+    "schematic_trace_id": "schematic_trace_36",
     "source_trace_id": "source_trace_34",
     "edges": [
       {
@@ -11165,7 +11508,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_36",
+    "schematic_text_id": "schematic_text_62",
     "text": "FAULT_N",
     "source_trace_id": "source_trace_34",
     "anchor": "left",
@@ -11180,7 +11523,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_38",
+    "schematic_trace_id": "schematic_trace_37",
     "source_trace_id": "source_trace_26",
     "edges": [
       {
@@ -11200,7 +11543,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_37",
+    "schematic_text_id": "schematic_text_63",
     "text": "BIN1",
     "source_trace_id": "source_trace_26",
     "anchor": "right",
@@ -11215,7 +11558,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_39",
+    "schematic_trace_id": "schematic_trace_38",
     "source_trace_id": "source_trace_27",
     "edges": [
       {
@@ -11235,7 +11578,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_38",
+    "schematic_text_id": "schematic_text_64",
     "text": "BIN2",
     "source_trace_id": "source_trace_27",
     "anchor": "right",
@@ -11250,7 +11593,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_40",
+    "schematic_trace_id": "schematic_trace_39",
     "source_trace_id": "source_trace_25",
     "edges": [
       {
@@ -11270,7 +11613,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_39",
+    "schematic_text_id": "schematic_text_65",
     "text": "AIN2",
     "source_trace_id": "source_trace_25",
     "anchor": "right",
@@ -11285,7 +11628,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_41",
+    "schematic_trace_id": "schematic_trace_40",
     "source_trace_id": "source_trace_24",
     "edges": [
       {
@@ -11305,7 +11648,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_40",
+    "schematic_text_id": "schematic_text_66",
     "text": "AIN1",
     "source_trace_id": "source_trace_24",
     "anchor": "right",
@@ -11320,33 +11663,68 @@
   },
   {
     "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_41",
+    "source_trace_id": "schematic_port_99-schematic_port_113",
+    "edges": [
+      {
+        "from": {
+          "x": 9.7,
+          "y": -7
+        },
+        "to": {
+          "x": 9.5,
+          "y": -7
+        }
+      },
+      {
+        "from": {
+          "x": 9.5,
+          "y": -7
+        },
+        "to": {
+          "x": 9.5,
+          "y": -3
+        }
+      },
+      {
+        "from": {
+          "x": 9.5,
+          "y": -3
+        },
+        "to": {
+          "x": 9.7,
+          "y": -3
+        }
+      }
+    ],
+    "junctions": [
+      {
+        "x": 9.5,
+        "y": -3
+      }
+    ],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_42",
-    "source_trace_id": "schematic_port_103-schematic_port_107",
+    "source_trace_id": "schematic_port_107-schematic_port_103",
     "edges": [
       {
         "from": {
           "x": 16.54,
-          "y": 10
+          "y": 6
         },
         "to": {
           "x": 16.565,
-          "y": 10
+          "y": 6
         }
       },
       {
         "from": {
           "x": 16.565,
-          "y": 10
-        },
-        "to": {
-          "x": 16.765,
-          "y": 10
-        }
-      },
-      {
-        "from": {
-          "x": 16.765,
-          "y": 10
+          "y": 6
         },
         "to": {
           "x": 16.765,
@@ -11359,18 +11737,28 @@
           "y": 6
         },
         "to": {
+          "x": 16.765,
+          "y": 10
+        }
+      },
+      {
+        "from": {
+          "x": 16.765,
+          "y": 10
+        },
+        "to": {
           "x": 16.565,
-          "y": 6
+          "y": 10
         }
       },
       {
         "from": {
           "x": 16.565,
-          "y": 6
+          "y": 10
         },
         "to": {
           "x": 16.54,
-          "y": 6
+          "y": 10
         }
       }
     ],
@@ -11386,31 +11774,11 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_43",
-    "source_trace_id": "schematic_port_107-schematic_port_111",
+    "source_trace_id": "schematic_port_111-schematic_port_107",
     "edges": [
       {
         "from": {
           "x": 16.54,
-          "y": 6
-        },
-        "to": {
-          "x": 16.765,
-          "y": 6
-        }
-      },
-      {
-        "from": {
-          "x": 16.765,
-          "y": 6
-        },
-        "to": {
-          "x": 16.765,
-          "y": 2
-        }
-      },
-      {
-        "from": {
-          "x": 16.765,
           "y": 2
         },
         "to": {
@@ -11422,10 +11790,30 @@
         "from": {
           "x": 16.565,
           "y": 2
+        },
+        "to": {
+          "x": 16.765,
+          "y": 2
+        }
+      },
+      {
+        "from": {
+          "x": 16.765,
+          "y": 2
+        },
+        "to": {
+          "x": 16.765,
+          "y": 6
+        }
+      },
+      {
+        "from": {
+          "x": 16.765,
+          "y": 6
         },
         "to": {
           "x": 16.54,
-          "y": 2
+          "y": 6
         }
       }
     ],
@@ -11515,221 +11903,6 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_45",
-    "source_trace_id": "schematic_port_99-schematic_port_113",
-    "edges": [
-      {
-        "from": {
-          "x": 9.7,
-          "y": -7
-        },
-        "to": {
-          "x": 9.5,
-          "y": -7
-        }
-      },
-      {
-        "from": {
-          "x": 9.5,
-          "y": -7
-        },
-        "to": {
-          "x": 9.5,
-          "y": -3
-        }
-      },
-      {
-        "from": {
-          "x": 9.5,
-          "y": -3
-        },
-        "to": {
-          "x": 9.7,
-          "y": -3
-        }
-      }
-    ],
-    "junctions": [
-      {
-        "x": 9.5,
-        "y": -3
-      }
-    ],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_46",
-    "source_trace_id": "schematic_port_57-schematic_port_61",
-    "edges": [
-      {
-        "from": {
-          "x": -19,
-          "y": 7.9
-        },
-        "to": {
-          "x": -19.2,
-          "y": 7.9
-        }
-      },
-      {
-        "from": {
-          "x": -19.2,
-          "y": 7.9
-        },
-        "to": {
-          "x": -19.2,
-          "y": 4.95
-        }
-      },
-      {
-        "from": {
-          "x": -19.2,
-          "y": 4.95
-        },
-        "to": {
-          "x": -16.8,
-          "y": 4.95
-        }
-      },
-      {
-        "from": {
-          "x": -16.8,
-          "y": 4.95
-        },
-        "to": {
-          "x": -16.8,
-          "y": 2
-        }
-      },
-      {
-        "from": {
-          "x": -16.8,
-          "y": 2
-        },
-        "to": {
-          "x": -17,
-          "y": 2
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_47",
-    "source_trace_id": "schematic_port_64-schematic_port_80",
-    "edges": [
-      {
-        "from": {
-          "x": -17,
-          "y": -4
-        },
-        "to": {
-          "x": -4,
-          "y": -4
-        }
-      },
-      {
-        "from": {
-          "x": -4,
-          "y": -4
-        },
-        "to": {
-          "x": -4,
-          "y": -2.3
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_48",
-    "source_trace_id": "schematic_port_68-schematic_port_72",
-    "edges": [
-      {
-        "from": {
-          "x": -4,
-          "y": 9.7
-        },
-        "to": {
-          "x": -4,
-          "y": 6.950001
-        }
-      },
-      {
-        "from": {
-          "x": -4,
-          "y": 6.950001
-        },
-        "to": {
-          "x": -4.7509999999999994,
-          "y": 6.950001
-        }
-      },
-      {
-        "from": {
-          "x": -4.7509999999999994,
-          "y": 6.950001
-        },
-        "to": {
-          "x": -4.7509999999999994,
-          "y": 6.251
-        }
-      },
-      {
-        "from": {
-          "x": -4.7509999999999994,
-          "y": 6.251
-        },
-        "to": {
-          "x": -4.65,
-          "y": 6.251
-        }
-      },
-      {
-        "from": {
-          "x": -4.65,
-          "y": 6.251
-        },
-        "to": {
-          "x": -4.65,
-          "y": 5.5
-        }
-      },
-      {
-        "from": {
-          "x": -4.65,
-          "y": 5.5
-        },
-        "to": {
-          "x": -4,
-          "y": 5.5
-        }
-      },
-      {
-        "from": {
-          "x": -4,
-          "y": 5.5
-        },
-        "to": {
-          "x": -4,
-          "y": 5.7
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_49",
     "source_trace_id": "schematic_port_66-schematic_port_67",
     "edges": [
       {
@@ -11779,7 +11952,57 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_50",
+    "schematic_trace_id": "schematic_trace_46",
+    "source_trace_id": "schematic_port_70-schematic_port_71",
+    "edges": [
+      {
+        "from": {
+          "x": -9.7,
+          "y": 6
+        },
+        "to": {
+          "x": -6.85,
+          "y": 6
+        }
+      },
+      {
+        "from": {
+          "x": -6.85,
+          "y": 6
+        },
+        "to": {
+          "x": -6.85,
+          "y": 6.5
+        }
+      },
+      {
+        "from": {
+          "x": -6.85,
+          "y": 6.5
+        },
+        "to": {
+          "x": -4,
+          "y": 6.5
+        }
+      },
+      {
+        "from": {
+          "x": -4,
+          "y": 6.5
+        },
+        "to": {
+          "x": -4,
+          "y": 6.3
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_47",
     "source_trace_id": "schematic_port_74-schematic_port_75",
     "edges": [
       {
@@ -11829,7 +12052,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_51",
+    "schematic_trace_id": "schematic_trace_48",
     "source_trace_id": "schematic_port_78-schematic_port_79",
     "edges": [
       {
@@ -11879,7 +12102,57 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_52",
+    "schematic_trace_id": "schematic_trace_49",
+    "source_trace_id": "schematic_port_82-schematic_port_83",
+    "edges": [
+      {
+        "from": {
+          "x": -9.7,
+          "y": -6
+        },
+        "to": {
+          "x": -6.85,
+          "y": -6
+        }
+      },
+      {
+        "from": {
+          "x": -6.85,
+          "y": -6
+        },
+        "to": {
+          "x": -6.85,
+          "y": -5.5
+        }
+      },
+      {
+        "from": {
+          "x": -6.85,
+          "y": -5.5
+        },
+        "to": {
+          "x": -4,
+          "y": -5.5
+        }
+      },
+      {
+        "from": {
+          "x": -4,
+          "y": -5.5
+        },
+        "to": {
+          "x": -4,
+          "y": -5.7
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_50",
     "source_trace_id": "available-net-orientation-0-VIO",
     "edges": [
       {
@@ -11909,7 +12182,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_53",
+    "schematic_trace_id": "schematic_trace_51",
     "source_trace_id": "available-net-orientation-2-VIO",
     "edges": [
       {
@@ -11944,7 +12217,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_54",
+    "schematic_trace_id": "schematic_trace_52",
     "source_trace_id": "available-net-orientation-3-VIO",
     "edges": [
       {
@@ -11974,8 +12247,98 @@
   },
   {
     "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_53",
+    "source_trace_id": "available-net-orientation-4-GND",
+    "edges": [
+      {
+        "from": {
+          "x": -19,
+          "y": 7.9
+        },
+        "to": {
+          "x": -19.241,
+          "y": 7.9
+        }
+      },
+      {
+        "from": {
+          "x": -19.241,
+          "y": 7.9
+        },
+        "to": {
+          "x": -19.241,
+          "y": 7.699
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_54",
+    "source_trace_id": "available-net-orientation-5-GND",
+    "edges": [
+      {
+        "from": {
+          "x": -17,
+          "y": 2
+        },
+        "to": {
+          "x": -16.759,
+          "y": 2
+        }
+      },
+      {
+        "from": {
+          "x": -16.759,
+          "y": 2
+        },
+        "to": {
+          "x": -16.759,
+          "y": 1.699
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_55",
-    "source_trace_id": "available-net-orientation-9-GND",
+    "source_trace_id": "available-net-orientation-6-GND",
+    "edges": [
+      {
+        "from": {
+          "x": -17,
+          "y": -4
+        },
+        "to": {
+          "x": -16.759,
+          "y": -4
+        }
+      },
+      {
+        "from": {
+          "x": -16.759,
+          "y": -4
+        },
+        "to": {
+          "x": -16.759,
+          "y": -4.301
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_56",
+    "source_trace_id": "available-net-orientation-12-GND",
     "edges": [
       {
         "from": {
@@ -12004,8 +12367,8 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_56",
-    "source_trace_id": "available-net-orientation-12-GND",
+    "schematic_trace_id": "schematic_trace_57",
+    "source_trace_id": "available-net-orientation-15-GND",
     "edges": [
       {
         "from": {
@@ -12029,8 +12392,8 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_57",
-    "source_trace_id": "available-net-orientation-41-LED_VIO_A",
+    "schematic_trace_id": "schematic_trace_58",
+    "source_trace_id": "available-net-orientation-42-LED_VIO_A",
     "edges": [
       {
         "from": {
@@ -12059,8 +12422,8 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_58",
-    "source_trace_id": "available-net-orientation-42-LED_VIO_A",
+    "schematic_trace_id": "schematic_trace_59",
+    "source_trace_id": "available-net-orientation-43-LED_VIO_A",
     "edges": [
       {
         "from": {
@@ -12099,7 +12462,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_26",
+    "schematic_net_label_id": "schematic_net_label_23",
     "text": "VIO",
     "source_net_id": "source_net_4",
     "anchor_position": {
@@ -12116,7 +12479,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_27",
+    "schematic_net_label_id": "schematic_net_label_24",
     "text": "VIO",
     "source_net_id": "source_net_4",
     "anchor_position": {
@@ -12133,7 +12496,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_28",
+    "schematic_net_label_id": "schematic_net_label_25",
     "text": "VIO",
     "source_net_id": "source_net_4",
     "anchor_position": {
@@ -12150,7 +12513,7 @@
   },
   {
     "type": "schematic_net_label",
-    "schematic_net_label_id": "schematic_net_label_29",
+    "schematic_net_label_id": "schematic_net_label_26",
     "text": "VIO",
     "source_net_id": "source_net_4",
     "anchor_position": {
@@ -12167,16 +12530,67 @@
   },
   {
     "type": "schematic_net_label",
+    "schematic_net_label_id": "schematic_net_label_27",
+    "text": "GND",
+    "source_net_id": "source_net_0",
+    "anchor_position": {
+      "x": -19.241,
+      "y": 7.699
+    },
+    "center": {
+      "x": -19.241,
+      "y": 7.609
+    },
+    "anchor_side": "top",
+    "schematic_sheet_id": "schematic_sheet_2",
+    "symbol_name": "rail_down"
+  },
+  {
+    "type": "schematic_net_label",
+    "schematic_net_label_id": "schematic_net_label_28",
+    "text": "GND",
+    "source_net_id": "source_net_0",
+    "anchor_position": {
+      "x": -16.759,
+      "y": 1.699
+    },
+    "center": {
+      "x": -16.759,
+      "y": 1.609
+    },
+    "anchor_side": "top",
+    "schematic_sheet_id": "schematic_sheet_2",
+    "symbol_name": "rail_down"
+  },
+  {
+    "type": "schematic_net_label",
+    "schematic_net_label_id": "schematic_net_label_29",
+    "text": "GND",
+    "source_net_id": "source_net_0",
+    "anchor_position": {
+      "x": -16.759,
+      "y": -4.301
+    },
+    "center": {
+      "x": -16.759,
+      "y": -4.391
+    },
+    "anchor_side": "top",
+    "schematic_sheet_id": "schematic_sheet_2",
+    "symbol_name": "rail_down"
+  },
+  {
+    "type": "schematic_net_label",
     "schematic_net_label_id": "schematic_net_label_30",
     "text": "GND",
     "source_net_id": "source_net_0",
     "anchor_position": {
-      "x": -19.2,
-      "y": 4.95
+      "x": -4,
+      "y": 9.7
     },
     "center": {
-      "x": -19.2,
-      "y": 4.86
+      "x": -4,
+      "y": 9.61
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2",
@@ -12189,11 +12603,11 @@
     "source_net_id": "source_net_0",
     "anchor_position": {
       "x": -4,
-      "y": -4
+      "y": 5.7
     },
     "center": {
       "x": -4,
-      "y": -4.09
+      "y": 5.61
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2",
@@ -12206,11 +12620,11 @@
     "source_net_id": "source_net_0",
     "anchor_position": {
       "x": -4,
-      "y": 5.5
+      "y": 1.7
     },
     "center": {
       "x": -4,
-      "y": 5.41
+      "y": 1.6099999999999999
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2",
@@ -12223,11 +12637,11 @@
     "source_net_id": "source_net_0",
     "anchor_position": {
       "x": -4,
-      "y": 1.7
+      "y": -2.3
     },
     "center": {
       "x": -4,
-      "y": 1.6099999999999999
+      "y": -2.3899999999999997
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2",
@@ -12354,7 +12768,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_59",
+    "schematic_trace_id": "schematic_trace_60",
     "source_trace_id": "source_trace_58",
     "edges": [
       {
@@ -12374,7 +12788,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_41",
+    "schematic_text_id": "schematic_text_67",
     "text": "HOST_ENABLE",
     "source_trace_id": "source_trace_58",
     "anchor": "left",
@@ -12389,7 +12803,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_60",
+    "schematic_trace_id": "schematic_trace_61",
     "source_trace_id": "source_trace_81",
     "edges": [
       {
@@ -12409,7 +12823,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_42",
+    "schematic_text_id": "schematic_text_68",
     "text": "HOST_ENABLE",
     "source_trace_id": "source_trace_81",
     "anchor": "right",
@@ -12424,7 +12838,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_61",
+    "schematic_trace_id": "schematic_trace_62",
     "source_trace_id": "source_trace_59",
     "edges": [
       {
@@ -12444,7 +12858,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_43",
+    "schematic_text_id": "schematic_text_69",
     "text": "HOST_AIN1",
     "source_trace_id": "source_trace_59",
     "anchor": "right",
@@ -12459,7 +12873,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_62",
+    "schematic_trace_id": "schematic_trace_63",
     "source_trace_id": "source_trace_65",
     "edges": [
       {
@@ -12479,7 +12893,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_44",
+    "schematic_text_id": "schematic_text_70",
     "text": "HOST_AIN1",
     "source_trace_id": "source_trace_65",
     "anchor": "right",
@@ -12494,7 +12908,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_63",
+    "schematic_trace_id": "schematic_trace_64",
     "source_trace_id": "source_trace_60",
     "edges": [
       {
@@ -12514,7 +12928,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_45",
+    "schematic_text_id": "schematic_text_71",
     "text": "HOST_AIN2",
     "source_trace_id": "source_trace_60",
     "anchor": "right",
@@ -12529,7 +12943,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_64",
+    "schematic_trace_id": "schematic_trace_65",
     "source_trace_id": "source_trace_69",
     "edges": [
       {
@@ -12549,7 +12963,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_46",
+    "schematic_text_id": "schematic_text_72",
     "text": "HOST_AIN2",
     "source_trace_id": "source_trace_69",
     "anchor": "right",
@@ -12564,7 +12978,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_65",
+    "schematic_trace_id": "schematic_trace_66",
     "source_trace_id": "source_trace_62",
     "edges": [
       {
@@ -12584,7 +12998,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_47",
+    "schematic_text_id": "schematic_text_73",
     "text": "HOST_BIN1",
     "source_trace_id": "source_trace_62",
     "anchor": "right",
@@ -12599,7 +13013,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_66",
+    "schematic_trace_id": "schematic_trace_67",
     "source_trace_id": "source_trace_73",
     "edges": [
       {
@@ -12619,7 +13033,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_48",
+    "schematic_text_id": "schematic_text_74",
     "text": "HOST_BIN1",
     "source_trace_id": "source_trace_73",
     "anchor": "right",
@@ -12634,7 +13048,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_67",
+    "schematic_trace_id": "schematic_trace_68",
     "source_trace_id": "source_trace_63",
     "edges": [
       {
@@ -12654,7 +13068,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_49",
+    "schematic_text_id": "schematic_text_75",
     "text": "HOST_BIN2",
     "source_trace_id": "source_trace_63",
     "anchor": "right",
@@ -12669,7 +13083,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_68",
+    "schematic_trace_id": "schematic_trace_69",
     "source_trace_id": "source_trace_77",
     "edges": [
       {
@@ -12689,7 +13103,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_50",
+    "schematic_text_id": "schematic_text_76",
     "text": "HOST_BIN2",
     "source_trace_id": "source_trace_77",
     "anchor": "right",
@@ -12704,7 +13118,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_51",
+    "schematic_text_id": "schematic_text_77",
     "text": "AIN1",
     "source_trace_id": "source_trace_66",
     "anchor": "center",
@@ -12719,7 +13133,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_69",
+    "schematic_trace_id": "schematic_trace_70",
     "source_trace_id": "source_trace_89",
     "edges": [
       {
@@ -12739,7 +13153,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_52",
+    "schematic_text_id": "schematic_text_78",
     "text": "AIN1",
     "source_trace_id": "source_trace_89",
     "anchor": "right",
@@ -12753,33 +13167,13 @@
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_70",
-    "source_trace_id": "source_trace_70",
-    "edges": [
-      {
-        "from": {
-          "x": -9.7,
-          "y": 6
-        },
-        "to": {
-          "x": -9.1,
-          "y": 6
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_53",
+    "schematic_text_id": "schematic_text_79",
     "text": "AIN2",
     "source_trace_id": "source_trace_70",
-    "anchor": "left",
+    "anchor": "center",
     "position": {
-      "x": -9.599999999999998,
+      "x": -8.274999999999999,
       "y": 6.06
     },
     "rotation": 0,
@@ -12790,41 +13184,6 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_71",
-    "source_trace_id": "source_trace_71",
-    "edges": [
-      {
-        "from": {
-          "x": -4,
-          "y": 6.3
-        },
-        "to": {
-          "x": -4,
-          "y": 6.9
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_text",
-    "schematic_text_id": "schematic_text_54",
-    "text": "AIN2",
-    "source_trace_id": "source_trace_71",
-    "anchor": "left",
-    "position": {
-      "x": -4.06,
-      "y": 6.3999999999999995
-    },
-    "rotation": -90,
-    "font_size": 0.12,
-    "color": "rgb(132, 0, 0)",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_72",
     "source_trace_id": "source_trace_90",
     "edges": [
       {
@@ -12844,7 +13203,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_55",
+    "schematic_text_id": "schematic_text_80",
     "text": "AIN2",
     "source_trace_id": "source_trace_90",
     "anchor": "right",
@@ -12859,7 +13218,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_56",
+    "schematic_text_id": "schematic_text_81",
     "text": "BIN1",
     "source_trace_id": "source_trace_74",
     "anchor": "center",
@@ -12874,7 +13233,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_73",
+    "schematic_trace_id": "schematic_trace_72",
     "source_trace_id": "source_trace_91",
     "edges": [
       {
@@ -12894,7 +13253,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_57",
+    "schematic_text_id": "schematic_text_82",
     "text": "BIN1",
     "source_trace_id": "source_trace_91",
     "anchor": "right",
@@ -12909,7 +13268,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_58",
+    "schematic_text_id": "schematic_text_83",
     "text": "BIN2",
     "source_trace_id": "source_trace_78",
     "anchor": "center",
@@ -12924,7 +13283,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_74",
+    "schematic_trace_id": "schematic_trace_73",
     "source_trace_id": "source_trace_92",
     "edges": [
       {
@@ -12944,7 +13303,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_59",
+    "schematic_text_id": "schematic_text_84",
     "text": "BIN2",
     "source_trace_id": "source_trace_92",
     "anchor": "right",
@@ -12958,33 +13317,13 @@
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_75",
-    "source_trace_id": "source_trace_82",
-    "edges": [
-      {
-        "from": {
-          "x": -9.7,
-          "y": -6
-        },
-        "to": {
-          "x": -8.94,
-          "y": -6
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_60",
+    "schematic_text_id": "schematic_text_85",
     "text": "ENABLE",
     "source_trace_id": "source_trace_82",
-    "anchor": "left",
+    "anchor": "center",
     "position": {
-      "x": -9.6,
+      "x": -8.274999999999999,
       "y": -5.94
     },
     "rotation": 0,
@@ -12994,42 +13333,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_76",
-    "source_trace_id": "source_trace_83",
-    "edges": [
-      {
-        "from": {
-          "x": -4,
-          "y": -5.7
-        },
-        "to": {
-          "x": -4,
-          "y": -4.94
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_text",
-    "schematic_text_id": "schematic_text_61",
-    "text": "ENABLE",
-    "source_trace_id": "source_trace_83",
-    "anchor": "left",
-    "position": {
-      "x": -4.06,
-      "y": -5.6000000000000005
-    },
-    "rotation": -90,
-    "font_size": 0.12,
-    "color": "rgb(132, 0, 0)",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_77",
+    "schematic_trace_id": "schematic_trace_74",
     "source_trace_id": "source_trace_85",
     "edges": [
       {
@@ -13049,7 +13353,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_62",
+    "schematic_text_id": "schematic_text_86",
     "text": "ENABLE",
     "source_trace_id": "source_trace_85",
     "anchor": "right",
@@ -13064,7 +13368,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_78",
+    "schematic_trace_id": "schematic_trace_75",
     "source_trace_id": "source_trace_94",
     "edges": [
       {
@@ -13084,7 +13388,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_63",
+    "schematic_text_id": "schematic_text_87",
     "text": "B_CMD",
     "source_trace_id": "source_trace_94",
     "anchor": "left",
@@ -13099,7 +13403,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_79",
+    "schematic_trace_id": "schematic_trace_76",
     "source_trace_id": "source_trace_109",
     "edges": [
       {
@@ -13119,7 +13423,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_64",
+    "schematic_text_id": "schematic_text_88",
     "text": "B_CMD",
     "source_trace_id": "source_trace_109",
     "anchor": "right",
@@ -13134,7 +13438,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_80",
+    "schematic_trace_id": "schematic_trace_77",
     "source_trace_id": "source_trace_93",
     "edges": [
       {
@@ -13154,7 +13458,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_65",
+    "schematic_text_id": "schematic_text_89",
     "text": "A_CMD",
     "source_trace_id": "source_trace_93",
     "anchor": "left",
@@ -13169,7 +13473,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_81",
+    "schematic_trace_id": "schematic_trace_78",
     "source_trace_id": "source_trace_105",
     "edges": [
       {
@@ -13189,7 +13493,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_66",
+    "schematic_text_id": "schematic_text_90",
     "text": "A_CMD",
     "source_trace_id": "source_trace_105",
     "anchor": "right",
@@ -13204,7 +13508,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_82",
+    "schematic_trace_id": "schematic_trace_79",
     "source_trace_id": "source_trace_100",
     "edges": [
       {
@@ -13224,7 +13528,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_67",
+    "schematic_text_id": "schematic_text_91",
     "text": "FAULT_N",
     "source_trace_id": "source_trace_100",
     "anchor": "left",
@@ -13239,7 +13543,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_83",
+    "schematic_trace_id": "schematic_trace_80",
     "source_trace_id": "source_trace_116",
     "edges": [
       {
@@ -13259,7 +13563,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_68",
+    "schematic_text_id": "schematic_text_92",
     "text": "FAULT_N",
     "source_trace_id": "source_trace_116",
     "anchor": "left",
@@ -13274,7 +13578,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_84",
+    "schematic_trace_id": "schematic_trace_81",
     "source_trace_id": "source_trace_106",
     "edges": [
       {
@@ -13294,13 +13598,118 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_69",
+    "schematic_text_id": "schematic_text_93",
     "text": "LED_A_CMD_A",
     "source_trace_id": "source_trace_106",
     "anchor": "left",
     "position": {
       "x": 10.4,
       "y": 6.06
+    },
+    "rotation": 0,
+    "font_size": 0.12,
+    "color": "rgb(132, 0, 0)",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_82",
+    "source_trace_id": "source_trace_107",
+    "edges": [
+      {
+        "from": {
+          "x": 15.46,
+          "y": 6
+        },
+        "to": {
+          "x": 14.3,
+          "y": 6
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_94",
+    "text": "LED_A_CMD_A",
+    "source_trace_id": "source_trace_107",
+    "anchor": "right",
+    "position": {
+      "x": 15.360000000000001,
+      "y": 6.06
+    },
+    "rotation": 0,
+    "font_size": 0.12,
+    "color": "rgb(132, 0, 0)",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_83",
+    "source_trace_id": "source_trace_110",
+    "edges": [
+      {
+        "from": {
+          "x": 10.3,
+          "y": 2
+        },
+        "to": {
+          "x": 11.46,
+          "y": 2
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_95",
+    "text": "LED_B_CMD_A",
+    "source_trace_id": "source_trace_110",
+    "anchor": "left",
+    "position": {
+      "x": 10.4,
+      "y": 2.06
+    },
+    "rotation": 0,
+    "font_size": 0.12,
+    "color": "rgb(132, 0, 0)",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_84",
+    "source_trace_id": "source_trace_111",
+    "edges": [
+      {
+        "from": {
+          "x": 15.46,
+          "y": 2
+        },
+        "to": {
+          "x": 14.3,
+          "y": 2
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
+    "schematic_sheet_id": "schematic_sheet_2"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_96",
+    "text": "LED_B_CMD_A",
+    "source_trace_id": "source_trace_111",
+    "anchor": "right",
+    "position": {
+      "x": 15.360000000000001,
+      "y": 2.06
     },
     "rotation": 0,
     "font_size": 0.12,
@@ -13310,32 +13719,32 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_85",
-    "source_trace_id": "source_trace_107",
+    "source_trace_id": "source_trace_114",
     "edges": [
       {
         "from": {
-          "x": 15.46,
-          "y": 6
+          "x": 10.3,
+          "y": -3
         },
         "to": {
-          "x": 14.3,
-          "y": 6
+          "x": 11.46,
+          "y": -3
         }
       }
     ],
     "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_70",
-    "text": "LED_A_CMD_A",
-    "source_trace_id": "source_trace_107",
-    "anchor": "right",
+    "schematic_text_id": "schematic_text_97",
+    "text": "LED_FAULT_A",
+    "source_trace_id": "source_trace_114",
+    "anchor": "left",
     "position": {
-      "x": 15.360000000000001,
-      "y": 6.06
+      "x": 10.4,
+      "y": -2.94
     },
     "rotation": 0,
     "font_size": 0.12,
@@ -13345,32 +13754,32 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_86",
-    "source_trace_id": "source_trace_110",
+    "source_trace_id": "source_trace_115",
     "edges": [
       {
         "from": {
-          "x": 10.3,
-          "y": 2
+          "x": 15.46,
+          "y": -3
         },
         "to": {
-          "x": 11.46,
-          "y": 2
+          "x": 14.3,
+          "y": -3
         }
       }
     ],
     "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
     "schematic_sheet_id": "schematic_sheet_2"
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_71",
-    "text": "LED_B_CMD_A",
-    "source_trace_id": "source_trace_110",
-    "anchor": "left",
+    "schematic_text_id": "schematic_text_98",
+    "text": "LED_FAULT_A",
+    "source_trace_id": "source_trace_115",
+    "anchor": "right",
     "position": {
-      "x": 10.4,
-      "y": 2.06
+      "x": 15.360000000000001,
+      "y": -2.94
     },
     "rotation": 0,
     "font_size": 0.12,
@@ -13380,112 +13789,7 @@
   {
     "type": "schematic_trace",
     "schematic_trace_id": "schematic_trace_87",
-    "source_trace_id": "source_trace_111",
-    "edges": [
-      {
-        "from": {
-          "x": 15.46,
-          "y": 2
-        },
-        "to": {
-          "x": 14.3,
-          "y": 2
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_text",
-    "schematic_text_id": "schematic_text_72",
-    "text": "LED_B_CMD_A",
-    "source_trace_id": "source_trace_111",
-    "anchor": "right",
-    "position": {
-      "x": 15.360000000000001,
-      "y": 2.06
-    },
-    "rotation": 0,
-    "font_size": 0.12,
-    "color": "rgb(132, 0, 0)",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_88",
-    "source_trace_id": "source_trace_114",
-    "edges": [
-      {
-        "from": {
-          "x": 10.3,
-          "y": -3
-        },
-        "to": {
-          "x": 11.46,
-          "y": -3
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_text",
-    "schematic_text_id": "schematic_text_73",
-    "text": "LED_FAULT_A",
-    "source_trace_id": "source_trace_114",
-    "anchor": "left",
-    "position": {
-      "x": 10.4,
-      "y": -2.94
-    },
-    "rotation": 0,
-    "font_size": 0.12,
-    "color": "rgb(132, 0, 0)",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_89",
-    "source_trace_id": "source_trace_115",
-    "edges": [
-      {
-        "from": {
-          "x": 15.46,
-          "y": -3
-        },
-        "to": {
-          "x": 14.3,
-          "y": -3
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_text",
-    "schematic_text_id": "schematic_text_74",
-    "text": "LED_FAULT_A",
-    "source_trace_id": "source_trace_115",
-    "anchor": "right",
-    "position": {
-      "x": 15.360000000000001,
-      "y": -2.94
-    },
-    "rotation": 0,
-    "font_size": 0.12,
-    "color": "rgb(132, 0, 0)",
-    "schematic_sheet_id": "schematic_sheet_2"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_90",
-    "source_trace_id": "schematic_port_118-schematic_port_121",
+    "source_trace_id": "schematic_port_118-schematic_port_120",
     "edges": [
       {
         "from": {
@@ -13494,17 +13798,37 @@
         },
         "to": {
           "x": -8,
-          "y": 3.5
+          "y": 0.8500000000000001
         }
       },
       {
         "from": {
           "x": -8,
-          "y": 3.5
+          "y": 0.8500000000000001
         },
         "to": {
-          "x": -2.3,
-          "y": 3.5
+          "x": -8.6,
+          "y": 0.8500000000000001
+        }
+      },
+      {
+        "from": {
+          "x": -8.6,
+          "y": 0.8500000000000001
+        },
+        "to": {
+          "x": -8.6,
+          "y": -2
+        }
+      },
+      {
+        "from": {
+          "x": -8.6,
+          "y": -2
+        },
+        "to": {
+          "x": -8.4,
+          "y": -2
         }
       }
     ],
@@ -13514,7 +13838,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_91",
+    "schematic_trace_id": "schematic_trace_88",
     "source_trace_id": "schematic_port_119-schematic_port_124",
     "edges": [
       {
@@ -13574,23 +13898,23 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_92",
+    "schematic_trace_id": "schematic_trace_89",
     "source_trace_id": "schematic_port_122-schematic_port_123",
     "edges": [
       {
         "from": {
           "x": -1.7,
-          "y": 3.5
+          "y": 1
         },
         "to": {
           "x": 3,
-          "y": 3.5
+          "y": 1
         }
       },
       {
         "from": {
           "x": 3,
-          "y": 3.5
+          "y": 1
         },
         "to": {
           "x": 3,
@@ -13614,47 +13938,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_93",
-    "source_trace_id": "schematic_port_126-schematic_port_134",
-    "edges": [
-      {
-        "from": {
-          "x": 9,
-          "y": 3.9
-        },
-        "to": {
-          "x": 8.8,
-          "y": 3.9
-        }
-      },
-      {
-        "from": {
-          "x": 8.8,
-          "y": 3.9
-        },
-        "to": {
-          "x": 8.8,
-          "y": -9
-        }
-      },
-      {
-        "from": {
-          "x": 8.8,
-          "y": -9
-        },
-        "to": {
-          "x": 9.8,
-          "y": -9
-        }
-      }
-    ],
-    "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32",
-    "schematic_sheet_id": "schematic_sheet_3"
-  },
-  {
-    "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_94",
+    "schematic_trace_id": "schematic_trace_90",
     "source_trace_id": "available-net-orientation-1-VIO",
     "edges": [
       {
@@ -13684,7 +13968,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_95",
+    "schematic_trace_id": "schematic_trace_91",
     "source_trace_id": "available-net-orientation-5-GND",
     "edges": [
       {
@@ -13714,7 +13998,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_96",
+    "schematic_trace_id": "schematic_trace_92",
     "source_trace_id": "available-net-orientation-6-GND",
     "edges": [
       {
@@ -13744,8 +14028,8 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_97",
-    "source_trace_id": "available-net-orientation-13-VM",
+    "schematic_trace_id": "schematic_trace_93",
+    "source_trace_id": "available-net-orientation-14-VM",
     "edges": [
       {
         "from": {
@@ -13876,32 +14160,32 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_75",
+    "schematic_text_id": "schematic_text_99",
     "text": "TEMP_RAW",
     "source_trace_id": "source_trace_118",
     "anchor": "center",
     "position": {
-      "x": -5.15,
-      "y": 3.56
+      "x": -8.06,
+      "y": 2.2750000000000004
     },
-    "rotation": 0,
+    "rotation": -90,
     "font_size": 0.12,
     "color": "rgb(132, 0, 0)",
     "schematic_sheet_id": "schematic_sheet_3"
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_98",
-    "source_trace_id": "source_trace_119",
+    "schematic_trace_id": "schematic_trace_94",
+    "source_trace_id": "source_trace_121",
     "edges": [
       {
         "from": {
-          "x": -8.4,
-          "y": -2
+          "x": -2.3,
+          "y": 1
         },
         "to": {
-          "x": -9.32,
-          "y": -2
+          "x": -3.2199999999999998,
+          "y": 1
         }
       }
     ],
@@ -13911,13 +14195,13 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_76",
+    "schematic_text_id": "schematic_text_100",
     "text": "TEMP_RAW",
-    "source_trace_id": "source_trace_119",
+    "source_trace_id": "source_trace_121",
     "anchor": "right",
     "position": {
-      "x": -8.5,
-      "y": -1.94
+      "x": -2.4,
+      "y": 1.06
     },
     "rotation": 0,
     "font_size": 0.12,
@@ -13926,37 +14210,92 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_77",
+    "schematic_text_id": "schematic_text_101",
     "text": "TEMP",
     "source_trace_id": "source_trace_122",
     "anchor": "center",
     "position": {
-      "x": 2.94,
-      "y": 0.9400000000000004
+      "x": 0.65,
+      "y": 1.06
     },
-    "rotation": -90,
-    "font_size": 0.12,
-    "color": "rgb(132, 0, 0)",
-    "schematic_sheet_id": "schematic_sheet_3"
-  },
-  {
-    "type": "schematic_text",
-    "schematic_text_id": "schematic_text_78",
-    "text": "TEMP",
-    "source_trace_id": "source_trace_126",
-    "anchor": "center",
-    "position": {
-      "x": 8.74,
-      "y": -2.5499999999999994
-    },
-    "rotation": -90,
+    "rotation": 0,
     "font_size": 0.12,
     "color": "rgb(132, 0, 0)",
     "schematic_sheet_id": "schematic_sheet_3"
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_99",
+    "schematic_trace_id": "schematic_trace_95",
+    "source_trace_id": "source_trace_126",
+    "edges": [
+      {
+        "from": {
+          "x": 9,
+          "y": 3.9
+        },
+        "to": {
+          "x": 8.16,
+          "y": 3.9
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32",
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_102",
+    "text": "TEMP",
+    "source_trace_id": "source_trace_126",
+    "anchor": "right",
+    "position": {
+      "x": 8.899999999999999,
+      "y": 3.96
+    },
+    "rotation": 0,
+    "font_size": 0.12,
+    "color": "rgb(132, 0, 0)",
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_96",
+    "source_trace_id": "source_trace_134",
+    "edges": [
+      {
+        "from": {
+          "x": 9.8,
+          "y": -9
+        },
+        "to": {
+          "x": 9.200000000000001,
+          "y": -9
+        }
+      }
+    ],
+    "junctions": [],
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32",
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_text",
+    "schematic_text_id": "schematic_text_103",
+    "text": "TEMP",
+    "source_trace_id": "source_trace_134",
+    "anchor": "right",
+    "position": {
+      "x": 9.7,
+      "y": -8.94
+    },
+    "rotation": 0,
+    "font_size": 0.12,
+    "color": "rgb(132, 0, 0)",
+    "schematic_sheet_id": "schematic_sheet_3"
+  },
+  {
+    "type": "schematic_trace",
+    "schematic_trace_id": "schematic_trace_97",
     "source_trace_id": "source_trace_125",
     "edges": [
       {
@@ -13976,7 +14315,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_79",
+    "schematic_text_id": "schematic_text_104",
     "text": "FAULT_N",
     "source_trace_id": "source_trace_125",
     "anchor": "right",
@@ -13991,7 +14330,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_100",
+    "schematic_trace_id": "schematic_trace_98",
     "source_trace_id": "source_trace_133",
     "edges": [
       {
@@ -14011,7 +14350,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_80",
+    "schematic_text_id": "schematic_text_105",
     "text": "FAULT_N",
     "source_trace_id": "source_trace_133",
     "anchor": "right",
@@ -14026,7 +14365,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_101",
+    "schematic_trace_id": "schematic_trace_99",
     "source_trace_id": "source_trace_128",
     "edges": [
       {
@@ -14046,7 +14385,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_81",
+    "schematic_text_id": "schematic_text_106",
     "text": "ISEN_A",
     "source_trace_id": "source_trace_128",
     "anchor": "right",
@@ -14061,7 +14400,7 @@
   },
   {
     "type": "schematic_trace",
-    "schematic_trace_id": "schematic_trace_102",
+    "schematic_trace_id": "schematic_trace_100",
     "source_trace_id": "source_trace_129",
     "edges": [
       {
@@ -14081,7 +14420,7 @@
   },
   {
     "type": "schematic_text",
-    "schematic_text_id": "schematic_text_82",
+    "schematic_text_id": "schematic_text_107",
     "text": "ISEN_B",
     "source_trace_id": "source_trace_129",
     "anchor": "right",
@@ -63308,6 +63647,476 @@
     "covered_with_solder_mask": true
   },
   {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_W53UFE8SlF",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#260 name=\".J7\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_46",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C49257"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_CMBZbrqGSz",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#255 name=\".C8\" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_45",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C14663"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_r6IDMSuZxe",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#252 name=\".R20\" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_44",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C21190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_hcaZqJfnkS",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#251 name=\".TH1\" /> (jlcpcb:C13564): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_43",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C13564"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_bN5KI93kNX",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#248 name=\".R19\" /> (jlcpcb:C23206): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_42",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C23206"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_j6R9R2cAJs",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <led#238 name=\".LED5\" /> (jlcpcb:C2286): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_41",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C2286"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_AhAmTdwnZ0",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#235 name=\".R18\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_40",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C4190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_tfvy5yzlXW",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <led#232 name=\".LED4\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_39",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C2289"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_L8A2LREYsq",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#229 name=\".R17\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_38",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C4190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_ZKo1xNnPMq",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <led#226 name=\".LED3\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_37",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C2289"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_QQTZeFgKgg",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#223 name=\".R16\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_36",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C4190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_gyrgfYKeGH",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <led#220 name=\".LED2\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_35",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C2289"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_YyFcK9DIM1",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#217 name=\".R15\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_34",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C4190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_KoNlRcA02i",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#214 name=\".R14\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_33",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C25804"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_gxNgggxPrE",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#211 name=\".C7\" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_32",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C14663"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_3CE7npt3eb",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <chip#202 name=\".U2\" /> (jlcpcb:C130023): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_31",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C130023"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_V2O5PYXpi3",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <pushbutton#192 name=\".SW1\" /> (jlcpcb:C318884): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_30",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C318884"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_6jgIwRXovc",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#187 name=\".R13\" /> (jlcpcb:C25803): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_29",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C25803"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_z0cGXv5fQk",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#184 name=\".R8\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_28",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C4190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_jCHCfJ3PRt",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#179 name=\".R12\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_27",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C25804"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_YcY08ktNoM",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#176 name=\".R7\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_26",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C23138"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_YU9uHHFeIz",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#172 name=\".R11\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_25",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C25804"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_SzvBlAfP8W",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#169 name=\".R6\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_24",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C23138"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Bp4oDwwcjP",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#165 name=\".R10\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_23",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C25804"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_UfNsKOJZdC",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#162 name=\".R5\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_22",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C23138"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_PDFGZf2b2R",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#158 name=\".R9\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_21",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C25804"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_dLcF9WO5LO",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#155 name=\".R4\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_20",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C23138"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_ebg3c63fn9",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#150 name=\".J6\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_19",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C49257"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_cstq8MHjbW",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#145 name=\".J5\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_18",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C49257"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_2ZO2A2JKYc",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#140 name=\".J4\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_17",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C49257"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_KOb6R8G95N",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#130 name=\".C6\" /> (jlcpcb:C57112): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_16",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C57112"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_rRdsrHgiaS",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#127 name=\".C5\" /> (jlcpcb:C23630): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_15",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C23630"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_jZaRMIxdyO",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#124 name=\".C4\" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_14",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C15850"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_kMHEvOavWP",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#121 name=\".C3\" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_13",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C15850"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_7JLx9IlpsV",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#118 name=\".J3\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_12",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C474881"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_463OUJCu1J",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#114 name=\".J2\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_11",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C474881"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_73iwHGVWJt",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#110 name=\".R3\" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_10",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C876469"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_oJ5koYN3iA",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#107 name=\".R2\" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_9",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C876469"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_8OTa8cHi6K",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <chip#89 name=\".U1\" /> (jlcpcb:C50506): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_8",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C50506"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_OmydjI7cfO",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <led#79 name=\".LED1\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_7",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C2289"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_YXwJoiuAtG",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <resistor#76 name=\".R1\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_6",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C4190"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_8MmtP2wQxR",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <diode#75 name=\".D1\" /> (jlcpcb:C83270): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_5",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C83270"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_JgwooqeG0K",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#72 name=\".C2\" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_4",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C285392"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_9Ul2LWWH1T",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <capacitor#69 name=\".C1\" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_3",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C285392"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_1EgXd648SW",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <chip#59 name=\".Q1\" /> (jlcpcb:C222495): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_2",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C222495"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_tdVJGRkIIy",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <fuse#55 name=\".F1\" /> (jlcpcb:C178991): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_1",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C178991"
+  },
+  {
+    "type": "source_part_not_found_warning",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_rxQIR46QZQ",
+    "warning_type": "source_part_not_found_warning",
+    "message": "Failed to fetch supplier footprint for <connector#52 name=\".J1\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
+    "source_component_id": "source_component_0",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "supplier_name": "jlcpcb",
+    "supplier_part_number": "C474881"
+  },
+  {
     "type": "source_no_power_pin_defined_warning",
     "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_0",
     "warning_type": "source_no_power_pin_defined_warning",
@@ -63377,6 +64186,6 @@
   },
   {
     "type": "source_project_metadata",
-    "source_filesystem_md5_hash": "4801b89a0ffef4dab1a2731a54a5d4f8"
+    "source_filesystem_md5_hash": "d8815ae7a7aa02bccc589ef5531ce305"
   }
 ]

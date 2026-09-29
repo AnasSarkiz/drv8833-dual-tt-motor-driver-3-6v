@@ -1,0 +1,41 @@
+bun test v1.3.9 (cf6cdbbb)
+
+tests/routed-connectivity.test.ts:
+(pass) every physical port and trace is connected [782.76ms]
+(pass) removing the ground pours exposes disconnected ground pads [92.18ms]
+(pass) removing a motor-output route exposes physical disconnection [482.75ms]
+
+tests/routing-lock.test.ts:
+(pass) authorized routed-board contract > accepts the generated routed board and reviewed thermal vias [2474.84ms]
+(pass) authorized routed-board contract > accepts explicit routing authorization in source [7.38ms]
+(pass) authorized routed-board contract > rejects missing routing state [1.90ms]
+(pass) authorized routed-board contract > rejects disabled routing [0.68ms]
+(pass) authorized routed-board contract > rejects a bare routingDisabled flag [0.22ms]
+(pass) authorized routed-board contract > rejects board prop spreads [0.31ms]
+(pass) authorized routed-board contract > rejects a board with all routes removed [2140.77ms]
+(pass) authorized routed-board contract > rejects undersized generated via drill [3312.75ms]
+(pass) authorized routed-board contract > rejects undersized generated via pad [2401.38ms]
+(pass) authorized routed-board contract > rejects changed board via minimums [2076.05ms]
+(pass) authorized routed-board contract > rejects changed thermal via geometry [2139.86ms]
+(pass) authorized routed-board contract > rejects a missing inner ground plane [2220.14ms]
+(pass) authorized routed-board contract > rejects unknown schema elements [2834.07ms]
+
+tests/manufacturing-release.test.ts:
+(pass) stencil contains only top purchased-SMT apertures, never bare test pads or THT [11.79ms]
+(pass) all 40 automated SMT placements have verified supplier rotations [6.37ms]
+(pass) U1 bypasses remain local and the AISEN current path retains its wider copper [1.02ms]
+
+tests/design-connectivity.test.ts:
+(pass) all components render, without component-creation or other error records [1.32ms]
+(pass) protection parts keep their physical manufacturer pin connections [3.03ms]
+(pass) all ground returns share one electrical network without bypassing the shunts [1.78ms]
+(pass) ground connectivity detects an isolated exposed pad even when its net is also named GND [0.54ms]
+(pass) NTC measuring current and host-enable margin stay within the design budget [0.42ms]
+(pass) the normally open disable button connects only ENABLE and ground through the correct contact pairs [1.46ms]
+(pass) every driver pin matches the TI PWP pin table and intended circuit
+(pass) driver copper, mask opening and paste match the rotated TI drawing [10.25ms]
+
+ 27 pass
+ 0 fail
+ 1139 expect() calls
+Ran 27 tests across 4 files. [29.66s]

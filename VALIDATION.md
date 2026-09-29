@@ -1,4 +1,10 @@
-# Validation — routed alpha.6 prototype
+# Validation — routed prototype
+
+## Alpha.7 schematic review — 29 September 2026
+
+Native schematic-placement checks report no collisions or overlaps; all four rendered sheets were visually reviewed. Function/rating notes appear beside U1, U2 and Q1. Full build, schema, netlist, mechanical and routing checks pass; 27 board tests retain all 1,139 assertions. Existing non-blocking placement/symbol advisories remain documented. All PCB, CAD and electrical connectivity records match alpha.6, and its manufacturing packet is unchanged. [Schematic review](SCHEMATIC_REVIEW.md), [comparison evidence](artifacts/schematic-review/unchanged-hardware.json) and [logs](artifacts/schematic-review/logs/).
+
+## Alpha.6 manufacturing evidence
 
 Run 28 September 2026. Current evidence: `artifacts/order-release/logs/`; prior reports are historical. These checks validate design files, not physical boards.
 

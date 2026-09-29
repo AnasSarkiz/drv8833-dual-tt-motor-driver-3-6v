@@ -1,0 +1,58 @@
+Using entrypoint from tscircuit config: 'index.circuit.tsx'
+<SchematicSheet name="Dual_Motor_Driver" id="schematic_sheet_1">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U1" positionAnchor="center" schX="0" schY="0" width="2.8" height="2.8" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<GenericSchematicBoxTooWide message="Shrink schematic box width" componentName="U1" currentSchWidth="2.8" measuredInnerLabelHorizontalEmptySpace="1.46" maxAllowedInnerLabelHorizontalEmptySpace="1" suggestedSchWidth="2.34" />
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box width and height" componentName="U1" pinSides="left,right,top,bottom" edgeSides="top,bottom,left,right" suggestedSchWidth="2.74" suggestedSchHeight="2.76" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Power_Protection" id="schematic_sheet_0">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="J1" positionAnchor="center" schX="-12" schY="4" width="1.2" height="0.4" />
+<SchematicBoxPlacement componentName="F1" positionAnchor="center" schX="-6" schY="4" width="0.52" height="0.12" />
+<SchematicBoxPlacement componentName="Q1" positionAnchor="center" schX="0" schY="4" width="1.2" height="1.2" />
+<SchematicBoxPlacement componentName="D1" positionAnchor="center" schX="1.96" schY="-4" width="0.28" height="0.36" />
+<SchematicBoxPlacement componentName="R1" positionAnchor="center" schX="8" schY="-2" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="LED1" positionAnchor="center" schX="8" schY="-6" width="1.13" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box width" componentName="Q1" pinSides="top" edgeSides="left,right" suggestedSchWidth="0.8" />
+<DiodeResistorNotAligned diodeComponentName="LED1" diodePin="anode" resistorComponentName="R1" resistorPin="cathode" message="trace has corners — align LED1 and R1 on same axis and rotate so LED1.anode faces R1.cathode" />
+<DiodeResistorNotAligned diodeComponentName="D1" diodePin="C" resistorComponentName="R1" resistorPin="anode" message="trace has corners — align D1 and R1 on same axis and rotate so D1.C faces R1.anode" />
+<TwoPinComponentShouldBeVertical componentName="J1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate J1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="F1" railPin="pin2" railType="power" deltaSchRotation="90" suggestedRailFacingDirection="up" message="rotate F1 by 90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="D1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate D1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R1" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R1 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED1" railPin="anode" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate LED1 by -90° so its power-connected pin faces up and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Control_Debug" id="schematic_sheet_2">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="U2" positionAnchor="center" schX="3" schY="1" width="1.2" height="1" />
+<SchematicBoxPlacement componentName="R14" positionAnchor="center" schX="10" schY="-7" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="R15" positionAnchor="center" schX="10" schY="10" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="LED2" positionAnchor="center" schX="16" schY="10" width="1.13" height="0.65" />
+<SchematicBoxPlacement componentName="LED3" positionAnchor="center" schX="16" schY="6" width="1.13" height="0.65" />
+<SchematicBoxPlacement componentName="LED4" positionAnchor="center" schX="16" schY="2" width="1.13" height="0.65" />
+<SchematicBoxPlacement componentName="R18" positionAnchor="center" schX="10" schY="-3" width="0.6" height="0.65" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<SchematicPinPaddingToEdgeTooLarge message="Move schematic pins closer to the box edge or change the schematic box height" componentName="U2" pinSides="right" edgeSides="top,bottom" suggestedSchHeight="0.97" />
+<TwoPinComponentShouldBeVertical componentName="R14" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R14 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R15" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R15 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED2" railPin="anode" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate LED2 by -90° so its power-connected pin faces up and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED3" railPin="cathode" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate LED3 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="LED4" railPin="cathode" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate LED4 by -90° so its ground-connected pin faces down and the component is vertical" />
+<TwoPinComponentShouldBeVertical componentName="R18" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R18 by -90° so its power-connected pin faces up and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>
+<SchematicSheet name="Temperature_Test" id="schematic_sheet_3">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="TH1" positionAnchor="center" schX="-8" schY="-1.98" width="0.4" height="0.28" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<TwoPinComponentShouldBeVertical componentName="TH1" railPin="pin2" railType="ground" deltaSchRotation="-90" suggestedRailFacingDirection="down" message="rotate TH1 by -90° so its ground-connected pin faces down and the component is vertical" />
+</SchematicPlacementIssues>
+</SchematicSheet>

@@ -1,0 +1,2 @@
+$ bun scripts/render-routed.ts
+Routed prototype previews saved; physical qualification is separate

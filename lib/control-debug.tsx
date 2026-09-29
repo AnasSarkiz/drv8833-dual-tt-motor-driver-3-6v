@@ -8,6 +8,7 @@ import { CC0603KRX7R9BB104 } from "../imports/CC0603KRX7R9BB104"
 import { KT_0603YG } from "../imports/KT_0603YG"
 import { KT_0603R } from "../imports/KT_0603R"
 import { MotorDisableButton } from "./motor-disable-button"
+import { SchematicNote } from "./schematic-note"
 
 const commands = ["AIN1", "AIN2", "BIN1", "BIN2"] as const
 
@@ -15,10 +16,9 @@ export function ControlDebug() {
   return (
     <>
       <schematicsheet name="Control_Debug" sheetIndex={2} sheetSize="ANSI_B" />
-      <schematicsection
-        name="host"
-        displayName="Host input — VIO is an input"
-      />
+      <schematicsection name="host_power" displayName="Host power and enable" />
+      <schematicsection name="host_a" displayName="Host channel A" />
+      <schematicsection name="host_b" displayName="Host channel B" />
       <schematicsection
         name="indicators"
         displayName="Command indication, not shaft motion"
@@ -30,13 +30,22 @@ export function ControlDebug() {
         schX={-18}
         schY={8}
         schSheetName="Control_Debug"
-        schSectionName="host"
+        schSectionName="host_power"
         connections={{
           pin1: "net.VIO",
           pin2: "net.GND",
           pin3: "net.HOST_ENABLE",
         }}
-      />
+      >
+        <SchematicNote
+          schX={-1.4}
+          schY={2.4}
+          lines={[
+            "J4: HOST POWER / ENABLE",
+            "VIO input: match host 3.3 V or 5 V",
+          ]}
+        />
+      </HostHeader>
       <HostHeader
         name="J5"
         pcbX={24}
@@ -44,13 +53,19 @@ export function ControlDebug() {
         schX={-18}
         schY={2}
         schSheetName="Control_Debug"
-        schSectionName="host"
+        schSectionName="host_a"
         connections={{
           pin1: "net.HOST_AIN1",
           pin2: "net.HOST_AIN2",
           pin3: "net.GND",
         }}
-      />
+      >
+        <SchematicNote
+          schX={-1.4}
+          schY={1.5}
+          lines={["J5: MOTOR A COMMANDS"]}
+        />
+      </HostHeader>
       <HostHeader
         name="J6"
         pcbX={24}
@@ -58,15 +73,25 @@ export function ControlDebug() {
         schX={-18}
         schY={-4}
         schSheetName="Control_Debug"
-        schSectionName="host"
+        schSectionName="host_b"
         connections={{
           pin1: "net.HOST_BIN1",
           pin2: "net.HOST_BIN2",
           pin3: "net.GND",
         }}
-      />
+      >
+        <SchematicNote
+          schX={-1.4}
+          schY={1.5}
+          lines={["J6: MOTOR B COMMANDS"]}
+        />
+      </HostHeader>
       {commands.map((command, index) => (
         <Fragment key={command}>
+          <schematicsection
+            name={`input_${command}`}
+            displayName={`${command} input resistor and pull-down`}
+          />
           <A_0603WAF3300T5E
             name={`R${4 + index}`}
             pcbX={17}
@@ -75,7 +100,7 @@ export function ControlDebug() {
             schX={-10}
             schY={10 - index * 4}
             schSheetName="Control_Debug"
-            schSectionName="host"
+            schSectionName={`input_${command}`}
             connections={{
               pin1: `net.HOST_${command}`,
               pin2: `net.${command}`,
@@ -89,7 +114,7 @@ export function ControlDebug() {
             schX={-4}
             schY={10 - index * 4}
             schSheetName="Control_Debug"
-            schSectionName="host"
+            schSectionName={`input_${command}`}
             connections={{ pin1: `net.${command}`, pin2: "net.GND" }}
           />
         </Fragment>
@@ -113,7 +138,18 @@ export function ControlDebug() {
           VCC: "net.VIO",
           GND: "net.GND",
         }}
-      />
+      >
+        <SchematicNote
+          schX={-2.4}
+          schY={-2}
+          lines={[
+            "U2: dual XOR for command LEDs",
+            "IC VCC: 1.65-5.5 V; board VIO: 3.3/5 V",
+            "LED3/4 light for unequal motor inputs",
+            "Indicates commands, not shaft motion",
+          ]}
+        />
+      </CommandIndicatorLogic>
       <CC0603KRX7R9BB104
         name="C7"
         schOrientation="vertical"

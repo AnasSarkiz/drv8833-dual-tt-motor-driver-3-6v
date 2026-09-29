@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0-alpha.7 — schematic design review, 2026-09-29
+
+Added native schematic notes beside U1, U2 and Q1 with their functions and voltage/current limits. Labeled all connectors, the disable button and temperature measurement. Separated host-input schematic sections and diagnostic test access to remove obstructing wires, and kept notes inside the page boundaries. Electrical connectivity, all PCB/CAD records and the alpha.6 manufacturing packet are unchanged.
+
 ## 0.1.0-alpha.4 — portable cloud build
 
 Unchanged routed copper. Ported the mechanical geometry gate to Bun/TypeScript, preserving all checks, because the registry has no Python runtime. The cloud build reinstalls the frozen dependency graph to replace preloaded package symlinks.
