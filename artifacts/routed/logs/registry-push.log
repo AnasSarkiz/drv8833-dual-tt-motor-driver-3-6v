@@ -15,6 +15,7 @@
 ⬆︎ ROUTING_AUTHORIZATION.md
 ⬆︎ ROUTING_GATE.md
 ⬆︎ ROUTING_REVIEW.md
+⬆︎ SCHEMATIC_REVIEW.md
 ⬆︎ TEST_PLAN.md
 ⬆︎ TOOLCHAIN.md
 ⬆︎ U1_FOOTPRINT.md
@@ -256,6 +257,15 @@
 ⬆︎ artifacts/routed/schematic-Power_Protection.svg
 📦 artifacts/routed/schematic-Temperature_Test.png
 ⬆︎ artifacts/routed/schematic-Temperature_Test.svg
+⬆︎ artifacts/schematic-review/logs/build.log
+⬆︎ artifacts/schematic-review/logs/format.log
+⬆︎ artifacts/schematic-review/logs/netlist.log
+⬆︎ artifacts/schematic-review/logs/placement.log
+⬆︎ artifacts/schematic-review/logs/render.log
+⬆︎ artifacts/schematic-review/logs/schematic-placement.log
+⬆︎ artifacts/schematic-review/logs/tests.log
+⬆︎ artifacts/schematic-review/logs/typecheck.log
+⬆︎ artifacts/schematic-review/unchanged-hardware.json
 ⬆︎ biome.json
 ⬆︎ bom.csv
 ⬆︎ bom.json
@@ -299,6 +309,7 @@
 ⬆︎ lib/power-protection.tsx
 ⬆︎ lib/routing-nets.tsx
 ⬆︎ lib/saved-routing.ts
+⬆︎ lib/schematic-note.tsx
 ⬆︎ lib/temperature-test.tsx
 ⬆︎ package.json
 📦 references/TS-1187A-B-A-B.pdf
@@ -367,8 +378,8 @@
 
 
 Upload Summary
-  Succeeded: 366 files
+  Succeeded: 377 files
 
 
-"@tsci/AnasSarkiz.drv8833-dual-tt-motor-driver-3-6v@0.1.0-alpha.6-routed" published!
+"@tsci/AnasSarkiz.drv8833-dual-tt-motor-driver-3-6v@0.1.0-alpha.7-routed" published!
 https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v
