@@ -1,5 +1,11 @@
 # Public routed release
 
+## Alpha.8 — bottom evaluation label
+
+The alpha.8 source, bottom preview and updated fabrication ZIP are prepared for GitHub and tscircuit publication. Verification is in progress; the alpha.7 receipt below records the preceding public release. The online editor's separate saved-routing issue is tracked in [tscircuit/core#4197](https://github.com/tscircuit/core/issues/4197).
+
+## Alpha.7 — schematic review receipt
+
 Both repositories are public. **Alpha.7 adds the reviewed schematic notes and labels and passes local, GitHub CI and tscircuit cloud checks.** Its PCB, electrical connections and alpha.6 prototype manufacturing packet are unchanged.
 
 | Destination | Verified result |

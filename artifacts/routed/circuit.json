@@ -16136,6 +16136,36 @@
     "subcircuit_id": "subcircuit_source_group_0"
   },
   {
+    "type": "pcb_silkscreen_text",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_2",
+    "anchor_alignment": "center",
+    "anchor_position": {
+      "x": 0,
+      "y": 25
+    },
+    "font": "tscircuit2024",
+    "font_size": 1.8,
+    "layer": "bottom",
+    "text": "For evaluation only;",
+    "ccw_rotation": 0,
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "pcb_silkscreen_text",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_3",
+    "anchor_alignment": "center",
+    "anchor_position": {
+      "x": 0,
+      "y": 22.5
+    },
+    "font": "tscircuit2024",
+    "font_size": 1.8,
+    "layer": "bottom",
+    "text": "not FCC approved for resale.",
+    "ccw_rotation": 0,
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
     "type": "pcb_plated_hole",
     "pcb_plated_hole_id": "pcb_plated_hole_0",
     "pcb_component_id": "pcb_component_0",
@@ -16351,7 +16381,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_2",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_4",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -23.0122,
@@ -16620,7 +16650,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_3",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_5",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -21.5,
@@ -17056,7 +17086,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_4",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_6",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -12.010287,
@@ -17221,7 +17251,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_5",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_7",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -22,
@@ -17476,7 +17506,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_6",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_8",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -12,
@@ -17761,7 +17791,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_7",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_9",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -28,
@@ -18008,7 +18038,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_8",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_10",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -19.0127,
@@ -18349,7 +18379,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_9",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_11",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -14.066675,
@@ -19185,7 +19215,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_10",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_12",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 3.8,
@@ -19326,7 +19356,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_11",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_13",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -8,
@@ -19483,7 +19513,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_12",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_14",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 8,
@@ -19742,7 +19772,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_13",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_15",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -2.7098050000000002,
@@ -20141,7 +20171,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_14",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_16",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 11.290195,
@@ -20582,7 +20612,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_15",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_17",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -4.2873,
@@ -20883,7 +20913,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_16",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_18",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 4.3126999999999995,
@@ -21184,7 +21214,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_17",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_19",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -2.6862,
@@ -21485,7 +21515,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_18",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_20",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 2.6862,
@@ -21653,7 +21683,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_19",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_21",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 23.9810008,
@@ -21821,7 +21851,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_20",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_22",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 23.9810008,
@@ -21989,7 +22019,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_21",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_23",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 23.9810008,
@@ -22146,7 +22176,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_22",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_24",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17.0127,
@@ -22303,7 +22333,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_23",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_25",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 11.9873,
@@ -22460,7 +22490,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_24",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_26",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17.0127,
@@ -22617,7 +22647,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_25",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_27",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 11.9873,
@@ -22774,7 +22804,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_26",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_28",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17.0127,
@@ -22931,7 +22961,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_27",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_29",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 11.9873,
@@ -23088,7 +23118,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_28",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_30",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17.0127,
@@ -23245,7 +23275,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_29",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_31",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 11.9873,
@@ -23402,7 +23432,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_30",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_32",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17.0127,
@@ -23559,7 +23589,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_31",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_33",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 11.9873,
@@ -23927,7 +23957,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_32",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_34",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17,
@@ -23972,7 +24002,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_33",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_35",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 17,
@@ -24306,7 +24336,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_34",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_36",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 6.02552065,
@@ -24607,7 +24637,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_35",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_37",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 0.9873,
@@ -24764,7 +24794,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_36",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_38",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 23.9873,
@@ -24921,7 +24951,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_37",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_39",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -7.0127,
@@ -25262,7 +25292,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_38",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_40",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -7.066675,
@@ -25509,7 +25539,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_39",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_41",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -2.0127,
@@ -25850,7 +25880,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_40",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_42",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -2.066675,
@@ -26097,7 +26127,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_41",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_43",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 2.9873,
@@ -26438,7 +26468,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_42",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_44",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 2.933325,
@@ -26685,7 +26715,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_43",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_45",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 23.9873,
@@ -26904,7 +26934,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_44",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_46",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 28.890018,
@@ -27163,7 +27193,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_45",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_47",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -5.9873,
@@ -27320,7 +27350,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_46",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_48",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": -8.9873,
@@ -27477,7 +27507,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_47",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_49",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 28.9873,
@@ -27778,7 +27808,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_48",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_50",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 24.0127,
@@ -27946,7 +27976,7 @@
   },
   {
     "type": "pcb_silkscreen_text",
-    "pcb_silkscreen_text_id": "pcb_silkscreen_text_49",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_51",
     "anchor_alignment": "center",
     "anchor_position": {
       "x": 26.0189992,
@@ -63648,9 +63678,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_W53UFE8SlF",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_jYKqzEd5dx",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#260 name=\".J7\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#262 name=\".J7\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_46",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63658,9 +63688,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_CMBZbrqGSz",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_zyNMLrUCZJ",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#255 name=\".C8\" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#257 name=\".C8\" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_45",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63668,9 +63698,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_r6IDMSuZxe",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_9X9s0QbSoS",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#252 name=\".R20\" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#254 name=\".R20\" /> (jlcpcb:C21190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_44",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63678,9 +63708,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_hcaZqJfnkS",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_0YfZXhcfOH",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#251 name=\".TH1\" /> (jlcpcb:C13564): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#253 name=\".TH1\" /> (jlcpcb:C13564): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_43",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63688,9 +63718,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_bN5KI93kNX",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_hfQ4AeLQC9",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#248 name=\".R19\" /> (jlcpcb:C23206): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#250 name=\".R19\" /> (jlcpcb:C23206): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_42",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63698,9 +63728,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_j6R9R2cAJs",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_7ejgRkhr5G",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <led#238 name=\".LED5\" /> (jlcpcb:C2286): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <led#240 name=\".LED5\" /> (jlcpcb:C2286): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_41",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63708,9 +63738,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_AhAmTdwnZ0",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Pid0xXoctO",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#235 name=\".R18\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#237 name=\".R18\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_40",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63718,9 +63748,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_tfvy5yzlXW",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_0jpPveJaON",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <led#232 name=\".LED4\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <led#234 name=\".LED4\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_39",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63728,9 +63758,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_L8A2LREYsq",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_WuGtPUMGDz",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#229 name=\".R17\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#231 name=\".R17\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_38",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63738,9 +63768,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_ZKo1xNnPMq",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_shpmokfKrB",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <led#226 name=\".LED3\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <led#228 name=\".LED3\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_37",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63748,9 +63778,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_QQTZeFgKgg",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_7gcoIzFPIT",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#223 name=\".R16\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#225 name=\".R16\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_36",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63758,9 +63788,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_gyrgfYKeGH",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_67pfFPAveV",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <led#220 name=\".LED2\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <led#222 name=\".LED2\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_35",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63768,9 +63798,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_YyFcK9DIM1",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_TGC1CtJCkP",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#217 name=\".R15\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#219 name=\".R15\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_34",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63778,9 +63808,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_KoNlRcA02i",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_CUgTq3p5wJ",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#214 name=\".R14\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#216 name=\".R14\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_33",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63788,9 +63818,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_gxNgggxPrE",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_AedkLN1ycP",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#211 name=\".C7\" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#213 name=\".C7\" /> (jlcpcb:C14663): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_32",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63798,9 +63828,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_3CE7npt3eb",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_ONDf0F78et",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <chip#202 name=\".U2\" /> (jlcpcb:C130023): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <chip#204 name=\".U2\" /> (jlcpcb:C130023): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_31",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63808,9 +63838,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_V2O5PYXpi3",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Mdxjn0ieSZ",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <pushbutton#192 name=\".SW1\" /> (jlcpcb:C318884): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <pushbutton#194 name=\".SW1\" /> (jlcpcb:C318884): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_30",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63818,9 +63848,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_6jgIwRXovc",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_oB44NeBB0t",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#187 name=\".R13\" /> (jlcpcb:C25803): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#189 name=\".R13\" /> (jlcpcb:C25803): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_29",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63828,9 +63858,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_z0cGXv5fQk",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_oBnJglwth0",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#184 name=\".R8\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#186 name=\".R8\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_28",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63838,9 +63868,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_jCHCfJ3PRt",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_lTi9XdOZCk",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#179 name=\".R12\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#181 name=\".R12\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_27",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63848,9 +63878,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_YcY08ktNoM",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_oEyYhJ4xb8",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#176 name=\".R7\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#178 name=\".R7\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_26",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63858,9 +63888,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_YU9uHHFeIz",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_eiTtIg7l8h",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#172 name=\".R11\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#174 name=\".R11\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_25",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63868,9 +63898,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_SzvBlAfP8W",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_m9xwtck0TN",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#169 name=\".R6\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#171 name=\".R6\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_24",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63878,9 +63908,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_Bp4oDwwcjP",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_ffAz4H7sIz",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#165 name=\".R10\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#167 name=\".R10\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_23",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63888,9 +63918,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_UfNsKOJZdC",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Q4RL1NuGX5",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#162 name=\".R5\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#164 name=\".R5\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_22",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63898,9 +63928,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_PDFGZf2b2R",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Jhv0WesKMz",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#158 name=\".R9\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#160 name=\".R9\" /> (jlcpcb:C25804): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_21",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63908,9 +63938,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_dLcF9WO5LO",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_bmNaAFouN4",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#155 name=\".R4\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#157 name=\".R4\" /> (jlcpcb:C23138): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_20",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63918,9 +63948,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_ebg3c63fn9",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_4e5GLvMsQP",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#150 name=\".J6\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#152 name=\".J6\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_19",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63928,9 +63958,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_cstq8MHjbW",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Xq0BVBbi0u",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#145 name=\".J5\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#147 name=\".J5\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_18",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63938,9 +63968,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_2ZO2A2JKYc",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_P38iPvywVy",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#140 name=\".J4\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#142 name=\".J4\" /> (jlcpcb:C49257): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_17",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63948,9 +63978,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_KOb6R8G95N",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_UabA8iWprO",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#130 name=\".C6\" /> (jlcpcb:C57112): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#132 name=\".C6\" /> (jlcpcb:C57112): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_16",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63958,9 +63988,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_rRdsrHgiaS",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_KhzLCeXC7k",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#127 name=\".C5\" /> (jlcpcb:C23630): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#129 name=\".C5\" /> (jlcpcb:C23630): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_15",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63968,9 +63998,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_jZaRMIxdyO",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_hW7plpylZG",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#124 name=\".C4\" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#126 name=\".C4\" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_14",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63978,9 +64008,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_kMHEvOavWP",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_KvG1Giq1Qs",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#121 name=\".C3\" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#123 name=\".C3\" /> (jlcpcb:C15850): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_13",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63988,9 +64018,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_7JLx9IlpsV",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_tat0ua3bbE",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#118 name=\".J3\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#120 name=\".J3\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_12",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -63998,9 +64028,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_463OUJCu1J",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_yZzDeAzvtY",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#114 name=\".J2\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#116 name=\".J2\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_11",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64008,9 +64038,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_73iwHGVWJt",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Wj60LLpb93",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#110 name=\".R3\" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#112 name=\".R3\" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_10",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64018,9 +64048,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_oJ5koYN3iA",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_UVoBl10mtL",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#107 name=\".R2\" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#109 name=\".R2\" /> (jlcpcb:C876469): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_9",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64028,9 +64058,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_8OTa8cHi6K",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_LQuwrCjQtU",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <chip#89 name=\".U1\" /> (jlcpcb:C50506): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <chip#91 name=\".U1\" /> (jlcpcb:C50506): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_8",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64038,9 +64068,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_OmydjI7cfO",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_Us4EayU0zr",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <led#79 name=\".LED1\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <led#81 name=\".LED1\" /> (jlcpcb:C2289): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_7",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64048,9 +64078,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_YXwJoiuAtG",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_6IKyYysX2w",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <resistor#76 name=\".R1\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <resistor#78 name=\".R1\" /> (jlcpcb:C4190): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_6",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64058,9 +64088,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_8MmtP2wQxR",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_198YPQ8sJd",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <diode#75 name=\".D1\" /> (jlcpcb:C83270): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <diode#77 name=\".D1\" /> (jlcpcb:C83270): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_5",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64068,9 +64098,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_JgwooqeG0K",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_roeuoaDCyR",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#72 name=\".C2\" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#74 name=\".C2\" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_4",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64078,9 +64108,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_9Ul2LWWH1T",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_A1XBAtMsrU",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <capacitor#69 name=\".C1\" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <capacitor#71 name=\".C1\" /> (jlcpcb:C285392): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_3",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64088,9 +64118,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_1EgXd648SW",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_xfR8IxXL1I",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <chip#59 name=\".Q1\" /> (jlcpcb:C222495): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <chip#61 name=\".Q1\" /> (jlcpcb:C222495): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_2",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64098,9 +64128,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_tdVJGRkIIy",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_5nu0l8yzsg",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <fuse#55 name=\".F1\" /> (jlcpcb:C178991): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <fuse#57 name=\".F1\" /> (jlcpcb:C178991): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_1",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64108,9 +64138,9 @@
   },
   {
     "type": "source_part_not_found_warning",
-    "source_part_not_found_warning_id": "source_part_not_found_warning_rxQIR46QZQ",
+    "source_part_not_found_warning_id": "source_part_not_found_warning_u3HXeALgZ0",
     "warning_type": "source_part_not_found_warning",
-    "message": "Failed to fetch supplier footprint for <connector#52 name=\".J1\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
+    "message": "Failed to fetch supplier footprint for <connector#54 name=\".J1\" /> (jlcpcb:C474881): Unable to connect. Is the computer able to access the url?",
     "source_component_id": "source_component_0",
     "subcircuit_id": "subcircuit_source_group_0",
     "supplier_name": "jlcpcb",
@@ -64186,6 +64216,6 @@
   },
   {
     "type": "source_project_metadata",
-    "source_filesystem_md5_hash": "d8815ae7a7aa02bccc589ef5531ce305"
+    "source_filesystem_md5_hash": "e3f9040175cfed17e17411f6440b48ac"
   }
 ]

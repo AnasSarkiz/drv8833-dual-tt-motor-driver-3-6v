@@ -1,0 +1,54 @@
+{
+  "bottom_label_lines": [
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "pcb_silkscreen_text_2",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 0,
+        "y": 25
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.8,
+      "layer": "bottom",
+      "text": "For evaluation only;",
+      "ccw_rotation": 0,
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "pcb_silkscreen_text_3",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 0,
+        "y": 22.5
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.8,
+      "layer": "bottom",
+      "text": "not FCC approved for resale.",
+      "ccw_rotation": 0,
+      "subcircuit_id": "subcircuit_source_group_0"
+    }
+  ],
+  "physical_pcb_records_unchanged": true,
+  "electrical_records_unchanged": true,
+  "generated_error_records": 0,
+  "artwork_unchanged_excluding_timestamps_and_aperture_numbers": {
+    "F_Cu.gbr": true,
+    "F_SilkScreen.gbr": true,
+    "F_Mask.gbr": true,
+    "F_Paste.gbr": true,
+    "B_Cu.gbr": true,
+    "B_SilkScreen.gbr": false,
+    "B_Mask.gbr": true,
+    "B_Paste.gbr": true,
+    "Edge_Cuts.gbr": true,
+    "In1_Cu.gbr": true,
+    "In2_Cu.gbr": true,
+    "F_Fab.gbr": true,
+    "drill-L1-L4.drl": true,
+    "drill_npth.drl": true
+  },
+  "fabrication_zip_sha256": "e7c60aefe270a03ba9de3128e35baeba41b98cd267d56ec3b0b3c035eacaf652"
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0-alpha.8 — bottom evaluation label, 2026-09-29
+
+Added “For evaluation only; not FCC approved for resale.” as two lines of 1.8 mm bottom silkscreen text. Copper, drills, solder mask, paste, placement and electrical connections are unchanged. Updated previews and generated a separate fabrication ZIP in `artifacts/silkscreen-review/`; the previous alpha.7 release and alpha.6 order packet do not contain this label.
+
 ## 0.1.0-alpha.7 — schematic design review, 2026-09-29
 
 Added native schematic notes beside U1, U2 and Q1 with their functions and voltage/current limits. Labeled all connectors, the disable button and temperature measurement. Separated host-input schematic sections and diagnostic test access to remove obstructing wires, and kept notes inside the page boundaries. Electrical connectivity, all PCB/CAD records and the alpha.6 manufacturing packet are unchanged.

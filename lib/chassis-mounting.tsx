@@ -39,6 +39,20 @@ export function ChassisMounting() {
         pcbY={22.5}
         fontSize={0.8}
       />
+      <silkscreentext
+        text="For evaluation only;"
+        layer="bottom"
+        pcbX={0}
+        pcbY={25}
+        fontSize={1.8}
+      />
+      <silkscreentext
+        text="not FCC approved for resale."
+        layer="bottom"
+        pcbX={0}
+        pcbY={22.5}
+        fontSize={1.8}
+      />
     </>
   )
 }

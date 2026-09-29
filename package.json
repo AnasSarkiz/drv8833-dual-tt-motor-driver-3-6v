@@ -1,6 +1,6 @@
 {
   "name": "@tsci/AnasSarkiz.drv8833-dual-tt-motor-driver-3-6v",
-  "version": "0.1.0-alpha.7",
+  "version": "0.1.0-alpha.8",
   "description": "Four-layer dual TT motor driver prototype",
   "main": "index.circuit.tsx",
   "keywords": [

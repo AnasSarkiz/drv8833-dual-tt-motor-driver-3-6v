@@ -2,7 +2,9 @@
 
 [Public PCB](https://tscircuit.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v#pcb) · [GitHub repository](https://github.com/AnasSarkiz/drv8833-dual-tt-motor-driver-3-6v)
 
-Revision A; package 0.1.0-alpha.7. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
+**Alpha.8:** the bottom silkscreen now reads “For evaluation only; not FCC approved for resale.” [Preview, fabrication artwork and checks](artifacts/silkscreen-review/README.md). Use the [updated fabrication ZIP](artifacts/silkscreen-review/jlc-fabrication-bottom-label.zip) for this label; the older alpha.6 order packet does not include it. [Publication status](PUBLICATION.md).
+
+Revision A; package 0.1.0-alpha.8. **Routing is complete; physical qualification for fabrication and sale is still pending.** Native netlist and placement checks, full schema validation and fresh native routing checks pass. See [VALIDATION.md](VALIDATION.md) for evidence and remaining classified warnings.
 
 Alpha.7 improves the four schematic sheets with nearby chip functions/ratings and connector labels. Electrical connections, PCB geometry and the alpha.6 prototype manufacturing packet are unchanged. [Schematic design review and previews](SCHEMATIC_REVIEW.md).
 
